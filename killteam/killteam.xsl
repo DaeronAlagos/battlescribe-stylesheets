@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:bs="http://www.battlescribe.net/schema/rosterSchema">
+	<xsl:output method="html"/>
+	<xsl:variable name="specialisms" select="'Leader|Combat'"/>
     <xsl:template match="/bs:roster">
         <html>
             <body>
@@ -8,6 +10,8 @@
             </h1>
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
+                        
+                        <!-- Unit -->
                         <div>
                             <table>
                                 <tr>
@@ -56,6 +60,8 @@
                                 </tr>
                             </table>
                         </div>
+                        
+                        <!-- Weapons -->
                         <div>
                         	<table>
                         		<tr>
@@ -94,13 +100,101 @@
                         		</xsl:for-each>
                         	</table>
                         </div>
+                        
+                        <!-- Abilities -->
                         <div>
                         	Abilities:
                         </div>
                         <div>
+                        	<table>
                         	<xsl:for-each select="bs:profiles/bs:profile">
-                        		<span><xsl:value-of select="/@name"/></span>
+                        		<xsl:if test="@profileTypeName='Ability'">
+                        			<tr>
+                        				<td>
+                        					<xsl:value-of select="@name"/>
+                       					</td>
+                        				<td>
+                        					<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
+                        				</td>
+                        			</tr>
+                        		</xsl:if>
                         	</xsl:for-each>
+                        	</table>
+                        </div>
+                        
+                        
+                        <!-- Specialism -->
+                        <div>
+                        	Specialism:
+                        	<div>
+                        		
+                        	</div>
+                        </div>
+                        <div>
+                        	Demeanour:
+                        </div>
+                        <div>
+                        	Experience:
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        </div>
+                        <div>
+                        	Flesh Wounds:
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        </div>
+                        <div>
+                        	Convalescence:
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
+                        </div>
+                        <div>
+                        	New Recruit:
+                        	<xsl:element name="input">
+                        		<xsl:attribute name="type">checkbox</xsl:attribute>
+                        	</xsl:element>
                         </div>
                         </xsl:if>
                     </xsl:for-each>
