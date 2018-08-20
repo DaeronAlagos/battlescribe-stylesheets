@@ -142,16 +142,18 @@
                         
                         
                         <!-- Specialism -->
-                        <div class="extra">
-                        	Specialism:
-                        	<xsl:for-each select="bs:selections/bs:selection">
-                        		<xsl:if test="contains($specialisms, @name)">
-                        			<xsl:value-of select="@name"/>
-                        		</xsl:if>
-                        	</xsl:for-each>
-                        </div>
-                        <div class="extra">
-                        	Demeanour:
+                        <div>
+	                        <div class="extra" style="float:left; width:250px;">
+	                        	Specialism:
+	                        	<xsl:for-each select="bs:selections/bs:selection">
+	                        		<xsl:if test="contains($specialisms, @name)">
+	                        			<xsl:value-of select="@name"/>
+	                        		</xsl:if>
+	                        	</xsl:for-each>
+	                        </div>
+	                        <div class="extra">
+	                        	Demeanour:
+	                        </div>
                         </div>
                         <div class="extra">
                         	Experience:
@@ -192,7 +194,7 @@
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
-                        <div class="extra">
+                        <div class="extra" style="float:left;">
                         	Flesh Wounds:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
@@ -204,7 +206,7 @@
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
-                        <div class="extra">
+                        <div class="extra" style="float: left;">
                         	Convalescence:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
