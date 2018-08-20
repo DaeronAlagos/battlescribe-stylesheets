@@ -111,7 +111,20 @@
                         				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='D']/@value"/>
                         			</td>
                         			<td>
-                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
+                        			<xsl:choose>
+                        				<xsl:when test="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']">
+                        					<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                        				</xsl:when>
+                        				<xsl:when test="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Ability']">
+                        					<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
+                        				</xsl:when>
+                        				<xsl:otherwise>
+	                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@description"/>                        				
+                        				</xsl:otherwise>
+                        			</xsl:choose>
+                        			<!-- <xsl:if test="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@description">
+                        			</xsl:if>
+                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@value"/> -->
                         			</td>
                         		</tr>
                         		</xsl:if>
