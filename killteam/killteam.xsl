@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:bs="http://www.battlescribe.net/schema/rosterSchema">
-	<xsl:output method="html"/>
-	<xsl:variable name="specialisms" select="'Leader|Combat'"/>
+	
     <xsl:template match="/bs:roster">
+    <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions'"/>
         <html>
+	        <head>
+	        	<style>
+	        		#card {background-color: #EEEEEE; width:500px;}
+	        		table {width: 100%;}
+	        		tr.header {background-color: red;}
+	        		tr.body {background-color: #FFFFFF;}
+	        		th {font-size: 10px; text-align:center;}
+	        		th.first {text-align: left;}
+	        		td {font-size: 10px; text-align:center;}
+	        		td.first {text-align: left;}
+	        		.extra {font-size: 12px; margin:0 3px; line-height:18px;}
+	        	</style>
+	        </head>
             <body>
             <h1>
-            	<xsl:value-of select="@gameSystemName"/>
+            	<xsl:value-of select="@name"/>
             </h1>
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
                         
+                        <!-- Card -->
+                        <div id="card">
+                        
                         <!-- Unit -->
                         <div>
                             <table>
-                                <tr>
-                                    <th>Name</th>
+                                <tr class="header">
+                                    <th class="first">Name</th>
                                     <th>M</th>
                                     <th>WS</th>
                                     <th>BS</th>
@@ -26,8 +42,8 @@
                                     <th>Ld</th>
                                     <th>Sv</th>
                                 </tr>
-                                <tr>
-                                    <td>
+                                <tr class="body">
+                                    <td class="first">
                                     	<xsl:value-of select="@name"/>
                                     </td>
                                     <td>
@@ -64,8 +80,8 @@
                         <!-- Weapons -->
                         <div>
                         	<table>
-                        		<tr>
-                        			<th>Weapon</th>
+                        		<tr class="header">
+                        			<th class="first">Weapon</th>
                         			<th>Range</th>
                         			<th>Type</th>
                         			<th>S</th>
@@ -74,8 +90,9 @@
                         			<th>Abilities</th>
                         		</tr>
                         		<xsl:for-each select="bs:selections/bs:selection">
-                        		<tr>
-                        			<td>
+                        		<xsl:if test="not(contains($specialisms, @name))">
+                        		<tr class="body">
+                        			<td class="first">
                         				<xsl:value-of select="@name"/>
                         			</td>
                         			<td>
@@ -97,43 +114,46 @@
                         				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
                         			</td>
                         		</tr>
+                        		</xsl:if>
                         		</xsl:for-each>
                         	</table>
                         </div>
                         
                         <!-- Abilities -->
                         <div>
-                        	Abilities:
-                        </div>
-                        <div>
                         	<table>
-                        	<xsl:for-each select="bs:profiles/bs:profile">
-                        		<xsl:if test="@profileTypeName='Ability'">
-                        			<tr>
-                        				<td>
-                        					<xsl:value-of select="@name"/>
-                       					</td>
-                        				<td>
-                        					<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
-                        				</td>
-                        			</tr>
-                        		</xsl:if>
-                        	</xsl:for-each>
+	                        	<tr>
+	                        		<th colspan="2" class="first">Abilities:</th>
+	                        	</tr>
+	                        	<xsl:for-each select="bs:profiles/bs:profile">
+	                        		<xsl:if test="@profileTypeName='Ability'">
+	                        			<tr class="body">
+	                        				<td class="first">
+	                        					<xsl:value-of select="@name"/>
+	                       					</td>
+	                        				<td>
+	                        					<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
+	                        				</td>
+	                        			</tr>
+	                        		</xsl:if>
+	                        	</xsl:for-each>
                         	</table>
                         </div>
                         
                         
                         <!-- Specialism -->
-                        <div>
+                        <div class="extra">
                         	Specialism:
-                        	<div>
-                        		
-                        	</div>
+                        	<xsl:for-each select="bs:selections/bs:selection">
+                        		<xsl:if test="contains($specialisms, @name)">
+                        			<xsl:value-of select="@name"/>
+                        		</xsl:if>
+                        	</xsl:for-each>
                         </div>
-                        <div>
+                        <div class="extra">
                         	Demeanour:
                         </div>
-                        <div>
+                        <div class="extra">
                         	Experience:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
@@ -172,7 +192,7 @@
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
-                        <div>
+                        <div class="extra">
                         	Flesh Wounds:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
@@ -184,19 +204,25 @@
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
-                        <div>
+                        <div class="extra">
                         	Convalescence:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
-                        <div>
+                        <div class="extra">
                         	New Recruit:
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
                         </div>
+                        
+						<!-- End Card -->
+                        </div>
+                        <br/>
                         </xsl:if>
+                        
+
                     </xsl:for-each>
             </body>
         </html>
