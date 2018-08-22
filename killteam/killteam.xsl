@@ -6,7 +6,7 @@
         <html>
 	        <head>
 	        	<style>
-	        		#card {background-color: #EEEEEE; width:500px;}
+	        		#card {background-color: #EEEEEE; width:11cm;height:7.5cm;}
 	        		table {width: 100%;}
 	        		tr.header {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -15,6 +15,7 @@
 	        		td {font-size: 10px; text-align:center;}
 	        		td.first {text-align: left;width:25%;}
 	        		.extra {font-size: 12px; margin:0 3px; line-height:18px;}
+	        		.abilities {font-size:8px;}
 	        	</style>
 	        </head>
             <body>
@@ -97,12 +98,12 @@
                         			</td>
                         			<xsl:choose>
                         				<xsl:when test="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Ability']">
-                        					<td colspan="6">
+                        					<td colspan="6" class="abilities">
                         						<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
                         					</td>
                         				</xsl:when>
                         				<xsl:when test="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']">
-                        					<td colspan="6">
+                        					<td colspan="6" class="abilities">
                         						<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
                         					</td>
                         				</xsl:when>
@@ -122,7 +123,7 @@
 		                        			<td>
 		                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='D']/@value"/>
 		                        			</td>
-		                        			<td>
+		                        			<td class="abilities">
 		                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
 		                        			</td>
                         				</xsl:otherwise>
@@ -162,7 +163,7 @@
 	                        				<td class="first">
 	                        					<xsl:value-of select="@name"/>
 	                       					</td>
-	                        				<td>
+	                        				<td class="abilities">
 	                        					<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
 	                        				</td>
 	                        			</tr>
