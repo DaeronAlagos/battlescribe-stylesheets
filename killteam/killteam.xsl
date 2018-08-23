@@ -2,7 +2,7 @@
 <xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:bs="http://www.battlescribe.net/schema/rosterSchema">
 	
     <xsl:template match="/bs:roster">
-    <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions'"/>
+    <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions|Comms'"/>
         <html>
 	        <head>
 	        	<style>
@@ -168,6 +168,16 @@
 	                        				</td>
 	                        			</tr>
 	                        		</xsl:if>
+	                        	</xsl:for-each>
+	                        	<xsl:for-each select="bs:rules/bs:rule">
+	                        		<tr class="body">
+	                        			<td class="first">
+	                        				<xsl:value-of select="@name"/>
+	                        			</td>
+	                        			<td class="abilities">
+	                        				<xsl:value-of select="bs:description"/>
+	                        			</td>
+	                        		</tr>
 	                        	</xsl:for-each>
                         	</table>
                         </div>
