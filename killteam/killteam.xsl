@@ -6,7 +6,7 @@
         <html>
 	        <head>
 	        	<style>
-	        		#card {background-color: #EEEEEE; width:11cm;height:7.5cm;}
+	        		#card {background-color: #EEEEEE;width:11cm;height:7.5cm;display:flex;flex-direction:column;}
 	        		table {width: 100%;}
 	        		tr.header {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -16,6 +16,8 @@
 	        		td.first {text-align: left;width:25%;}
 	        		.extra {font-size: 12px; margin:0 3px; line-height:18px;}
 	        		.abilities {font-size:8px;}
+	        		div.campaign {margin-top:auto;}
+	        		.f10 {font-size:10px;}
 	        	</style>
 	        </head>
             <body>
@@ -184,19 +186,27 @@
                         
                         
                         <!-- Specialism -->
-                        <div>
-	                        <div class="extra" style="float:left; width:250px;">
-	                        	Specialism:
+                        
+	                        <div class="extra f10">
+	                        	<span style="font-weight: bold;">Specialism: </span>
 	                        	<xsl:for-each select="bs:selections/bs:selection">
 	                        		<xsl:if test="contains($specialisms, @name)">
 	                        			<xsl:value-of select="@name"/>
+		                        		<table>
+		                        			<tr class="body">
+		                        				<td class="first">
+		                        					<xsl:value-of select="bs:selections/bs:selection/@name"/>
+		                        				</td>
+		                        				<td class="abilities">
+			                        				<xsl:value-of select="bs:selections/bs:selection/bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+		                        				</td>
+		                        			</tr>
+		                        		</table>
 	                        		</xsl:if>
 	                        	</xsl:for-each>
 	                        </div>
-	                        <div class="extra">
-	                        	Demeanour:
-	                        </div>
-                        </div>
+                        
+                        <div class="campaign">
                         <div class="extra">
                         	Experience:
                         	<xsl:element name="input">
@@ -259,6 +269,7 @@
                         	<xsl:element name="input">
                         		<xsl:attribute name="type">checkbox</xsl:attribute>
                         	</xsl:element>
+                        </div>
                         </div>
                         
 						<!-- End Card -->
