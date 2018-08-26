@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:bs="http://www.battlescribe.net/schema/rosterSchema">
+<xsl:stylesheet version="1.0" xmlns:xsl="http://www.w3.org/1999/XSL/Transform" xmlns:bs="http://www.battlescribe.net/schema/rosterSchema" xmlns:exslt="http://exslt.org/common"
+        extension-element-prefixes="exslt">
 	<xsl:output method="html" version="5.0"
 encoding="UTF-8" indent="yes"/>
     <xsl:template match="/bs:roster">
@@ -31,9 +32,19 @@ encoding="UTF-8" indent="yes"/>
                         <!-- Card -->
                         <div id="card">
                         
+                        <xsl:variable name="nodePoints">
+                        	<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
+                        		<ItemCost>
+                        			<xsl:value-of select="@value"/>
+                        		</ItemCost>
+                        	</xsl:for-each>
+                        </xsl:variable>
+                        <xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
+                        
                         <!-- Points -->
                         <div class="extra" style="text-align:right;">
-                        	<xsl:value-of select="sum(bs:costs/bs:cost/@value)"/>
+                        	<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
+                        	<!-- <xsl:value-of select="sum(bs:costs/bs:cost/@value)"/> -->
                         	Points
                         </div>
                         
