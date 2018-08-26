@@ -1,11 +1,11 @@
 ## How to use
 
 1. Clone the repository
-	`git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git'
+	`git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git`
 	
 2. Create your kill team in Battlescribe
 
-3. Export in Battlescribe (File=>Export)
+3. Export in Battlescribe (File=>Export roster)
 
 4. Select the data-card.xsl file in the newly created battlescribe-stylesheets/killteam folder
 
