@@ -17,7 +17,7 @@ encoding="UTF-8" indent="yes"/>
 	        		th.weaponStat {width:5%;}
 	        		th.first {text-align: left;width:20%;}
 	        		td {font-size: 10px; text-align:center;}
-	        		td.first {text-align: left;width:25%;}
+	        		td.first {text-align: left;width:20%;}
 	        		.extra {font-size: 9px; margin:0 3px; line-height:18px; float:left;}
 	        		.abilities {font-size:8px;}
 	        		div.campaign {margin-top:auto;}
