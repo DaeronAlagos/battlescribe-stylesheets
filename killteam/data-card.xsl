@@ -13,8 +13,9 @@ encoding="UTF-8" indent="yes"/>
 	        		table {width: 100%;}
 	        		tr.header {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
-	        		th {font-size: 10px; text-align:center;width:7%;}
-	        		th.first {text-align: left;width:25%;}
+	        		th {font-size: 10px; text-align:center;}
+	        		th.weaponStat {width:5%;}
+	        		th.first {text-align: left;width:20%;}
 	        		td {font-size: 10px; text-align:center;}
 	        		td.first {text-align: left;width:25%;}
 	        		.extra {font-size: 9px; margin:0 3px; line-height:18px; float:left;}
@@ -105,11 +106,11 @@ encoding="UTF-8" indent="yes"/>
                         	<table>
                         		<tr class="header">
                         			<th class="first">Weapon</th>
-                        			<th>Range</th>
-                        			<th>Type</th>
-                        			<th>S</th>
-                        			<th>AP</th>
-                        			<th>D</th>
+                        			<th style="width:10%;">Range</th>
+                        			<th style="width:10%;">Type</th>
+                        			<th class="weaponStat">S</th>
+                        			<th class="weaponStat">AP</th>
+                        			<th class="weaponStat">D</th>
                         			<th>Abilities</th>
                         		</tr>
                         		<xsl:for-each select="bs:selections/bs:selection">
