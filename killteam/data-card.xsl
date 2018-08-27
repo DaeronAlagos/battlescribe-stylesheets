@@ -8,7 +8,8 @@ encoding="UTF-8" indent="yes"/>
         <html>
 	        <head>
 	        	<style>
-	        		#card {background-color: #EEEEEE;width:11cm;height:7.5cm;display:flex;flex-direction:column;}
+	        		#container {display:flex;flex-wrap:wrap;width:23cm;}
+	        		#card {background-color: #EEEEEE;width:11cm;height:7.5cm;display:flex;flex-direction:column;margin:2px;border-radius:8px;}
 	        		table {width: 100%;}
 	        		tr.header {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -26,6 +27,7 @@ encoding="UTF-8" indent="yes"/>
             <h1>
             	<xsl:value-of select="@name"/>
             </h1>
+            <section id="container">
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
                         
@@ -253,6 +255,7 @@ encoding="UTF-8" indent="yes"/>
                         
 
                     </xsl:for-each>
+                    </section>
             </body>
         </html>
     </xsl:template>
