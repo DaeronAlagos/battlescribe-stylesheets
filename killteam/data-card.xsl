@@ -10,7 +10,7 @@ encoding="UTF-8" indent="yes"/>
 	        	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
 	        	<style>
 	        		body {font-family: 'Lato', sans-serif; font-size:9px;}
-	        		#container {display:flex;flex-wrap:wrap;width:23cm;}
+	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
 	        		#card {background-color: #EEEEEE;width:11cm;height:7.5cm;display:flex;flex-direction:column;margin:2px;border-radius:8px;}
 	        		table {width: 100%;}
 	        		tr {background-color: red;}
