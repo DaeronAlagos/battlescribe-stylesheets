@@ -21,7 +21,7 @@ encoding="UTF-8" indent="yes"/>
 	        		td {text-align:center;font-size:9px;}
 	        		td.first {text-align: left;width:20%;}
 	        		.extra {margin:0 3px; line-height:18px; float:left;}
-	        		div.campaign {margin-top:auto;}
+	        		div.campaign {margin:auto auto 0 auto;}
 	        		.f8 {font-size:8px;}
 	        	</style>
 	        </head>
@@ -29,7 +29,7 @@ encoding="UTF-8" indent="yes"/>
             <h1>
             	<xsl:value-of select="@name"/>
             </h1>
-            <section id="container">
+            <section>
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
                         
@@ -211,7 +211,7 @@ encoding="UTF-8" indent="yes"/>
 	                        	</xsl:for-each>
 	                        </div>
                         
-                        <div class="campaign">
+                        <div class="campaign f8">
                         <div class="extra">
                         	Experience:
                         	&#9744; &#9744; &#9744; &#9744; &#9744; &#9744;
