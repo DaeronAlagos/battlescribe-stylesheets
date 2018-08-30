@@ -46,17 +46,8 @@ encoding="UTF-8" indent="yes"/>
                         <xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 						
 						<div class="extra">
-							<table>
-								<tr class="body">
-									<td style="text-align:left">
-									<xsl:value-of select="@customName" />
-									</td>
-									<td style="text-align:right;">
-									<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
-									Points
-									</td>
-								</tr>
-							</table>
+							<div style="float:left;"><xsl:value-of select="@customName"/></div>
+							<div style="float:right;"><xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/> Points</div>
 						</div>
 						
                         
