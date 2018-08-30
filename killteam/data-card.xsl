@@ -44,13 +44,12 @@ encoding="UTF-8" indent="yes"/>
                         	</xsl:for-each>
                         </xsl:variable>
                         <xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
-                        
-                        <!-- Points -->
-                        <div class="extra" style="text-align:right;">
-                        	<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
-                        	<!-- <xsl:value-of select="sum(bs:costs/bs:cost/@value)"/> -->
-                        	Points
-                        </div>
+						
+						<div class="extra">
+							<div style="float:left;"><xsl:value-of select="@customName"/></div>
+							<div style="float:right;"><xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/> Points</div>
+						</div>
+						
                         
                         <!-- Unit -->
                         <div>
@@ -198,14 +197,16 @@ encoding="UTF-8" indent="yes"/>
 	                        		<xsl:if test="contains($specialisms, @name)">
 	                        			<span class="f9"><xsl:value-of select="@name"/></span>
 		                        		<table>
+										<xsl:for-each select="bs:selections/bs:selection">
 		                        			<tr class="body">
 		                        				<td class="first">
-		                        					<xsl:value-of select="bs:selections/bs:selection/@name"/>
+		                        					<xsl:value-of select="@name"/>
 		                        				</td>
 		                        				<td class="f9">
-			                        				<xsl:value-of select="bs:selections/bs:selection/bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+			                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 		                        				</td>
 		                        			</tr>
+										</xsl:for-each>
 		                        		</table>
 	                        		</xsl:if>
 	                        	</xsl:for-each>
