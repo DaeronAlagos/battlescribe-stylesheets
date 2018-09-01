@@ -11,7 +11,7 @@ encoding="UTF-8" indent="yes"/>
 	        	<style>
 	        		body {font-family: 'Lato', sans-serif; font-size:9px;}
 	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
-	        		#card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;margin:2px;border-radius:8px;}
+	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;margin:2px;border-radius:8px;border:1px solid #CCCCCC}
 	        		table {width: 100%;}
 	        		tr {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -23,6 +23,10 @@ encoding="UTF-8" indent="yes"/>
 	        		.extra {margin:0 3px; line-height:18px; float:left;}
 	        		div.campaign {margin:auto auto 0 auto;}
 	        		.f8 {font-size:8px;}
+	        		.customNotes {margin:5px;}
+	        		.history {margin-bottom:5px;}
+	        		.historyTitle {font-size:12px; font-weight: bold;}
+	        		.historyText {border-radius:8px; background-color:#FFFFFF;margin-top:5px;padding:3px;min-height:3cm;}
 	        	</style>
 	        </head>
             <body>
@@ -33,8 +37,8 @@ encoding="UTF-8" indent="yes"/>
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
                         
-                        <!-- Card -->
-                        <div id="card">
+                        <!-- Card Front -->
+                        <div class="card">
                         
                         <xsl:variable name="nodePoints">
                         	<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
@@ -237,9 +241,23 @@ encoding="UTF-8" indent="yes"/>
 						<!-- End Card -->
                         </div>
                         <br/>
-                        </xsl:if>
                         
-
+                        <!-- Card Back -->
+                        <div class="card">
+                        	<div class="customNotes">
+                        		<div class="history">
+                        			<div class="historyTitle">
+                        				History
+                        			</div>
+                        			<div class="historyText">
+                        				<xsl:value-of select="bs:customNotes"/>
+                        			</div>
+                        		</div>
+                        	</div>
+                        </div>
+                        <br/>
+                        
+                        </xsl:if>
                     </xsl:for-each>
                     </section>
             </body>
