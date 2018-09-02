@@ -11,7 +11,7 @@ encoding="UTF-8" indent="yes"/>
 	        	<style>
 	        		body {font-family: 'Lato', sans-serif; font-size:9px;}
 	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
-	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;margin:2px;border-radius:8px;border:1px solid #CCCCCC}
+	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;margin-bottom:5px;border-radius:8px;border:1px solid #CCCCCC}
 	        		table {width: 100%;}
 	        		tr {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -240,11 +240,10 @@ encoding="UTF-8" indent="yes"/>
                         
 						<!-- End Card -->
                         </div>
-                        <br/>
                         
                         <!-- Card Back -->
                         <xsl:if test="bs:customNotes">
-	                        <div class="card">
+	                        <div class="card" style="height: document.getElementsByClassName('card').previousElementSibling">
 	                        	<div class="customNotes">
 	                        		<div class="history">
 	                        			<div class="historyTitle">
@@ -256,7 +255,6 @@ encoding="UTF-8" indent="yes"/>
 	                        		</div>
 	                        	</div>
 	                        </div>
-	                        <br/>
                         </xsl:if>
                         
                         </xsl:if>
