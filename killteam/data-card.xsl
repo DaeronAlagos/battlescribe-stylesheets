@@ -4,7 +4,7 @@
 	<xsl:output method="html" version="5.0"
 encoding="UTF-8" indent="yes"/>
     <xsl:template match="/bs:roster">
-    <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions|Comms|Veteran|Scout'"/>
+    <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions|Comms|Veteran|Scout|Heavy|Medic|Sniper'"/>
         <html>
 	        <head>
 	        	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
