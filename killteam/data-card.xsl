@@ -243,19 +243,21 @@ encoding="UTF-8" indent="yes"/>
                         <br/>
                         
                         <!-- Card Back -->
-                        <div class="card">
-                        	<div class="customNotes">
-                        		<div class="history">
-                        			<div class="historyTitle">
-                        				History
-                        			</div>
-                        			<div class="historyText">
-                        				<xsl:value-of select="bs:customNotes"/>
-                        			</div>
-                        		</div>
-                        	</div>
-                        </div>
-                        <br/>
+                        <xsl:if test="bs:customNotes">
+	                        <div class="card">
+	                        	<div class="customNotes">
+	                        		<div class="history">
+	                        			<div class="historyTitle">
+	                        				History
+	                        			</div>
+	                        			<div class="historyText">
+	                        				<xsl:value-of select="bs:customNotes"/>
+	                        			</div>
+	                        		</div>
+	                        	</div>
+	                        </div>
+	                        <br/>
+                        </xsl:if>
                         
                         </xsl:if>
                     </xsl:for-each>
