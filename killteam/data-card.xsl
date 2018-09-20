@@ -7,9 +7,9 @@ encoding="UTF-8" indent="yes"/>
     <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions|Comms|Veteran|Scout|Heavy|Medic|Sniper'"/>
         <html>
 	        <head>
-	        	<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet"/>
+	        	<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
 	        	<style>
-	        		body {font-family: 'Lato', sans-serif; font-size:9px;}
+	        		body {font-family: 'Quicksand', sans-serif; font-size:9px;}
 	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
 	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;margin-bottom:5px;border-radius:8px;border:1px solid #CCCCCC}
 	        		table {width: 100%;}
@@ -205,10 +205,10 @@ encoding="UTF-8" indent="yes"/>
 		                        		<table>
 										<xsl:for-each select="bs:selections/bs:selection">
 		                        			<tr class="body">
-		                        				<td class="first">
+		                        				<td class="first f8">
 		                        					<xsl:value-of select="@name"/>
 		                        				</td>
-		                        				<td class="f9">
+		                        				<td class="f8">
 			                        				<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 		                        				</td>
 		                        			</tr>
