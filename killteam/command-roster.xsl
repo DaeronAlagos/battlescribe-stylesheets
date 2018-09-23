@@ -11,16 +11,17 @@ encoding="UTF-8" indent="yes"/>
 				<style>
 					<!-- body {background-color: #000000;} -->
 					hr {margin:5px;}
-					.container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;}
+					.container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;width:20cm;}
 					.pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;}
 					.rosterFirst {background-color:#FF0000;text-transform:uppercase;}
+					td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;}
 					body {font-family: 'Quicksand', sans-serif; font-size:9px;}
-					#commandRoster {page-break-after: always;}
 	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
+	        		td.rosterType {background-color: red;width:12%;font-size:12px;}
 	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC}
-	        		div.card:nth-child(3n) {page-break-after: always;}
+	        		tr.statHeader {background-color:red;}
 	        		table {width: 100%;}
-	        		tr {background-color: red;}
+	        		<!-- tr {background-color: red;} -->
 	        		tr.body {background-color: #FFFFFF;}
 	        		th {text-align:center;font-size:9px;}
 	        		th.weaponStat {width:5%;}
@@ -37,7 +38,7 @@ encoding="UTF-8" indent="yes"/>
 				</style>
 			</head>
 			<body>
-				<div id="commandRoster" class="container">
+				<div class="container">
 					<section>
 						<div class="pageTitle">
 							command roster
@@ -46,44 +47,73 @@ encoding="UTF-8" indent="yes"/>
 					</section>
 					<section>
 						<table>
-							<tr>
-								<td class="rosterFirst">Player Name</td>
-								<td></td>
-								<td>Resources</td>
-								<td>Current Kill Team Force</td>
-								<td>Points</td>
+							<tr class="rosterHeader">
+								<td class="rosterFirst rosterType">Player Name</td>
+								<td class="rosterValue"></td>
+								<td class="rosterType">Resources</td>
+								<td class="rosterType">Current Kill Team Force</td>
+								<td class="rosterValue" style="text-align:right;">Points</td>
 							</tr>
-							<tr>
-								<td class="rosterFirst">Faction</td>
-								<td></td>
-								<td>Intelligence</td>
-								<td>Current Kill Team's Name</td>
-								<td></td>
+							<tr class="rosterHeader">
+								<td class="rosterFirst rosterType">Faction</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue">Intelligence</td>
+								<td class="rosterType">Current Kill Team's Name</td>
+								<td class="rosterValue"></td>
 							</tr>
-							<tr>
-								<td class="rosterFirst">Mission</td>
-								<td></td>
-								<td>Materiel</td>
-								<td></td>
-								<td></td>
+							<tr class="rosterHeader">
+								<td class="rosterFirst rosterType">Mission</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue">Materiel</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue"></td>
 							</tr>
-							<tr>
-								<td class="rosterFirst">Background</td>
-								<td></td>
-								<td>Morale</td>
-								<td></td>
-								<td></td>
+							<tr class="rosterHeader">
+								<td class="rosterFirst rosterType">Background</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue">Morale</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue"></td>
 							</tr>
-							<tr>
-								<td class="rosterFirst">Squad Quirk</td>
-								<td></td>
-								<td>Territory</td>
-								<td></td>
-								<td></td>
+							<tr class="rosterHeader">
+								<td class="rosterFirst rosterType">Squad Quirk</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue">Territory</td>
+								<td class="rosterValue"></td>
+								<td class="rosterValue"></td>
 							</tr>
 						</table>
 					</section>
+					<section>
+						<table>
+							<tr>
+								<th>Name</th>
+								<th>Model Type</th>
+								<th>Wargear</th>
+								<th>Exp</th>
+								<th>Specialism/Abilities</th>
+								<th>Demeanour</th>
+								<th>Pts</th>
+							</tr>
+							<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
+								<xsl:if test="@type='model'">
+									<tr>
+										<td></td>
+										<td>
+											<xsl:value-of select="@name"/>
+										</td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</xsl:if>
+							</xsl:for-each>
+						</table>
+					</section>
 				</div>
+				<br/>
 				<section>
                     <xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
                         <xsl:if test="@type='model'">
@@ -109,7 +139,7 @@ encoding="UTF-8" indent="yes"/>
                         <!-- Unit -->
                         <div>
                             <table>
-                                <tr class="header">
+                                <tr class="statHeader">
                                     <th class="first">Name</th>
                                     <th>M</th>
                                     <th>WS</th>
@@ -159,7 +189,7 @@ encoding="UTF-8" indent="yes"/>
                         <!-- Weapons -->
                         <div>
                         	<table>
-                        		<tr class="header">
+                        		<tr class="statHeader">
                         			<th class="first">Weapon</th>
                         			<th style="width:10%;">Range</th>
                         			<th style="width:10%;">Type</th>
@@ -218,7 +248,7 @@ encoding="UTF-8" indent="yes"/>
                         <div>
                         	<table>
 	                        	<tr>
-	                        		<th colspan="2" class="first">Abilities:</th>
+	                        		<th colspan="2" class="first statHeader">Abilities:</th>
 	                        	</tr>
 	                        	<xsl:for-each select="bs:profiles/bs:profile">
 	                        		<xsl:if test="@profileTypeName='Ability'">
