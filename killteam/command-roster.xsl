@@ -15,8 +15,10 @@ encoding="UTF-8" indent="yes"/>
 					.pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;}
 					.rosterFirst {background-color:#FF0000;text-transform:uppercase;}
 					body {font-family: 'Quicksand', sans-serif; font-size:9px;}
+					#commandRoster {page-break-after: always;}
 	        		#container {display:flex;flex-wrap:wrap;width:21cm;}
 	        		.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC}
+	        		div.card:nth-child(3n) {page-break-after: always;}
 	        		table {width: 100%;}
 	        		tr {background-color: red;}
 	        		tr.body {background-color: #FFFFFF;}
@@ -35,7 +37,7 @@ encoding="UTF-8" indent="yes"/>
 				</style>
 			</head>
 			<body>
-				<div class="container">
+				<div id="commandRoster" class="container">
 					<section>
 						<div class="pageTitle">
 							command roster
