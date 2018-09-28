@@ -1,0 +1,32 @@
+{
+  "name": "battlescribe-stylesheets",
+  "version": "1.0.0",
+  "description": "Stylesheets for Battlescribe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaeronAlagos/battlescribe-stylesheets.git"
+  },
+  "keywords": [
+    "Battlescribe",
+    "Killteam",
+    "Warhammer40000",
+    "Warhammer40k"
+  ],
+  "author": "James Curtis",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaeronAlagos/battlescribe-stylesheets/issues"
+  },
+  "homepage": "https://github.com/DaeronAlagos/battlescribe-stylesheets#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-inject": "^4.3.2",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.1",
+    "gulp-xslt": "^4.0.0"
+  }
+}
