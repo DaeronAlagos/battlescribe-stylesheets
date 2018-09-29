@@ -24,9 +24,11 @@
   "homepage": "https://github.com/DaeronAlagos/battlescribe-stylesheets#readme",
   "devDependencies": {
     "gulp": "^3.9.1",
+    "gulp-clean": "^0.4.0",
     "gulp-inject": "^4.3.2",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.0.1",
+    "gulp-sequence": "^1.0.0",
     "gulp-xslt": "^4.0.0"
   }
 }
