@@ -1,14 +1,27 @@
-## How to use
+## Battlescribe Stylesheets for Kill Team
+
+### Instructions for all users
 
 1. Clone the repository
-	`git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git`
-	
-2. Create your kill team in Battlescribe
+  `git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git`
+  
+2. Change to 'modular' branch
+  `git checkout modular`
 
-3. Export in Battlescribe (File=>Export roster)
+### Instructions for Battlescribe users
 
-4. Select the data-card.xsl file in the newly created battlescribe-stylesheets/killteam folder
+1. Create your Kill Team in Battlescribe (Matched Play or Campaign)
 
-5. Select the output file /yourfolder/filename.html
+2. Export in Battlescribe
+  `File -> Export roster...`
+  
+3. Browse for the XSL Stylesheet from the newly created battlescribe-stylesheets/dist folder (choose matchedPlay.xsl or campaign.xsl as appropriate)
 
-6. Open the file in your web browser and print as required
+4. Browse for the Destination File and select a folder where you want to save the file. Name the file; eg. mycampaign.html (note the .html here is important).
+
+5. Click 'Export' then 'Done'.
+
+6. Open the html file in your web browser and print as required.
+
+### Instructions for Developers
+
