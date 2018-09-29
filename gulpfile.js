@@ -1,3 +1,5 @@
+var { campaignName, matchedPlayName } = require('./src/names.js');
+
 var gulp = require('gulp');
 var inject = require('gulp-inject');
 var xslt = require('gulp-xslt');
