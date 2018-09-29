@@ -1,3 +1,3 @@
 var campaignName = "seekers-roster",
-	matchedPlayName = "";
+	matchedPlayName = "seekers-team";
 module.exports = { campaignName, matchedPlayName };
