@@ -15,12 +15,15 @@
 				</style>
 			</head>
 			<body>
+				<section>
 
-							<!-- inject:src/roster.xsl -->
-							<!-- contents of html partials will be injected here -->
-							<!-- endinject -->
-
+					<!-- inject:src/roster.xsl -->
+					<!-- contents of html partials will be injected here -->
+					<!-- endinject -->
+				
+				</section>
 				<br/>
+				
 				<section>
 					<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
 						<xsl:if test="@type='model'">
