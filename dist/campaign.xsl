@@ -12,6 +12,9 @@
 					hr {margin:5px;} .container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;width:20cm;} .pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;} .rosterFirst {background-color:#FF0000;text-transform:uppercase;} td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;} body {font-family: 'Quicksand', sans-serif; font-size:9px;} #container {display:flex;flex-wrap:wrap;width:21cm;} td.rosterType {background-color: red;width:12%;font-size:12px;} .card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC} tr.statHeader {background-color:red;} table {width: 100%;}
 					<!-- tr {background-color: red;} -->
 					tr.body {background-color: #FFFFFF;} th {text-align:center;font-size:9px;} th.weaponStat {width:5%;} th.first {text-align: left;width:20%;} td {text-align:center;font-size:9px;} td.first {text-align: left;width:20%;} .extra {margin:0 3px; line-height:18px; float:left;} div.campaign {margin:auto auto 0 auto;} .f8 {font-size:8px;} .customNotes {margin:5px;} .history {margin-bottom:5px;} .historyTitle {font-size:12px; font-weight: bold;} .historyText {background-color:#FFFFFF;margin-top:5px;padding:3px;min-height:3cm;}
+					.resource{float:right;}
+					table#rosterUnits td {background-color:#FFFFFF;}
+					.f6 {font-size:6px;}
 				</style>
 			</head>
 			<body>
@@ -34,36 +37,55 @@
 							</tr>
 							<tr class="rosterHeader">
 								<td class="rosterFirst rosterType">Faction</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue">Intelligence</td>
+								<td class="rosterValue">
+									<xsl:value-of select="bs:forces/bs:force/@catalogueName" />
+								</td>
+								<td class="rosterValue">Intelligence
+									<span class="resource">
+										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
+									</span>
+								</td>
 								<td class="rosterType">Current Kill Team's Name</td>
 								<td class="rosterValue"></td>
 							</tr>
 							<tr class="rosterHeader">
 								<td class="rosterFirst rosterType">Mission</td>
 								<td class="rosterValue"></td>
-								<td class="rosterValue">Materiel</td>
+								<td class="rosterValue">Materiel
+									<span class="resource">
+										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number" />
+									</span>
+								</td>
 								<td class="rosterValue"></td>
 								<td class="rosterValue"></td>
 							</tr>
 							<tr class="rosterHeader">
 								<td class="rosterFirst rosterType">Background</td>
 								<td class="rosterValue"></td>
-								<td class="rosterValue">Morale</td>
+								<td class="rosterValue">Morale
+									<span class="resource">
+										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number" />
+									</span>
+								</td>
 								<td class="rosterValue"></td>
 								<td class="rosterValue"></td>
 							</tr>
 							<tr class="rosterHeader">
 								<td class="rosterFirst rosterType">Squad Quirk</td>
 								<td class="rosterValue"></td>
-								<td class="rosterValue">Territory</td>
+								<td class="rosterValue">Territory
+									<span class="resource">
+										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number" />
+									</span>
+								</td>
 								<td class="rosterValue"></td>
 								<td class="rosterValue"></td>
 							</tr>
 						</table>
 					</section>
+					<br/>
 					<section>
-						<table>
+						<table id="rosterUnits">
 							<tr>
 								<th>Name</th>
 								<th>Model Type</th>
@@ -74,34 +96,81 @@
 								<th>Pts</th>
 							</tr>
 							<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
+								<xsl:variable name="nodePoints">
+									<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
+										<ItemCost>
+											<xsl:value-of select="@value"/>
+										</ItemCost>
+									</xsl:for-each>
+								</xsl:variable>
+								<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 								<xsl:if test="@type='model'">
 									<tr>
 										<td></td>
 										<td>
 											<xsl:value-of select="@name"/>
 										</td>
+										<td class="f8">
+											<xsl:for-each select="bs:selections/bs:selection">
+												<xsl:if test="not(contains($specialisms, @name))">
+													<xsl:value-of select="@name" />, 
+												</xsl:if>
+											</xsl:for-each>
+										</td>
 										<td></td>
+										<td class="f8">
+											<xsl:for-each select="bs:profiles/bs:profile">
+												<xsl:if test="@profileTypeName='Ability'">
+													<xsl:value-of select="@name"/>, 
+												</xsl:if>
+											</xsl:for-each>
+										</td>
 										<td></td>
-										<td></td>
-										<td></td>
-										<td></td>
+										<td>
+											<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
+										</td>
 									</tr>
 								</xsl:if>
+							</xsl:for-each>
+							<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
 								<xsl:if test="@type='unit'">
 									<xsl:for-each select="bs:selections/bs:selection">
+										<xsl:variable name="nodePoints">
+											<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
+												<ItemCost>
+													<xsl:value-of select="@value"/>
+												</ItemCost>
+											</xsl:for-each>
+										</xsl:variable>
+										<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 										<xsl:if test="@type='model'">
 											<tr>
 												<td></td>
 												<td>
 													<xsl:value-of select="@name"/>
 												</td>
+												<td class="f8">
+													<xsl:for-each select="bs:selections/bs:selection">
+														<xsl:if test="not(contains($specialisms, @name))">
+															<xsl:value-of select="@name" />, 
+														</xsl:if>
+													</xsl:for-each>
+												</td>
 												<td></td>
+												<td class="f8">
+													<xsl:for-each select="bs:profiles/bs:profile">
+														<xsl:if test="@profileTypeName='Ability'">
+															<xsl:value-of select="@name"/>, 
+														</xsl:if>
+													</xsl:for-each>
+												</td>
 												<td></td>
-												<td></td>
-												<td></td>
-												<td></td>
+												<td>
+													<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
+												</td>
 											</tr>
 										</xsl:if>
+										
 									</xsl:for-each>
 								</xsl:if>
 							</xsl:for-each>
