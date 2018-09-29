@@ -6,6 +6,7 @@ var xslt = require('gulp-xslt');
 var rename = require('gulp-rename');
 var gulpSequence = require('gulp-sequence')
 var clean = require('gulp-clean');
+var sass = require('gulp-sass');
 
 gulp.task('clean-build', function () {
 	return gulp.src('build', {read:false})
@@ -15,6 +16,12 @@ gulp.task('clean-build', function () {
 gulp.task('clean-dist', function () {
 	return gulp.src('dist', {read:false})
 				.pipe(clean());
+});
+
+gulp.task('sass', function () {
+	return gulp.src('./src/sass/common.scss')
+		.pipe(sass().on('error', sass.logError))
+		.pipe(gulp.dest('./src/css'));
 });
 
 gulp.task('inject-campaign', function () {
