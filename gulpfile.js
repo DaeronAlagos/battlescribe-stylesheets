@@ -15,8 +15,8 @@ gulp.task('clean-dist', function () {
 				.pipe(clean());
 });
 
-gulp.task('inject-roster', function () {
-	gulp.src('./src/command-roster.xsl')
+gulp.task('inject-campaign', function () {
+	gulp.src('./src/campaign.xsl')
 		.pipe(inject(gulp.src(['./src/card.xsl']), {
 			starttag: '<!-- inject:src/card.xsl -->',
 			relative: true,
@@ -34,20 +34,42 @@ gulp.task('inject-roster', function () {
 		.pipe(gulp.dest('./dist'));
 });
 
-gulp.task('xsl-roster', function() {
-    gulp.src('./seekers-roster.xml')
-        .pipe(xslt('./dist/command-roster.xsl', {}))
+gulp.task('xsl-campaign', function() {
+    gulp.src(`./${campaignName}.xml`)
+        .pipe(xslt('./dist/campaign.xsl', {}))
         .pipe(gulp.dest('./build/'));
 });
 
-/*gulp.task("rename-roster", function () {
-	return gulp.src("./build/seekers-roster.xml")
-		.pipe(rename("seekers-roster.html"))
-		.pipe(gulp.dest("./build"));
-});*/
+gulp.task('rename-campaign', function () {
+	gulp.src(`./build/${campaignName}.xml`)
+		.pipe(rename(function (path) {
+			path.dirname += '/';
+			path.basename += '';
+			path.extname = '.html';
+		}))
+		.pipe(gulp.dest('./build'));
+})
 
-gulp.task('rename-roster', function () {
-	gulp.src('./build/seekers-roster.xml')
+gulp.task('inject-matched-play', function () {
+	gulp.src('./src/matchedPlay.xsl')
+		.pipe(inject(gulp.src(['./src/card.xsl']), {
+			starttag: '<!-- inject:src/card.xsl -->',
+			relative: true,
+			transform: function (filePath, file) {
+		// return file contents as string
+			return file.contents.toString('utf8')
+		}}))
+		.pipe(gulp.dest('./dist'));
+});
+
+gulp.task('xsl-matched-play', function() {
+    gulp.src(`./${matchedPlayName}.xml`)
+        .pipe(xslt('./dist/matchedPlay.xsl', {}))
+        .pipe(gulp.dest('./build/'));
+});
+
+gulp.task('rename-matched-play', function () {
+	gulp.src(`./build/${matchedPlayName}.xml`)
 		.pipe(rename(function (path) {
 			path.dirname += '/';
 			path.basename += '';
