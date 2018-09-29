@@ -159,9 +159,9 @@
 
 								<!-- Specialism -->
 								<div class="extra">
-									<span style="font-weight: bold;" class="f9">Specialism:</span>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
+											<span style="font-weight: bold;" class="f9">Specialism: </span>
 											<span class="f9">
 												<xsl:value-of select="@name"/>
 											</span>
