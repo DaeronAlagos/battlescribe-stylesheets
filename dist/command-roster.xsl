@@ -15,9 +15,10 @@
 				</style>
 			</head>
 			<body>
+				<section>
 
-							<!-- inject:src/roster.xsl -->
-											<div class="container">
+					<!-- inject:src/roster.xsl -->
+									<div class="container">
 					<section>
 						<div class="pageTitle">command roster</div>
 						<hr/>
@@ -90,9 +91,11 @@
 						</table>
 					</section>
 				</div>
-							<!-- endinject -->
-
+					<!-- endinject -->
+				
+				</section>
 				<br/>
+				
 				<section>
 					<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
 						<xsl:if test="@type='model'">
@@ -259,9 +262,9 @@
 
 								<!-- Specialism -->
 								<div class="extra">
-									<span style="font-weight: bold;" class="f9">Specialism:</span>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
+											<span style="font-weight: bold;" class="f9">Specialism: </span>
 											<span class="f9">
 												<xsl:value-of select="@name"/>
 											</span>
@@ -282,34 +285,46 @@
 								</div>
 								<!-- /Specialism -->
 
-                                <!-- Fire Team Advances -->
-                                <div class="extra">
-                                    <xsl:for-each select="bs:selections/bs:selection">
-                                        <xsl:if test="contains($advances, @name)">
-                                    		<span style="font-weight: bold;" class="f9">Fire Team Advances</span>
-                                            <table>
-                                                <tr class="body">
-                                                    <td class="first f8">
-                                                        <xsl:value-of select="@name"/>
-                                                    </td>
-                                                    <td class="f8">
-                                                        <xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </xsl:if>
-                                    </xsl:for-each>
-                                </div>
-                                <!-- /Fire Team Advances -->
+								<!-- Fire Team Advances -->
+								<div class="extra">
+									<xsl:for-each select="../../bs:selections/bs:selection">
+										<xsl:if test="@type='upgrade'">
+											<xsl:if test="../../@type='unit'">
+												<span style="font-weight: bold;" class="f9">Advances: </span>
 
-                                <!-- Experience -->
+											</xsl:if>
+													<table>
+
+											<xsl:for-each select="bs:selections/bs:selection">
+												<xsl:if test="contains($advances, @name)">
+														<xsl:for-each select="bs:profiles/bs:profile">
+															<tr class="body">
+																<td class="first f8">
+																	<xsl:value-of select="@name"/>
+																</td>
+																<td class="f8">
+																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+																</td>
+															</tr>
+														</xsl:for-each>
+
+												</xsl:if>
+											</xsl:for-each>
+													</table>
+											
+										</xsl:if>
+									</xsl:for-each>
+								</div>
+								<!-- /Fire Team Advances -->
+
+								<!-- Experience -->
 								<div class="campaign f8">
 									<div class="extra">Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
 									<div class="extra">Flesh Wounds: &#9744; &#9744; &#9744;</div>
 									<div class="extra">Convalescence: &#9744;</div>
 									<div class="extra">New Recruit: &#9744;</div>
 								</div>
-                                <!-- /Experience -->
+								<!-- /Experience -->
 
 							</div>
 							<!-- /Card Front -->
@@ -500,9 +515,9 @@
 
 								<!-- Specialism -->
 								<div class="extra">
-									<span style="font-weight: bold;" class="f9">Specialism:</span>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
+											<span style="font-weight: bold;" class="f9">Specialism: </span>
 											<span class="f9">
 												<xsl:value-of select="@name"/>
 											</span>
@@ -523,34 +538,46 @@
 								</div>
 								<!-- /Specialism -->
 
-                                <!-- Fire Team Advances -->
-                                <div class="extra">
-                                    <xsl:for-each select="bs:selections/bs:selection">
-                                        <xsl:if test="contains($advances, @name)">
-                                    		<span style="font-weight: bold;" class="f9">Fire Team Advances</span>
-                                            <table>
-                                                <tr class="body">
-                                                    <td class="first f8">
-                                                        <xsl:value-of select="@name"/>
-                                                    </td>
-                                                    <td class="f8">
-                                                        <xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                                    </td>
-                                                </tr>
-                                            </table>
-                                        </xsl:if>
-                                    </xsl:for-each>
-                                </div>
-                                <!-- /Fire Team Advances -->
+								<!-- Fire Team Advances -->
+								<div class="extra">
+									<xsl:for-each select="../../bs:selections/bs:selection">
+										<xsl:if test="@type='upgrade'">
+											<xsl:if test="../../@type='unit'">
+												<span style="font-weight: bold;" class="f9">Advances: </span>
 
-                                <!-- Experience -->
+											</xsl:if>
+													<table>
+
+											<xsl:for-each select="bs:selections/bs:selection">
+												<xsl:if test="contains($advances, @name)">
+														<xsl:for-each select="bs:profiles/bs:profile">
+															<tr class="body">
+																<td class="first f8">
+																	<xsl:value-of select="@name"/>
+																</td>
+																<td class="f8">
+																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+																</td>
+															</tr>
+														</xsl:for-each>
+
+												</xsl:if>
+											</xsl:for-each>
+													</table>
+											
+										</xsl:if>
+									</xsl:for-each>
+								</div>
+								<!-- /Fire Team Advances -->
+
+								<!-- Experience -->
 								<div class="campaign f8">
 									<div class="extra">Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
 									<div class="extra">Flesh Wounds: &#9744; &#9744; &#9744;</div>
 									<div class="extra">Convalescence: &#9744;</div>
 									<div class="extra">New Recruit: &#9744;</div>
 								</div>
-                                <!-- /Experience -->
+								<!-- /Experience -->
 
 							</div>
 							<!-- /Card Front -->
