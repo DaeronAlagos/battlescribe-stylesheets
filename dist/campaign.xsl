@@ -87,6 +87,23 @@
 										<td></td>
 									</tr>
 								</xsl:if>
+								<xsl:if test="@type='unit'">
+									<xsl:for-each select="bs:selections/bs:selection">
+										<xsl:if test="@type='model'">
+											<tr>
+												<td></td>
+												<td>
+													<xsl:value-of select="@name"/>
+												</td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+												<td></td>
+											</tr>
+										</xsl:if>
+									</xsl:for-each>
+								</xsl:if>
 							</xsl:for-each>
 						</table>
 					</section>
