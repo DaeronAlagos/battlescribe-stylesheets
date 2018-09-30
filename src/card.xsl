@@ -194,25 +194,9 @@
 													</xsl:if>
 												</xsl:for-each>
 											</table>
-											<!-- <span class="f9">
-												<xsl:value-of select="@name"/>
-											</span>
-											<table>
-												<xsl:for-each select="bs:selections/bs:selection">
-													<tr class="body">
-														<td class="first f8">
-															<xsl:value-of select="@name"/>
-														</td>
-														<td class="f8">
-															<xsl:value-of select="bs:profiles/bs:profile/bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-														</td>
-													</tr>
-												</xsl:for-each>
-											</table>
 										</xsl:if>
 									</xsl:for-each>
 								</div>
-								<!-- /Specialism -->
 
 								<!-- Fire Team Advances -->
 								<div class="extra">
