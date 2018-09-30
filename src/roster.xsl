@@ -15,11 +15,11 @@
 							<tr class="rosterHeader">
 								<td class="rosterFirst rosterType">Faction</td>
 								<td class="rosterValue">
-									<xsl:value-of select="bs:forces/bs:force/@catalogueName" />
+									<xsl:value-of select="@catalogueName" />
 								</td>
 								<td class="rosterValue">Intelligence
 									<span class="resource">
-										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
+										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
 									</span>
 								</td>
 								<td class="rosterType">Current Kill Team's Name</td>
@@ -30,7 +30,7 @@
 								<td class="rosterValue"></td>
 								<td class="rosterValue">Materiel
 									<span class="resource">
-										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number" />
+										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number" />
 									</span>
 								</td>
 								<td class="rosterValue"></td>
@@ -41,7 +41,7 @@
 								<td class="rosterValue"></td>
 								<td class="rosterValue">Morale
 									<span class="resource">
-										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number" />
+										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number" />
 									</span>
 								</td>
 								<td class="rosterValue"></td>
@@ -52,7 +52,7 @@
 								<td class="rosterValue"></td>
 								<td class="rosterValue">Territory
 									<span class="resource">
-										<xsl:value-of select="bs:forces/bs:force/bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number" />
+										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number" />
 									</span>
 								</td>
 								<td class="rosterValue"></td>
@@ -72,7 +72,7 @@
 								<th>Demeanour</th>
 								<th>Pts</th>
 							</tr>
-							<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
+							<xsl:for-each select="bs:selections/bs:selection">
 								<xsl:variable name="nodePoints">
 									<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
 										<ItemCost>
@@ -109,7 +109,7 @@
 									</tr>
 								</xsl:if>
 							</xsl:for-each>
-							<xsl:for-each select="bs:forces/bs:force/bs:selections/bs:selection">
+							<xsl:for-each select="bs:selections/bs:selection">
 								<xsl:if test="@type='unit'">
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:variable name="nodePoints">
