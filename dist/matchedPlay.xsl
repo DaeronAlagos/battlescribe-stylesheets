@@ -187,7 +187,39 @@
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
 											<span style="font-weight: bold;" class="f9">Specialism: </span>
-											<span class="f9">
+											<table>
+												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
+													<xsl:if test="@profileTypeName='Ability'">
+														<tr class="body">
+															<td class="first f8">
+																<xsl:value-of select="@name"/>
+															</td>
+															<td class="f8">
+																<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
+															</td>
+														</tr>
+													</xsl:if>
+												</xsl:for-each>
+											</table>
+											<span style="font-weight: bold;" class="f9">Tactics: </span>
+											<table>
+												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
+													<xsl:if test="not(@profileTypeName='Ability')">
+														<tr class="body">
+															<td class="first f8">
+																<xsl:value-of select="@name"/>
+															</td>
+															<td class="f8">
+																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+															</td>
+															<td>
+																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
+															</td>
+														</tr>
+													</xsl:if>
+												</xsl:for-each>
+											</table>
+											<!-- <span class="f9">
 												<xsl:value-of select="@name"/>
 											</span>
 											<table>
@@ -201,11 +233,24 @@
 														</td>
 													</tr>
 												</xsl:for-each>
-											</table>
+											</table> -->
 										</xsl:if>
 									</xsl:for-each>
 								</div>
 								<!-- /Specialism -->
+
+								<!-- Tactics -->
+								<!-- <div class="extra">
+									<xsl:for-each select="bs:selections/bs:selection/bs:selections/bs:selection/bs:profiles/bs:profile">
+										<xsl:if test="not(contains('Ability|Weapon', @profileTypeName)">
+											<span style="font-weight: bold;" class="f9">Specialism: </span>
+											<table>
+												
+											</table>
+										</xsl:if>
+									</xsl:for-each>
+								</div> -->
+								<!-- /Tactics -->
 
 								<!-- Fire Team Advances -->
 								<div class="extra">
