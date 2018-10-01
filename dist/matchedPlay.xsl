@@ -8,10 +8,32 @@
 			<head>
 				<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
 				<style>
-					<!-- body {background-color: #000000;} -->
-					hr {margin:5px;} .container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;width:20cm;} .pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;} .rosterFirst {background-color:#FF0000;text-transform:uppercase;} td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;} body {font-family: 'Quicksand', sans-serif; font-size:9px;} #container {display:flex;flex-wrap:wrap;width:21cm;} td.rosterType {background-color: red;width:12%;font-size:12px;} .card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC} tr.statHeader {background-color:red;} table {width: 100%;} 
-					<!-- tr {background-color: red;} -->
-					tr.body {background-color: #FFFFFF;} th {text-align:center;font-size:9px;} th.weaponStat {width:5%;} th.first {text-align: left;width:20%;} td {text-align:center;font-size:9px;} td.first {text-align: left;width:20%;} .extra {margin:0 3px; line-height:18px; float:left;} div.campaign {margin:auto auto 0 auto;} .f8 {font-size:8px;} .customNotes {margin:5px;} .history {margin-bottom:5px;} .historyTitle {font-size:12px; font-weight: bold;} .historyText {background-color:#FFFFFF;margin-top:5px;padding:3px;min-height:3cm;} 
+					<!-- inject:src/css/styles.css -->
+					hr {margin:5px;} .container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;width:20cm;}
+section#roster {page-break-after: always;}
+.pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;}
+.rosterFirst {background-color:#FF0000;text-transform:uppercase;}
+td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;}
+body {font-family: 'Quicksand', sans-serif; font-size:9px;}
+#container {display:flex;flex-wrap:wrap;width:21cm;}
+td.rosterType {background-color: red;width:12%;font-size:12px;}
+.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC}
+tr.statHeader {background-color:red;}
+table {width: 100%;}
+tr.body {background-color: #FFFFFF;} th {text-align:center;font-size:9px;}
+th.weaponStat {width:5%;}
+th.first {text-align: left;width:20%;}
+td {text-align:center;font-size:9px;}
+td.first {text-align: left;width:20%;}
+.extra {margin:0 3px; line-height:18px; float:left;}
+div.campaign {margin:auto auto 0 auto;} .f8 {font-size:8px;}
+.customNotes {margin:5px;} .history {margin-bottom:5px;}
+.historyTitle {font-size:12px; font-weight: bold;}
+.historyText {background-color:#FFFFFF;margin-top:5px;padding:3px;min-height:3cm;}
+.resource{float:right;}
+table#rosterUnits td {background-color:#FFFFFF;}
+.f6 {font-size:6px;}
+					<!-- endinject -->
 				</style>
 			</head>
 			<body>
