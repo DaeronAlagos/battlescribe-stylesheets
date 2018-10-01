@@ -26,6 +26,13 @@ gulp.task('sass', function () {
 
 gulp.task('inject-campaign', function () {
 	gulp.src('./src/campaign.xsl')
+		.pipe(inject(gulp.src(['./src/css/styles.css']), {
+			starttag: '<!-- inject:src/css/styles.css -->',
+			relative: true,
+			transform: function (filePath, file) {
+		// return file contents as string
+			return file.contents.toString('utf8')
+		}}))
 		.pipe(inject(gulp.src(['./src/card.xsl']), {
 			starttag: '<!-- inject:src/card.xsl -->',
 			relative: true,
@@ -61,6 +68,13 @@ gulp.task('rename-campaign', function () {
 
 gulp.task('inject-matched-play', function () {
 	gulp.src('./src/matchedPlay.xsl')
+		.pipe(inject(gulp.src(['./src/css/styles.css']), {
+			starttag: '<!-- inject:src/css/styles.css -->',
+			relative: true,
+			transform: function (filePath, file) {
+		// return file contents as string
+			return file.contents.toString('utf8')
+		}}))
 		.pipe(inject(gulp.src(['./src/card.xsl']), {
 			starttag: '<!-- inject:src/card.xsl -->',
 			relative: true,
