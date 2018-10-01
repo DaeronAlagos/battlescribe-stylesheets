@@ -2,6 +2,7 @@
 
 gulp clean-dist && \
 gulp clean-build && \
+gulp sass && \
 gulp inject-campaign && \
 gulp xsl-campaign && \
 gulp rename-campaign && \
