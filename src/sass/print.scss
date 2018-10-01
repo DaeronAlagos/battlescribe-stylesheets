@@ -1,1 +1,17 @@
-print.scss
+@import 'variables';
+
+
+@media print {
+	section {
+		width:100%;
+	}
+	table {
+		width: 100%;
+	}
+	th {
+		background-color: $cell-bg-dark;
+	}
+	td {
+		background-color: $cell-bg-light;
+	}
+}

@@ -1,0 +1,63 @@
+@import 'variables';
+
+body {
+	font-family: 'Quicksand', sans-serif;
+	font-size: $text-large;
+}
+section {
+	width: 100%;
+}
+table {
+	width: 100%;
+}
+th {
+	background-color: $cell-bg-dark;
+	font-size: $text-medium;
+}
+
+th:first-child {
+	text-align: left;
+	padding-left: 3px;
+}
+
+td {
+	background-color: $cell-bg-light;
+	font-size: $text-medium;
+	text-align: center;
+}
+
+td:first-child {
+	text-align: left;
+	padding-left: 3px;
+}
+
+.card {
+	width: 11.5cm;
+	min-height: 7.5cm;
+	background-color: $container-bg;
+	padding: 2px;
+	border-radius: 8px;
+}
+
+#name {
+	font-size: $text-medium;
+}
+
+.ability-heading {
+	font-size: $text-medium;
+	font-weight: bold;
+	padding-left: 3px;
+}
+
+.ability {
+	font-size: $text-small;
+}
+
+#experience {
+	text-align: center;
+}
+
+#experience span {
+	font-size: $text-xsmall;
+	margin: 0 4px;
+}
