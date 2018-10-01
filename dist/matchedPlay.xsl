@@ -26,12 +26,23 @@
 														<!-- Card Front -->
 							<div class="card">
 								<xsl:variable name="nodePoints">
-									<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
-										<ItemCost>
-											<xsl:value-of select="@value"/>
-										</ItemCost>
-									</xsl:for-each>
-								</xsl:variable>
+											<xsl:for-each select="bs:selections/bs:selection">
+												<xsl:choose>
+													<xsl:when test="contains($specialisms, @name)">
+														<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
+															<ItemCost>
+																<xsl:value-of select="@value"/>
+															</ItemCost>
+														</xsl:for-each>
+													</xsl:when>
+													<xsl:otherwise>
+														<ItemCost>
+															<xsl:value-of select="bs:costs/bs:cost/@value"/>
+														</ItemCost>
+													</xsl:otherwise>
+												</xsl:choose>
+											</xsl:for-each>
+										</xsl:variable>
 								<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 								<div class="extra">
 									<div style="float:left;">
