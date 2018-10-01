@@ -15,7 +15,7 @@ section#roster {page-break-after: always;}
 .rosterFirst {background-color:#FF0000;text-transform:uppercase;}
 td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;}
 body {font-family: 'Quicksand', sans-serif; font-size:9px;}
-#container {display:flex;flex-wrap:wrap;width:21cm;}
+#container {display:flex;flex-wrap:wrap;max-width:20cm;width: 100%}
 td.rosterType {background-color: red;width:12%;font-size:12px;}
 .card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC}
 tr.statHeader {background-color:red;}
