@@ -8,31 +8,59 @@
 			<head>
 				<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
 				<style>
-					<!-- inject:src/css/styles.css -->
-					hr {margin:5px;} .container {background-color: #EFEFEF;border:1px solid #FF0000;padding:5px;width:20cm;}
-section#roster {page-break-after: always;}
-.pageTitle {text-align:center;text-transform:uppercase;font-size:30px;color:#FF0000;}
-.rosterFirst {background-color:#FF0000;text-transform:uppercase;}
-td.rosterValue {background-color:white;text-align:left;padding:0 3px;width:20%;}
-body {font-family: 'Quicksand', sans-serif; font-size:9px;}
-#container {display:flex;flex-wrap:wrap;max-width:20cm;width: 100%}
-td.rosterType {background-color: red;width:12%;font-size:12px;}
-.card {background-color: #EEEEEE;width:11cm;min-height:7.5cm;display:flex;flex-direction:column;border-radius:8px;border:1px solid #CCCCCC}
-tr.statHeader {background-color:red;}
-table {width: 100%;}
-tr.body {background-color: #FFFFFF;} th {text-align:center;font-size:9px;}
-th.weaponStat {width:5%;}
-th.first {text-align: left;width:20%;}
-td {text-align:center;font-size:9px;}
-td.first {text-align: left;width:20%;}
-.extra {margin:0 3px; line-height:18px; float:left;}
-div.campaign {margin:auto auto 0 auto;} .f8 {font-size:8px;}
-.customNotes {margin:5px;} .history {margin-bottom:5px;}
-.historyTitle {font-size:12px; font-weight: bold;}
-.historyText {background-color:#FFFFFF;margin-top:5px;padding:3px;min-height:3cm;}
-.resource{float:right;}
-table#rosterUnits td {background-color:#FFFFFF;}
-.f6 {font-size:6px;}
+					<!-- inject:src/css/common.css -->
+					body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px; }
+
+section {
+  width: 100%; }
+
+table {
+  width: 100%; }
+
+th {
+  background-color: #FF0000;
+  font-size: 9px; }
+
+th:first-child {
+  text-align: left;
+  padding-left: 3px; }
+
+td {
+  background-color: #FFFFFF;
+  font-size: 9px;
+  text-align: center; }
+
+td:first-child {
+  text-align: left;
+  padding-left: 3px; }
+
+.card {
+  width: 11.5cm;
+  min-height: 7.5cm;
+  background-color: #EFEFEF;
+  padding: 2px;
+  border-radius: 8px; }
+
+#name {
+  font-size: 9px; }
+
+.ability-heading {
+  font-size: 9px;
+  font-weight: bold;
+  padding-left: 3px; }
+
+.ability {
+  font-size: 8px; }
+
+#experience {
+  text-align: center; }
+
+#experience span {
+  font-size: 7px;
+  margin: 0 4px; }
+
 					<!-- endinject -->
 				</style>
 			</head>
@@ -66,7 +94,7 @@ table#rosterUnits td {background-color:#FFFFFF;}
 											</xsl:for-each>
 										</xsl:variable>
 								<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
-								<div class="extra">
+								<div id="name">
 									<div style="float:left;">
 										<xsl:value-of select="@customName"/>
 									</div>
@@ -77,8 +105,8 @@ table#rosterUnits td {background-color:#FFFFFF;}
 								<!-- Unit -->
 								<div>
 									<table>
-										<tr class="statHeader">
-											<th class="first">Name</th>
+										<tr>
+											<th>Name</th>
 											<th>M</th>
 											<th>WS</th>
 											<th>BS</th>
@@ -89,8 +117,8 @@ table#rosterUnits td {background-color:#FFFFFF;}
 											<th>Ld</th>
 											<th>Sv</th>
 										</tr>
-										<tr class="body">
-											<td class="first">
+										<tr>
+											<td>
 												<xsl:value-of select="@name"/>
 											</td>
 											<td>
@@ -127,30 +155,30 @@ table#rosterUnits td {background-color:#FFFFFF;}
 								<!-- Weapons -->
 								<div>
 									<table>
-										<tr class="statHeader">
-											<th class="first">Weapon</th>
+										<tr>
+											<th>Weapon</th>
 											<th style="width:10%;">Range</th>
 											<th style="width:10%;">Type</th>
-											<th class="weaponStat">S</th>
-											<th class="weaponStat">AP</th>
-											<th class="weaponStat">D</th>
+											<th>S</th>
+											<th>AP</th>
+											<th>D</th>
 											<th>Abilities</th>
 										</tr>
 										<xsl:for-each select="bs:selections/bs:selection">
 											<xsl:if test="not(contains($specialisms, @name))">
 												<xsl:for-each select="bs:profiles/bs:profile">
-													<tr class="body">
-														<td class="first">
+													<tr>
+														<td>
 															<xsl:value-of select="@name"/>
 														</td>
 														<xsl:choose>
 															<xsl:when test="bs:characteristics/bs:characteristic[@name='Ability']">
-																<td colspan="6" class="f8">
+																<td colspan="6" class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
 																</td>
 															</xsl:when>
 															<xsl:when test="bs:characteristics/bs:characteristic[@name='Description']">
-																<td colspan="6" class="f8">
+																<td colspan="6" class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 																</td>
 															</xsl:when>
@@ -170,7 +198,7 @@ table#rosterUnits td {background-color:#FFFFFF;}
 																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
 																</td>
-																<td class="f8">
+																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
 																</td>
 															</xsl:otherwise>
@@ -185,28 +213,26 @@ table#rosterUnits td {background-color:#FFFFFF;}
 
 								<!-- Abilities -->
 								<div>
+									<span class="ability-heading">Abilities:</span>
 									<table>
-										<tr>
-											<th colspan="2" class="first statHeader">Abilities:</th>
-										</tr>
 										<xsl:for-each select="bs:profiles/bs:profile">
 											<xsl:if test="@profileTypeName='Ability'">
-												<tr class="body">
-													<td class="first f8">
+												<tr>
+													<td>
 														<xsl:value-of select="@name"/>
 													</td>
-													<td class="f8">
+													<td class="ability">
 														<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
 													</td>
 												</tr>
 											</xsl:if>
 										</xsl:for-each>
 										<xsl:for-each select="bs:rules/bs:rule">
-											<tr class="body">
-												<td class="first">
+											<tr>
+												<td>
 													<xsl:value-of select="@name"/>
 												</td>
-												<td class="f8">
+												<td>
 													<xsl:value-of select="bs:description"/>
 												</td>
 											</tr>
@@ -216,37 +242,37 @@ table#rosterUnits td {background-color:#FFFFFF;}
 								<!-- /Abilities -->
 
 								<!-- Specialism -->
-								<div class="extra">
+								<div>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
-											<span style="font-weight: bold;" class="f9">Specialism: </span>
+											<span class="ability-heading">Specialism:</span>
 											<table>
 												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
 													<xsl:if test="@profileTypeName='Ability'">
-														<tr class="body">
-															<td class="first f8">
+														<tr>
+															<td>
 																<xsl:value-of select="@name"/>
 															</td>
-															<td class="f8">
+															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
 															</td>
 														</tr>
 													</xsl:if>
 												</xsl:for-each>
 											</table>
-											<span style="font-weight: bold;" class="f9">Tactics: </span>
+											<span class="ability-heading">Tactics:</span>
 											<table>
 												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
 													<xsl:if test="not(@profileTypeName='Ability')">
-														<tr class="body">
-															<td class="first f8">
+														<tr>
+															<td>
 																<xsl:value-of select="@name"/>
 															</td>
-															<td class="f8">
+															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 															</td>
 															<td>
-																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
+																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/> CP
 															</td>
 														</tr>
 													</xsl:if>
@@ -257,11 +283,11 @@ table#rosterUnits td {background-color:#FFFFFF;}
 								</div>
 
 								<!-- Fire Team Advances -->
-								<div class="extra">
+								<div>
 									<xsl:for-each select="../../bs:selections/bs:selection">
 										<xsl:if test="@type='upgrade'">
 											<xsl:if test="../../@type='unit'">
-												<span style="font-weight: bold;" class="f9">Advances: </span>
+												<span class="ability-heading">Advances:</span>
 
 											</xsl:if>
 													<table>
@@ -269,11 +295,11 @@ table#rosterUnits td {background-color:#FFFFFF;}
 											<xsl:for-each select="bs:selections/bs:selection">
 												<xsl:if test="contains($advances, @name)">
 														<xsl:for-each select="bs:profiles/bs:profile">
-															<tr class="body">
-																<td class="first f8">
+															<tr>
+																<td>
 																	<xsl:value-of select="@name"/>
 																</td>
-																<td class="f8">
+																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 																</td>
 															</tr>
@@ -289,11 +315,11 @@ table#rosterUnits td {background-color:#FFFFFF;}
 								<!-- /Fire Team Advances -->
 
 								<!-- Experience -->
-								<div class="campaign f8">
-									<div class="extra">Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
-									<div class="extra">Flesh Wounds: &#9744; &#9744; &#9744;</div>
-									<div class="extra">Convalescence: &#9744;</div>
-									<div class="extra">New Recruit: &#9744;</div>
+								<div id="experience">
+									<span>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></span>
+									<span>Flesh Wounds: &#9744; &#9744; &#9744;</span>
+									<span>Convalescence: &#9744;</span>
+									<span>New Recruit: &#9744;</span>
 								</div>
 								<!-- /Experience -->
 
@@ -302,11 +328,11 @@ table#rosterUnits td {background-color:#FFFFFF;}
 
 							<!-- Card Back -->
 							<xsl:if test="bs:customNotes">
-								<div class="card" style="height: document.getElementsByClassName('card').previousElementSibling">
-									<div class="customNotes">
-										<div class="history">
-											<div class="historyTitle">History</div>
-											<div class="historyText">
+								<div style="height: document.getElementsByClassName('card').previousElementSibling">
+									<div>
+										<div>
+											<div>History</div>
+											<div>
 												<xsl:value-of select="bs:customNotes"/>
 											</div>
 										</div>
