@@ -47,6 +47,13 @@ gulp.task('inject-campaign', function () {
 		// return file contents as string
 			return file.contents.toString('utf8')
 		}}))
+		.pipe(inject(gulp.src(['./src/tactics.xsl']), {
+			starttag: '<!-- inject:src/tactics.xsl -->',
+			relative: true,
+			transform: function (filePath, file) {
+		// return file contents as string
+			return file.contents.toString('utf8')
+		}}))
 		.pipe(gulp.dest('./dist'));
 });
 
