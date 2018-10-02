@@ -22,32 +22,33 @@
 				
 				</section>
 				<br/>
-				
+
 				<section>
 					<xsl:for-each select="bs:selections/bs:selection">
-						<xsl:if test="@type='model'">
-
-							<!-- inject:src/card.xsl -->
-							<!-- contents of html partials will be injected here -->
-							<!-- endinject -->
-
-						</xsl:if>
-					</xsl:for-each>
-					<xsl:for-each select="bs:selections/bs:selection">
-						<xsl:if test="@type='unit'">
-							<xsl:for-each select="bs:selections/bs:selection">
-                                <xsl:if test="@type='model'">
-
-                                    <!-- inject:src/card.xsl -->
+						<xsl:choose>
+							<xsl:when test="@type='model'">
+								<!-- inject:src/card.xsl -->
+                                <!-- contents of html partials will be injected here -->
+                                <!-- endinject -->
+							</xsl:when>
+							<xsl:when test="@type='unit'">
+								<xsl:for-each select="bs:selections/bs:selection">
+									<xsl:if test="@type='model'">
+									<!-- inject:src/card.xsl -->
                                     <!-- contents of html partials will be injected here -->
                                     <!-- endinject -->
-
-                                </xsl:if>
-							</xsl:for-each>
-						</xsl:if>
+									</xsl:if>
+								</xsl:for-each>
+							</xsl:when>
+							<xsl:when test="@name='Show Tactics'">
+								<!-- inject:src/tactics.xsl -->
+                                <!-- contents of html partials will be injected here -->
+                                <!-- endinject -->
+							</xsl:when>
+						</xsl:choose>
 					</xsl:for-each>
-
 				</section>
+				
 			</body>
 		</html>
 	</xsl:template>
