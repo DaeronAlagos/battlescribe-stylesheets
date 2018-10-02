@@ -39,9 +39,6 @@ td:first-child {
   flex-direction: column;
   border: 1px solid #CCCCCC; }
 
-.card div {
-  text-align: center; }
-
 #name {
   font-size: 9px;
   margin: 0 2px; }
