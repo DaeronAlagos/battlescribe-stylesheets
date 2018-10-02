@@ -27,6 +27,9 @@ th:first-child {
   text-align: left;
   padding-left: 3px; }
 
+.stat-line th, td {
+  width: 10px; }
+
 td {
   background-color: #FFFFFF;
   font-size: 9px;
@@ -34,7 +37,8 @@ td {
 
 td:first-child {
   text-align: left;
-  padding-left: 3px; }
+  padding-left: 3px;
+  width: 25%; }
 
 .card {
   width: 11.5cm;
@@ -155,7 +159,7 @@ td:first-child {
 								<!-- Weapons -->
 								<div>
 									<table>
-										<tr>
+										<tr class="stat-line">
 											<th>Weapon</th>
 											<th style="width:10%;">Range</th>
 											<th style="width:10%;">Type</th>
@@ -167,7 +171,7 @@ td:first-child {
 										<xsl:for-each select="bs:selections/bs:selection">
 											<xsl:if test="not(contains($specialisms, @name))">
 												<xsl:for-each select="bs:profiles/bs:profile">
-													<tr>
+													<tr class="stat-line">
 														<td>
 															<xsl:value-of select="@name"/>
 														</td>
@@ -245,7 +249,7 @@ td:first-child {
 								<div>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
-											<span class="ability-heading">Specialism:</span>
+											<span class="ability-heading">Specialism: </span><xsl:value-of select="@name"/>
 											<table>
 												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
 													<xsl:if test="@profileTypeName='Ability'">
