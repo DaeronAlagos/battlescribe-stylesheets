@@ -8,7 +8,7 @@
 			<head>
 				<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
 				<style>
-					<!-- inject:src/css/styles.css -->
+					<!-- inject:src/css/common.css -->
 					<!-- contents of html partials will be injected here -->
 					<!-- endinject -->
 				</style>

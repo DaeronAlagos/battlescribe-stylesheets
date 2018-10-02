@@ -1,2 +1,55 @@
-.resource {
-  float: right; }
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 12px; }
+
+section {
+  width: 100%; }
+
+table {
+  width: 100%; }
+
+th {
+  background-color: #FF0000;
+  font-size: 9px; }
+
+th:first-child {
+  text-align: left;
+  padding-left: 3px; }
+
+.stat-line th, td {
+  width: 10px; }
+
+td {
+  background-color: #FFFFFF;
+  font-size: 9px;
+  text-align: center; }
+
+td:first-child {
+  text-align: left;
+  padding-left: 3px;
+  width: 25%; }
+
+.card {
+  width: 11.5cm;
+  min-height: 7.5cm;
+  background-color: #EFEFEF;
+  padding: 2px;
+  border-radius: 8px; }
+
+#name {
+  font-size: 9px; }
+
+.ability-heading {
+  font-size: 9px;
+  font-weight: bold;
+  padding-left: 3px; }
+
+.ability {
+  font-size: 8px; }
+
+#experience {
+  text-align: center; }
+
+#experience span {
+  font-size: 7px;
+  margin: 0 4px; }

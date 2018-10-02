@@ -20,6 +20,10 @@ th:first-child {
 	padding-left: 3px;
 }
 
+.stat-line th,td {
+	width: 10px;
+}
+
 td {
 	background-color: $cell-bg-light;
 	font-size: $text-medium;
@@ -29,6 +33,7 @@ td {
 td:first-child {
 	text-align: left;
 	padding-left: 3px;
+	width: 25%;
 }
 
 .card {

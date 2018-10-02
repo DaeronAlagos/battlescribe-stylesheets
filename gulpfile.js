@@ -19,15 +19,15 @@ gulp.task('clean-dist', function () {
 });
 
 gulp.task('sass', function () {
-	return gulp.src('./src/sass/common.scss')
+	return gulp.src('./src/sass/*.scss')
 		.pipe(sass().on('error', sass.logError))
 		.pipe(gulp.dest('./src/css'));
 });
 
 gulp.task('inject-campaign', function () {
 	gulp.src('./src/campaign.xsl')
-		.pipe(inject(gulp.src(['./src/css/styles.css']), {
-			starttag: '<!-- inject:src/css/styles.css -->',
+		.pipe(inject(gulp.src(['./src/css/common.css']), {
+			starttag: '<!-- inject:src/css/common.css -->',
 			relative: true,
 			transform: function (filePath, file) {
 		// return file contents as string
@@ -68,8 +68,8 @@ gulp.task('rename-campaign', function () {
 
 gulp.task('inject-matched-play', function () {
 	gulp.src('./src/matchedPlay.xsl')
-		.pipe(inject(gulp.src(['./src/css/styles.css']), {
-			starttag: '<!-- inject:src/css/styles.css -->',
+		.pipe(inject(gulp.src(['./src/css/common.css']), {
+			starttag: '<!-- inject:src/css/common.css -->',
 			relative: true,
 			transform: function (filePath, file) {
 		// return file contents as string
