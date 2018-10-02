@@ -123,7 +123,7 @@
 																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
 																</td>
-																<td>
+																<td class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
 																</td>
 															</xsl:otherwise>
@@ -196,7 +196,7 @@
 															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 															</td>
-															<td>
+															<td class="cp-cost">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/> CP
 															</td>
 														</tr>

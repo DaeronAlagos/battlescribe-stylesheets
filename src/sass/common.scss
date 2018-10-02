@@ -33,7 +33,7 @@ td {
 td:first-child {
 	text-align: left;
 	padding-left: 3px;
-	width: 25%;
+	width: 20%;
 }
 
 .card {
@@ -42,10 +42,18 @@ td:first-child {
 	background-color: $container-bg;
 	padding: 2px;
 	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #CCCCCC;
+}
+
+.card div {
+	text-align: center;
 }
 
 #name {
 	font-size: $text-medium;
+	margin: 0 2px;
 }
 
 .ability-heading {
@@ -58,11 +66,15 @@ td:first-child {
 	font-size: $text-small;
 }
 
+.cp-cost {
+	width: 5%;
+}
+
 #experience {
-	text-align: center;
+	margin: auto auto 0 auto;
 }
 
 #experience span {
-	font-size: $text-xsmall;
+	font-size: $text-medium;
 	margin: 0 4px;
 }
