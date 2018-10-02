@@ -38,17 +38,24 @@ td {
 td:first-child {
   text-align: left;
   padding-left: 3px;
-  width: 25%; }
+  width: 20%; }
 
 .card {
   width: 11.5cm;
   min-height: 7.5cm;
   background-color: #EFEFEF;
   padding: 2px;
-  border-radius: 8px; }
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CCCCCC; }
+
+.card div {
+  text-align: center; }
 
 #name {
-  font-size: 9px; }
+  font-size: 9px;
+  margin: 0 2px; }
 
 .ability-heading {
   font-size: 9px;
@@ -58,11 +65,14 @@ td:first-child {
 .ability {
   font-size: 8px; }
 
+.cp-cost {
+  width: 5%; }
+
 #experience {
-  text-align: center; }
+  margin: auto auto 0 auto; }
 
 #experience span {
-  font-size: 7px;
+  font-size: 9px;
   margin: 0 4px; }
 
 					<!-- endinject -->
@@ -202,7 +212,7 @@ td:first-child {
 																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
 																</td>
-																<td>
+																<td class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
 																</td>
 															</xsl:otherwise>
@@ -275,7 +285,7 @@ td:first-child {
 															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 															</td>
-															<td>
+															<td class="cp-cost">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/> CP
 															</td>
 														</tr>
