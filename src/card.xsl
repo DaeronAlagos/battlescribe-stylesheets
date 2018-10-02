@@ -19,7 +19,7 @@
 											</xsl:for-each>
 										</xsl:variable>
 								<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
-								<div class="extra">
+								<div id="name">
 									<div style="float:left;">
 										<xsl:value-of select="@customName"/>
 									</div>
@@ -30,8 +30,8 @@
 								<!-- Unit -->
 								<div>
 									<table>
-										<tr class="statHeader">
-											<th class="first">Name</th>
+										<tr>
+											<th>Name</th>
 											<th>M</th>
 											<th>WS</th>
 											<th>BS</th>
@@ -42,8 +42,8 @@
 											<th>Ld</th>
 											<th>Sv</th>
 										</tr>
-										<tr class="body">
-											<td class="first">
+										<tr>
+											<td>
 												<xsl:value-of select="@name"/>
 											</td>
 											<td>
@@ -80,30 +80,30 @@
 								<!-- Weapons -->
 								<div>
 									<table>
-										<tr class="statHeader">
-											<th class="first">Weapon</th>
+										<tr class="stat-line">
+											<th>Weapon</th>
 											<th style="width:10%;">Range</th>
 											<th style="width:10%;">Type</th>
-											<th class="weaponStat">S</th>
-											<th class="weaponStat">AP</th>
-											<th class="weaponStat">D</th>
+											<th>S</th>
+											<th>AP</th>
+											<th>D</th>
 											<th>Abilities</th>
 										</tr>
 										<xsl:for-each select="bs:selections/bs:selection">
 											<xsl:if test="not(contains($specialisms, @name))">
 												<xsl:for-each select="bs:profiles/bs:profile">
-													<tr class="body">
-														<td class="first">
+													<tr class="stat-line">
+														<td>
 															<xsl:value-of select="@name"/>
 														</td>
 														<xsl:choose>
 															<xsl:when test="bs:characteristics/bs:characteristic[@name='Ability']">
-																<td colspan="6" class="f8">
+																<td colspan="6" class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
 																</td>
 															</xsl:when>
 															<xsl:when test="bs:characteristics/bs:characteristic[@name='Description']">
-																<td colspan="6" class="f8">
+																<td colspan="6" class="ability">
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 																</td>
 															</xsl:when>
@@ -123,7 +123,7 @@
 																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
 																</td>
-																<td class="f8">
+																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
 																</td>
 															</xsl:otherwise>
@@ -138,28 +138,26 @@
 
 								<!-- Abilities -->
 								<div>
+									<span class="ability-heading">Abilities:</span>
 									<table>
-										<tr>
-											<th colspan="2" class="first statHeader">Abilities:</th>
-										</tr>
 										<xsl:for-each select="bs:profiles/bs:profile">
 											<xsl:if test="@profileTypeName='Ability'">
-												<tr class="body">
-													<td class="first f8">
+												<tr>
+													<td>
 														<xsl:value-of select="@name"/>
 													</td>
-													<td class="f8">
+													<td class="ability">
 														<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
 													</td>
 												</tr>
 											</xsl:if>
 										</xsl:for-each>
 										<xsl:for-each select="bs:rules/bs:rule">
-											<tr class="body">
-												<td class="first">
+											<tr>
+												<td>
 													<xsl:value-of select="@name"/>
 												</td>
-												<td class="f8">
+												<td>
 													<xsl:value-of select="bs:description"/>
 												</td>
 											</tr>
@@ -169,37 +167,37 @@
 								<!-- /Abilities -->
 
 								<!-- Specialism -->
-								<div class="extra">
+								<div>
 									<xsl:for-each select="bs:selections/bs:selection">
 										<xsl:if test="contains($specialisms, @name)">
-											<span style="font-weight: bold;" class="f9">Specialism: </span>
+											<span class="ability-heading">Specialism: </span><xsl:value-of select="@name"/>
 											<table>
 												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
 													<xsl:if test="@profileTypeName='Ability'">
-														<tr class="body">
-															<td class="first f8">
+														<tr>
+															<td>
 																<xsl:value-of select="@name"/>
 															</td>
-															<td class="f8">
+															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic/@value"/>
 															</td>
 														</tr>
 													</xsl:if>
 												</xsl:for-each>
 											</table>
-											<span style="font-weight: bold;" class="f9">Tactics: </span>
+											<span class="ability-heading">Tactics:</span>
 											<table>
 												<xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
 													<xsl:if test="not(@profileTypeName='Ability')">
-														<tr class="body">
-															<td class="first f8">
+														<tr>
+															<td>
 																<xsl:value-of select="@name"/>
 															</td>
-															<td class="f8">
+															<td class="ability">
 																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 															</td>
 															<td>
-																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
+																<xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/> CP
 															</td>
 														</tr>
 													</xsl:if>
@@ -210,11 +208,11 @@
 								</div>
 
 								<!-- Fire Team Advances -->
-								<div class="extra">
+								<div>
 									<xsl:for-each select="../../bs:selections/bs:selection">
 										<xsl:if test="@type='upgrade'">
 											<xsl:if test="../../@type='unit'">
-												<span style="font-weight: bold;" class="f9">Advances: </span>
+												<span class="ability-heading">Advances:</span>
 
 											</xsl:if>
 													<table>
@@ -222,11 +220,11 @@
 											<xsl:for-each select="bs:selections/bs:selection">
 												<xsl:if test="contains($advances, @name)">
 														<xsl:for-each select="bs:profiles/bs:profile">
-															<tr class="body">
-																<td class="first f8">
+															<tr>
+																<td>
 																	<xsl:value-of select="@name"/>
 																</td>
-																<td class="f8">
+																<td>
 																	<xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
 																</td>
 															</tr>
@@ -242,11 +240,11 @@
 								<!-- /Fire Team Advances -->
 
 								<!-- Experience -->
-								<div class="campaign f8">
-									<div class="extra">Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
-									<div class="extra">Flesh Wounds: &#9744; &#9744; &#9744;</div>
-									<div class="extra">Convalescence: &#9744;</div>
-									<div class="extra">New Recruit: &#9744;</div>
+								<div id="experience">
+									<span>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></span>
+									<span>Flesh Wounds: &#9744; &#9744; &#9744;</span>
+									<span>Convalescence: &#9744;</span>
+									<span>New Recruit: &#9744;</span>
 								</div>
 								<!-- /Experience -->
 
@@ -255,11 +253,11 @@
 
 							<!-- Card Back -->
 							<xsl:if test="bs:customNotes">
-								<div class="card" style="height: document.getElementsByClassName('card').previousElementSibling">
-									<div class="customNotes">
-										<div class="history">
-											<div class="historyTitle">History</div>
-											<div class="historyText">
+								<div style="height: document.getElementsByClassName('card').previousElementSibling">
+									<div>
+										<div>
+											<div>History</div>
+											<div>
 												<xsl:value-of select="bs:customNotes"/>
 											</div>
 										</div>

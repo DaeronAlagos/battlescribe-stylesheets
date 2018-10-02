@@ -1,68 +1,68 @@
-				<div class="container">
+				<div>
 					<section>
-						<div class="pageTitle">command roster</div>
+						<div>command roster</div>
 						<hr/>
 					</section>
 					<section>
 						<table>
-							<tr class="rosterHeader">
-								<td class="rosterFirst rosterType">Player Name</td>
-								<td class="rosterValue"></td>
-								<td class="rosterType">Resources</td>
-								<td class="rosterType">Current Kill Team Force</td>
-								<td class="rosterValue" style="text-align:right;">Points</td>
+							<tr >
+								<td>Player Name</td>
+								<td></td>
+								<td>Resources</td>
+								<td>Current Kill Team Force</td>
+								<td>Points</td>
 							</tr>
-							<tr class="rosterHeader">
-								<td class="rosterFirst rosterType">Faction</td>
-								<td class="rosterValue">
+							<tr>
+								<td>Faction</td>
+								<td>
 									<xsl:value-of select="@catalogueName" />
 								</td>
-								<td class="rosterValue">Intelligence
-									<span class="resource">
+								<td>Intelligence
+									<span>
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
 									</span>
 								</td>
-								<td class="rosterType">Current Kill Team's Name</td>
-								<td class="rosterValue"></td>
+								<td>Current Kill Team's Name</td>
+								<td></td>
 							</tr>
-							<tr class="rosterHeader">
-								<td class="rosterFirst rosterType">Mission</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue">Materiel
-									<span class="resource">
+							<tr>
+								<td>Mission</td>
+								<td></td>
+								<td>Materiel
+									<span>
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number" />
 									</span>
 								</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue"></td>
+								<td></td>
+								<td></td>
 							</tr>
-							<tr class="rosterHeader">
-								<td class="rosterFirst rosterType">Background</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue">Morale
-									<span class="resource">
+							<tr>
+								<td>Background</td>
+								<td></td>
+								<td>Morale
+									<span>
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number" />
 									</span>
 								</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue"></td>
+								<td></td>
+								<td></td>
 							</tr>
-							<tr class="rosterHeader">
-								<td class="rosterFirst rosterType">Squad Quirk</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue">Territory
-									<span class="resource">
+							<tr>
+								<td>Squad Quirk</td>
+								<td></td>
+								<td>Territory
+									<span>
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number" />
 									</span>
 								</td>
-								<td class="rosterValue"></td>
-								<td class="rosterValue"></td>
+								<td></td>
+								<td></td>
 							</tr>
 						</table>
 					</section>
 					<br/>
 					<section>
-						<table id="rosterUnits">
+						<table>
 							<tr>
 								<th>Name</th>
 								<th>Model Type</th>
@@ -98,7 +98,7 @@
 										<td>
 											<xsl:value-of select="@name"/>
 										</td>
-										<td class="f8">
+										<td>
 											<xsl:for-each select="bs:selections/bs:selection">
 												<xsl:if test="not(contains($specialisms, @name))">
 													<xsl:value-of select="@name" />, 
@@ -106,7 +106,7 @@
 											</xsl:for-each>
 										</td>
 										<td></td>
-										<td class="f8">
+										<td>
 											<xsl:for-each select="bs:profiles/bs:profile">
 												<xsl:if test="@profileTypeName='Ability'">
 													<xsl:value-of select="@name"/>, 
@@ -148,7 +148,7 @@
 												<td>
 													<xsl:value-of select="@name"/>
 												</td>
-												<td class="f8">
+												<td>
 													<xsl:for-each select="bs:selections/bs:selection">
 														<xsl:if test="not(contains($specialisms, @name))">
 															<xsl:value-of select="@name" />, 
@@ -156,7 +156,7 @@
 													</xsl:for-each>
 												</td>
 												<td></td>
-												<td class="f8">
+												<td>
 													<xsl:for-each select="bs:profiles/bs:profile">
 														<xsl:if test="@profileTypeName='Ability'">
 															<xsl:value-of select="@name"/>, 
