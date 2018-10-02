@@ -94,7 +94,9 @@
 								<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 								<xsl:if test="@type='model'">
 									<tr>
-										<td></td>
+										<td>
+											<xsl:value-of select="@customName" />
+										</td>
 										<td>
 											<xsl:value-of select="@name"/>
 										</td>
