@@ -20,25 +20,28 @@ table {
   width: 100%; }
 
 th {
-  background-color: #FF0000;
-  font-size: 9px; }
+  background-color: #e02626;
+  font-size: 8px; }
 
 th:first-child {
   text-align: left;
   padding-left: 3px; }
 
-.stat-line th, td {
-  width: 10px; }
-
 td {
   background-color: #FFFFFF;
-  font-size: 9px;
+  font-size: 8px;
   text-align: center; }
 
 td:first-child {
   text-align: left;
   padding-left: 3px;
   width: 20%; }
+
+.roster th:first-child, td:first-child {
+  width: 10%; }
+
+.roster-heading {
+  background-color: #e02626; }
 
 .card {
   width: 11.5cm;
@@ -53,6 +56,9 @@ td:first-child {
 #name {
   font-size: 9px;
   margin: 0 2px; }
+
+.stat-line th, td {
+  width: 10px; }
 
 .ability-heading {
   font-size: 9px;

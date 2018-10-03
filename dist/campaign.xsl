@@ -20,25 +20,28 @@ table {
   width: 100%; }
 
 th {
-  background-color: #FF0000;
-  font-size: 9px; }
+  background-color: #e02626;
+  font-size: 8px; }
 
 th:first-child {
   text-align: left;
   padding-left: 3px; }
 
-.stat-line th, td {
-  width: 10px; }
-
 td {
   background-color: #FFFFFF;
-  font-size: 9px;
+  font-size: 8px;
   text-align: center; }
 
 td:first-child {
   text-align: left;
   padding-left: 3px;
   width: 20%; }
+
+.roster th:first-child, td:first-child {
+  width: 10%; }
+
+.roster-heading {
+  background-color: #e02626; }
 
 .card {
   width: 11.5cm;
@@ -53,6 +56,9 @@ td:first-child {
 #name {
   font-size: 9px;
   margin: 0 2px; }
+
+.stat-line th, td {
+  width: 10px; }
 
 .ability-heading {
   font-size: 9px;
@@ -76,7 +82,7 @@ td:first-child {
 				</style>
 			</head>
 			<body>
-				<section id="roster">
+				<section>
 
 					<!-- inject:src/roster.xsl -->
 									<div>
@@ -85,16 +91,16 @@ td:first-child {
 						<hr/>
 					</section>
 					<section>
-						<table>
+						<table class="roster">
 							<tr >
-								<td>Player Name</td>
+								<td class="roster-heading">Player Name</td>
 								<td></td>
-								<td>Resources</td>
-								<td>Current Kill Team Force</td>
+								<td class="roster-heading">Resources</td>
+								<td class="roster-heading">Current Kill Team Force</td>
 								<td>Points</td>
 							</tr>
 							<tr>
-								<td>Faction</td>
+								<td class="roster-heading">Faction</td>
 								<td>
 									<xsl:value-of select="@catalogueName" />
 								</td>
@@ -103,11 +109,11 @@ td:first-child {
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
 									</span>
 								</td>
-								<td>Current Kill Team's Name</td>
+								<td class="roster-heading">Current Kill Team's Name</td>
 								<td></td>
 							</tr>
 							<tr>
-								<td>Mission</td>
+								<td class="roster-heading">Mission</td>
 								<td></td>
 								<td>Materiel
 									<span>
@@ -118,7 +124,7 @@ td:first-child {
 								<td></td>
 							</tr>
 							<tr>
-								<td>Background</td>
+								<td class="roster-heading">Background</td>
 								<td></td>
 								<td>Morale
 									<span>
@@ -129,7 +135,7 @@ td:first-child {
 								<td></td>
 							</tr>
 							<tr>
-								<td>Squad Quirk</td>
+								<td class="roster-heading">Squad Quirk</td>
 								<td></td>
 								<td>Territory
 									<span>
@@ -143,7 +149,7 @@ td:first-child {
 					</section>
 					<br/>
 					<section>
-						<table>
+						<table class="roster">
 							<tr>
 								<th>Name</th>
 								<th>Model Type</th>
