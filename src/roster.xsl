@@ -4,16 +4,16 @@
 						<hr/>
 					</section>
 					<section>
-						<table>
+						<table class="roster">
 							<tr >
-								<td>Player Name</td>
+								<td class="roster-heading">Player Name</td>
 								<td></td>
-								<td>Resources</td>
-								<td>Current Kill Team Force</td>
+								<td class="roster-heading">Resources</td>
+								<td class="roster-heading">Current Kill Team Force</td>
 								<td>Points</td>
 							</tr>
 							<tr>
-								<td>Faction</td>
+								<td class="roster-heading">Faction</td>
 								<td>
 									<xsl:value-of select="@catalogueName" />
 								</td>
@@ -22,11 +22,11 @@
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
 									</span>
 								</td>
-								<td>Current Kill Team's Name</td>
+								<td class="roster-heading">Current Kill Team's Name</td>
 								<td></td>
 							</tr>
 							<tr>
-								<td>Mission</td>
+								<td class="roster-heading">Mission</td>
 								<td></td>
 								<td>Materiel
 									<span>
@@ -37,7 +37,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td>Background</td>
+								<td class="roster-heading">Background</td>
 								<td></td>
 								<td>Morale
 									<span>
@@ -48,7 +48,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td>Squad Quirk</td>
+								<td class="roster-heading">Squad Quirk</td>
 								<td></td>
 								<td>Territory
 									<span>
@@ -62,7 +62,7 @@
 					</section>
 					<br/>
 					<section>
-						<table>
+						<table class="roster">
 							<tr>
 								<th>Name</th>
 								<th>Model Type</th>

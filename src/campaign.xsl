@@ -14,7 +14,7 @@
 				</style>
 			</head>
 			<body>
-				<section id="roster">
+				<section>
 
 					<!-- inject:src/roster.xsl -->
 					<!-- contents of html partials will be injected here -->

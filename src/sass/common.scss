@@ -12,7 +12,7 @@ table {
 }
 th {
 	background-color: $cell-bg-dark;
-	font-size: $text-medium;
+	font-size: $text-small;
 }
 
 th:first-child {
@@ -20,13 +20,9 @@ th:first-child {
 	padding-left: 3px;
 }
 
-.stat-line th,td {
-	width: 10px;
-}
-
 td {
 	background-color: $cell-bg-light;
-	font-size: $text-medium;
+	font-size: $text-small;
 	text-align: center;
 }
 
@@ -34,6 +30,14 @@ td:first-child {
 	text-align: left;
 	padding-left: 3px;
 	width: 20%;
+}
+
+.roster th:first-child, td:first-child {
+	width: 10%;
+}
+
+.roster-heading {
+	background-color: $cell-bg-dark;
 }
 
 .card {
@@ -50,6 +54,10 @@ td:first-child {
 #name {
 	font-size: $text-medium;
 	margin: 0 2px;
+}
+
+.stat-line th,td {
+	width: 10px;
 }
 
 .ability-heading {
