@@ -1,0 +1,97 @@
+@import 'variables';
+
+@media print {
+  .card table {
+    width: 100%;
+  }
+  .card th {
+    background-color: $cell-bg-dark;
+    font-size: $text-small;
+  }
+  .card th:first-child {
+    text-align: left;
+    padding-left: 3px;
+  }
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  font-size: $text-large;
+}
+
+section {
+  width: 100%;
+}
+
+table {
+  width: 100%;
+}
+
+th {
+  background-color: $cell-bg-dark;
+  font-size: $text-small;
+}
+
+th:first-child {
+  text-align: left;
+  padding-left: 3px;
+}
+
+td {
+  background-color: $cell-bg-light;
+  font-size: $text-small;
+  text-align: center;
+}
+
+td:first-child {
+  text-align: left;
+  padding-left: 3px;
+  width: 20%;
+}
+
+.roster-heading {
+  background-color: $cell-bg-dark;
+}
+
+.card {
+  width: 11.5cm;
+  min-height: 7.5cm;
+  background-color: $container-bg;
+  padding: 2px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CCCCCC;
+}
+
+#name {
+  font-size: $text-medium;
+  margin: 0 2px;
+}
+
+.stat-line th, td {
+  width: 10px;
+}
+
+.ability-heading {
+  font-size: $text-medium;
+  font-weight: bold;
+  padding-left: 3px;
+}
+
+.ability {
+  font-size: $text-small;
+}
+
+.cp-cost {
+  width: 5%;
+}
+
+#experience {
+  margin: auto auto 0 auto;
+}
+
+#experience span {
+  font-size: $text-medium;
+  margin: 0 4px;
+}
