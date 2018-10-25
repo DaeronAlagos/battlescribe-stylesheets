@@ -26,8 +26,8 @@ gulp.task('sass', function () {
 
 gulp.task('inject-campaign', function () {
 	gulp.src('./src/campaign.xsl')
-		.pipe(inject(gulp.src(['./src/css/common.css']), {
-			starttag: '<!-- inject:src/css/common.css -->',
+		.pipe(inject(gulp.src(['./src/css/style.css']), {
+			starttag: '<!-- inject:src/css/style.css -->',
 			relative: true,
 			transform: function (filePath, file) {
 		// return file contents as string

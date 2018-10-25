@@ -1,21 +1,7 @@
 @import 'variables';
 
-@media print {
-  .card table {
-    width: 100%;
-  }
-  .card th {
-    background-color: $cell-bg-dark;
-    font-size: $text-small;
-  }
-  .card th:first-child {
-    text-align: left;
-    padding-left: 3px;
-  }
-}
-
 body {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Arvo', serif;
   font-size: $text-large;
 }
 
@@ -49,8 +35,35 @@ td:first-child {
   width: 20%;
 }
 
-.roster-heading {
+#roster-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: $text-xlarge;
+  font-family: 'Black Ops One', cursive;
+}
+
+#roster-title hr {
+  margin: 0 0 5px;
+}
+
+#roster-resources th, #roster-resources td {
+  font-size: $text-large;
+}
+
+#roster-units th, #roster-units td {
+  font-size: $text-medium;
+}
+
+.roster-cell-heading {
   background-color: $cell-bg-dark;
+}
+
+.roster-cell-body {
+  background-color: $cell-bg-dark-offset;
+}
+
+.roster-body {
+  background-color: $container-bg;
 }
 
 .card {
@@ -73,14 +86,18 @@ td:first-child {
   width: 10px;
 }
 
-.ability-heading {
+.specialism {
   font-size: $text-medium;
-  font-weight: bold;
+}
+
+.abilities-heading {
+  font-size: $text-medium;
   padding-left: 3px;
+  font-weight: bold;
 }
 
 .ability {
-  font-size: $text-small;
+  font-size: $text-xsmall;
 }
 
 .cp-cost {
@@ -92,6 +109,22 @@ td:first-child {
 }
 
 #experience span {
-  font-size: $text-medium;
+  font-size: $text-small;
   margin: 0 4px;
+}
+
+@media screen and (min-width: 900px) {
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .card {
+    margin: 3px;
+  }
+}
+
+@media print {
+  #roster {
+    page-break-after: always;
+  }
 }

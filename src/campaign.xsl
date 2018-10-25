@@ -6,15 +6,16 @@
 		<xsl:variable name="advances" select="'1. Fleet|2. Lucky|3. Courageous|4. Skilled|5. Lethal|6. Die-hard'"/>
 		<html>
 			<head>
-				<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet"/>
+				<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"/>
+				<link href="https://fonts.googleapis.com/css?family=Black+Ops+One" rel="stylesheet"/>
 				<style>
-					<!-- inject:src/css/common.css -->
+					<!-- inject:src/css/style.css -->
 					<!-- contents of html partials will be injected here -->
 					<!-- endinject -->
 				</style>
 			</head>
 			<body>
-				<section>
+				<section id="roster">
 
 					<!-- inject:src/roster.xsl -->
 					<!-- contents of html partials will be injected here -->
@@ -23,7 +24,7 @@
 				</section>
 				<br/>
 
-				<section>
+				<section id="cards">
 					<xsl:for-each select="bs:selections/bs:selection">
 						<xsl:choose>
 							<xsl:when test="@type='model'">

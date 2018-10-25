@@ -1,19 +1,19 @@
 				<div>
-					<section>
+					<section id="roster-title">
 						<div>command roster</div>
 						<hr/>
 					</section>
-					<section>
+					<section id="roster-resources" class="roster-body">
 						<table class="roster">
 							<tr >
-								<td class="roster-heading">Player Name</td>
+								<td class="roster-cell-heading">Player Name</td>
 								<td></td>
-								<td class="roster-heading">Resources</td>
-								<td class="roster-heading">Current Kill Team Force</td>
+								<td class="roster-cell-heading">Resources</td>
+								<td class="roster-cell-heading">Current Kill Team Force</td>
 								<td>Points</td>
 							</tr>
 							<tr>
-								<td class="roster-heading">Faction</td>
+								<td class="roster-cell-heading">Faction</td>
 								<td>
 									<xsl:value-of select="@catalogueName" />
 								</td>
@@ -22,11 +22,11 @@
 										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']/@number" />
 									</span>
 								</td>
-								<td class="roster-heading">Current Kill Team's Name</td>
+								<td class="roster-cell-heading">Current Kill Team's Name</td>
 								<td></td>
 							</tr>
 							<tr>
-								<td class="roster-heading">Mission</td>
+								<td class="roster-cell-heading">Mission</td>
 								<td></td>
 								<td>Materiel
 									<span>
@@ -37,7 +37,7 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="roster-heading">Background</td>
+								<td class="roster-cell-heading">Background</td>
 								<td></td>
 								<td>Morale
 									<span>
@@ -48,11 +48,11 @@
 								<td></td>
 							</tr>
 							<tr>
-								<td class="roster-heading">Squad Quirk</td>
+								<td class="roster-cell-heading">Squad Quirk</td>
 								<td></td>
 								<td>Territory
 									<span>
-										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number" />
+										<xsl:value-of select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Territory']/@number" />
 									</span>
 								</td>
 								<td></td>
@@ -61,7 +61,7 @@
 						</table>
 					</section>
 					<br/>
-					<section>
+					<section id="roster-units" class="roster-body">
 						<table class="roster">
 							<tr>
 								<th>Name</th>
