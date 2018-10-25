@@ -5,3 +5,5 @@
 /node_modules
 package-lock.json
 /build
+/src/css/*
+!/src/css/.gitkeep
