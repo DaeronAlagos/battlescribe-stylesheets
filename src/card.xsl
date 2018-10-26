@@ -101,50 +101,110 @@
             </tr>
             <xsl:for-each select="bs:selections/bs:selection">
                 <xsl:if test="not(contains($specialisms, @name))">
-                    <xsl:for-each select="bs:profiles/bs:profile">
-                        <tr class="stat-line">
-                            <td>
-                                <xsl:value-of select="@name"/>
-                            </td>
-                            <xsl:choose>
-                                <xsl:when test="bs:characteristics/bs:characteristic[@name='Ability']">
-                                    <td colspan="6" class="ability">
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
-                                    </td>
-                                </xsl:when>
-                                <xsl:when test="bs:characteristics/bs:characteristic[@name='Description']">
-                                    <td colspan="6" class="ability">
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                    </td>
-                                </xsl:when>
-                                <xsl:otherwise>
+                    <xsl:choose>
+                        <xsl:when test="bs:profiles/bs:profile">
+                            <xsl:for-each select="bs:profiles/bs:profile">
+                                <tr class="stat-line">
                                     <td>
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Range']/@value"/>
+                                        <xsl:value-of select="@name"/>
                                     </td>
-                                    <td>
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Type']/@value"/>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='S']/@value"/>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='AP']/@value"/>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
-                                    </td>
-                                    <td class="ability">
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
-                                    </td>
-                                </xsl:otherwise>
-                            </xsl:choose>
-                        </tr>
-                    </xsl:for-each>
+                                    <xsl:choose>
+                                        <xsl:when test="bs:characteristics/bs:characteristic[@name='Ability']">
+                                            <td colspan="6" class="ability">
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
+                                            </td>
+                                        </xsl:when>
+                                        <xsl:when test="bs:characteristics/bs:characteristic[@name='Description']">
+                                            <td colspan="6" class="ability">
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                                            </td>
+                                        </xsl:when>
+                                        <xsl:otherwise>
+                                            <td>
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='Range']/@value"/>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='Type']/@value"/>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='S']/@value"/>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='AP']/@value"/>
+                                            </td>
+                                            <td>
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
+                                            </td>
+                                            <td class="ability">
+                                                <xsl:value-of
+                                                        select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
+                                            </td>
+                                        </xsl:otherwise>
+                                    </xsl:choose>
+                                </tr>
+                            </xsl:for-each>
+
+                        </xsl:when>
+                        <xsl:otherwise>
+                            <xsl:for-each select="bs:selections/bs:selection">
+                                <xsl:for-each select="bs:profiles/bs:profile">
+                                    <tr class="stat-line">
+                                        <td>
+                                            <xsl:value-of select="@name"/>
+                                        </td>
+                                        <xsl:choose>
+                                            <xsl:when test="bs:characteristics/bs:characteristic[@name='Ability']">
+                                                <td colspan="6" class="ability">
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='Ability']/@value"/>
+                                                </td>
+                                            </xsl:when>
+                                            <xsl:when test="bs:characteristics/bs:characteristic[@name='Description']">
+                                                <td colspan="6" class="ability">
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                                                </td>
+                                            </xsl:when>
+                                            <xsl:otherwise>
+                                                <td>
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='Range']/@value"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='Type']/@value"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='S']/@value"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='AP']/@value"/>
+                                                </td>
+                                                <td>
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='D']/@value"/>
+                                                </td>
+                                                <td class="ability">
+                                                    <xsl:value-of
+                                                            select="bs:characteristics/bs:characteristic[@name='Abilities']/@value"/>
+                                                </td>
+                                            </xsl:otherwise>
+                                        </xsl:choose>
+                                    </tr>
+                                </xsl:for-each>
+                            </xsl:for-each>
+
+                        </xsl:otherwise>
+                    </xsl:choose>
                 </xsl:if>
             </xsl:for-each>
         </table>
@@ -185,7 +245,7 @@
     <div>
         <xsl:for-each select="bs:selections/bs:selection">
             <xsl:if test="contains($specialisms, @name)">
-                <span class="abilities-heading">Specialism: </span>
+                <span class="abilities-heading">Specialism:</span>
                 <span class="specialism">
                     <xsl:value-of select="@name"/>
                 </span>
