@@ -127,4 +127,8 @@ td:first-child {
   #roster {
     page-break-after: always;
   }
+  .card {
+    page-break-inside: avoid;
+  }
+
 }
