@@ -9,7 +9,109 @@
 				<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"/>
 				<style>
 					<!-- inject:src/css/style.css -->
-					<!-- contents of html partials will be injected here -->
+					body {
+  font-family: 'Arvo', serif;
+  font-size: 12px; }
+
+section {
+  width: 100%; }
+
+table {
+  width: 100%; }
+
+th {
+  background-color: #e02626;
+  font-size: 8px; }
+
+th:first-child {
+  text-align: left;
+  padding-left: 3px; }
+
+td {
+  background-color: #FFFFFF;
+  font-size: 8px;
+  text-align: center; }
+
+td:first-child {
+  text-align: left;
+  padding-left: 3px;
+  width: 20%; }
+
+#roster-title {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 60px;
+  font-family: 'Black Ops One', cursive; }
+
+#roster-title hr {
+  margin: 0 0 5px; }
+
+#roster-resources th, #roster-resources td {
+  font-size: 12px; }
+
+#roster-units th, #roster-units td {
+  font-size: 9px; }
+
+.roster-cell-heading {
+  background-color: #e02626; }
+
+.roster-cell-body {
+  background-color: #717171; }
+
+.roster-body {
+  background-color: #EFEFEF; }
+
+.card {
+  width: 11.5cm;
+  min-height: 7.5cm;
+  background-color: #EFEFEF;
+  padding: 2px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #CCCCCC; }
+
+#name {
+  font-size: 9px;
+  margin: 0 2px; }
+
+.stat-line th, td {
+  width: 10px; }
+
+.specialism {
+  font-size: 9px; }
+
+.abilities-heading {
+  font-size: 9px;
+  padding: 0 3px;
+  font-weight: bold; }
+
+.ability {
+  font-size: 7px; }
+
+.cp-cost {
+  width: 5%; }
+
+#experience {
+  margin: auto auto 0 auto; }
+
+#experience span {
+  font-size: 8px;
+  margin: 0 4px; }
+
+@media screen and (min-width: 900px) {
+  #cards {
+    display: flex;
+    flex-wrap: wrap; }
+  .card {
+    margin: 3px; } }
+
+@media print {
+  #roster {
+    page-break-after: always; }
+  .card {
+    page-break-inside: avoid; } }
+
 					<!-- endinject -->
 				</style>
 			</head>

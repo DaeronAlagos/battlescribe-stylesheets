@@ -109,7 +109,9 @@ td:first-child {
 
 @media print {
   #roster {
-    page-break-after: always; } }
+    page-break-after: always; }
+  .card {
+    page-break-inside: avoid; } }
 
 					<!-- endinject -->
 				</style>
