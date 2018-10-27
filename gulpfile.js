@@ -75,8 +75,8 @@ gulp.task('rename-campaign', function () {
 
 gulp.task('inject-matched-play', function () {
 	gulp.src('./src/matchedPlay.xsl')
-		.pipe(inject(gulp.src(['./src/css/common.css']), {
-			starttag: '<!-- inject:src/css/common.css -->',
+		.pipe(inject(gulp.src(['./src/css/style.css']), {
+			starttag: '<!-- inject:src/css/style.css -->',
 			relative: true,
 			transform: function (filePath, file) {
 		// return file contents as string
@@ -106,6 +106,6 @@ gulp.task('rename-matched-play', function () {
 			path.extname = '.html';
 		}))
 		.pipe(gulp.dest('./build'));
-})
+});
 
-gulp.task('sequence-roster', gulpSequence('inject-roster', 'xsl-roster', 'rename-roster'))
+gulp.task('sequence-roster', gulpSequence('inject-roster', 'xsl-roster', 'rename-roster'));
