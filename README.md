@@ -4,9 +4,6 @@
 
 1. Clone the repository
   `git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git`
-  
-2. Change to 'modular' branch
-  `git checkout modular`
 
 ### Instructions for Battlescribe users
 
