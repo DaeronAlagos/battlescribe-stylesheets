@@ -34,8 +34,7 @@ td {
 
 td:first-child {
   text-align: left;
-  padding-left: 3px;
-  width: 20%; }
+  padding-left: 3px; }
 
 #roster-title {
   text-align: center;
@@ -71,12 +70,18 @@ td:first-child {
   flex-direction: column;
   border: 1px solid #CCCCCC; }
 
+.card td:first-child {
+  width: 20%; }
+
 #name {
   font-size: 9px;
   margin: 0 2px; }
 
-.stat-line th, td {
-  width: 10px; }
+.stat-line th:first-child {
+  width: 20%; }
+
+.stat-line th:not(:first-child) {
+  width: calc(80% / 9); }
 
 .specialism {
   font-size: 9px; }
@@ -86,7 +91,10 @@ td:first-child {
   padding: 0 3px;
   font-weight: bold; }
 
-.ability {
+th.ability, td.ability {
+  width: 100%; }
+
+td.ability {
   font-size: 7px; }
 
 .cp-cost {
@@ -99,7 +107,7 @@ td:first-child {
   font-size: 8px;
   margin: 0 4px; }
 
-@media screen and (min-width: 900px) {
+@media screen {
   #cards {
     display: flex;
     flex-wrap: wrap; }
@@ -110,6 +118,7 @@ td:first-child {
   #roster {
     page-break-after: always; }
   .card {
+    float: left;
     page-break-inside: avoid; } }
 
 					<!-- endinject -->
@@ -157,7 +166,7 @@ td:first-child {
     <!-- Unit -->
     <div>
         <table>
-            <tr>
+            <tr class="stat-line">
                 <th>Name</th>
                 <th>M</th>
                 <th>WS</th>
@@ -218,12 +227,12 @@ td:first-child {
         <table>
             <tr class="stat-line">
                 <th>Weapon</th>
-                <th style="width:10%;">Range</th>
-                <th style="width:10%;">Type</th>
+                <th>Range</th>
+                <th>Type</th>
                 <th>S</th>
                 <th>AP</th>
                 <th>D</th>
-                <th>Abilities</th>
+                <th class="ability">Abilities</th>
             </tr>
             <xsl:for-each select="bs:selections/bs:selection">
                 <xsl:if test="not(contains($specialisms, @name))">
