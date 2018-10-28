@@ -32,7 +32,6 @@ td {
 td:first-child {
   text-align: left;
   padding-left: 3px;
-  width: 20%;
 }
 
 #roster-title {
@@ -77,13 +76,21 @@ td:first-child {
   border: 1px solid #CCCCCC;
 }
 
+.card td:first-child {
+  width: 20%;
+}
+
 #name {
   font-size: $text-medium;
   margin: 0 2px;
 }
 
-.stat-line th, td {
-  width: 10px;
+.stat-line th:first-child {
+  width: 20%
+}
+
+.stat-line th:not(:first-child) {
+  width: calc(80% / 9);
 }
 
 .specialism {
@@ -96,7 +103,11 @@ td:first-child {
   font-weight: bold;
 }
 
-.ability {
+th.ability, td.ability {
+  width: 100%
+}
+
+td.ability{
   font-size: $text-xsmall;
 }
 
@@ -113,7 +124,7 @@ td:first-child {
   margin: 0 4px;
 }
 
-@media screen and (min-width: 900px) {
+@media screen {
   #cards {
     display: flex;
     flex-wrap: wrap;
@@ -128,6 +139,7 @@ td:first-child {
     page-break-after: always;
   }
   .card {
+    float: left;
     page-break-inside: avoid;
   }
 

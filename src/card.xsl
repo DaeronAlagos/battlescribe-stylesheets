@@ -31,7 +31,7 @@
     <!-- Unit -->
     <div>
         <table>
-            <tr>
+            <tr class="stat-line">
                 <th>Name</th>
                 <th>M</th>
                 <th>WS</th>
@@ -92,12 +92,12 @@
         <table>
             <tr class="stat-line">
                 <th>Weapon</th>
-                <th style="width:10%;">Range</th>
-                <th style="width:10%;">Type</th>
+                <th>Range</th>
+                <th>Type</th>
                 <th>S</th>
                 <th>AP</th>
                 <th>D</th>
-                <th>Abilities</th>
+                <th class="ability">Abilities</th>
             </tr>
             <xsl:for-each select="bs:selections/bs:selection">
                 <xsl:if test="not(contains($specialisms, @name))">
