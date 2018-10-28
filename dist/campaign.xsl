@@ -78,11 +78,17 @@ td:first-child {
   font-size: 9px;
   margin: 0 2px; }
 
-.stat-line th:first-child {
+.unit-line th:first-child {
   width: 20%; }
 
-.stat-line th:not(:first-child) {
-  width: calc(80% / 9); }
+.unit-line th:not(:first-child) {
+  width: 8%; }
+
+.weapon-line th:first-child {
+  width: 21%; }
+
+.weapon-line th:not(:first-child) {
+  width: 9%; }
 
 .specialism {
   font-size: 9px; }
@@ -93,7 +99,7 @@ td:first-child {
   font-weight: bold; }
 
 th.ability, td.ability {
-  width: 100%; }
+  width: 99%; }
 
 td.ability {
   font-size: 7px; }
@@ -351,7 +357,7 @@ td.ability {
     <!-- Unit -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="unit-line">
                 <th>Name</th>
                 <th>M</th>
                 <th>WS</th>
@@ -410,7 +416,7 @@ td.ability {
     <!-- Weapons -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="weapon-line">
                 <th>Weapon</th>
                 <th>Range</th>
                 <th>Type</th>
@@ -424,7 +430,7 @@ td.ability {
                     <xsl:choose>
                         <xsl:when test="bs:profiles/bs:profile">
                             <xsl:for-each select="bs:profiles/bs:profile">
-                                <tr class="stat-line">
+                                <tr>
                                     <td>
                                         <xsl:value-of select="@name"/>
                                     </td>
@@ -657,6 +663,7 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
+<!--
 <xsl:if test="bs:customNotes">
 <div style="height: document.getElementsByClassName('card').previousElementSibling">
     <div>
@@ -670,6 +677,7 @@ td.ability {
 </div>
 <br/>
 </xsl:if>
+-->
         <!-- /Card Back -->
                                 <!-- endinject -->
 							</xsl:when>
@@ -710,7 +718,7 @@ td.ability {
     <!-- Unit -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="unit-line">
                 <th>Name</th>
                 <th>M</th>
                 <th>WS</th>
@@ -769,7 +777,7 @@ td.ability {
     <!-- Weapons -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="weapon-line">
                 <th>Weapon</th>
                 <th>Range</th>
                 <th>Type</th>
@@ -783,7 +791,7 @@ td.ability {
                     <xsl:choose>
                         <xsl:when test="bs:profiles/bs:profile">
                             <xsl:for-each select="bs:profiles/bs:profile">
-                                <tr class="stat-line">
+                                <tr>
                                     <td>
                                         <xsl:value-of select="@name"/>
                                     </td>
@@ -1016,6 +1024,7 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
+<!--
 <xsl:if test="bs:customNotes">
 <div style="height: document.getElementsByClassName('card').previousElementSibling">
     <div>
@@ -1029,6 +1038,7 @@ td.ability {
 </div>
 <br/>
 </xsl:if>
+-->
         <!-- /Card Back -->
                                     <!-- endinject -->
 									</xsl:if>
@@ -1037,7 +1047,7 @@ td.ability {
 							<xsl:when test="@name='Show Tactics'">
 								<!-- inject:src/tactics.xsl -->
                                 								<div class="card">
-									<div>Tactics</div>
+									<div style="padding-left: 3px;">Tactics</div>
 									<table>
 										<th>Name</th>
 										<th>Description</th>
