@@ -85,12 +85,20 @@ td:first-child {
   margin: 0 2px;
 }
 
-.stat-line th:first-child {
+.unit-line th:first-child {
   width: 20%
 }
 
-.stat-line th:not(:first-child) {
-  width: calc(80% / 9);
+.unit-line th:not(:first-child) {
+  width: 8%;
+}
+
+.weapon-line th:first-child {
+  width: 21%;
+}
+
+.weapon-line th:not(:first-child) {
+  width: 9%;
 }
 
 .specialism {
@@ -104,7 +112,7 @@ td:first-child {
 }
 
 th.ability, td.ability {
-  width: 100%
+  width: 99%
 }
 
 td.ability{
@@ -142,5 +150,4 @@ td.ability{
     float: left;
     page-break-inside: avoid;
   }
-
 }

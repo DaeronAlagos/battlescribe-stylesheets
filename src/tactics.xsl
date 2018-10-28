@@ -1,5 +1,5 @@
 								<div class="card">
-									<div>Tactics</div>
+									<div style="padding-left: 3px;">Tactics</div>
 									<table>
 										<th>Name</th>
 										<th>Description</th>

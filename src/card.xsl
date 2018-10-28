@@ -31,7 +31,7 @@
     <!-- Unit -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="unit-line">
                 <th>Name</th>
                 <th>M</th>
                 <th>WS</th>
@@ -90,7 +90,7 @@
     <!-- Weapons -->
     <div>
         <table>
-            <tr class="stat-line">
+            <tr class="weapon-line">
                 <th>Weapon</th>
                 <th>Range</th>
                 <th>Type</th>
@@ -104,7 +104,7 @@
                     <xsl:choose>
                         <xsl:when test="bs:profiles/bs:profile">
                             <xsl:for-each select="bs:profiles/bs:profile">
-                                <tr class="stat-line">
+                                <tr>
                                     <td>
                                         <xsl:value-of select="@name"/>
                                     </td>
@@ -337,6 +337,7 @@
         <!-- /Card Front -->
 
         <!-- Card Back -->
+<!--
 <xsl:if test="bs:customNotes">
 <div style="height: document.getElementsByClassName('card').previousElementSibling">
     <div>
@@ -350,4 +351,5 @@
 </div>
 <br/>
 </xsl:if>
+-->
         <!-- /Card Back -->
