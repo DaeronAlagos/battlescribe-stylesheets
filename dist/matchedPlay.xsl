@@ -478,21 +478,21 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
-<!--
-<xsl:if test="bs:customNotes">
-<div style="height: document.getElementsByClassName('card').previousElementSibling">
-    <div>
-        <div>
-            <div>History</div>
+        <!--
+        <xsl:if test="bs:customNotes">
+        <div style="height: document.getElementsByClassName('card').previousElementSibling">
             <div>
-                <xsl:value-of select="bs:customNotes"/>
+                <div>
+                    <div>History</div>
+                    <div>
+                        <xsl:value-of select="bs:customNotes"/>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<br/>
-</xsl:if>
--->
+        <br/>
+        </xsl:if>
+        -->
         <!-- /Card Back -->
                                 <!-- endinject -->
 							</xsl:when>
