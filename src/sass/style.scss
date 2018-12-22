@@ -101,14 +101,15 @@ td:first-child {
   width: 9%;
 }
 
-.specialism {
-  font-size: $text-medium;
+.abilities-heading {
+  font-size: $text-small;
+  padding: 0 4px;
+  font-weight: bold;
+  margin: 2px 0;
 }
 
-.abilities-heading {
-  font-size: $text-medium;
-  padding: 0 3px;
-  font-weight: bold;
+.specialism {
+  font-weight: normal;
 }
 
 th.ability, td.ability {
@@ -120,7 +121,7 @@ td.ability{
 }
 
 .cp-cost {
-  width: 5%;
+  min-width: 25px;
 }
 
 #experience {
