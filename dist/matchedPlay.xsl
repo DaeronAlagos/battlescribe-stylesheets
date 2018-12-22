@@ -89,13 +89,14 @@ td:first-child {
 .weapon-line th:not(:first-child) {
   width: 9%; }
 
-.specialism {
-  font-size: 9px; }
-
 .abilities-heading {
-  font-size: 9px;
-  padding: 0 3px;
-  font-weight: bold; }
+  font-size: 8px;
+  padding: 0 4px;
+  font-weight: bold;
+  margin: 2px 0; }
+
+.specialism {
+  font-weight: normal; }
 
 th.ability, td.ability {
   width: 99%; }
@@ -104,7 +105,7 @@ td.ability {
   font-size: 7px; }
 
 .cp-cost {
-  width: 5%; }
+  min-width: 25px; }
 
 #experience {
   margin: auto auto 0 auto; }
@@ -354,7 +355,7 @@ td.ability {
 
     <!-- Abilities -->
     <div>
-        <span class="abilities-heading">Abilities:</span>
+        <div class="abilities-heading">Abilities:</div>
         <table>
             <xsl:for-each select="bs:profiles/bs:profile">
                 <xsl:if test="@profileTypeName='Ability'">
@@ -386,10 +387,12 @@ td.ability {
     <div>
         <xsl:for-each select="bs:selections/bs:selection">
             <xsl:if test="contains($specialisms, @name)">
-                <span class="abilities-heading">Specialism:</span>
-                <span class="specialism">
-                    <xsl:value-of select="@name"/>
-                </span>
+                <div class="abilities-heading">
+                    Specialism:
+                    <span class="specialism">
+                        <xsl:value-of select="@name"/>
+                    </span>
+                </div>
                 <table>
                     <xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
                         <xsl:if test="@profileTypeName='Ability'">
@@ -404,29 +407,43 @@ td.ability {
                         </xsl:if>
                     </xsl:for-each>
                 </table>
-                <span class="abilities-heading">Tactics:</span>
-                <table>
-                    <xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile">
-                        <xsl:if test="not(@profileTypeName='Ability')">
-                            <tr>
-                                <td>
-                                    <xsl:value-of select="@name"/>
-                                </td>
-                                <td class="ability">
-                                    <xsl:value-of
-                                            select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                </td>
-                                <td class="cp-cost">
-                                    <xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
-                                    CP
-                                </td>
-                            </tr>
-                        </xsl:if>
-                    </xsl:for-each>
-                </table>
+
             </xsl:if>
         </xsl:for-each>
     </div>
+    <!-- /Specialism-->
+
+    <!-- Tactics-->
+    <xsl:for-each select="bs:selections/bs:selection">
+        <xsl:if test="contains($specialisms, @name)">
+            <div>
+                <div class="abilities-heading">
+                    Tactics:
+                </div>
+                <table>
+                    <xsl:for-each select="bs:selections/bs:selection">
+                        <xsl:for-each select="bs:profiles/bs:profile">
+                            <xsl:if test="not(@profileTypeName='Ability')">
+                                <tr>
+                                    <td>
+                                        <xsl:value-of select="@name"/>
+                                    </td>
+                                    <td class="ability">
+                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                                    </td>
+                                    <td class="cp-cost">
+                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
+                                        CP
+                                    </td>
+                                </tr>
+                            </xsl:if>
+                        </xsl:for-each>
+                    </xsl:for-each>
+                </table>
+            </div>
+        </xsl:if>
+    </xsl:for-each>
+    <!-- /Tactics-->
 
     <!-- Fire Team Advances -->
     <div>
@@ -478,21 +495,21 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
-        <!--
-        <xsl:if test="bs:customNotes">
-        <div style="height: document.getElementsByClassName('card').previousElementSibling">
+<!--
+<xsl:if test="bs:customNotes">
+<div style="height: document.getElementsByClassName('card').previousElementSibling">
+    <div>
+        <div>
+            <div>History</div>
             <div>
-                <div>
-                    <div>History</div>
-                    <div>
-                        <xsl:value-of select="bs:customNotes"/>
-                    </div>
-                </div>
+                <xsl:value-of select="bs:customNotes"/>
             </div>
         </div>
-        <br/>
-        </xsl:if>
-        -->
+    </div>
+</div>
+<br/>
+</xsl:if>
+-->
         <!-- /Card Back -->
                                 <!-- endinject -->
 							</xsl:when>
