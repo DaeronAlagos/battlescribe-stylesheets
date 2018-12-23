@@ -49,6 +49,15 @@ td:first-child {
   font-size: $text-large;
 }
 
+.resources {
+  text-align: left;
+  padding: 3px;
+}
+
+.resources-value {
+  float: right;
+}
+
 #roster-units th, #roster-units td {
   font-size: $text-medium;
 }
