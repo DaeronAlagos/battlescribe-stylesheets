@@ -458,30 +458,29 @@ td.ability {
     <div>
         <xsl:for-each select="../../bs:selections/bs:selection">
             <xsl:if test="@type='upgrade'">
-                <xsl:if test="../../@type='unit'">
-                    <span class="abilities-heading">Advances:</span>
+                <div>
+                    <xsl:if test="../../@type='unit'">
+                        <div class="abilities-heading">Advances:</div>
+                    </xsl:if>
+                    <table>
+                        <xsl:for-each select="bs:selections/bs:selection">
+                            <xsl:if test="contains($advances, @name)">
+                                <xsl:for-each select="bs:profiles/bs:profile">
+                                    <tr>
+                                        <td>
+                                            <xsl:value-of select="@name"/>
+                                        </td>
+                                        <td>
+                                            <xsl:value-of
+                                                    select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                                        </td>
+                                    </tr>
+                                </xsl:for-each>
 
-                </xsl:if>
-                <table>
-
-                    <xsl:for-each select="bs:selections/bs:selection">
-                        <xsl:if test="contains($advances, @name)">
-                            <xsl:for-each select="bs:profiles/bs:profile">
-                                <tr>
-                                    <td>
-                                        <xsl:value-of select="@name"/>
-                                    </td>
-                                    <td>
-                                        <xsl:value-of
-                                                select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                    </td>
-                                </tr>
-                            </xsl:for-each>
-
-                        </xsl:if>
-                    </xsl:for-each>
-                </table>
-
+                            </xsl:if>
+                        </xsl:for-each>
+                    </table>
+                </div>
             </xsl:if>
         </xsl:for-each>
     </div>
