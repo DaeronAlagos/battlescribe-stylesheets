@@ -416,31 +416,33 @@ td.ability {
     <!-- Tactics-->
     <xsl:for-each select="bs:selections/bs:selection">
         <xsl:if test="contains($specialisms, @name)">
-            <div>
-                <div class="abilities-heading">
-                    Tactics:
-                </div>
-                <table>
-                    <xsl:for-each select="bs:selections/bs:selection">
-                        <xsl:for-each select="bs:profiles/bs:profile">
-                            <xsl:if test="not(@profileTypeName='Ability')">
-                                <tr>
-                                    <td>
-                                        <xsl:value-of select="@name"/>
-                                    </td>
-                                    <td class="ability">
-                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
-                                    </td>
-                                    <td class="cp-cost">
-                                        <xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
-                                        CP
-                                    </td>
-                                </tr>
-                            </xsl:if>
+            <xsl:if test="not(bs:selections/bs:selection/bs:profiles/bs:profile[@profileTypeName='Ability'])">
+                <div>
+                    <div class="abilities-heading">
+                        Tactics:
+                    </div>
+                    <table>
+                        <xsl:for-each select="bs:selections/bs:selection">
+                            <xsl:for-each select="bs:profiles/bs:profile">
+                                <xsl:if test="not(@profileTypeName='Ability')">
+                                    <tr>
+                                        <td>
+                                            <xsl:value-of select="@name"/>
+                                        </td>
+                                        <td class="ability">
+                                            <xsl:value-of select="bs:characteristics/bs:characteristic[@name='Description']/@value"/>
+                                        </td>
+                                        <td class="cp-cost">
+                                            <xsl:value-of select="bs:characteristics/bs:characteristic[@name='CP']/@value"/>
+                                            CP
+                                        </td>
+                                    </tr>
+                                </xsl:if>
+                            </xsl:for-each>
                         </xsl:for-each>
-                    </xsl:for-each>
-                </table>
-            </div>
+                    </table>
+                </div>
+            </xsl:if>
         </xsl:if>
     </xsl:for-each>
     <!-- /Tactics-->
