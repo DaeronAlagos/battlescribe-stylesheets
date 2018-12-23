@@ -49,6 +49,13 @@ td:first-child {
 #roster-resources th, #roster-resources td {
   font-size: 12px; }
 
+.resources {
+  text-align: left;
+  padding: 3px; }
+
+.resources-value {
+  float: right; }
+
 #roster-units th, #roster-units td {
   font-size: 9px; }
 
@@ -155,8 +162,9 @@ td.ability {
                 <td>
                     <xsl:value-of select="@catalogueName"/>
                 </td>
-                <td>Intelligence
-                    <span>
+                <td class="resources">
+                    Intelligence
+                    <span class="resources-value">
                         <xsl:choose>
                             <xsl:when test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']">
                                 <xsl:value-of
@@ -164,7 +172,7 @@ td.ability {
                             </xsl:when>
                             <xsl:otherwise>
                                 <xsl:value-of
-                                        select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Intelligence']"/>
+                                        select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Intelligence']/@number"/>
                             </xsl:otherwise>
                         </xsl:choose>
                     </span>
@@ -175,18 +183,21 @@ td.ability {
             <tr>
                 <td class="roster-cell-heading">Mission</td>
                 <td></td>
-                <td>Materiel
-                    <xsl:choose>
-                        <xsl:when
-                                test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Material']">
-                            <xsl:value-of
-                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Materiel']/@number"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of
-                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                <td class="resources">
+                    Materiel
+                    <span class="resources-value">
+                        <xsl:choose>
+                            <xsl:when
+                                    test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']">
+                                <xsl:value-of
+                                        select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Materiel']/@number"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of
+                                        select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Materiel']/@number"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </span>
                 </td>
                 <td></td>
                 <td></td>
@@ -194,18 +205,21 @@ td.ability {
             <tr>
                 <td class="roster-cell-heading">Background</td>
                 <td></td>
-                <td>Morale
-                    <xsl:choose>
-                        <xsl:when
-                                test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Morale']">
-                            <xsl:value-of
-                                select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Morale']/@number"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of
-                                select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                <td class="resources">
+                    Morale
+                    <span class="resources-value">
+                        <xsl:choose>
+                            <xsl:when
+                                    test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']">
+                                <xsl:value-of
+                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Morale']/@number"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of
+                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Morale']/@number"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </span>
                 </td>
                 <td></td>
                 <td></td>
@@ -213,18 +227,21 @@ td.ability {
             <tr>
                 <td class="roster-cell-heading">Squad Quirk</td>
                 <td></td>
-                <td>Territory
-                    <xsl:choose>
-                        <xsl:when
-                                test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Territory']">
-                            <xsl:value-of
-                                select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Territory']/@number"/>
-                        </xsl:when>
-                        <xsl:otherwise>
-                            <xsl:value-of
-                                select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number"/>
-                        </xsl:otherwise>
-                    </xsl:choose>
+                <td class="resources">
+                    Territory
+                    <span class="resources-value">
+                        <xsl:choose>
+                            <xsl:when
+                                    test="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']">
+                                <xsl:value-of
+                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='Territory']/@number"/>
+                            </xsl:when>
+                            <xsl:otherwise>
+                                <xsl:value-of
+                                    select="bs:selections/bs:selection[@name='Resources']/bs:selections/bs:selection[@name='1x Territory']/@number"/>
+                            </xsl:otherwise>
+                        </xsl:choose>
+                    </span>
                 </td>
                 <td></td>
                 <td></td>
@@ -278,7 +295,7 @@ td.ability {
                             <td>
                                 <xsl:for-each select="bs:selections/bs:selection">
                                     <xsl:if test="not(contains($specialisms, @name))">
-                                        <xsl:value-of select="@name"/>
+                                        <span><xsl:value-of select="@name"/>, </span>
                                     </xsl:if>
                                 </xsl:for-each>
                             </td>
@@ -742,21 +759,21 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
-<!--
-<xsl:if test="bs:customNotes">
-<div style="height: document.getElementsByClassName('card').previousElementSibling">
-    <div>
-        <div>
-            <div>History</div>
+        <!--
+        <xsl:if test="bs:customNotes">
+        <div style="height: document.getElementsByClassName('card').previousElementSibling">
             <div>
-                <xsl:value-of select="bs:customNotes"/>
+                <div>
+                    <div>History</div>
+                    <div>
+                        <xsl:value-of select="bs:customNotes"/>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<br/>
-</xsl:if>
--->
+        <br/>
+        </xsl:if>
+        -->
         <!-- /Card Back -->
                                 <!-- endinject -->
 							</xsl:when>
@@ -1121,21 +1138,21 @@ td.ability {
         <!-- /Card Front -->
 
         <!-- Card Back -->
-<!--
-<xsl:if test="bs:customNotes">
-<div style="height: document.getElementsByClassName('card').previousElementSibling">
-    <div>
-        <div>
-            <div>History</div>
+        <!--
+        <xsl:if test="bs:customNotes">
+        <div style="height: document.getElementsByClassName('card').previousElementSibling">
             <div>
-                <xsl:value-of select="bs:customNotes"/>
+                <div>
+                    <div>History</div>
+                    <div>
+                        <xsl:value-of select="bs:customNotes"/>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<br/>
-</xsl:if>
--->
+        <br/>
+        </xsl:if>
+        -->
         <!-- /Card Back -->
                                     <!-- endinject -->
 									</xsl:if>
