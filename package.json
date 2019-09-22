@@ -1,0 +1,25 @@
+{
+  "name": "battlescribe-stylesheets",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaeronAlagos/battlescribe-stylesheets.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DaeronAlagos/battlescribe-stylesheets/issues"
+  },
+  "homepage": "https://github.com/DaeronAlagos/battlescribe-stylesheets#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-xslt": "^5.0.0"
+  }
+}
