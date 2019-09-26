@@ -22,6 +22,8 @@
     "browser-sync": "^2.26.7",
     "gulp": "^4.0.2",
     "gulp-rename": "^1.4.0",
-    "gulp-xslt": "^5.0.0"
+    "gulp-sass": "^4.0.2",
+    "gulp-xslt": "^5.0.0",
+    "node-sass": "^4.12.0"
   }
 }
