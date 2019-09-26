@@ -10,7 +10,11 @@
     <xsl:template match="bs:roster">
         <html>
             <head>
-                <meta></meta>
+                <style>
+                    <!-- inject:css/style.css -->
+					<!-- contents of html partials will be injected here -->
+					<!-- endinject -->
+                </style>
             </head>
             <body>
                 <div>
@@ -26,13 +30,13 @@
     </xsl:template>
 
     <xsl:template match="bs:selections/bs:selection[@type='model']">
-        <div>  <!-- CARD -->
+        <div class="card">  <!-- CARD -->
             <div> <!-- NAME -->
                 <div> <!-- CUSTOM NAME -->
                     <xsl:value-of select="@customName"/>
                 </div>
                 <div> <!-- POINTS -->
-
+                    <span>Points</span>
                 </div>
             </div>
             <div> <!-- UNIT -->
