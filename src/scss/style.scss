@@ -1,3 +1,19 @@
+table {
+  width: 100%;
+  font-size: 0.7em;
+  text-align: center;
+}
+
+th {
+  background-color: red;
+  &:first-child {
+    text-align: left;
+  }
+}
+
 .card {
-  background-color: beige;
+  width: 11.5cm;
+  height: 7.5cm;
+  background-color: #d8d8d8;
+  border-radius: 0.4em;
 }
