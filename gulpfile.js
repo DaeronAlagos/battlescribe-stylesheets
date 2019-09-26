@@ -2,11 +2,11 @@ const { watch, series, src, dest } = require('gulp')
 const browserSync = require('browser-sync').create()
 const xslt = require('gulp-xslt')
 const rename = require('gulp-rename')
-const scss = require('gulp-sass')
+const gulpSass = require('gulp-sass')
 
 function scss () {
     return src('src/scss/*.scss')
-        .pipe(sass().on('error', scss.logError))
+        .pipe(gulpSass().on('error', gulpSass.logError))
         .pipe(dest('src/css'))
 }
 
