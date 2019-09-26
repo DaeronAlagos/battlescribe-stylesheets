@@ -18,7 +18,8 @@ function htmlRename () {
 exports.default = () => {
     browserSync.init({
         server: {
-            baseDir: './'
+            baseDir: './build',
+            index: 'necrons-roster.html'
         }
     })
     watch('src/roster.xsl', series(transform, htmlRename))
