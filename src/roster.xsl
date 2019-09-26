@@ -36,25 +36,15 @@
                 </div>
             </div>
             <div> <!-- UNIT -->
-                <xsl:call-template name="characteristics"/>
+                <xsl:call-template name="unitCharacteristics">
+                    <xsl:with-param name="unit" select="bs:profiles/bs:profile[@typeName='Model']"/>
+                </xsl:call-template>
             </div>
             <div> <!-- WEAPONS -->
-                <table>
-                <tr>
-                    <th>Weapon</th>
-                    <th>Range</th>
-                    <th>Type</th>
-                    <th>S</th>
-                    <th>AP</th>
-                    <th>D</th>
-                    <th>Abilities</th>
-                </tr>
-                    <xsl:apply-templates select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-                </table>
+                <xsl:call-template name="weaponCharacteristics">
+                    <xsl:with-param name="weapon" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
+                </xsl:call-template>
             </div>
-            <!-- <div>
-                <xsl:apply-templates select="bs:selections/bs:selection"/>
-            </div> -->
             <div> <!-- ABILITIES -->
                 <xsl:apply-templates select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
                 <xsl:apply-templates select="bs:profiles/bs:profile[@typeName='Ability']"/>
@@ -62,19 +52,8 @@
         </div>
     </xsl:template>
 
-    <xsl:template match="bs:selections/bs:selection/bs:selections/bs:selection">
-        <xsl:if test="contains($specialisms, @name)">
-            <table>
-            <tr>
-                <td>Specialism: </td>
-                <td><xsl:value-of select="@name"/></td>
-            </tr>
-            </table>
-            <xsl:apply-templates select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Ability']"/>
-        </xsl:if>
-    </xsl:template>
-
-    <xsl:template name="characteristics">
+    <xsl:template name="unitCharacteristics">
+        <xsl:param name="unit"/>
         <table>
             <tr>
                 <th>Name</th>
@@ -90,7 +69,25 @@
             </tr>
             <tr>
                 <td><xsl:value-of select="@name"/></td>
-                <xsl:apply-templates select="bs:profiles/bs:profile[@typeName='Model']"/>
+                <xsl:apply-templates select="$unit"/>
+            </tr>
+        </table>
+    </xsl:template>
+
+    <xsl:template name="weaponCharacteristics">
+        <xsl:param name="weapon"/>
+        <table>
+            <tr>
+                <th>Weapon</th>
+                <th>Range</th>
+                <th>Type</th>
+                <th>S</th>
+                <th>AP</th>
+                <th>D</th>
+                <th>Abilities</th>
+            </tr>
+            <tr>
+                <xsl:apply-templates select="$weapon"/>        
             </tr>
         </table>
     </xsl:template>
@@ -101,17 +98,25 @@
         </td>
     </xsl:template>
 
+
+    <xsl:template match="bs:selections/bs:selection/bs:selections/bs:selection">
+        <xsl:if test="contains($specialisms, @name)">
+            <table>
+            <tr>
+                <td>Specialism: </td>
+                <td><xsl:value-of select="@name"/></td>
+            </tr>
+            </table>
+            <xsl:apply-templates select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Ability']"/>
+        </xsl:if>
+    </xsl:template>
+
     <xsl:template match="bs:profiles/bs:profile[@typeName='Model']">
         <xsl:apply-templates select="bs:characteristics/bs:characteristic"/>
     </xsl:template>
 
-    <xsl:template match="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']">
-        <tr>
-            <td>
-                <xsl:value-of select="@name"/>
-            </td>
-            <xsl:apply-templates select="bs:characteristics/bs:characteristic"/>
-        </tr>
+    <xsl:template match="bs:profiles/bs:profile[@typeName='Weapon']">
+        <xsl:apply-templates select="bs:characteristics/bs:characteristic"/>
     </xsl:template>
 
     <xsl:template match="bs:profiles/bs:profile[@typeName='Ability']">
