@@ -3,6 +3,7 @@
                 xmlns:bs="http://www.battlescribe.net/schema/rosterSchema" 
                 xmlns:exslt="http://exslt.org/common" 
                 extension-element-prefixes="exslt">
+    <xsl:output method="html" indent="yes"/>
 
     <xsl:variable name="specialisms" select="'Leader|Combat|Zealot|Demolitions|Comms|Veteran|Scout|Heavy|Medic|Sniper|Strength|Strategist'"/>
     <xsl:variable name="advances" select="'1. Fleet|2. Lucky|3. Courageous|4. Skilled|5. Lethal|6. Die-hard'"/>
