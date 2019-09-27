@@ -14,8 +14,22 @@ function scss () {
 }
 
 function inject () {
-    return src('src/roster.xsl')
+    return src('src/base.xsl')
         .pipe(gulpInject(src(['build/style.css']), {
+            starttag: '<!-- inject:{{path}} -->',
+            relative: true,
+            transform: (filePath, file) => {
+                return file.contents.toString('utf8')
+            }
+        }))
+        .pipe(gulpInject(src(['src/roster.xsl']), {
+            starttag: '<!-- inject:{{path}} -->',
+            relative: true,
+            transform: (filePath, file) => {
+                return file.contents.toString('utf8')
+            }
+        }))
+        .pipe(gulpInject(src(['src/card.xsl']), {
             starttag: '<!-- inject:{{path}} -->',
             relative: true,
             transform: (filePath, file) => {
