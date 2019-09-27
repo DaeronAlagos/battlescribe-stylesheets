@@ -11,7 +11,7 @@
         <html>
             <head>
                 <style>
-                    <!-- inject:css/style.css -->
+                    <!-- inject:../build/style.css -->
 					<!-- contents of html partials will be injected here -->
 					<!-- endinject -->
                 </style>
