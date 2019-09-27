@@ -1,54 +1,66 @@
-$card-width: 11.5cm;
-$card-height: 7.5cm;
-$card-padding: 0.1cm;
-$card-first-child: 2cm;
-$card-last-child: 3cm;
-
-
-@mixin calc($key, $value, $cols) {
-  #{$key}: calc((100% - #{$value}) / #{$cols})
-}
-
-table {
-  width: $card-width - $card-padding;
-  font-size: 1em;
-  text-align: center;
-}
+@import 'variables';
 
 th {
-  background-color: red;
-  &:first-child {
-    text-align: left;
-    min-width:2cm;
-    padding-left: 0.1cm;
-  }
+  background-color: $th-background-color;
+  padding: 2px;
 }
 
-td {
-  background-color: white;
-  padding: 0.05cm;
-  &:first-child {
-    text-align: left;
-    min-width: 2cm;
-    width: 2cm;
-    padding-left: 0.1cm;
+#page-heading {
+  font-size: 3em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+table.roster {
+  width: 100%;
+  background-color: $card-background-color;
+  & th {
+    width: (100% / 7);
+    font-size: 0.9em;
+  }
+  & td {
+    background-color: $td-background-color;
+    text-align: center;
+    font-size: 0.8em;
   }
 }
 
 .card {
   width: $card-width - $card-padding;
   height: $card-height - $card-padding;
-  background-color: #efefef;
+  background-color: $card-background-color;
   border-radius: 0.4em;
   padding: $card-padding;
   font-size: 0.7em;
-  border: 0.02cm solid #bbbbbb;
+  border: 0.02cm solid $card-border-color;
   & .header > div {
     display: inline-block;
     margin: 0 $card-padding;
   }
   & .header > div:last-child {
     float: right;
+  }
+  & table {
+    width: $card-width - $card-padding;
+    font-size: 1em;
+    text-align: center;
+  }
+  & th {
+    &:first-child {
+      text-align: left;
+      min-width:2cm;
+      padding-left: 0.1cm;
+    }
+  }
+  & td {
+    background-color: $td-background-color;
+    padding: 0.05cm;
+    &:first-child {
+      text-align: left;
+      min-width: 2cm;
+      width: 2cm;
+      padding-left: 0.1cm;
+    }
   }
 }
 
@@ -73,6 +85,22 @@ td {
   }
 }
 
-.page-heading {
-  font-size: 3em;
+@media screen {
+  #cards {
+    display: flex;
+    flex-wrap: wrap;
+    & .card {
+      margin: $card-padding;
+    }
+  }
+}
+
+@media print {
+  #roster {
+    page-break-after: always;
+  }
+  .card {
+    float: left;
+    page-break-inside: avoid;
+  }
 }
