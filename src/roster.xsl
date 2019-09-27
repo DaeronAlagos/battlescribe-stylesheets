@@ -17,9 +17,6 @@
                 </style>
             </head>
             <body>
-                <div>
-                    <xsl:value-of select="@name"/>
-                </div>
                 <xsl:apply-templates select="bs:forces/bs:force"/>
             </body>
         </html>
@@ -128,23 +125,23 @@
             <div>
                 <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
                 <xsl:if test="$specialism">
-                <table>
-                    <tr>
-                        <td>Specialism</td>
-                        <td><xsl:value-of select="$specialism/@name"/></td>
-                    </tr>
-                </table>
-                <table>
-                    <tr>
-                        <td>
-                            <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
-                        </td>
-                        <td>
-                            <xsl:apply-templates select="$specialism" mode="body"/>
-                            <!-- <xsl:value-of select="$specialism"/>                         -->
-                        </td>
-                    </tr>
-                </table>
+                    <table>
+                        <tr>
+                            <td>Specialism</td>
+                            <td><xsl:value-of select="$specialism/@name"/></td>
+                        </tr>
+                    </table>
+                    <table>
+                        <tr>
+                            <td>
+                                <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
+                            </td>
+                            <td>
+                                <xsl:apply-templates select="$specialism" mode="body"/>
+                                <!-- <xsl:value-of select="$specialism"/>                         -->
+                            </td>
+                        </tr>
+                    </table>
                 </xsl:if>
                 
             </div>
