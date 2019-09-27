@@ -4,7 +4,7 @@
             <div id="page-heading">command roster</div>
             <hr/>
         </section>
-        <section>
+        <section id="roster">
             <table class="roster">
                 <tr>
                     <th>Name</th>
