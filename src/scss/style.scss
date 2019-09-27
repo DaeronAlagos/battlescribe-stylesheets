@@ -1,6 +1,17 @@
+$card-width: 11.5cm;
+$card-height: 7.5cm;
+$card-padding: 0.1cm;
+$card-first-child: 2cm;
+$card-last-child: 3cm;
+
+
+@mixin calc($key, $value, $cols) {
+  #{$key}: calc((100% - #{$value}) / #{$cols})
+}
+
 table {
-  width: 100%;
-  font-size: 0.7em;
+  width: $card-width - $card-padding;
+  font-size: 1em;
   text-align: center;
 }
 
@@ -8,12 +19,60 @@ th {
   background-color: red;
   &:first-child {
     text-align: left;
+    min-width:2cm;
+    padding-left: 0.1cm;
+  }
+}
+
+td {
+  background-color: white;
+  padding: 0.05cm;
+  &:first-child {
+    text-align: left;
+    min-width: 2cm;
+    width: 2cm;
+    padding-left: 0.1cm;
   }
 }
 
 .card {
-  width: 11.5cm;
-  height: 7.5cm;
-  background-color: #d8d8d8;
+  width: $card-width - $card-padding;
+  height: $card-height - $card-padding;
+  background-color: #efefef;
   border-radius: 0.4em;
+  padding: $card-padding;
+  font-size: 0.7em;
+  border: 0.02cm solid #bbbbbb;
+  & .header > div {
+    display: inline-block;
+    margin: 0 $card-padding;
+  }
+  & .header > div:last-child {
+    float: right;
+  }
+}
+
+.unit {
+  & th, td {
+    &:not(:first-child) {
+      width: (($card-width - ($card-padding * 2) - $card-first-child) / 10)
+    }
+  }
+}
+
+.weapons {
+  & th, td {
+    &:not(:first-child):not(:last-child) {
+      width: (($card-width - ($card-padding * 2) - $card-first-child - $card-last-child) / 5)
+    }
+  }
+  & th, td {
+    &:last-child {
+      min-width: $card-last-child;
+    }
+  }
+}
+
+.page-heading {
+  font-size: 3em;
 }
