@@ -1,10 +1,13 @@
 const { watch, series, src, dest, task } = require('gulp')
+const args = require('yargs').argv
 const browserSync = require('browser-sync').create()
 const xslt = require('gulp-xslt')
 const rename = require('gulp-rename')
 const sass = require('gulp-sass')
 const gulpInject = require('gulp-inject')
 const autoprefixer = require('gulp-autoprefixer')
+
+const fileName = args.bsfile
 
 function scss () {
     return src('src/scss/*.scss')
@@ -40,25 +43,32 @@ function inject () {
 }
 
 function xsltransform () {
-    return src('data/necrons-roster.xml')
-        .pipe(xslt('build/roster.xsl', {}))
+    return src(`data/${fileName}.xml`)
+        .pipe(xslt('build/base.xsl', {}))
         .pipe(dest('build/'))
 }
 
 function htmlRename () {
-    return src('build/necrons-roster.xml')
-        .pipe(rename('build/necrons-roster.html'))
+    return src(`build/${fileName}.xml`)
+        .pipe(rename(`build/${fileName}.html`))
         .pipe(dest('./'))
+}
+
+function copyResult () {
+    return src('build/base.xsl')
+        .pipe(rename('stylesheet.xsl'))
+        .pipe(dest('dist'))
 }
 
 exports.default = () => {
     browserSync.init({
         server: {
             baseDir: './build',
-            index: 'necrons-roster.html'
-        }
+            index: `${fileName}.html`
+        },
+        reloadDelay: 2000
     })
-    watch(['src/scss/*.scss', 'src/roster.xsl'], series(scss, inject, xsltransform, htmlRename))
+    watch(['src/scss/*.scss', 'src/*.xsl'], series(scss, inject, xsltransform, htmlRename, copyResult))
     watch('build/*.html').on('change', browserSync.reload)
 }
 exports.scss = scss
