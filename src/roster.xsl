@@ -50,7 +50,7 @@
         </xsl:variable>
         <xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
         <div class="card">  <!-- CARD -->
-            <div> <!-- NAME -->
+            <div class="header"> <!-- NAME -->
                 <div> <!-- CUSTOM NAME -->
                     <xsl:value-of select="@customName"/>
                 </div>
@@ -60,7 +60,7 @@
             </div>
             <div> <!-- UNIT -->
                 <xsl:variable name="models" select="bs:profiles/bs:profile[@typeName='Model']"></xsl:variable>
-                <table>
+                <table class="unit">
                     <tr>
                         <th>
                             Name
@@ -77,7 +77,7 @@
             </div>
             <div> <!-- WEAPONS -->
                 <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-                <table>
+                <table class="weapons">
                     <tr>
                         <xsl:for-each select="$weapons[1]">
                             <th>
