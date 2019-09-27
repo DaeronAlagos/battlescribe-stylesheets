@@ -26,9 +26,25 @@
     </xsl:template>
 
     <xsl:template match="bs:forces/bs:force">
+        <xsl:apply-templates select="bs:selections/bs:selection[@name='List Configuration']/bs:selections/bs:selection"/>
         <xsl:apply-templates select="bs:selections/bs:selection[@type='model']"/>
     </xsl:template>
 
+    <xsl:template match="bs:selections/bs:selection[@name='List Configuration']/bs:selections/bs:selection">
+
+        <xsl:if test="contains(@name, 'Command Roster')">
+            <div>
+                <section>
+                    <div id="page-heading">command roster</div>
+                    <hr/>
+                </section>
+                <section>
+                    
+                
+                </section>
+            </div>
+        </xsl:if>
+    </xsl:template>
     <xsl:template match="bs:selections/bs:selection[@type='model']">
         <xsl:variable name="nodePoints">
             <xsl:for-each select="bs:selections/bs:selection">
