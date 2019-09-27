@@ -73,3 +73,4 @@ exports.default = () => {
 }
 exports.scss = scss
 exports.inject = inject
+exports.build = series(scss, inject, xsltransform, htmlRename, copyResult)
