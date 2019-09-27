@@ -111,6 +111,7 @@
             </div>
             <div>
                 <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
+                <xsl:if test="$specialism">
                 <table>
                     <tr>
                         <td>Specialism</td>
@@ -128,6 +129,7 @@
                         </td>
                     </tr>
                 </table>
+                
             </div>
         </div>
     </xsl:template>
