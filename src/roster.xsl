@@ -129,6 +129,7 @@
                         </td>
                     </tr>
                 </table>
+                </xsl:if>
                 
             </div>
         </div>
