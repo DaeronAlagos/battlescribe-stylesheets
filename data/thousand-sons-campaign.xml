@@ -1,0 +1,1501 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="1499-2404-1f7f-d944" name="Thousand Sons Campaign" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="34" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="289.0"/>
+  </costs>
+  <forces>
+    <force id="d0c3-0490-a542-8a4d" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="7e0e-5010-f3b4-dc1d" catalogueRevision="10" catalogueName="Thousand Sons">
+      <rules>
+        <rule id="5d87-4bdc-700d-9fd0" name="Brotherhood of Psykers" hidden="false">
+          <description>When it is your turn to choose a PSYKER from your kill team to attempt to manifest psychic powers in this phase, you can choose up to two models from your kill team to do so. Resolve all of one model&apos;s attempts before choosing the next model. In addition, the ranges of all psychic powers manifested by models in your kill team are increased by 3&quot;.</description>
+        </rule>
+      </rules>
+      <selections>
+        <selection id="3bcf-c620-a371-51b8" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="caef-e48f-862d-341a" name="Campaign: Command Roster" entryId="5c5e-a332-5578-705f::f0cd-e1da-e4f1-6a32" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="5fd3-a65c-0ae2-2a72" name="List: Command Roster" entryId="d6e9-5af3-c17c-77a0" primary="false"/>
+                <category id="7878-41c8-69a3-4d28" name="Style: Campaign" entryId="7c0b-7da1-facd-d326" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a17a-4bb1-f467-a1e3" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="69ee-203e-83b9-1522" name="Resources" entryId="e434-af92-70de-fd2f::64a1-f2d5-7917-1155" number="1" type="upgrade">
+          <selections>
+            <selection id="a270-08f9-aa99-99b3" name="Intelligence" entryId="e434-af92-70de-fd2f::583d-37ae-8d18-795b" number="8" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ef45-95ff-419c-22aa" name="Materiel" entryId="e434-af92-70de-fd2f::a945-c8b1-dde2-12e5" number="8" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="70ae-74ea-912c-22ef" name="Morale" entryId="e434-af92-70de-fd2f::c4a8-a2e9-9895-270d" number="8" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5f4f-c35c-7d01-7e3c" name="Territory" entryId="e434-af92-70de-fd2f::4228-8ef6-a0d7-24fd" number="8" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="4ba1-f9d5-c5d3-bdac" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="05fd-3b9a-d473-c4b0" name="Twistbray" entryId="89a3-4372-520b-a3c4::87bf-3b79-0379-44e4" number="1" type="model">
+          <profiles>
+            <profile id="89a3-4372-520b-a3c4::0ba9-140f-a72d-0061" name="Twistbray" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="89a3-4372-520b-a3c4::5ccf-cb3c-b7f0-66f6::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="708d-b62e-55b4-c65b" name="Tzaangor blades" entryId="89a3-4372-520b-a3c4::8264-c928-2677-ae82::4f10-6ac7-bd58-0e23" entryGroupId="89a3-4372-520b-a3c4::6c12-9e20-7b50-d979" number="1" type="upgrade">
+              <profiles>
+                <profile id="89a3-4372-520b-a3c4::8264-c928-2677-ae82::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="947e-a4e8-da8b-74e0" name="Leader" entryId="89a3-4372-520b-a3c4::5346-e14c-3a31-6af8::145d-9c2c-559e-029e::2abd-70f4-e7e8-4d18" entryGroupId="89a3-4372-520b-a3c4::5346-e14c-3a31-6af8::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="6d77-a830-dda9-4f41" name="Level 1: Resourceful" entryId="89a3-4372-520b-a3c4::5346-e14c-3a31-6af8::145d-9c2c-559e-029e::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="89a3-4372-520b-a3c4::5346-e14c-3a31-6af8::145d-9c2c-559e-029e::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="19b6-8fea-a3be-0d10" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+          </costs>
+          <categories>
+            <category id="3162-a52f-a914-f3a6" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="c7e4-7567-bd9d-0d19" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="b48b-f27c-f8ef-aa6d" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="c8e5-b148-0931-ba41" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="0140-49b8-34fa-b0fa" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="cd0b-f1d8-665d-6f26" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+            <category id="8a67-f08f-2beb-e9dc" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="1d22-4f92-c624-b1bf" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2bb2-0df2-680f-fcc7" name="Aspiring Sorcerer" entryId="4fb8-efbc-ce4a-aebc::dc39-84a4-ecc2-9eab" number="1" type="model">
+          <profiles>
+            <profile id="4fb8-efbc-ce4a-aebc::80c7-188d-054d-07ff" name="Aspiring Sorcerer" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4fb8-efbc-ce4a-aebc::9f0f-1332-59a6-e3c7::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4fb8-efbc-ce4a-aebc::4e3c-8db8-630d-f4a8::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4fb8-efbc-ce4a-aebc::be34-2b32-20b7-f1a7::0ccb-fc7a-c73d-f467" name="Transhuman Physiology" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Ignore the penalty to this model&apos;s hit rolls from one flesh wound it has suffered.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="f686-7704-83e4-479e" name="Psybolt" entryId="4fb8-efbc-ce4a-aebc::ae06-74e0-996c-bec0::bb99-4086-e731-058e" number="1" type="upgrade">
+              <profiles>
+                <profile id="4fb8-efbc-ce4a-aebc::ae06-74e0-996c-bec0::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d36b-2337-d56e-288a" name="Force stave" entryId="4fb8-efbc-ce4a-aebc::0c89-ce5c-cfb6-b1cd::08da-47ce-4a28-97fa" number="1" type="upgrade">
+              <profiles>
+                <profile id="4fb8-efbc-ce4a-aebc::0c89-ce5c-cfb6-b1cd::3e88-d0ee-24c2-c2df" name="Force stave" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b8f5-e009-32a3-4251" name="Warpflame pistol" entryId="4fb8-efbc-ce4a-aebc::3bd6-5f4f-ea76-1369::7653-40b1-052a-1e9c" entryGroupId="4fb8-efbc-ce4a-aebc::daea-f551-9f9a-1da5" number="1" type="upgrade">
+              <profiles>
+                <profile id="4fb8-efbc-ce4a-aebc::3bd6-5f4f-ea76-1369::8cb9-c6fd-a7ef-26b5" name="Warpflame pistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon automatically hits its target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+              </costs>
+            </selection>
+            <selection id="2749-fa5d-8f94-2833" name="Veteran" entryId="4fb8-efbc-ce4a-aebc::1f4c-7c33-1c14-d09a::3708-0d49-bceb-49c2::c89e-5e73-276f-cc16" entryGroupId="4fb8-efbc-ce4a-aebc::1f4c-7c33-1c14-d09a::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="8362-6700-8721-9a19" name="Level 1: Grizzled" entryId="4fb8-efbc-ce4a-aebc::1f4c-7c33-1c14-d09a::3708-0d49-bceb-49c2::2b7e-30df-e559-be77" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="4fb8-efbc-ce4a-aebc::1f4c-7c33-1c14-d09a::3708-0d49-bceb-49c2::804c-4282-5c97-f5f7::57a0-c58a-4425-5d9d" name="Grizzled" publicationId="a467-5f42-pubN89361" page="76" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model ignores penalties to its Leadership characteristic and Nerve tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="3423-4221-14af-bcca" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="17.0"/>
+          </costs>
+          <categories>
+            <category id="0ba0-1818-d68e-a65e" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="6faa-2df3-7605-83cb" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="2401-aff5-23ae-b81d" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="f620-ecf7-41aa-0203" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="c450-2878-6248-b91e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="86b8-eb47-04c1-88a7" name="Psyker" entryId="9b50-1372-5ee7-b0d9" primary="false"/>
+            <category id="7585-a9d3-24f2-952f" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+            <category id="2a07-7d50-1b4f-035d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="8b9b-4485-3a7e-27b0" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7aa7-bed8-324b-a8b1" name="Rubric Marine Gunner" entryId="da55-4e03-72bb-e67b::a8ad-53cd-c639-802f" number="1" type="model">
+          <profiles>
+            <profile id="da55-4e03-72bb-e67b::27e8-8995-f400-6739" name="Rubric Marine Gunner" publicationId="7e0e-5010-pubN66856" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="da55-4e03-72bb-e67b::413d-5ab9-b0f8-dd84::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="da55-4e03-72bb-e67b::509b-ee6a-3163-eaef::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="da55-4e03-72bb-e67b::e258-dd04-1af5-1ed1::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="1add-4315-a5f8-4066" name="Demolitions" entryId="da55-4e03-72bb-e67b::7d2e-5b34-168f-aa0f::5260-c7f2-eae4-31d9::1933-2ec9-f5b1-5666" entryGroupId="da55-4e03-72bb-e67b::7d2e-5b34-168f-aa0f::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="af4d-50e2-ce57-0cbf" name="Level 1: Breacher" entryId="da55-4e03-72bb-e67b::7d2e-5b34-168f-aa0f::5260-c7f2-eae4-31d9::fd1c-53b4-e856-de6a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="da55-4e03-72bb-e67b::7d2e-5b34-168f-aa0f::5260-c7f2-eae4-31d9::b3c3-3354-744a-fc9d::ffe1-1e6b-e52b-9cc7" name="Breacher" publicationId="a467-5f42-pubN89361" page="71" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s wound rolls against targets that are obscured.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="3197-b34d-fdc7-0231" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="df03-c923-2339-933d" name="Soulreaper Cannon" entryId="da55-4e03-72bb-e67b::8d49-28ae-fea0-079d::7a06-d3e4-9911-fb57" entryGroupId="da55-4e03-72bb-e67b::8e3c-0822-8b41-068c" number="1" type="upgrade">
+              <profiles>
+                <profile id="da55-4e03-72bb-e67b::8d49-28ae-fea0-079d::5383-dfb5-cd07-89e7" name="Soulreaper Cannon" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy 4</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="4.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+          </costs>
+          <categories>
+            <category id="1733-1f9a-b45e-1a95" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="0ffb-25a2-0145-5111" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="149b-d4fd-07ec-44e2" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="8e10-e799-eba5-3f93" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="4625-53a4-d64e-5efe" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f3c5-ae90-8599-c725" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+            <category id="ad92-5df1-649b-5165" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="66fe-dd8e-ac75-8c6f" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e4a4-04ba-3e48-61c6" name="Tzaangor" entryId="82d5-dccf-e337-eab9::b38d-f559-8aaf-983a" number="1" type="model">
+          <profiles>
+            <profile id="82d5-dccf-e337-eab9::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82d5-dccf-e337-eab9::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4034-a769-4503-ca9d" name="Tzaangor blades" entryId="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="82d5-dccf-e337-eab9::9604-5e48-db01-2e90" number="1" type="upgrade">
+              <profiles>
+                <profile id="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="70cd-a811-1942-1f9f" name="Combat" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e2c4-0995-1ffd-ebd0::cc58-f869-82d1-b353" entryGroupId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="976d-f765-2675-825f" name="Level 1: Expert Fighter" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e2c4-0995-1ffd-ebd0::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e2c4-0995-1ffd-ebd0::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="0b88-2e19-17df-1093" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+          </costs>
+          <categories>
+            <category id="048f-66ad-5ebf-76bc" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="4857-d7fa-f332-7753" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="235e-6a24-a53a-ea78" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="9aa6-712b-5ed5-5985" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="da52-b80e-11cc-a375" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="ae22-6212-bfd9-f5f9" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+            <category id="ff71-4469-ab7d-426e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="3d1e-5b3c-eea3-9e54" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e87b-896f-4398-77c4" name="Tzaangor" entryId="82d5-dccf-e337-eab9::b38d-f559-8aaf-983a" number="1" type="model">
+          <profiles>
+            <profile id="82d5-dccf-e337-eab9::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82d5-dccf-e337-eab9::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="07f5-c013-0d1a-aeca" name="Tzaangor blades" entryId="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="82d5-dccf-e337-eab9::9604-5e48-db01-2e90" number="1" type="upgrade">
+              <profiles>
+                <profile id="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="68d0-7c09-ba34-c897" name="Brayhorn" entryId="82d5-dccf-e337-eab9::d889-5195-f5ed-2166::2291-2fec-e02f-2d2c" number="1" type="upgrade">
+              <profiles>
+                <profile id="82d5-dccf-e337-eab9::d889-5195-f5ed-2166::6eb5-7774-aad8-86c1" name="Brayhorn" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">Add 1 to Advance and charge rolls made for TZAANGORS within 6&quot; of any friendly models equipped with a brayhorn.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+              </costs>
+              <categories>
+                <category id="4725-c368-f3be-71c9" name="Brayhorn" entryId="4aae-c61b-8e1c-5558" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="8585-089f-961f-aeae" name="Comms" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e4d1-4b9b-0fd4-dba6::02a0-4107-4818-7c99" entryGroupId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="d44d-323c-bd1e-539b" name="Level 1: Scanner" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e4d1-4b9b-0fd4-dba6::91b5-71e4-b90e-3b34" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::e4d1-4b9b-0fd4-dba6::fe35-3bbe-31c6-22e3::fc51-0351-b8c9-fe7e" name="Scanner" publicationId="a467-5f42-pubN89361" page="70" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Once per Shooting phase, if this model is not shaken, when you pick another model from your kill team within 6&quot; of this model to shoot, you can add 1 to hit rolls for that model in this phase.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="1a1c-cbcd-e691-bba2" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+          </costs>
+          <categories>
+            <category id="7507-f79f-97bf-c888" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="1fb4-0fab-1a71-6b94" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="18ed-60a7-53a3-fe66" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="5ae7-e34e-2b4a-af92" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="dfcf-1df8-6564-3072" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9703-be1e-f0d7-9d35" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+            <category id="daca-4c74-c3af-0953" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="f840-e30c-7932-4d57" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="03f0-f9ca-0138-8fce" name="Tzaangor" entryId="82d5-dccf-e337-eab9::b38d-f559-8aaf-983a" number="1" type="model">
+          <profiles>
+            <profile id="82d5-dccf-e337-eab9::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="82d5-dccf-e337-eab9::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8353-5ffd-16b6-575f" name="Tzaangor blades" entryId="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="82d5-dccf-e337-eab9::9604-5e48-db01-2e90" number="1" type="upgrade">
+              <profiles>
+                <profile id="82d5-dccf-e337-eab9::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2a03-1445-0719-fc15" name="Zealot" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::1070-a232-588a-aec4::d2c4-34ca-f2cf-d2b2" entryGroupId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="6c17-6423-1554-45ca" name="Level 1: Frenzied" entryId="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::1070-a232-588a-aec4::1115-fada-66e5-715f" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="82d5-dccf-e337-eab9::d88a-7ed6-2598-478b::1070-a232-588a-aec4::bafa-b1f1-f42a-5322::f84b-7f78-4ca7-7c19" name="Frenzied" publicationId="a467-5f42-pubN89361" page="77" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s Attacks and Strength characteristics in a battle round in which they charged.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="2c90-f357-e609-e835" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+          </costs>
+          <categories>
+            <category id="890f-4daa-a576-bfbc" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="ebff-9061-7417-36ba" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="a275-4119-4a3d-810c" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="bc1f-9d3c-f7fd-e79e" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="7b29-9e4c-901b-fe6e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="a13f-3e36-57fc-4fc5" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+            <category id="3bdc-77f5-d9ed-4664" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="9be9-996e-fa9f-31fc" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1ab0-cdb5-4eac-283e" name="Scarab Occult Fire Team" entryId="c9f5-2909-11f2-5a37::5723-0324-2284-7b2f" number="1" type="unit">
+          <selections>
+            <selection id="670d-2f1b-6153-8ee2" name="Scarab Occult Gunner" entryId="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::98d4-51f3-1bfa-dc03" entryGroupId="c9f5-2909-11f2-5a37::b316-c1cf-a636-9d99" publicationId="701a-4a21-90a2-7618" number="1" type="model">
+              <profiles>
+                <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::d248-e35a-a726-3201" name="Scarab Occult Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">4&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">2+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::604d-8f5d-ecff-9f43::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::9f10-d78d-4cbb-aeb5::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::4c43-a6d7-4785-250c::a80f-e649-93df-2acd" name="Terminator Armour" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="6649-ef01-ad03-05d3" name="Power sword" entryId="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::c3a7-30f3-8149-40bf::d7d1-dabd-b1ff-ca88" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::c3a7-30f3-8149-40bf::1d40-3e06-c2c6-fb2b" name="Power sword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="0187-ad70-c141-76e6" name="Heavy warpflamer" entryId="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::d182-78cb-6f03-4489::c674-5b20-d1f8-9358" entryGroupId="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::e4ed-b9b1-79c4-901d" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::d182-78cb-6f03-4489::ece7-9b46-9598-9104" name="Heavy warpflamer" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy D6</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="ccf7-77ff-9668-6813" name="Hellfyre missile rack" entryId="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::9cf4-8c3c-36f2-9316::0caf-7311-bd02-b421" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::4ea7-ba35-598c-3122::9cf4-8c3c-36f2-9316::2078-f506-59ac-ca6e" name="Hellfyre missile rack" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy 2</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">8</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="4.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="33.0"/>
+              </costs>
+              <categories>
+                <category id="93fb-d886-4aea-647a" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="bff4-a246-6e5b-f93a" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="1cda-f541-ee45-5fa4" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="904e-398a-404b-79e5" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="c428-93db-6312-3b07" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="5aaf-2556-e7b1-699b" name="Terminator" entryId="1ec0-dd6e-9680-2288" publicationId="701a-4a21-90a2-7618" primary="false"/>
+                <category id="0021-dc4e-0d14-a0a8" name="Scarab Occult Terminator" entryId="7e7c-2072-7216-6e6a" primary="false"/>
+                <category id="3fc4-3e9e-15c0-fc67" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="f74e-bf60-0910-3cb0" name="Scarab Occult Sorcerer" entryId="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::6e3b-99e3-d2b7-7764" entryGroupId="c9f5-2909-11f2-5a37::b316-c1cf-a636-9d99" publicationId="701a-4a21-90a2-7618" number="1" type="model">
+              <profiles>
+                <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::f93d-29a6-f8f7-f49b" name="Scarab Occult Sorcerer" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">2+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::7c69-d9b5-c60b-9adb" name="Scarab Occult Sorcerer" hidden="false" typeId="201a-159a-7751-b85b" typeName="Psyker">
+                  <characteristics>
+                    <characteristic name="Manifest" typeId="998f-87b1-cc06-fb7e">1</characteristic>
+                    <characteristic name="Deny" typeId="cb14-ded3-0978-88b8">1</characteristic>
+                    <characteristic name="Powers known" typeId="67ce-9d6c-052c-d1eb">Psybolt</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::d15d-db6a-98f4-2f54::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::1604-2bed-e992-bd07::a80f-e649-93df-2acd" name="Terminator Armour" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::dfb9-29d2-8c6e-cb60::0ccb-fc7a-c73d-f467" name="Transhuman Physiology" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Ignore the penalty to this model&apos;s hit rolls from one flesh wound it has suffered.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="25d5-b113-e030-45d4" name="Force stave" entryId="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::e7bf-a309-8c77-e569::08da-47ce-4a28-97fa" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::e7bf-a309-8c77-e569::3e88-d0ee-24c2-c2df" name="Force stave" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="2b74-d686-6161-b89e" name="Psybolt" entryId="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::9710-8cae-8ecf-2c2e::bb99-4086-e731-058e" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::9710-8cae-8ecf-2c2e::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                      <characteristics>
+                        <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="499e-0c1a-0ef0-9a69" name="Inferno combi-bolter" entryId="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::0064-545c-5a29-47f4::f399-d7c7-855b-ecc1" entryGroupId="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::f4c4-7d73-c500-c40c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::d4ac-7f35-b2ee-27b0::0064-545c-5a29-47f4::e000-f9ce-8717-7164" name="Inferno combi-bolter" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 2</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="38.0"/>
+              </costs>
+              <categories>
+                <category id="a9cf-6a03-7dfb-6ee4" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="bd67-fc10-29cb-c6de" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="6eb1-17c2-79b6-b986" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="f700-64f0-b721-ba49" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="cc97-a3d0-cf5b-9ae1" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="42bd-5eef-8bec-15ca" name="Terminator" entryId="1ec0-dd6e-9680-2288" publicationId="701a-4a21-90a2-7618" primary="false"/>
+                <category id="f9c3-e68d-a0c4-cdf2" name="Scarab Occult Terminator" entryId="7e7c-2072-7216-6e6a" primary="false"/>
+                <category id="344b-3387-1ac7-84bd" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+                <category id="9288-9c04-1c44-5af4" name="Psyker" entryId="9b50-1372-5ee7-b0d9" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="80b8-9e04-acf8-6b71" name="Scarab Occult Terminator" entryId="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::a1e0-83e0-9e56-2842" entryGroupId="c9f5-2909-11f2-5a37::b316-c1cf-a636-9d99" publicationId="701a-4a21-90a2-7618" number="1" type="model">
+              <profiles>
+                <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::9579-9f0b-1bd3-3b1b" name="Scarab Occult Terminator" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">4&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">2+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::2ef9-ef69-2e13-c0e8::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::6040-072d-975a-6cdf::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::6a4e-4437-9810-2b97::a80f-e649-93df-2acd" name="Terminator Armour" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="b8c5-9747-5581-105a" name="Inferno combi-bolter" entryId="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::9c73-e50b-b325-5471::f399-d7c7-855b-ecc1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::9c73-e50b-b325-5471::e000-f9ce-8717-7164" name="Inferno combi-bolter" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 2</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="b162-9a41-d215-6883" name="Power sword" entryId="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::e1e8-46dd-1bd9-82a9::d7d1-dabd-b1ff-ca88" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::e1e8-46dd-1bd9-82a9::1d40-3e06-c2c6-fb2b" name="Power sword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+                <selection id="dc53-fbac-5762-307d" name="Hellfyre missile rack" entryId="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::42f2-7a2d-7473-734e::0caf-7311-bd02-b421" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c9f5-2909-11f2-5a37::0a23-754c-2753-0948::42f2-7a2d-7473-734e::2078-f506-59ac-ca6e" name="Hellfyre missile rack" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy 2</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">8</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="4.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="32.0"/>
+              </costs>
+              <categories>
+                <category id="08ee-935b-e60d-b6ba" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="0511-8f40-fcf9-b7e5" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="2c33-d097-b110-19f1" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="7af6-4c5a-5fab-9ece" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="879a-8363-c8bd-04ce" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="6fc2-5c89-9b43-83f5" name="Terminator" entryId="1ec0-dd6e-9680-2288" publicationId="701a-4a21-90a2-7618" primary="false"/>
+                <category id="72e5-4dd1-aa62-881c" name="Scarab Occult Terminator" entryId="7e7c-2072-7216-6e6a" primary="false"/>
+                <category id="3aad-75b8-d53c-062b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="6d25-1271-dd75-a103" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7e3c-fbd5-a956-ba54" name="Rubric Marine Fire Team" entryId="878b-e7e4-3179-af32::d63c-d18d-ce19-32b9" number="1" type="unit">
+          <selections>
+            <selection id="bdc4-fc02-e19b-8659" name="Rubric Marine" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::8f6f-6cd3-fe43-a89d" entryGroupId="878b-e7e4-3179-af32::0da6-3fff-4bd7-25b1" number="1" type="model">
+              <profiles>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ff7b-6569-c31e-bae6::9308-00c2-cb27-a403" name="Rubric Marine" publicationId="7e0e-5010-pubN66856" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2b55-6cc1-7735-d65a::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2d2f-a654-00e3-0ba5::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ef77-6241-7383-ca25::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="08f1-da57-9af0-ff90" name="Inferno boltgun" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9961-f6d7-221e-28e8::d2fc-dbe4-e4c5-7bbc" entryGroupId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9126-9da4-c928-b26b" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9961-f6d7-221e-28e8::b56c-33f3-e4e4-251f" name="Inferno Boltgun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+              </costs>
+              <categories>
+                <category id="9109-f558-fba3-ebeb" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="0084-e697-1350-af10" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="6e47-7482-a785-3ff5" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="969f-c706-262e-ecc4" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="dd79-419f-2be1-e8a1" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="3575-7111-73c8-894e" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+                <category id="d7bf-1214-be76-a51a" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="67ab-01f9-2f7f-067d" name="Rubric Marine" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::8f6f-6cd3-fe43-a89d" entryGroupId="878b-e7e4-3179-af32::0da6-3fff-4bd7-25b1" number="1" type="model">
+              <profiles>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ff7b-6569-c31e-bae6::9308-00c2-cb27-a403" name="Rubric Marine" publicationId="7e0e-5010-pubN66856" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2b55-6cc1-7735-d65a::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2d2f-a654-00e3-0ba5::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ef77-6241-7383-ca25::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="9b84-025e-0bf7-71ca" name="Inferno boltgun" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9961-f6d7-221e-28e8::d2fc-dbe4-e4c5-7bbc" entryGroupId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9126-9da4-c928-b26b" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9961-f6d7-221e-28e8::b56c-33f3-e4e4-251f" name="Inferno Boltgun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+              </costs>
+              <categories>
+                <category id="fd7c-c52b-6be8-8d6d" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="ca0f-4cc3-3914-b422" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="c399-8329-de58-25a3" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="5c31-e459-6b33-8836" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="2595-0e3a-b9ee-e638" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="c1ee-d6a8-5502-d510" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+                <category id="a181-0c6b-9c8c-7a40" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="e061-a9f9-e91c-94c5" name="Rubric Marine" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::8f6f-6cd3-fe43-a89d" entryGroupId="878b-e7e4-3179-af32::0da6-3fff-4bd7-25b1" number="1" type="model">
+              <profiles>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ff7b-6569-c31e-bae6::9308-00c2-cb27-a403" name="Rubric Marine" publicationId="7e0e-5010-pubN66856" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2b55-6cc1-7735-d65a::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::2d2f-a654-00e3-0ba5::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::ef77-6241-7383-ca25::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="6300-0ab0-416f-2789" name="Icon of Flame" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::84b2-ab43-f600-fa18::582f-be04-2670-df76" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::84b2-ab43-f600-fa18::ed36-3f95-0f29-bf3f" name="Icon of Flame" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                      <characteristics>
+                        <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">At the start of your turn in the Psychic phase, roll a D6 for each model from your kill team equipped with an Icon of Flame. On a 6 inflict 1 mortal wound on the closest enemy model within 12&quot; of the model being rolled for.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="1.0"/>
+                  </costs>
+                </selection>
+                <selection id="e090-47df-2c2e-fcac" name="Warpflamer" entryId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::6e87-9aa0-0a6d-b458::3bc3-034f-aa85-b4e0" entryGroupId="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::9126-9da4-c928-b26b" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="878b-e7e4-3179-af32::4fc0-514e-00b6-d0e2::6e87-9aa0-0a6d-b458::677c-f941-d655-6c1b" name="Warpflamer" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">8&quot;</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault D6</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon automatically hits its target.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="4.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+              </costs>
+              <categories>
+                <category id="36cd-0c94-ee39-f2f5" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="caff-9351-620d-ed27" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="43ce-845e-4c4d-0c48" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="6c90-65c7-e557-7a63" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="1608-663a-14de-ca40" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="3e5f-a0d8-940b-d356" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+                <category id="7c21-e180-2a7b-3dd4" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="65fc-fee4-ac90-5715" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="eee7-df04-0df1-e485" name="Rubric Marine" entryId="7a8e-6bde-a12d-0062::8f6f-6cd3-fe43-a89d" number="1" type="model">
+          <profiles>
+            <profile id="7a8e-6bde-a12d-0062::ff7b-6569-c31e-bae6::9308-00c2-cb27-a403" name="Rubric Marine" publicationId="7e0e-5010-pubN66856" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7a8e-6bde-a12d-0062::2b55-6cc1-7735-d65a::16c2-6dc4-84cf-81cc" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an IMPERIUM model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7a8e-6bde-a12d-0062::2d2f-a654-00e3-0ba5::7362-b9fe-51be-4984" name="All is Dust" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to saving throws for this model if the attack has a Damage characteristic of 1. In addition, the -1 modifier to hit rolls for moving and shooting Heavy weapons does not apply to Rubric Marine Gunners or Scarab Occult Gunners.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="7a8e-6bde-a12d-0062::ef77-6241-7383-ca25::f584-d8eb-d8d1-9f7f" name="Favoured of Tzeentch" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="70a5-fc6b-798e-474e" name="Demolitions" entryId="7a8e-6bde-a12d-0062::73f0-5ce4-5097-c846::5260-c7f2-eae4-31d9::1933-2ec9-f5b1-5666" entryGroupId="7a8e-6bde-a12d-0062::73f0-5ce4-5097-c846::76bf-0ae8-e6b4-65a4" number="1" type="upgrade">
+              <selections>
+                <selection id="61ff-98c1-0e5a-6238" name="Level 1: Breacher" entryId="7a8e-6bde-a12d-0062::73f0-5ce4-5097-c846::5260-c7f2-eae4-31d9::fd1c-53b4-e856-de6a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="7a8e-6bde-a12d-0062::73f0-5ce4-5097-c846::5260-c7f2-eae4-31d9::b3c3-3354-744a-fc9d::ffe1-1e6b-e52b-9cc7" name="Breacher" publicationId="a467-5f42-pubN89361" page="71" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s wound rolls against targets that are obscured.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="a035-ff40-a894-9f16" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ce4d-c5e0-487b-94d9" name="Warpflamer" entryId="7a8e-6bde-a12d-0062::6e87-9aa0-0a6d-b458::3bc3-034f-aa85-b4e0" entryGroupId="7a8e-6bde-a12d-0062::9126-9da4-c928-b26b" number="1" type="upgrade">
+              <profiles>
+                <profile id="7a8e-6bde-a12d-0062::6e87-9aa0-0a6d-b458::677c-f941-d655-6c1b" name="Warpflamer" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">8&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon automatically hits its target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="4.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="16.0"/>
+          </costs>
+          <categories>
+            <category id="df19-1839-4a96-1776" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+            <category id="17f5-7700-6b19-9229" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="e6e1-8cfc-2b90-4f45" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+            <category id="f0ed-a327-28cd-ae19" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="3f67-db53-caab-16bb" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="dad9-b108-beac-4aa1" name="Rubric Marine" entryId="0110-fd3d-1c15-4846" primary="false"/>
+            <category id="67a0-368c-10a9-4821" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="1454-dd89-44eb-2c4d" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="42ff-0b69-b480-fb45" name="Tzaangor Fire Team" entryId="768f-0a49-87f8-8205::8545-f3b5-5fba-f75c" number="1" type="unit">
+          <selections>
+            <selection id="8232-ee31-82e5-1ae4" name="Tzaangor" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::b38d-f559-8aaf-983a" entryGroupId="768f-0a49-87f8-8205::971b-1854-aeca-1d5b" number="1" type="model">
+              <profiles>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="1467-e015-c7a1-a6ce" name="Tzaangor blades" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::9604-5e48-db01-2e90" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+              </costs>
+              <categories>
+                <category id="2d7b-3538-f7d9-2b15" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="d2db-1d3e-1c68-032b" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="6f68-2131-c160-cdb6" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="7674-9b75-51d8-d9da" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="6a6c-dc38-8ec1-739e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="7257-9526-ea14-c8f7" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+                <category id="b068-d165-2ea0-4957" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="5e98-e164-1dfb-dbc1" name="Tzaangor" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::b38d-f559-8aaf-983a" entryGroupId="768f-0a49-87f8-8205::971b-1854-aeca-1d5b" number="1" type="model">
+              <profiles>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="fd11-73c2-79f1-254d" name="Tzaangor blades" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::9604-5e48-db01-2e90" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+              </costs>
+              <categories>
+                <category id="a0ac-b3b6-08a7-6ccb" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="c345-7057-625e-2fe3" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="5699-d1ee-c224-67b7" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="3e8f-0172-93a8-39f1" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="ad72-1841-3aca-df6d" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="34ec-325b-0bd6-8a0d" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+                <category id="80cd-a444-6a34-f6bf" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="f1ca-dbbc-76ca-deb6" name="Tzaangor" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::b38d-f559-8aaf-983a" entryGroupId="768f-0a49-87f8-8205::971b-1854-aeca-1d5b" number="1" type="model">
+              <profiles>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="884f-5169-a5d2-228b" name="Tzaangor blades" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::9604-5e48-db01-2e90" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+              </costs>
+              <categories>
+                <category id="c534-a62a-d1e0-50fa" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="75b4-1acf-fa6d-8444" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="f604-1ed9-70df-9fac" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="de84-32a5-6a11-3e72" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="19fa-27ee-6e55-fc8f" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="7644-7b7e-3237-55f4" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+                <category id="5a0b-846b-24b4-3016" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="c2d0-7b87-07fb-468a" name="Tzaangor" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::b38d-f559-8aaf-983a" entryGroupId="768f-0a49-87f8-8205::971b-1854-aeca-1d5b" number="1" type="model">
+              <profiles>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="2046-337a-4166-44d9" name="Tzaangor blades" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::9604-5e48-db01-2e90" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+              </costs>
+              <categories>
+                <category id="bd7d-63d8-3263-ff54" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="868d-0474-0bde-88b7" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="39d9-c5fc-0db9-bd50" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="faf2-d147-36a0-ead1" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="f91c-1301-7623-555a" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="334e-b06e-f151-5d2c" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+                <category id="7f3b-88d0-9b33-382e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+            <selection id="92c8-6b6f-b07c-6689" name="Tzaangor" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::b38d-f559-8aaf-983a" entryGroupId="768f-0a49-87f8-8205::971b-1854-aeca-1d5b" number="1" type="model">
+              <profiles>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::34bc-ae6d-11d9-e596" name="Tzaangor" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+                  <characteristics>
+                    <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                    <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                    <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                    <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                    <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                    <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                    <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                    <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                    <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                    <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::a09b-3665-100c-45f9::09fc-cd63-a88a-46ee" name="Aura of Dark Glory" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <selections>
+                <selection id="51fa-0622-fc39-6205" name="Tzaangor blades" entryId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::4f10-6ac7-bd58-0e23" entryGroupId="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::9604-5e48-db01-2e90" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="768f-0a49-87f8-8205::dbab-49c2-0dfd-6f43::1695-cc07-fcff-b3e7::929d-0117-5285-350a" name="Tzaangor blades" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                      <characteristics>
+                        <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                        <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                        <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                        <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                        <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                        <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+              </costs>
+              <categories>
+                <category id="ae1f-393e-fb23-66fe" name="Faction: Thousand Sons" entryId="0f21-9dc3-e109-c3c3" primary="false"/>
+                <category id="b697-be65-13e9-d07a" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+                <category id="d7f4-7a1d-c8cf-80ae" name="Tzeentch" entryId="ae7f-dd57-6f92-4087" primary="false"/>
+                <category id="90b0-37d0-a3aa-99fa" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+                <category id="09ec-151a-9ca1-0cc7" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+                <category id="c4d4-a1c8-2c0d-1b8a" name="Tzaangor" entryId="1eaf-47ca-d17e-14b9" primary="false"/>
+                <category id="1723-6dc4-051c-cacc" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ecc4-8caa-b31d-e47b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="false"/>
+            <category id="16f4-d82b-f094-1dec" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="7e0e-5010-pubN66856" name="Kill Team"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="32cf-7223-d154-0abf" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="a373-92e1-5890-b2bc" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="d236-d5cc-a79c-f871" name="Commanders" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="5248-e48c-abd1-4da2" name="Leaders" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="8de9-fc6a-36d2-0dab" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="bf9f-a182-4421-7846" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="fe7c-424e-a3cc-c89b" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
