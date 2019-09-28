@@ -27,7 +27,7 @@ table.roster {
 
 .card {
   width: $card-width - $card-padding;
-  height: $card-height - $card-padding;
+  min-height: $card-height - $card-padding;
   background-color: $card-background-color;
   border-radius: 0.4em;
   padding: $card-padding;
