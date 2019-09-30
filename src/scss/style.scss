@@ -5,10 +5,42 @@ th {
   padding: 2px;
 }
 
-#page-heading {
-  font-size: 3em;
+h1 {
   text-align: center;
+  font-size: 3em;
   text-transform: uppercase;
+  margin: 0;
+}
+
+#resources {
+  margin-bottom: 0.5cm;
+}
+
+table.campaign {
+  width: 100%;
+  & th, td {
+    width: (100% / 5);
+  }
+  & tr > th:first-child {
+    text-align: left;
+    padding-left: 0.2cm;
+  }
+  & tr > td:last-child {
+    width: 10%;
+    text-align: center;
+  }
+  & td {
+    border: 1px solid #666666;
+  }
+}
+
+table.resource {
+  & td {
+    border: none;
+  }
+  & td:last-child {
+    text-align: left;
+  }
 }
 
 table.roster {
@@ -21,7 +53,7 @@ table.roster {
   & td {
     background-color: $td-background-color;
     text-align: center;
-    font-size: 0.8em;
+    font-size: 0.7em;
   }
 }
 
