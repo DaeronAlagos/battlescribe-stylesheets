@@ -32,16 +32,19 @@ table.campaign {
   & td {
     border: 1px solid #666666;
   }
+  & table.resource {
+    & td {
+      border: none;
+    }
+    & td:last-child {
+      text-align: right;
+      width: 50%;
+      padding-right: 0.2cm;
+    }
+  }
 }
 
-table.resource {
-  & td {
-    border: none;
-  }
-  & td:last-child {
-    text-align: left;
-  }
-}
+
 
 table.roster {
   width: 100%;
