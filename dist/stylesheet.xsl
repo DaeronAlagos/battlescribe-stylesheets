@@ -38,12 +38,12 @@ table.campaign {
     text-align: center; }
   table.campaign td {
     border: 1px solid #666666; }
-
-table.resource td {
-  border: none; }
-
-table.resource td:last-child {
-  text-align: left; }
+  table.campaign table.resource td {
+    border: none; }
+  table.campaign table.resource td:last-child {
+    text-align: right;
+    width: 50%;
+    padding-right: 0.2cm; }
 
 table.roster {
   width: 100%;
