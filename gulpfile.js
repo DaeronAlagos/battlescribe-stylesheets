@@ -25,6 +25,13 @@ function inject () {
                 return file.contents.toString('utf8')
             }
         }))
+        .pipe(gulpInject(src(['src/campaign.xsl']), {
+            starttag: '<!-- inject:{{path}} -->',
+            relative: true,
+            transform: (filePath, file) => {
+                return file.contents.toString('utf8')
+            }
+        }))
         .pipe(gulpInject(src(['src/roster.xsl']), {
             starttag: '<!-- inject:{{path}} -->',
             relative: true,
