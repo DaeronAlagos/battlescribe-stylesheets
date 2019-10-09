@@ -1,4 +1,9 @@
 @import 'variables';
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap');
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
 
 th {
   background-color: $th-background-color;
@@ -68,12 +73,19 @@ table.roster {
   padding: $card-padding;
   font-size: 0.7em;
   border: 0.02cm solid $card-border-color;
-  & .header > div {
-    display: inline-block;
-    margin: 0 $card-padding;
-  }
-  & .header > div:last-child {
-    float: right;
+  & .header {
+    display: flex;
+    flex-direction: row;
+    & > div {
+      flex-basis: 33%;
+      text-align: center;
+      &:first-child {
+        text-align: left;
+      }
+      &:last-child {
+        text-align: right;
+      }
+    }
   }
   & table {
     width: $card-width - $card-padding;
@@ -94,6 +106,16 @@ table.roster {
       text-align: left;
       min-width: 2cm;
       width: 2cm;
+      padding-left: 0.1cm;
+    }
+    &.sub-header {
+      background-color: transparent;
+      font-weight: bold;
+    }
+    &.sub-body {
+      background-color: transparent;
+      font-weight: bold;
+      text-align: left;
       padding-left: 0.1cm;
     }
   }
