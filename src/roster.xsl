@@ -35,9 +35,15 @@
 	        </td>
 	        <td></td>
 	        <td>
-	            <xsl:for-each select="bs:selections/bs:selection/bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Ability']">
-	                <xsl:value-of select="@name"/>,                                 
-	            </xsl:for-each>
+						<xsl:for-each select="bs:selections/bs:selection">
+							<xsl:if test="contains($specialisms, @name)">
+								<xsl:value-of select="@name"/>, 
+							</xsl:if>
+						</xsl:for-each>
+						
+							<xsl:if test="bs:selections/bs:selection/bs:categories/bs:category">
+								<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>, 							
+							</xsl:if>
 	            <xsl:for-each select="bs:profiles/bs:profile[@typeName='Ability']">
 	                <xsl:value-of select="@name"/>,                                 
 	            </xsl:for-each>
