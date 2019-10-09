@@ -12,7 +12,7 @@
 		<html>
 		<head>
 			<style>
-                    <!-- inject:../build/style.css -->
+					<!-- inject:../build/style.css -->
 					<!-- contents of html partials will be injected here -->
 					<!-- endinject -->
 			</style>
