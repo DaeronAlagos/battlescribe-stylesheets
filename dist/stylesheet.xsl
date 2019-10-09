@@ -12,8 +12,12 @@
 		<html>
 		<head>
 			<style>
-                    <!-- inject:../build/style.css -->
-					th {
+					<!-- inject:../build/style.css -->
+					@import url("https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap");
+body {
+  font-family: 'Open Sans', sans-serif; }
+
+th {
   background-color: red;
   padding: 2px; }
 
@@ -64,11 +68,16 @@ table.roster {
   padding: 0.1cm;
   font-size: 0.7em;
   border: 0.02cm solid #bbbbbb; }
-  .card .header > div {
-    display: inline-block;
-    margin: 0 0.1cm; }
-  .card .header > div:last-child {
-    float: right; }
+  .card .header {
+    display: flex;
+    flex-direction: row; }
+    .card .header > div {
+      flex-basis: 33%;
+      text-align: center; }
+      .card .header > div:first-child {
+        text-align: left; }
+      .card .header > div:last-child {
+        text-align: right; }
   .card table {
     width: 11.4cm;
     font-size: 1em;
@@ -84,6 +93,14 @@ table.roster {
       text-align: left;
       min-width: 2cm;
       width: 2cm;
+      padding-left: 0.1cm; }
+    .card td.sub-header {
+      background-color: transparent;
+      font-weight: bold; }
+    .card td.sub-body {
+      background-color: transparent;
+      font-weight: bold;
+      text-align: left;
       padding-left: 0.1cm; }
 
 .unit th:not(:first-child), .unit td:not(:first-child) {
@@ -284,9 +301,15 @@ table.roster {
 	        </td>
 	        <td></td>
 	        <td>
-	            <xsl:for-each select="bs:selections/bs:selection/bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Ability']">
-	                <xsl:value-of select="@name"/>,                                 
-	            </xsl:for-each>
+						<xsl:for-each select="bs:selections/bs:selection">
+							<xsl:if test="contains($specialisms, @name)">
+								<xsl:value-of select="@name"/>, 
+							</xsl:if>
+						</xsl:for-each>
+						
+							<xsl:if test="bs:selections/bs:selection/bs:categories/bs:category">
+								<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>, 							
+							</xsl:if>
 	            <xsl:for-each select="bs:profiles/bs:profile[@typeName='Ability']">
 	                <xsl:value-of select="@name"/>,                                 
 	            </xsl:for-each>
@@ -326,6 +349,9 @@ table.roster {
 	            <div> <!-- CUSTOM NAME -->
 	                <xsl:value-of select="@customName"/>
 	            </div>
+							<div>  <!-- SUBFACTION -->
+								<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>
+							</div>
 	            <div> <!-- POINTS -->
 	                <xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
 	                 Points
@@ -399,8 +425,8 @@ table.roster {
 	            <xsl:if test="$specialism">
 	                <table>
 	                    <tr>
-	                        <td>Specialism</td>
-	                        <td><xsl:value-of select="$specialism/@name"/></td>
+	                        <td class="sub-header">Specialism</td>
+	                        <td class="sub-body"><xsl:value-of select="$specialism/@name"/></td>
 	                    </tr>
 	                </table>
 	                <table>
