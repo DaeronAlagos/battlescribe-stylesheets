@@ -24,6 +24,9 @@
 	            <div> <!-- CUSTOM NAME -->
 	                <xsl:value-of select="@customName"/>
 	            </div>
+							<div>  <!-- SUBFACTION -->
+								<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>
+							</div>
 	            <div> <!-- POINTS -->
 	                <xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
 	                 Points
@@ -97,8 +100,8 @@
 	            <xsl:if test="$specialism">
 	                <table>
 	                    <tr>
-	                        <td>Specialism</td>
-	                        <td><xsl:value-of select="$specialism/@name"/></td>
+	                        <td class="sub-header">Specialism</td>
+	                        <td class="sub-body"><xsl:value-of select="$specialism/@name"/></td>
 	                    </tr>
 	                </table>
 	                <table>
