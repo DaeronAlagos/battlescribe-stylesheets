@@ -22,8 +22,8 @@
 	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
 	    <tr>
 	        <td>
-				<xsl:value-of select="@customName"/>
-			</td>
+						<xsl:value-of select="@customName"/>
+					</td>
 	        <td>
 	            <xsl:value-of select="@name"/>
 	        </td>
