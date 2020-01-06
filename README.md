@@ -32,8 +32,8 @@
 
 5. Rename your roster file to have the .xml file extension
 
-6. Build your first distribution file `gulp build --bsfile YOUR_FILE.xml`
+6. Build your first distribution file `gulp build --bsfile YOUR_FILE` (don't need to put .xml)
 
-7. Run gulp with browser-sync `gulp --bsfile YOUR_FILE.xml`
+7. Run gulp with browser-sync `gulp --bsfile YOUR_FILE` (don't need to put .xml)
 
 8. Edit the files in the src folder and see your changes in the web browser that opened when you started gulp
