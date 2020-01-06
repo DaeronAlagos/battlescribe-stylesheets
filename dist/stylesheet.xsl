@@ -13,19 +13,27 @@
 		<head>
 			<style>
 					<!-- inject:../build/style.css -->
-					@import url("https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap");
+					@import url("https://fonts.googleapis.com/css?family=Oswald:600|EB+Garamond:400,400i,700");
 body {
-  font-family: 'Open Sans', sans-serif; }
+  font-family: "EB Garamond", serif; }
 
 th {
-  background-color: red;
-  padding: 2px; }
+  background-color: #E1501E;
+  padding: 2px;
+  font-family: "Oswald", sans-serif; }
 
 h1 {
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
+  font-family: "Oswald", sans-serif;
   margin: 0; }
+
+h2 {
+  font-size: 1em;
+  font-family: "Oswald", sans-serif;
+  margin: 0;
+  padding-left: 0.1cm; }
 
 #resources {
   margin-bottom: 0.5cm; }
@@ -54,9 +62,10 @@ table.roster {
   background-color: #efefef; }
   table.roster th {
     width: 14.28571%;
-    font-size: 0.9em; }
+    font-size: 0.9em;
+    font-family: 'Oswald', sans-serif; }
   table.roster td {
-    background-color: white;
+    background-color: #dfdfdf;
     text-align: center;
     font-size: 0.7em; }
 
@@ -67,7 +76,8 @@ table.roster {
   border-radius: 0.4em;
   padding: 0.1cm;
   font-size: 0.7em;
-  border: 0.02cm solid #bbbbbb; }
+  border: 0.02cm solid #bbbbbb;
+  position: relative; }
   .card .header {
     display: flex;
     flex-direction: row; }
@@ -87,8 +97,8 @@ table.roster {
     min-width: 2cm;
     padding-left: 0.1cm; }
   .card td {
-    background-color: white;
-    padding: 0.05cm; }
+    background-color: #dfdfdf;
+    border: 1px solid #efefef; }
     .card td:first-child {
       text-align: left;
       min-width: 2cm;
@@ -96,7 +106,8 @@ table.roster {
       padding-left: 0.1cm; }
     .card td.sub-header {
       background-color: transparent;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: "Oswald", sans-serif; }
     .card td.sub-body {
       background-color: transparent;
       font-weight: bold;
@@ -360,7 +371,7 @@ table.roster {
 	            </div>
 	        </div>
 			<div>
-				<table class="unit">
+				<table class="unit" cellspacing="0">
 		            <tr>
 		                <th>
 		                    Name
@@ -377,7 +388,7 @@ table.roster {
 			</div>
 			<div> <!-- WEAPONS -->
 	            <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-	            <table class="weapons">
+	            <table class="weapons" cellspacing="0">
 	                <tr>
 	                    <xsl:for-each select="$weapons[1]">
 	                        <th>
@@ -410,6 +421,7 @@ table.roster {
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
+							<h2>Abilities</h2>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table>
 	                <xsl:for-each select="$abilities">
