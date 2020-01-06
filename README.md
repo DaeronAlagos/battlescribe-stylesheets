@@ -2,7 +2,7 @@
 
 ### Instructions for Battlescribe users
 
-1. Download the stylesheet from [here](https://raw.githubusercontent.com/DaeronAlagos/battlescribe-stylesheets/master/dist/stylesheet.xsl).
+1. Download the stylesheet from [here](https://raw.githubusercontent.com/DaeronAlagos/battlescribe-stylesheets/master/dist/stylesheet.xsl) (right click and 'Save link as...').
 
 2. Create your Kill Team in Battlescribe (Matched Play or Campaign).
 
