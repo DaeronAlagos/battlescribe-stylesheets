@@ -16,6 +16,7 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
   font-family: $header-font;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -67,6 +68,7 @@ table.roster {
     width: (100% / 7);
     font-size: 0.9em;
     font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
   }
   & td {
     background-color: $td-background-color;
@@ -92,9 +94,13 @@ table.roster {
       text-align: center;
       &:first-child {
         text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
       }
       &:last-child {
         text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
       }
     }
   }
@@ -102,6 +108,7 @@ table.roster {
     width: $card-width - $card-padding;
     font-size: 1em;
     text-align: center;
+    text-transform: uppercase;
   }
   & th {
     &:first-child {
@@ -114,6 +121,7 @@ table.roster {
     background-color: $td-background-color;
     // padding: 0.05cm;
     border: 1px solid $card-background-color;
+    text-transform: none;
     &:first-child {
       text-align: left;
       min-width: 2cm;
