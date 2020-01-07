@@ -287,7 +287,9 @@ table.roster {
 	    </xsl:variable>
 	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
 	    <tr>
-	        <td></td>
+	        <td>
+						<xsl:value-of select="@customName"/>
+					</td>
 	        <td>
 	            <xsl:value-of select="@name"/>
 	        </td>
