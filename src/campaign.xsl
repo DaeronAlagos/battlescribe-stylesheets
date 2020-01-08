@@ -7,7 +7,7 @@
             <th>Resources</th>
             <th>Current Kill Team Force</th>
             <td>
-                <xsl:value-of select="../../../../../../bs:costs/bs:cost[@name='pts']/@value"></xsl:value-of>
+                <xsl:value-of select="round(../../../../../../bs:costs/bs:cost[@name='pts']/@value)"></xsl:value-of>
                  Points</td>
         </tr>
         <tr>
