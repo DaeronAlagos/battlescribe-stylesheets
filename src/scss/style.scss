@@ -1,20 +1,30 @@
 @import 'variables';
-@import url('https://fonts.googleapis.com/css?family=Open+Sans&amp;display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:600|EB+Garamond:400,400i,700');
 
 body {
-  font-family: 'Open Sans', sans-serif;
+  font-family: $body-font;
 }
 
 th {
   background-color: $th-background-color;
   padding: 2px;
+  font-family: $header-font;
 }
 
 h1 {
   text-align: center;
   font-size: 3em;
   text-transform: uppercase;
+  font-family: $header-font;
+  font-weight: bold;
   margin: 0;
+}
+
+h2 {
+  font-size: 1em;
+  font-family: $header-font;
+  margin: 0;
+  padding-left: 0.1cm;
 }
 
 #resources {
@@ -57,6 +67,8 @@ table.roster {
   & th {
     width: (100% / 7);
     font-size: 0.9em;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
   }
   & td {
     background-color: $td-background-color;
@@ -73,6 +85,7 @@ table.roster {
   padding: $card-padding;
   font-size: 0.7em;
   border: 0.02cm solid $card-border-color;
+  position: relative;
   & .header {
     display: flex;
     flex-direction: row;
@@ -81,9 +94,13 @@ table.roster {
       text-align: center;
       &:first-child {
         text-align: left;
+	text-transform: uppercase;
+	font-weight: bold;
       }
       &:last-child {
         text-align: right;
+	text-transform: uppercase;
+	font-weight: bold;
       }
     }
   }
@@ -91,8 +108,11 @@ table.roster {
     width: $card-width - $card-padding;
     font-size: 1em;
     text-align: center;
+    text-transform: uppercase;
   }
   & th {
+    border-top: 1px solid #222E33;
+    border-bottom: 1px solid #222E33;
     &:first-child {
       text-align: left;
       min-width:2cm;
@@ -101,7 +121,9 @@ table.roster {
   }
   & td {
     background-color: $td-background-color;
-    padding: 0.05cm;
+    // padding: 0.05cm;
+    border: 1px solid $card-background-color;
+    text-transform: none;
     &:first-child {
       text-align: left;
       min-width: 2cm;
@@ -111,6 +133,7 @@ table.roster {
     &.sub-header {
       background-color: transparent;
       font-weight: bold;
+      font-family: $header-font;
     }
     &.sub-body {
       background-color: transparent;
@@ -123,6 +146,7 @@ table.roster {
 
 .unit {
   & th, td {
+    font-weight: bold;
     &:not(:first-child) {
       width: (($card-width - ($card-padding * 2) - $card-first-child) / 10)
     }
@@ -131,6 +155,7 @@ table.roster {
 
 .weapons {
   & th, td {
+    font-size: 0.9em;
     &:not(:first-child):not(:last-child) {
       width: (($card-width - ($card-padding * 2) - $card-first-child - $card-last-child) / 5)
     }
@@ -141,6 +166,7 @@ table.roster {
     }
   }
 }
+
 
 @media screen {
   #cards {

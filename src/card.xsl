@@ -33,7 +33,7 @@
 	            </div>
 	        </div>
 			<div>
-				<table class="unit">
+				<table class="unit" cellspacing="0">
 		            <tr>
 		                <th>
 		                    Name
@@ -50,7 +50,7 @@
 			</div>
 			<div> <!-- WEAPONS -->
 	            <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-	            <table class="weapons">
+	            <table class="weapons" cellspacing="0">
 	                <tr>
 	                    <xsl:for-each select="$weapons[1]">
 	                        <th>
@@ -83,6 +83,7 @@
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
+							<h2>Abilities</h2>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table>
 	                <xsl:for-each select="$abilities">

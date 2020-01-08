@@ -27,6 +27,7 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  font-weight: bold;
   margin: 0; }
 
 h2 {
@@ -59,11 +60,12 @@ table.campaign {
 
 table.roster {
   width: 100%;
-  background-color: #efefef; }
+  background-color: white; }
   table.roster th {
     width: 14.28571%;
     font-size: 0.9em;
-    font-family: 'Oswald', sans-serif; }
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;  }
   table.roster td {
     background-color: #dfdfdf;
     text-align: center;
@@ -72,7 +74,7 @@ table.roster {
 .card {
   width: 11.4cm;
   min-height: 7.4cm;
-  background-color: #efefef;
+  background-color: white;
   border-radius: 0.4em;
   padding: 0.1cm;
   font-size: 0.7em;
@@ -85,20 +87,26 @@ table.roster {
       flex-basis: 33%;
       text-align: center; }
       .card .header > div:first-child {
-        text-align: left; }
+        text-align: left;
+	text-transform: uppercase;
+	font-weight: bold; }
       .card .header > div:last-child {
-        text-align: right; }
+        text-align: right;
+	text-transform: uppercase;
+	font-weight: bold; }
   .card table {
     width: 11.4cm;
     font-size: 1em;
-    text-align: center; }
+    text-align: center;
+    text-transform: uppercase; }
   .card th:first-child {
     text-align: left;
     min-width: 2cm;
     padding-left: 0.1cm; }
   .card td {
     background-color: #dfdfdf;
-    border: 1px solid #efefef; }
+    border: 1px solid white;
+    text-transform: none; }
     .card td:first-child {
       text-align: left;
       min-width: 2cm;
@@ -298,9 +306,7 @@ table.roster {
 	    </xsl:variable>
 	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
 	    <tr>
-	        <td>
-						<xsl:value-of select="@customName"/>
-					</td>
+	        <td></td>
 	        <td>
 	            <xsl:value-of select="@name"/>
 	        </td>
