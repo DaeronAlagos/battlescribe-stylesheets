@@ -27,6 +27,7 @@ h1 {
   font-size: 3em;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
+  font-weight: bold;
   margin: 0; }
 
 h2 {
@@ -59,11 +60,12 @@ table.campaign {
 
 table.roster {
   width: 100%;
-  background-color: #efefef; }
+  background-color: #FFFFFF; }
   table.roster th {
     width: 14.28571%;
     font-size: 0.9em;
-    font-family: 'Oswald', sans-serif; }
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase; }
   table.roster td {
     background-color: #dfdfdf;
     text-align: center;
@@ -72,33 +74,45 @@ table.roster {
 .card {
   width: 11.4cm;
   min-height: 7.4cm;
-  background-color: #efefef;
+  background-color: #FFFFFF;
   border-radius: 0.4em;
   padding: 0.1cm;
   font-size: 0.7em;
   border: 0.02cm solid #bbbbbb;
   position: relative; }
   .card .header {
+    display: -webkit-box;
     display: flex;
-    flex-direction: row; }
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row; }
     .card .header > div {
       flex-basis: 33%;
       text-align: center; }
       .card .header > div:first-child {
-        text-align: left; }
+        text-align: left;
+        text-transform: uppercase;
+        font-weight: bold; }
       .card .header > div:last-child {
-        text-align: right; }
+        text-align: right;
+        text-transform: uppercase;
+        font-weight: bold; }
   .card table {
     width: 11.4cm;
     font-size: 1em;
-    text-align: center; }
-  .card th:first-child {
-    text-align: left;
-    min-width: 2cm;
-    padding-left: 0.1cm; }
+    text-align: center;
+    text-transform: uppercase; }
+  .card th {
+    border-top: 1px solid #222E33;
+    border-bottom: 1px solid #222E33; }
+    .card th:first-child {
+      text-align: left;
+      min-width: 2cm;
+      padding-left: 0.1cm; }
   .card td {
     background-color: #dfdfdf;
-    border: 1px solid #efefef; }
+    border: 1px solid #FFFFFF;
+    text-transform: none; }
     .card td:first-child {
       text-align: left;
       min-width: 2cm;
@@ -114,17 +128,22 @@ table.roster {
       text-align: left;
       padding-left: 0.1cm; }
 
-.unit th:not(:first-child), .unit td:not(:first-child) {
-  width: 0.93cm; }
+.unit th, .unit td {
+  font-weight: bold; }
+  .unit th:not(:first-child), .unit td:not(:first-child) {
+    width: 0.93cm; }
 
-.weapons th:not(:first-child):not(:last-child), .weapons td:not(:first-child):not(:last-child) {
-  width: 1.26cm; }
+.weapons th, .weapons td {
+  font-size: 0.9em; }
+  .weapons th:not(:first-child):not(:last-child), .weapons td:not(:first-child):not(:last-child) {
+    width: 1.26cm; }
 
 .weapons th:last-child, .weapons td:last-child {
   min-width: 3cm; }
 
 @media screen {
   #cards {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
