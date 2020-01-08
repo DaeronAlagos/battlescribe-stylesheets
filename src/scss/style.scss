@@ -111,6 +111,8 @@ table.roster {
     text-transform: uppercase;
   }
   & th {
+    border-top: 1px solid #222E33;
+    border-bottom: 1px solid #222E33;
     &:first-child {
       text-align: left;
       min-width:2cm;
@@ -144,6 +146,7 @@ table.roster {
 
 .unit {
   & th, td {
+    font-weight: bold;
     &:not(:first-child) {
       width: (($card-width - ($card-padding * 2) - $card-first-child) / 10)
     }
@@ -152,6 +155,7 @@ table.roster {
 
 .weapons {
   & th, td {
+    font-size: 0.9em;
     &:not(:first-child):not(:last-child) {
       width: (($card-width - ($card-padding * 2) - $card-first-child - $card-last-child) / 5)
     }
@@ -162,6 +166,7 @@ table.roster {
     }
   }
 }
+
 
 @media screen {
   #cards {
