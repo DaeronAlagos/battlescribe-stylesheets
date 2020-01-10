@@ -98,9 +98,10 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div class="specialism">
+	        
 	            <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
 	            <xsl:if test="$specialism">
+				<div class="specialism">
 					<div>
 						<h2>Specialism</h2>				
 					</div>
@@ -118,8 +119,9 @@
 	                        </td>
 	                    </tr>
 	                </table>
-	            </xsl:if>
 	        </div>
+
+	            </xsl:if>
 			<div class="exp">
 				<div>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
 				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
