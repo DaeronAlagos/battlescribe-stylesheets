@@ -83,11 +83,8 @@ table.roster {
   border: 0.02cm solid #bbbbbb;
   display: table; }
   .card .header {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
+    flex-direction: row;
     padding-bottom: 1px; }
     .card .header > div {
       flex-basis: 33%;
@@ -162,12 +159,10 @@ table.roster {
   margin-left: 6px; }
   .exp > div {
     float: left;
-    margin: 0 3px;
-    line-height: 18px; }
+    margin: 0 2px; }
 
 @media screen {
   #cards {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
