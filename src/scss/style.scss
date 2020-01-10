@@ -48,13 +48,14 @@ table.campaign {
     border: 1px solid #666666;
   }
   & table.resource {
+    width: 100%;
     & td {
       border: none;
     }
     & td:last-child {
       text-align: right;
       width: 50%;
-      padding-right: 0.2cm;
+      padding-right: 0.5cm;
     }
   }
 }
