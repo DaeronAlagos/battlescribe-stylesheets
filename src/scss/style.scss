@@ -192,6 +192,12 @@ table.roster {
   & > div {
     float: left;
     margin: 0 2px;
+    & > span {
+      margin: 1px;
+    }
+    & > span:nth-child(3), span:nth-child(7), span:nth-child(12) {
+      color: $th-background-color;
+    }
   }
 }
 

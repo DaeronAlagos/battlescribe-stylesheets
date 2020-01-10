@@ -121,7 +121,7 @@
 
 	            </xsl:if>
 			<div class="exp">
-				<div>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
+				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
 				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
 				<div>Convalescence: &#9744;</div>
 				<div>New Recruit: &#9744;</div>
