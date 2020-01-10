@@ -183,8 +183,11 @@ table.roster {
   float: left;
 }
 
-.campaign {
+.exp {
   font-size: 0.8em;
+  position: absolute;
+  bottom: 0;
+  margin-left: 6px;
   & > div {
     float: left;
     margin: 0 3px;
