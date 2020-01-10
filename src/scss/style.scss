@@ -13,7 +13,7 @@ th {
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  // font-size: 3em;
   text-transform: uppercase;
   font-family: $header-font;
   font-weight: bold;
@@ -21,7 +21,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: $header-font;
   margin: 0;
   padding-left: 0.1cm;
@@ -66,14 +66,14 @@ table.roster {
   background-color: $card-background-color;
   & th {
     width: (100% / 7);
-    font-size: 0.9em;
+    // font-size: 0.9em;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
   }
   & td {
     background-color: $td-background-color;
     text-align: center;
-    font-size: 0.7em;
+    // font-size: 0.7em;
   }
 }
 
@@ -83,7 +83,7 @@ table.roster {
   background-color: $card-background-color;
   border-radius: 0.4em;
   padding: $card-padding;
-  font-size: 0.7em;
+  font-size: 0.8em;
   border: 0.02cm solid $card-border-color;
   position: relative;
   & .header {
@@ -106,7 +106,7 @@ table.roster {
   }
   & table {
     width: $card-width - $card-padding;
-    font-size: 1em;
+    font-size: 0.7em;
     text-align: center;
     text-transform: uppercase;
   }
@@ -122,13 +122,18 @@ table.roster {
   & td {
     background-color: $td-background-color;
     // padding: 0.05cm;
-    border: 1px solid $card-background-color;
+    border-left: 1px solid $card-background-color;
+    border-right: 1px solid $card-background-color;
     text-transform: none;
     &:first-child {
       text-align: left;
       min-width: 2cm;
       width: 2cm;
       padding-left: 0.1cm;
+      border-left: none;
+    }
+    &:last-child {
+      border-right: none;
     }
     &.sub-header {
       background-color: transparent;
@@ -151,11 +156,14 @@ table.roster {
       width: (($card-width - ($card-padding * 2) - $card-first-child) / 10)
     }
   }
+  & td {
+    font-size: 1.2em;
+  }
 }
 
 .weapons {
   & th, td {
-    font-size: 0.9em;
+    // font-size: 0.9em;
     &:not(:first-child):not(:last-child) {
       width: (($card-width - ($card-padding * 2) - $card-first-child - $card-last-child) / 5)
     }
@@ -164,6 +172,18 @@ table.roster {
     &:last-child {
       min-width: $card-last-child;
     }
+  }
+  & td {
+    border-bottom: 2px solid $card-background-color;
+  }
+}
+
+.campaign {
+  font-size: 0.8em;
+  & > div {
+    float: left;
+    margin: 0 3px;
+    line-height: 18px;
   }
 }
 
