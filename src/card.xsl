@@ -113,10 +113,8 @@
 	                        <td>
 	                            <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
 	                        </td>
-	                        <td>
 	                            <xsl:apply-templates select="$specialism" mode="body"/>
 	                            <!-- <xsl:value-of select="$specialism"/>                         -->
-	                        </td>
 	                    </tr>
 	                </table>
 	        </div>
