@@ -1,5 +1,11 @@
 ## Battlescribe Stylesheet for Kill Team
 
+### Preview
+
+By using this stylesheet to export your roster from Battlescribe, you will be able to create a printable document like this
+![](https://github.com/DaeronAlagos/battlescribe-stylesheets/blob/master/demo/necrons-roster.pdf)
+
+
 ### Instructions for Battlescribe users
 
 1. Download the stylesheet from [here](https://raw.githubusercontent.com/DaeronAlagos/battlescribe-stylesheets/master/dist/stylesheet.xsl) (right click and 'Save link as...').
