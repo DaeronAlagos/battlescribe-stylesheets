@@ -69,9 +69,9 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div> <!-- ABILITIES -->
+	        <div> <!-- WARGEAR -->
 	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-	            <table>
+	            <table class="weapons" cellspacing="0">
 	                <xsl:for-each select="$wargear">
 	                    <tr>
 	                        <td>
