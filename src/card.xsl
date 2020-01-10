@@ -83,7 +83,9 @@
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-							<h2>Abilities</h2>
+				<div>
+					<h2>Abilities</h2>				
+				</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table>
 	                <xsl:for-each select="$abilities">
@@ -96,15 +98,15 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div>
+	        <div class="specialism">
 	            <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
 	            <xsl:if test="$specialism">
-	                <table>
-	                    <tr>
-	                        <td class="sub-header">Specialism</td>
-	                        <td class="sub-body"><xsl:value-of select="$specialism/@name"/></td>
-	                    </tr>
-	                </table>
+					<div>
+						<h2>Specialism</h2>				
+					</div>
+					<div>
+						<h2><xsl:value-of select="$specialism/@name"/></h2>
+					</div>
 	                <table>
 	                    <tr>
 	                        <td>

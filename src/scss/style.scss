@@ -13,7 +13,7 @@ th {
 
 h1 {
   text-align: center;
-  // font-size: 3em;
+  font-size: 3em;
   text-transform: uppercase;
   font-family: $header-font;
   font-weight: bold;
@@ -67,14 +67,14 @@ table.roster {
   background-color: $card-background-color;
   & th {
     width: (100% / 7);
-    // font-size: 0.9em;
+    font-size: 0.9em;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
   }
   & td {
     background-color: $td-background-color;
     text-align: center;
-    // font-size: 0.7em;
+    font-size: 0.7em;
   }
 }
 
@@ -177,6 +177,10 @@ table.roster {
   & td {
     border-bottom: 2px solid $card-background-color;
   }
+}
+
+.specialism > div {
+  float: left;
 }
 
 .campaign {
