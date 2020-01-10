@@ -86,10 +86,11 @@ table.roster {
   padding: $card-padding;
   font-size: 0.8em;
   border: 0.02cm solid $card-border-color;
-  position: relative;
+  display: table;
   & .header {
     display: flex;
     flex-direction: row;
+    padding-bottom: 1px;
     & > div {
       flex-basis: 33%;
       text-align: center;
@@ -106,7 +107,7 @@ table.roster {
     }
   }
   & table {
-    width: $card-width - $card-padding;
+    width: 100%;
     font-size: 0.7em;
     text-align: center;
     text-transform: uppercase;
@@ -125,6 +126,7 @@ table.roster {
     // padding: 0.05cm;
     border-left: 1px solid $card-background-color;
     border-right: 1px solid $card-background-color;
+    border-bottom: 2px solid $card-background-color;
     text-transform: none;
     &:first-child {
       text-align: left;
@@ -185,8 +187,7 @@ table.roster {
 
 .exp {
   font-size: 0.8em;
-  position: absolute;
-  bottom: 0;
+  display: table-footer-group;
   margin-left: 6px;
   & > div {
     float: left;
