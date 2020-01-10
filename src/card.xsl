@@ -118,5 +118,11 @@
 	                </table>
 	            </xsl:if>
 	        </div>
+			<div class="campaign">
+				<div>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
+				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
+				<div>Convalescence: &#9744;</div>
+				<div>New Recruit: &#9744;</div>
+			</div>
 		</div>
 	</xsl:template>
