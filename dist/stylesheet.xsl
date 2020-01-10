@@ -160,6 +160,10 @@ table.roster {
   .exp > div {
     float: left;
     margin: 0 2px; }
+    .exp > div > span {
+      margin: 1px; }
+    .exp > div > span:nth-child(3), .exp > div span:nth-child(7), .exp > div span:nth-child(12) {
+      color: #E1501E; }
 
 @media screen {
   #cards {
@@ -497,7 +501,7 @@ table.roster {
 
 	            </xsl:if>
 			<div class="exp">
-				<div>Experience: &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; <font color="red">&#9744; </font> &#9744; &#9744; &#9744; &#9744; <font color="red">&#9744;</font></div>
+				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
 				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
 				<div>Convalescence: &#9744;</div>
 				<div>New Recruit: &#9744;</div>
