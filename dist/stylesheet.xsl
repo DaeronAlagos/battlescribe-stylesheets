@@ -31,7 +31,7 @@ h1 {
   margin: 0; }
 
 h2 {
-  font-size: 1em;
+  font-size: 0.8em;
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding-left: 0.1cm; }
@@ -51,12 +51,14 @@ table.campaign {
     text-align: center; }
   table.campaign td {
     border: 1px solid #666666; }
-  table.campaign table.resource td {
-    border: none; }
-  table.campaign table.resource td:last-child {
-    text-align: right;
-    width: 50%;
-    padding-right: 0.2cm; }
+  table.campaign table.resource {
+    width: 100%; }
+    table.campaign table.resource td {
+      border: none; }
+    table.campaign table.resource td:last-child {
+      text-align: right;
+      width: 50%;
+      padding-right: 0.5cm; }
 
 table.roster {
   width: 100%;
@@ -72,20 +74,18 @@ table.roster {
     font-size: 0.7em; }
 
 .card {
-  width: 11.4cm;
-  min-height: 7.4cm;
+  width: 11.3cm;
+  min-height: 7.3cm;
   background-color: #FFFFFF;
   border-radius: 0.4em;
-  padding: 0.1cm;
-  font-size: 0.7em;
+  padding: 0.2cm;
+  font-size: 0.8em;
   border: 0.02cm solid #bbbbbb;
-  position: relative; }
+  display: table; }
   .card .header {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row; }
+    flex-direction: row;
+    padding-bottom: 1px; }
     .card .header > div {
       flex-basis: 33%;
       text-align: center; }
@@ -98,8 +98,8 @@ table.roster {
         text-transform: uppercase;
         font-weight: bold; }
   .card table {
-    width: 11.4cm;
-    font-size: 1em;
+    width: 100%;
+    font-size: 0.7em;
     text-align: center;
     text-transform: uppercase; }
   .card th {
@@ -111,13 +111,18 @@ table.roster {
       padding-left: 0.1cm; }
   .card td {
     background-color: #dfdfdf;
-    border: 1px solid #FFFFFF;
+    border-left: 1px solid #FFFFFF;
+    border-right: 1px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
     text-transform: none; }
     .card td:first-child {
       text-align: left;
       min-width: 2cm;
       width: 2cm;
-      padding-left: 0.1cm; }
+      padding-left: 0.1cm;
+      border-left: none; }
+    .card td:last-child {
+      border-right: none; }
     .card td.sub-header {
       background-color: transparent;
       font-weight: bold;
@@ -131,23 +136,41 @@ table.roster {
 .unit th, .unit td {
   font-weight: bold; }
   .unit th:not(:first-child), .unit td:not(:first-child) {
-    width: 0.93cm; }
+    width: 0.91cm; }
 
-.weapons th, .weapons td {
-  font-size: 0.9em; }
-  .weapons th:not(:first-child):not(:last-child), .weapons td:not(:first-child):not(:last-child) {
-    width: 1.26cm; }
+.unit td {
+  font-size: 1.2em; }
+
+.weapons th:not(:first-child):not(:last-child), .weapons td:not(:first-child):not(:last-child) {
+  width: 1.22cm; }
 
 .weapons th:last-child, .weapons td:last-child {
   min-width: 3cm; }
 
+.weapons td {
+  border-bottom: 2px solid #FFFFFF; }
+
+.specialism > div {
+  float: left; }
+
+.exp {
+  font-size: 0.8em;
+  display: table-footer-group;
+  margin-left: 6px; }
+  .exp > div {
+    float: left;
+    margin: 0 2px; }
+    .exp > div > span {
+      margin: 1px; }
+    .exp > div > span:nth-child(3), .exp > div span:nth-child(7), .exp > div span:nth-child(12) {
+      color: #E1501E; }
+
 @media screen {
   #cards {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
-      margin: 0.1cm; } }
+      margin: 0.2cm; } }
 
 @media print {
   #roster {
@@ -213,7 +236,7 @@ table.roster {
             <th>Resources</th>
             <th>Current Kill Team Force</th>
             <td>
-                <xsl:value-of select="../../../../../../bs:costs/bs:cost[@name='pts']/@value"></xsl:value-of>
+                <xsl:value-of select="round(../../../../../../bs:costs/bs:cost[@name='pts']/@value)"></xsl:value-of>
                  Points</td>
         </tr>
         <tr>
@@ -426,9 +449,9 @@ table.roster {
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div> <!-- ABILITIES -->
+	        <div> <!-- WARGEAR -->
 	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-	            <table>
+	            <table class="weapons" cellspacing="0">
 	                <xsl:for-each select="$wargear">
 	                    <tr>
 	                        <td>
@@ -440,9 +463,11 @@ table.roster {
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-							<h2>Abilities</h2>
+				<div>
+					<h2>Abilities</h2>				
+				</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
-	            <table>
+	            <table cellspacing="0">
 	                <xsl:for-each select="$abilities">
 	                    <tr>
 	                        <td>
@@ -453,28 +478,34 @@ table.roster {
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div>
+	        
 	            <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
 	            <xsl:if test="$specialism">
-	                <table>
-	                    <tr>
-	                        <td class="sub-header">Specialism</td>
-	                        <td class="sub-body"><xsl:value-of select="$specialism/@name"/></td>
-	                    </tr>
-	                </table>
-	                <table>
+				<div class="specialism">
+					<div>
+						<h2>Specialism</h2>				
+					</div>
+					<div>
+						<h2><xsl:value-of select="$specialism/@name"/></h2>
+					</div>
+	                <table cellspacing="0">
 	                    <tr>
 	                        <td>
 	                            <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
 	                        </td>
-	                        <td>
 	                            <xsl:apply-templates select="$specialism" mode="body"/>
 	                            <!-- <xsl:value-of select="$specialism"/>                         -->
-	                        </td>
 	                    </tr>
 	                </table>
-	            </xsl:if>
 	        </div>
+
+	            </xsl:if>
+			<div class="exp">
+				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
+				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
+				<div>Convalescence: &#9744;</div>
+				<div>New Recruit: &#9744;</div>
+			</div>
 		</div>
 	</xsl:template>
     <!-- endinject -->

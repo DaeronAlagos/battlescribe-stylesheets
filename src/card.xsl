@@ -69,9 +69,9 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div> <!-- ABILITIES -->
+	        <div> <!-- WARGEAR -->
 	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-	            <table>
+	            <table class="weapons" cellspacing="0">
 	                <xsl:for-each select="$wargear">
 	                    <tr>
 	                        <td>
@@ -83,9 +83,11 @@
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-							<h2>Abilities</h2>
+				<div>
+					<h2>Abilities</h2>				
+				</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
-	            <table>
+	            <table cellspacing="0">
 	                <xsl:for-each select="$abilities">
 	                    <tr>
 	                        <td>
@@ -96,27 +98,33 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div>
+	        
 	            <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
 	            <xsl:if test="$specialism">
-	                <table>
-	                    <tr>
-	                        <td class="sub-header">Specialism</td>
-	                        <td class="sub-body"><xsl:value-of select="$specialism/@name"/></td>
-	                    </tr>
-	                </table>
-	                <table>
+				<div class="specialism">
+					<div>
+						<h2>Specialism</h2>				
+					</div>
+					<div>
+						<h2><xsl:value-of select="$specialism/@name"/></h2>
+					</div>
+	                <table cellspacing="0">
 	                    <tr>
 	                        <td>
 	                            <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
 	                        </td>
-	                        <td>
 	                            <xsl:apply-templates select="$specialism" mode="body"/>
 	                            <!-- <xsl:value-of select="$specialism"/>                         -->
-	                        </td>
 	                    </tr>
 	                </table>
-	            </xsl:if>
 	        </div>
+
+	            </xsl:if>
+			<div class="exp">
+				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
+				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
+				<div>Convalescence: &#9744;</div>
+				<div>New Recruit: &#9744;</div>
+			</div>
 		</div>
 	</xsl:template>
