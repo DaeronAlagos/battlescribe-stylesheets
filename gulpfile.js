@@ -50,13 +50,13 @@ function inject () {
 }
 
 function xsltransform () {
-    return src(`data/${fileName}.xml`)
+    return src(`data/${fileName}.ros`)
         .pipe(xslt('build/base.xsl', {}))
         .pipe(dest('build/'))
 }
 
 function htmlRename () {
-    return src(`build/${fileName}.xml`)
+    return src(`build/${fileName}.ros`)
         .pipe(rename(`build/${fileName}.html`))
         .pipe(dest('./'))
 }
