@@ -35,7 +35,7 @@ By using this stylesheet to export your roster from Battlescribe, you will be ab
 
 3. Install the required NPM modules `npm install`
 
-4. Create a roster in Battlescribe and save it as a .ros file (not .rosz), to the battlescribe-stylesheets-wh40k/data folder
+4. Create a roster in Battlescribe and save it as a .ros file (not .rosz), to the battlescribe-stylesheets/data folder
 
 5. Build your first distribution file `gulp build --bsfile YOUR_FILE` (don't need to put .ros)
 
