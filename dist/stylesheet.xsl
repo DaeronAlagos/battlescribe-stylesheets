@@ -50,11 +50,13 @@ table.campaign {
     width: 10%;
     text-align: center; }
   table.campaign td {
-    border: 1px solid #666666; }
+    border: 1px solid #666666;
+    padding-left: 5px; }
   table.campaign table.resource {
     width: 100%; }
     table.campaign table.resource td {
-      border: none; }
+      border: none;
+      padding-left: 0px; }
     table.campaign table.resource td:last-child {
       text-align: right;
       width: 50%;
@@ -83,11 +85,8 @@ table.roster {
   border: 0.02cm solid #bbbbbb;
   display: table; }
   .card .header {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
+    flex-direction: row;
     padding-bottom: 1px; }
     .card .header > div {
       flex-basis: 33%;
@@ -170,7 +169,6 @@ table.roster {
 
 @media screen {
   #cards {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
@@ -245,7 +243,9 @@ table.roster {
         </tr>
         <tr>
             <th>Faction</th>
-            <td></td>
+            <td>
+                <xsl:value-of select="../../../../../../bs:forces/bs:force/@catalogueName"></xsl:value-of>
+            </td>
             <td>
                 <table class="resource">
                     <tr>
