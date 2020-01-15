@@ -83,8 +83,11 @@ table.roster {
   border: 0.02cm solid #bbbbbb;
   display: table; }
   .card .header {
+    display: -webkit-box;
     display: flex;
-    flex-direction: row;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+            flex-direction: row;
     padding-bottom: 1px; }
     .card .header > div {
       flex-basis: 33%;
@@ -167,6 +170,7 @@ table.roster {
 
 @media screen {
   #cards {
+    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
@@ -483,7 +487,7 @@ table.roster {
 	            <xsl:if test="$specialism">
 				<div class="specialism">
 					<div>
-						<h2>Specialism</h2>				
+						<h2>Specialism:</h2>				
 					</div>
 					<div>
 						<h2><xsl:value-of select="$specialism/@name"/></h2>
