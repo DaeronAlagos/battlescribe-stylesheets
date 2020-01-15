@@ -103,7 +103,7 @@
 	            <xsl:if test="$specialism">
 				<div class="specialism">
 					<div>
-						<h2>Specialism</h2>				
+						<h2>Specialism:</h2>				
 					</div>
 					<div>
 						<h2><xsl:value-of select="$specialism/@name"/></h2>
