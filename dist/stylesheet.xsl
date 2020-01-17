@@ -68,8 +68,13 @@ table.campaign {
   #roster-header > table th, #roster-header > table td {
     width: 25%;
     padding: 0.2cm; }
+  #roster-header > table th {
+    text-transform: uppercase; }
   #roster-header > table td {
-    border: 1px solid #666666; }
+    border: 1px solid #666666;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center; }
 
 table.roster {
   width: 100%;
@@ -94,11 +99,8 @@ table.roster {
   border: 0.02cm solid #bbbbbb;
   display: table; }
   .card .header {
-    display: -webkit-box;
     display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
+    flex-direction: row;
     padding-bottom: 1px; }
     .card .header > div {
       flex-basis: 33%;
@@ -181,7 +183,6 @@ table.roster {
 
 @media screen {
   #cards {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
@@ -190,9 +191,8 @@ table.roster {
 @media print {
   #roster {
     page-break-after: always; }
-  .card {
-    float: left;
-    page-break-inside: avoid; } }
+  .card:nth-child(3n) {
+    page-break-after: left; } }
 
 					<!-- endinject -->
 			</style>
@@ -512,9 +512,9 @@ table.roster {
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-				<div>
-					<h2>Abilities</h2>				
-				</div>
+					<div>
+						<h2>Abilities</h2>				
+					</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table cellspacing="0">
 	                <xsl:for-each select="$abilities">
