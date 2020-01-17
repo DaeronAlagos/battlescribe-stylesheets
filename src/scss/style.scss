@@ -69,8 +69,14 @@ table.campaign {
     width: (100% / 4);
     padding: 0.2cm;
   }
+  & th {
+    text-transform: uppercase;
+  }
   & td {
     border: 1px solid #666666;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
   }
 }
 
@@ -228,8 +234,7 @@ table.roster {
   #roster {
     page-break-after: always;
   }
-  .card {
-    float: left;
-    page-break-inside: avoid;
+  .card:nth-child(3n) {
+    page-break-after: left;
   }
 }
