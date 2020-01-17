@@ -1,0 +1,1217 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="1ff8-2238-bfbe-a4ee" name="Kroot 125" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="150.0"/>
+  </costs>
+  <forces>
+    <force id="aade-c4f1-29c9-cffd" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="26db-d625-117a-0eba" catalogueRevision="6" catalogueName="Kroot">
+      <selections>
+        <selection id="5987-368c-e160-c60d" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="eb34-8508-f8be-d637" name="Matched Play: Command Roster" entryId="5c5e-a332-5578-705f::57bf-6123-c537-58ac" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="ce72-a2d7-1892-e5cc" name="List: Command Roster" entryId="d6e9-5af3-c17c-77a0" primary="false"/>
+                <category id="9cf8-f10a-b821-ee82" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="5688-3d3b-496a-5282" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="470b-0694-7b90-ef4d" name="Kroot Carnivore" entryId="3663-e89c-1785-7576::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3663-e89c-1785-7576::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8ddf-e1dd-6ec7-adb9" name="Kroot Rifle" entryId="3663-e89c-1785-7576::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3663-e89c-1785-7576::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3663-e89c-1785-7576::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="928f-0629-a2b8-ff9a" name="Leader" entryId="3663-e89c-1785-7576::29be-9194-00c9-01b4::2abd-70f4-e7e8-4d18" entryGroupId="3663-e89c-1785-7576::353e-c059-6c4e-4930" number="1" type="upgrade">
+              <selections>
+                <selection id="9071-114f-1778-6dab" name="Level 1: Resourceful" entryId="3663-e89c-1785-7576::29be-9194-00c9-01b4::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="3663-e89c-1785-7576::29be-9194-00c9-01b4::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="ac24-875c-68d7-6694" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="ad39-87f9-19a6-f89c" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="b73f-1da2-694f-ebfb" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e741-d6e0-b9d6-4b57" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="b3ed-8abf-fd12-533a" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d86c-d14e-5ae5-0f22" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+            <category id="fdb1-e8c3-eb86-485b" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="d6b4-5406-7d94-d3e3" name="Kroot Hound" entryId="1dc4-734c-eda9-fe3c::ad9a-878f-2495-c271" number="1" type="model">
+          <profiles>
+            <profile id="1dc4-734c-eda9-fe3c::7756-e3f8-0958-039e" name="Kroot Hound" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">12&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">5</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">4</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="1dc4-734c-eda9-fe3c::9840-b598-98c3-dc89" name="Voracious Predator" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to hit rolls for attacks made by this model that target a model that has any flesh wounds.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7341-f8f7-a340-97e3" name="Ripping fangs" entryId="1dc4-734c-eda9-fe3c::9b6c-192c-e2b5-b431" number="1" type="upgrade">
+              <profiles>
+                <profile id="1dc4-734c-eda9-fe3c::dc9f-6afe-d8d1-de0e" name="Ripping fangs" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e13e-8b91-16e2-b7d6" name="Scout" entryId="1dc4-734c-eda9-fe3c::7670-69dc-42d1-68e4::5f8f-5bce-e0d0-85dd::1d42-7d93-e0a4-330b" entryGroupId="1dc4-734c-eda9-fe3c::7670-69dc-42d1-68e4::aa4c-f895-19bd-c1a7" number="1" type="upgrade">
+              <selections>
+                <selection id="e50c-b2bd-82d1-6a8b" name="Level 1: Swift" entryId="1dc4-734c-eda9-fe3c::7670-69dc-42d1-68e4::5f8f-5bce-e0d0-85dd::2ac4-df07-ede9-eaa4" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="1dc4-734c-eda9-fe3c::7670-69dc-42d1-68e4::5f8f-5bce-e0d0-85dd::5532-d72a-ec4c-37cb::d575-ef01-10a7-b65d" name="Swift" publicationId="a467-5f42-pubN89361" page="74" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll Advance rolls for this model.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="9f88-dbe2-75ea-46b9" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="8b1a-1b4b-fca2-67e4" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+            <category id="7fe2-5b02-f316-c32d" name="Beast" entryId="5d31-bdf1-1016-290b" primary="false"/>
+            <category id="7897-9b16-7af4-d65b" name="Kroot Hound" entryId="1a7b-f45a-e2e4-956e" primary="false"/>
+            <category id="ecdb-c2d3-8d8d-2ef6" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="c597-53d5-37b0-0b44" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="b10f-84a8-72e1-4757" name="Krootox Rider" entryId="d012-18ec-c3a5-5c82::f7e1-aad9-fd1e-06bb" customName="Option 1" number="1" type="model">
+          <profiles>
+            <profile id="d012-18ec-c3a5-5c82::5faa-d878-a3bf-ba77" name="Krootox Rider" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">6</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">5</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">4</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d012-18ec-c3a5-5c82::d48a-cd14-2786-e237" name="Agile Brute" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 6&quot; to this model&apos;s Move characteristic in the Movement phase in which it Advances, instead of rolling a dice.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d973-7d53-3d64-f1bb" name="Kroot gun" entryId="d012-18ec-c3a5-5c82::26e6-88d5-1e48-0642" number="1" type="upgrade">
+              <profiles>
+                <profile id="d012-18ec-c3a5-5c82::beeb-7e92-1e84-761a" name="Kroot gun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">7</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8151-ce28-2143-c213" name="Krootox fists" entryId="d012-18ec-c3a5-5c82::6830-bbd1-fe5e-ab34" number="1" type="upgrade">
+              <profiles>
+                <profile id="d012-18ec-c3a5-5c82::2e76-dc47-5471-329c" name="Krootox fists" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3f60-6c88-03a8-15bf" name="Heavy" entryId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::9daf-06ef-f554-ef62::8c9b-a772-02e7-d673" entryGroupId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::aa4c-f895-19bd-c1a7" number="1" type="upgrade">
+              <selections>
+                <selection id="247c-307b-393a-6242" name="Level 1: Relentless" entryId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::9daf-06ef-f554-ef62::5308-cce0-90b6-1881" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::9daf-06ef-f554-ef62::3bfc-5415-5d96-2a37::32fd-6f95-11d2-943d" name="Relentless" publicationId="a467-5f42-pubN89361" page="72" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model does not suffer the -1 penalty for shooting with a Heavy weapon after moving in the preceding Movement phase, or for shooting an Assault weapon after Advancing.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="20c3-2080-d57e-6c9d" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="27.0"/>
+          </costs>
+          <categories>
+            <category id="2179-45e8-6148-4565" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+            <category id="20b0-9ba8-e12f-19ea" name="Krootox Rider" entryId="0055-745f-bd1e-c2a3" primary="false"/>
+            <category id="0031-98b7-3529-d059" name="Cavalry" entryId="3598-c49c-3964-6884" primary="false"/>
+            <category id="7bef-c008-6be8-9ce8" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="25a5-2bf3-670f-1e37" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="f56e-924a-3f7f-5856" name="Kroot Carnivore" entryId="58c1-453b-2885-da5d::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="58c1-453b-2885-da5d::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="119f-00fd-0f0b-d4e5" name="Kroot Rifle" entryId="58c1-453b-2885-da5d::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="58c1-453b-2885-da5d::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="58c1-453b-2885-da5d::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="88c7-b58f-729e-8e76" name="Zealot" entryId="58c1-453b-2885-da5d::24a8-4bdb-01e1-2d0a::d2c4-34ca-f2cf-d2b2" entryGroupId="58c1-453b-2885-da5d::353e-c059-6c4e-4930" number="1" type="upgrade">
+              <selections>
+                <selection id="7df4-c3c9-613f-be28" name="Level 1: Frenzied" entryId="58c1-453b-2885-da5d::24a8-4bdb-01e1-2d0a::1115-fada-66e5-715f" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="58c1-453b-2885-da5d::24a8-4bdb-01e1-2d0a::bafa-b1f1-f42a-5322::f84b-7f78-4ca7-7c19" name="Frenzied" publicationId="a467-5f42-pubN89361" page="77" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s Attacks and Strength characteristics in a battle round in which they charged.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="e6fd-c278-b91e-2add" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="15fa-e587-2279-4400" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="879f-7a4d-4608-dcec" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="aa6a-b25d-e4f3-6e3d" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="66e2-5a15-fa84-bff1" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="2c47-1d5e-4d3c-e7da" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+            <category id="fb37-6462-d82d-cdd9" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="1d76-eda8-61e4-f78c" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="f591-40e2-7919-9950" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="20c5-8d40-73ee-9f8e" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="e89f-39d7-0e33-7242" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8bc0-4e4f-7e03-2b45" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="db97-ab44-ac37-7939" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="628b-46f3-f12a-4068" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="a1da-9299-db21-e966" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="6f61-65f9-92b7-d066" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="a766-fd2f-41dc-c2b3" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="a512-bdac-09a6-d828" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="b400-76ff-fa7b-4a88" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9062-f55d-f201-9487" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="6bf5-ed06-0c36-461f" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d919-5f17-ca07-1f0a" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="1323-023c-79ec-b853" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="e8c4-36a3-b0f4-1136" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="492a-f629-a53b-8aff" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="7f4f-22b7-dfc1-a641" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="8abd-e9a0-c7f1-3764" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="98fa-ca01-5a6b-53a7" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="8fa1-8cbf-3be1-d039" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="62e6-ec1e-dca8-8f79" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="82a1-9b74-d572-36e2" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="75cd-f6f7-501c-2010" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="0642-7a06-ca89-8d28" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="03b2-d190-505d-2c83" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="2d3e-3292-39a9-f21f" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="af7a-2b0e-23fa-2212" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="3221-37f6-59da-1937" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="461b-1fe6-be2b-4e7b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="b7ce-18ca-b0f1-13b7" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="6dd9-d888-bd78-4b55" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7b32-b225-511d-2718" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="1936-2aba-d222-d8eb" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="6374-acf5-eafd-6af3" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="4261-75d2-8bf9-2d6c" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="e8cb-a0f9-ac01-2541" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d52d-aa4b-41ed-3a5d" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="4b5b-edc5-f46b-5364" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="5ebf-485e-9f83-5dfa" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="adac-96d3-c0e4-2351" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="43ee-6fdd-745e-8ac6" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="6caa-943e-52d2-7096" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8165-2d04-6bdb-153a" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="aa2a-087c-abc9-f61d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="c4ca-f1c1-b1a5-1b3b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="1cdd-76fd-e1ed-0b70" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="8bdd-3a75-867b-ae8f" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="837b-ed0a-1259-714a" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="58ca-d949-f47c-4155" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="840b-545b-117e-8c43" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8970-9944-a890-1c5e" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="038b-7636-6425-b603" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="9820-678b-d6ea-cc8b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="a56b-4a5f-bab9-aea4" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="e6f9-4c2d-e356-07fe" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c3c7-9074-6834-e8af" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="9810-d971-1dbd-e353" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="fdff-9f86-8c26-bec7" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="38e1-e213-d851-bd4e" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="68a6-d8ea-61c8-8989" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d050-9f3a-c298-ad7d" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="12c7-54c8-4ad6-c499" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="8955-2c13-31b7-e20a" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="cefa-b23c-a2d7-cb9f" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="6716-36bc-318c-d3ba" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="71dc-439b-79bf-f356" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="2878-a080-26e5-3c33" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="d086-2c5a-ff85-7015" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="571b-db83-1bd7-f22b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="5601-e047-427a-9ee1" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="24c9-65fe-cc68-e3a9" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="04e1-e66c-fd92-f3dd" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="d516-b67a-5bd7-0475" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="4a7e-af08-5efb-7d34" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="6062-0706-2d98-1651" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="6223-4212-19f2-e29b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="e018-e481-d5c7-fbaa" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="87cf-a49c-6e53-ae34" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="7f08-45db-c4ed-169e" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c9ce-d797-74d8-b6e0" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="8221-3de3-b434-0bd6" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="f7da-a3b1-07db-cd76" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f451-ec44-596f-4a5f" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="7a63-e00c-2eac-80bf" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="b6f8-35fa-7800-4176" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="33f7-a1cf-c0ab-828b" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="2d35-dc6b-8648-0415" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7328-762d-d9d3-40f6" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="627e-9059-01ca-6e0a" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="d294-bc53-d6ae-be57" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="bc8a-5093-9742-69ae" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="d460-9692-9cde-148e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="a4b9-e63b-ab7c-92d1" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="4486-baeb-b6e0-4108" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="d851-7b76-3f91-2fd6" name="Kroot Carnivore" entryId="3aff-441e-7328-3342::36c9-84e1-2296-8655" number="1" type="model">
+          <profiles>
+            <profile id="3aff-441e-7328-3342::1991-87c5-8b32-6098::4e58-8631-e807-c595" name="Kroot Carnivore" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="aa87-f6a2-84fe-345f" name="Kroot Rifle" entryId="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::7279-c5fe-a464-94c4" number="1" type="upgrade">
+              <profiles>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::94ee-38cd-57a8-0ff0::a811-8667-f649-253d" name="Kroot rifle (melee)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="3aff-441e-7328-3342::b6a4-b0d8-b61d-25de::951f-7f97-310b-ba1c::e7b3-c621-161f-f5c3" name="Kroot rifle (shooting)" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="340a-2c6d-6547-cfde" name="Kroot Carnivore" entryId="9dc5-dc94-9b20-bd57" primary="false"/>
+            <category id="9224-2749-419f-59fb" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e55d-58a2-52d0-2e57" name="T&apos;au Empire" entryId="8687-67fb-2f6d-fae7" primary="false"/>
+            <category id="1431-f4e9-25d9-855c" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="40bf-10a8-7a8b-8afc" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="64c0-d53e-f7bd-7314" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+          </categories>
+        </selection>
+        <selection id="bae1-6c53-b5f8-f5d5" name="Krootox Rider" entryId="d012-18ec-c3a5-5c82::f7e1-aad9-fd1e-06bb" customName="Option 2" number="1" type="model">
+          <profiles>
+            <profile id="d012-18ec-c3a5-5c82::5faa-d878-a3bf-ba77" name="Krootox Rider" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">6</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">5</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">4</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d012-18ec-c3a5-5c82::d48a-cd14-2786-e237" name="Agile Brute" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 6&quot; to this model&apos;s Move characteristic in the Movement phase in which it Advances, instead of rolling a dice.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="e27d-82bc-d72e-5463" name="Kroot gun" entryId="d012-18ec-c3a5-5c82::26e6-88d5-1e48-0642" number="1" type="upgrade">
+              <profiles>
+                <profile id="d012-18ec-c3a5-5c82::beeb-7e92-1e84-761a" name="Kroot gun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">48&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">7</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="59a1-de5a-5b8b-ff4b" name="Krootox fists" entryId="d012-18ec-c3a5-5c82::6830-bbd1-fe5e-ab34" number="1" type="upgrade">
+              <profiles>
+                <profile id="d012-18ec-c3a5-5c82::2e76-dc47-5471-329c" name="Krootox fists" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="c48a-f21d-74be-ed5f" name="Combat" entryId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::503d-d52e-09e6-6404::cc58-f869-82d1-b353" entryGroupId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::aa4c-f895-19bd-c1a7" number="1" type="upgrade">
+              <selections>
+                <selection id="ee00-f8d3-2e7d-6705" name="Level 1: Expert Fighter" entryId="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::503d-d52e-09e6-6404::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d012-18ec-c3a5-5c82::ded2-f38c-b671-32d8::503d-d52e-09e6-6404::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="aa7d-0c75-86a9-08b1" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="27.0"/>
+          </costs>
+          <categories>
+            <category id="4e63-3b49-3150-248b" name="Faction: Kroot" entryId="00b3-11bb-cc4f-ec1a" primary="false"/>
+            <category id="fd20-4fc1-1140-e293" name="Krootox Rider" entryId="0055-745f-bd1e-c2a3" primary="false"/>
+            <category id="0976-319c-62fa-f6c0" name="Cavalry" entryId="3598-c49c-3964-6884" primary="false"/>
+            <category id="639a-a2a4-edf7-fa93" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="2633-110d-a7ea-ff7c" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="8444-64e4-b234-8f2c" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="b2a0-8d61-ead1-1e92" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="656b-db53-3a6f-6da8" name="Commanders" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="5b5f-48e5-60ca-7268" name="Leaders" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="78c7-3851-b85e-e926" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="3859-f9b3-1cb8-64f5" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="53a7-0bbf-4f81-08bb" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>

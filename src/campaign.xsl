@@ -12,7 +12,9 @@
         </tr>
         <tr>
             <th>Faction</th>
-            <td></td>
+            <td>
+                <xsl:value-of select="../../../../../../bs:forces/bs:force/@catalogueName"></xsl:value-of>
+            </td>
             <td>
                 <table class="resource">
                     <tr>

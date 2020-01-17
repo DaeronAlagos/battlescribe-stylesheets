@@ -46,11 +46,13 @@ table.campaign {
   }
   & td {
     border: 1px solid #666666;
+    padding-left: 5px;
   }
   & table.resource {
     width: 100%;
     & td {
       border: none;
+      padding-left: 0px;
     }
     & td:last-child {
       text-align: right;
@@ -60,7 +62,23 @@ table.campaign {
   }
 }
 
-
+#roster-header > table {
+  width: 100%;
+  margin-bottom: 0.5cm;
+  & th, td {
+    width: (100% / 4);
+    padding: 0.2cm;
+  }
+  & th {
+    text-transform: uppercase;
+  }
+  & td {
+    border: 1px solid #666666;
+    font-weight: 600;
+    font-size: 1.1em;
+    text-align: center;
+  }
+}
 
 table.roster {
   width: 100%;
@@ -216,8 +234,7 @@ table.roster {
   #roster {
     page-break-after: always;
   }
-  .card {
-    float: left;
-    page-break-inside: avoid;
+  .card:nth-child(3n) {
+    page-break-after: left;
   }
 }

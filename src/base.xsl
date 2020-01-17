@@ -43,6 +43,20 @@
 			</section>
 		</xsl:if>
 		<xsl:if test="contains(@name, 'Roster')">
+			<xsl:if test="not(contains(@name, 'Campaign'))">
+				<section id="roster-header">
+					<table>
+						<tr>
+							<th>Player Name</th>
+							<td></td>
+							<th>Faction</th>
+							<td>
+				                <xsl:value-of select="../../../../../../bs:forces/bs:force/@catalogueName"></xsl:value-of>
+							</td>
+						</tr>
+					</table>
+				</section>
+			</xsl:if>
 			<section id="roster">
 				<table class="roster">
 					<tr>

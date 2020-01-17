@@ -83,9 +83,9 @@
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-				<div>
-					<h2>Abilities</h2>				
-				</div>
+					<div>
+						<h2>Abilities</h2>				
+					</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table cellspacing="0">
 	                <xsl:for-each select="$abilities">
@@ -103,7 +103,7 @@
 	            <xsl:if test="$specialism">
 				<div class="specialism">
 					<div>
-						<h2>Specialism</h2>				
+						<h2>Specialism:</h2>				
 					</div>
 					<div>
 						<h2><xsl:value-of select="$specialism/@name"/></h2>

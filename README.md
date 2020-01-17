@@ -35,12 +35,10 @@ By using this stylesheet to export your roster from Battlescribe, you will be ab
 
 3. Install the required NPM modules `npm install`
 
-4. Create a roster in Battlescribe and save it as a .ros file, to the battlescribe-stylesheets-wh40k/data folder
+4. Create a roster in Battlescribe and save it as a .ros file (not .rosz), to the battlescribe-stylesheets/data folder
 
-5. Rename your roster file to have the .xml file extension
+5. Build your first distribution file `gulp build --bsfile YOUR_FILE` (don't need to put .ros)
 
-6. Build your first distribution file `gulp build --bsfile YOUR_FILE` (don't need to put .xml)
+6. Run gulp with browser-sync `gulp --bsfile YOUR_FILE` (don't need to put .ros)
 
-7. Run gulp with browser-sync `gulp --bsfile YOUR_FILE` (don't need to put .xml)
-
-8. Edit the files in the src folder and see your changes in the web browser that opened when you started gulp
+7. Edit the files in the src folder and see your changes in the web browser that opened when you started gulp

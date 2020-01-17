@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="42ad-493f-2ad8-f299" name="Writhing Shadow" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="88.0"/>
+  </costs>
+  <forces>
+    <force id="1bc0-93f9-7dcd-f8d7" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="a8de-fa3a-9163-0c20" catalogueRevision="15" catalogueName="Tyranids">
+      <selections>
+        <selection id="99c9-e543-557d-2378" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="c1c3-9b29-45c1-306a" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="5423-8502-8b21-2fc1" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+                <category id="27c3-3940-2f90-c785" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
+                <category id="1b32-9261-cd1a-a711" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="a255-246b-32b8-bcee" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1608-c66d-95fa-0943" name="Genestealer" entryId="5334-d16b-402e-65b2::4922-ebd4-7ad4-1cd2" customName="Nemesis Alpha - ‘Spitter’" number="1" type="model">
+          <profiles>
+            <profile id="5334-d16b-402e-65b2::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5334-d16b-402e-65b2::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="5334-d16b-402e-65b2::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="f65a-7fa4-23f8-7936" name="Rending claws" entryId="5334-d16b-402e-65b2::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="5334-d16b-402e-65b2::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a61c-c581-8a05-3d5d" name="*No Hive Fleet*" entryId="5334-d16b-402e-65b2::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="5334-d16b-402e-65b2::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="408d-9656-c57c-5ef9" name="Acid Maw" entryId="5334-d16b-402e-65b2::fcef-4dd9-f98e-0f4a::592f-d710-e27d-1715" entryGroupId="5334-d16b-402e-65b2::32d1-0f7b-9596-f404" number="1" type="upgrade">
+              <profiles>
+                <profile id="5334-d16b-402e-65b2::fcef-4dd9-f98e-0f4a::b2e2-1273-b952-8dbd" name="Acid Maw" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="541c-aa13-074a-5ec2" name="Leader" entryId="5334-d16b-402e-65b2::a5bf-480e-356c-792c::4196-eb4c-2d63-e978::2abd-70f4-e7e8-4d18" entryGroupId="5334-d16b-402e-65b2::a5bf-480e-356c-792c::69a0-bab5-203e-78c2" number="1" type="upgrade">
+              <selections>
+                <selection id="6a7c-4a4d-f92d-dc33" name="Level 1: Resourceful" entryId="5334-d16b-402e-65b2::a5bf-480e-356c-792c::4196-eb4c-2d63-e978::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="5334-d16b-402e-65b2::a5bf-480e-356c-792c::4196-eb4c-2d63-e978::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="e2e4-69cd-8ce2-e5c3" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="d212-ac81-882e-3d11" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="79ad-1daa-4235-6d93" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="6500-566b-2559-5860" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="6a8a-ff81-f383-84d6" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="30d5-0f74-acd2-2783" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2009-f0ff-1437-88ce" name="Genestealer" entryId="e484-9ec3-b5fb-284b::4922-ebd4-7ad4-1cd2" customName="Nemesis Beta - ‘The Shadow’" number="1" type="model">
+          <profiles>
+            <profile id="e484-9ec3-b5fb-284b::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e484-9ec3-b5fb-284b::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e484-9ec3-b5fb-284b::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="0789-ed99-31f1-bef5" name="Rending claws" entryId="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d218-d684-7b76-691c" name="*No Hive Fleet*" entryId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="77b1-0496-3ef9-527e" name="Scout" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::180e-549b-7752-c333::1d42-7d93-e0a4-330b" entryGroupId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::69a0-bab5-203e-78c2" number="1" type="upgrade">
+              <selections>
+                <selection id="7f4a-021e-f125-150c" name="Level 1: Swift" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::180e-549b-7752-c333::2ac4-df07-ede9-eaa4" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::180e-549b-7752-c333::5532-d72a-ec4c-37cb::d575-ef01-10a7-b65d" name="Swift" publicationId="a467-5f42-pubN89361" page="74" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll Advance rolls for this model.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="6165-dfcf-e08b-4c0d" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4471-bc71-4edf-1ead" name="Flesh Hooks" entryId="e484-9ec3-b5fb-284b::0c16-3c9d-9673-61fa" entryGroupId="e484-9ec3-b5fb-284b::32d1-0f7b-9596-f404" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::eb27-3e81-14b9-95c7::cd8c-6877-53f3-1dc7" name="Flesh hooks" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">The weapon can be fired within 1&quot; of an enemy model, and can target enemy models within 1&quot; of friendly models.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="5623-b2f4-cace-3491" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="0f4a-1d30-36d3-797b" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0e4a-6f73-d768-fbd2" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="11cd-6bc6-2fa6-88d2" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="849b-3358-5f06-43d4" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="8db6-f286-6e0f-465a" name="Genestealer" entryId="e484-9ec3-b5fb-284b::4922-ebd4-7ad4-1cd2" customName="Nemesis Decima - ‘Mindeater’" number="1" type="model">
+          <profiles>
+            <profile id="e484-9ec3-b5fb-284b::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e484-9ec3-b5fb-284b::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e484-9ec3-b5fb-284b::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="a1b2-d719-f25d-3b17" name="Rending claws" entryId="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a1aa-5dca-606b-9c19" name="*No Hive Fleet*" entryId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a7f3-3fee-ea31-c57e" name="Combat" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::9699-d9d4-c692-3187::cc58-f869-82d1-b353" entryGroupId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::69a0-bab5-203e-78c2" number="1" type="upgrade">
+              <selections>
+                <selection id="4bc1-cfe8-638f-c33f" name="Level 1: Expert Fighter" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::9699-d9d4-c692-3187::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::9699-d9d4-c692-3187::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="6071-1662-d080-6aec" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ace6-a533-4832-bf3e" name="Scything talons" entryId="e484-9ec3-b5fb-284b::9c6b-ad6f-ee24-eb83::df0f-99d3-5fe4-c953" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::9c6b-ad6f-ee24-eb83::e915-1ad9-037d-42b0" name="Scything talons" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll hit rolls of 1 for this weapon. If the bearer has more than one pair of scything talons, it can made 1 additional attack with them each time it fights.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="9f4f-76c2-39ee-c81a" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="b27a-b367-6465-249c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="12c4-1dc4-6c82-4b54" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="bf92-2475-9783-b2f8" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="3c8e-b04c-fee0-1251" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="8e10-8614-685c-1483" name="Genestealer" entryId="e484-9ec3-b5fb-284b::4922-ebd4-7ad4-1cd2" customName="Nemesis Crucius - ‘The Terror’" number="1" type="model">
+          <profiles>
+            <profile id="e484-9ec3-b5fb-284b::0360-0fb3-fa5b-a59d" name="Genestealer (Extended Carapace)" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e484-9ec3-b5fb-284b::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c16b-5574-78d0-9179" name="Rending claws" entryId="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="341d-1df0-1ed4-50ae" name="*No Hive Fleet*" entryId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="e484-9ec3-b5fb-284b::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="1d09-f557-4337-2af3" name="Scything talons" entryId="e484-9ec3-b5fb-284b::9c6b-ad6f-ee24-eb83::df0f-99d3-5fe4-c953" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::9c6b-ad6f-ee24-eb83::e915-1ad9-037d-42b0" name="Scything talons" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll hit rolls of 1 for this weapon. If the bearer has more than one pair of scything talons, it can made 1 additional attack with them each time it fights.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="70f6-fee6-d473-7568" name="Veteran" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::a5fc-3980-777c-ec37::c89e-5e73-276f-cc16" entryGroupId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::69a0-bab5-203e-78c2" number="1" type="upgrade">
+              <selections>
+                <selection id="1d3f-0cb0-695c-2c8f" name="Level 1: Grizzled" entryId="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::a5fc-3980-777c-ec37::2b7e-30df-e559-be77" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="e484-9ec3-b5fb-284b::a5bf-480e-356c-792c::a5fc-3980-777c-ec37::804c-4282-5c97-f5f7::57a0-c58a-4425-5d9d" name="Grizzled" publicationId="a467-5f42-pubN89361" page="76" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model ignores penalties to its Leadership characteristic and Nerve tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="08f5-72b8-dddc-f8a5" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e349-2322-835f-4145" name="Extended Carapace" entryId="e484-9ec3-b5fb-284b::2281-a4c6-444f-9ba8" number="1" type="upgrade">
+              <profiles>
+                <profile id="e484-9ec3-b5fb-284b::458d-29b5-8bbc-0adc" name="Extended Carapace" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                  <characteristics>
+                    <characteristic name="Description" typeId="b373-019d-503a-1124">A model with an extended carapace has a save characteristic of 4+ but loses the Swift and Deadly ability.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="8f67-af78-57df-fd22" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="1d37-6153-540a-80da" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="cc13-6215-6c9b-f019" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="d245-a4e4-6e3e-0ad8" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="dea7-0c8e-431f-02a2" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="b4d7-d481-5f48-7f2d" name="Genestealer" entryId="36bd-5269-f76d-9c3c::4922-ebd4-7ad4-1cd2" customName="Nemesis Enigma" number="1" type="model">
+          <profiles>
+            <profile id="36bd-5269-f76d-9c3c::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="53fa-a3d0-5613-611d" name="Rending claws" entryId="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3706-e6c2-b316-cdf8" name="*No Hive Fleet*" entryId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3378-c6e1-5378-c70c" name="Scything talons" entryId="36bd-5269-f76d-9c3c::9c6b-ad6f-ee24-eb83::df0f-99d3-5fe4-c953" number="1" type="upgrade">
+              <profiles>
+                <profile id="36bd-5269-f76d-9c3c::9c6b-ad6f-ee24-eb83::e915-1ad9-037d-42b0" name="Scything talons" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll hit rolls of 1 for this weapon. If the bearer has more than one pair of scything talons, it can made 1 additional attack with them each time it fights.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="fadc-2a90-dbcb-f616" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="6065-2b46-e68e-15e0" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="7d62-eb1e-9288-cb09" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="c0f3-f5bd-f0eb-a1fb" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="2b4d-e1dd-6df4-e7c4" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="ebac-ac6d-cfdb-a040" name="Genestealer" entryId="36bd-5269-f76d-9c3c::4922-ebd4-7ad4-1cd2" customName="Nemesis Hades" number="1" type="model">
+          <profiles>
+            <profile id="36bd-5269-f76d-9c3c::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d228-e3f5-3a5a-a906" name="Rending claws" entryId="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6d51-34c1-bd6a-ad7a" name="*No Hive Fleet*" entryId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="1c1c-d1ef-1815-29cf" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="a40d-9ad2-a00e-26d1" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="29dc-e192-65f9-36d5" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="3da7-7fe4-b10a-50da" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="ebcb-ac51-c89c-1863" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d76d-9a1d-0033-1b2e" name="Genestealer" entryId="36bd-5269-f76d-9c3c::4922-ebd4-7ad4-1cd2" customName="Nemesis Geminon" number="1" type="model">
+          <profiles>
+            <profile id="36bd-5269-f76d-9c3c::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="46bc-6d9f-c382-f72d" name="Rending claws" entryId="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="99c5-639e-107e-878b" name="*No Hive Fleet*" entryId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="0dfd-49d0-6a5b-f940" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="bd8d-5070-fc0c-836e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="976d-085d-9d1d-7128" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="6151-480c-bdc4-05b7" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="6a23-a813-4c65-88e6" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2ae5-ece2-bfbc-dd8a" name="Genestealer" entryId="36bd-5269-f76d-9c3c::4922-ebd4-7ad4-1cd2" customName="Nemesis Fulgaris" number="1" type="model">
+          <profiles>
+            <profile id="36bd-5269-f76d-9c3c::0360-0fb3-fa5b-a59d" name="Genestealer" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">9</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::4415-fccc-4727-a111" name="Lightning Reflexes" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="36bd-5269-f76d-9c3c::12be-fc4f-ada1-ff0f" name="Swift and Deadly" publicationId="a8de-fa3a-pubN66768" page="179" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed charge rolls for this model.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="20ea-279a-b16f-78d5" name="Rending claws" entryId="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::04e7-1dc8-de3b-6ac4" number="1" type="upgrade">
+              <profiles>
+                <profile id="36bd-5269-f76d-9c3c::1ef7-0ed3-e255-0e56::e674-47a0-98d0-aff9" name="Rending claws" publicationId="a8de-fa3a-pubN66768" page="180" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="502f-0653-ae2d-a00e" name="*No Hive Fleet*" entryId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::b0e2-0a55-9394-7dce" entryGroupId="36bd-5269-f76d-9c3c::a349-565d-6be9-a998::402f-e863-cba2-206b" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="11.0"/>
+          </costs>
+          <categories>
+            <category id="c67a-a92e-9fb0-5168" name="Faction: Tyranids" entryId="e01f-4e2b-0d04-efec" primary="false"/>
+            <category id="0ebc-bdb2-9921-23fe" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="3faa-8d3b-ba18-3671" name="Genestealer" entryId="92b4-2c7c-3829-d5db" primary="false"/>
+            <category id="ba45-4a26-0a9b-3829" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="7cc7-9a7f-4d15-b745" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="a8de-fa3a-pubN71688" name="Commanders"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a8de-fa3a-pubN66768" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="613e-3247-4b90-c7c1" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="5936-4406-9f8c-b4a8" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="d091-e20a-e7b1-3e85" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="be6d-0570-2cac-924c" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="0618-9d9d-d8cd-2c51" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="eae6-7cac-aea6-da4e" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="65ef-0567-9021-e9e6" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
