@@ -62,7 +62,17 @@ table.campaign {
   }
 }
 
-
+#roster-header > table {
+  width: 100%;
+  margin-bottom: 0.5cm;
+  & th, td {
+    width: (100% / 4);
+    padding: 0.2cm;
+  }
+  & td {
+    border: 1px solid #666666;
+  }
+}
 
 table.roster {
   width: 100%;
