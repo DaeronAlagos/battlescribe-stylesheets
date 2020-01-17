@@ -83,9 +83,9 @@
 	            </table>
 	        </div>
 	        <div> <!-- ABILITIES -->
-				<div>
-					<h2>Abilities</h2>				
-				</div>
+					<div>
+						<h2>Abilities</h2>				
+					</div>
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table cellspacing="0">
 	                <xsl:for-each select="$abilities">
