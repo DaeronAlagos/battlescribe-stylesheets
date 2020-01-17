@@ -1,0 +1,1225 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="7b09-2f2a-72c8-2a52" name="Servants of the Abyss" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="124.0"/>
+  </costs>
+  <forces>
+    <force id="8c56-dfcd-ab63-9e55" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="2321-ee3c-7ef0-5c40" catalogueRevision="5" catalogueName="Servants of the Abyss">
+      <selections>
+        <selection id="34ae-bb00-4edd-8e4b" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="3986-10de-d63b-ee79" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="469e-1809-8d23-952e" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+                <category id="c727-2d6e-5613-428c" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
+                <category id="1852-2a01-7b9b-2266" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="3ed5-38d8-507e-88bd" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d910-0234-0888-3fe8" name="Traitor Sergeant" entryId="fcbb-3901-da56-5ca7::8f81-eab4-f812-a8d4" number="1" type="model">
+          <profiles>
+            <profile id="fcbb-3901-da56-5ca7::e145-4426-85a5-301c" name="Traitor Guardsman Sergeant" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="fcbb-3901-da56-5ca7::abc9-5de0-0b7d-8736::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="74dd-c173-86f5-12e8" name="Laspistol" entryId="fcbb-3901-da56-5ca7::325b-6f79-8d5a-27af" number="1" type="upgrade">
+              <profiles>
+                <profile id="fcbb-3901-da56-5ca7::49f1-8235-babb-c7a9::eadd-8018-8832-cd30" name="Laspistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="083e-58ec-17f4-d4d9" name="Chainsword" entryId="fcbb-3901-da56-5ca7::3428-d33f-0ea5-7fb7" number="1" type="upgrade">
+              <profiles>
+                <profile id="fcbb-3901-da56-5ca7::22db-2e76-7b60-7c9b" name="Chainsword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="10cb-f3c8-fe82-58aa" name="Frag grenades" entryId="fcbb-3901-da56-5ca7::b64c-6bfb-9496-3aab::92bb-5f78-3a7e-4bb5" number="1" type="upgrade">
+              <profiles>
+                <profile id="fcbb-3901-da56-5ca7::b64c-6bfb-9496-3aab::8c2e-58ce-5df9-8ddc" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ae4b-6480-ffb7-05de" name="Leader" entryId="2876-e706-b6a8-34b0::2abd-70f4-e7e8-4d18" number="1" type="upgrade">
+              <selections>
+                <selection id="12be-8891-89ae-537c" name="Level 1: Resourceful" entryId="2876-e706-b6a8-34b0::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="2876-e706-b6a8-34b0::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="e1fe-b1c0-2539-3032" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
+          </costs>
+          <categories>
+            <category id="fe5b-5bad-6ec7-ef71" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="e385-2a1f-9469-0dba" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="ec9b-f1df-a5e5-8930" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="a0ea-2198-5bee-9742" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="a85a-59fa-41fe-873b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="a0a4-8d5d-1ab0-8bd9" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="8e4a-4845-c660-441c" name="Traitor Guardsman Gunner" entryId="294e-0fe4-f099-b102::9050-39fd-b1e6-eaed" number="1" type="model">
+          <profiles>
+            <profile id="294e-0fe4-f099-b102::d9b6-54e5-524f-3484" name="Traitor Guardsman Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="294e-0fe4-f099-b102::a978-58d0-31f9-0443::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9733-85fc-a1d5-10ab" name="Frag grenades" entryId="294e-0fe4-f099-b102::425d-9d97-8d6f-d5db::92bb-5f78-3a7e-4bb5" number="1" type="upgrade">
+              <profiles>
+                <profile id="294e-0fe4-f099-b102::425d-9d97-8d6f-d5db::8c2e-58ce-5df9-8ddc" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="66bc-c18b-eb39-37e1" name="Demolitions" entryId="1574-78a3-be3d-a133::4595-3b4b-8d85-28d4::1933-2ec9-f5b1-5666" entryGroupId="1574-78a3-be3d-a133::7515-db92-1f83-9f6f" number="1" type="upgrade">
+              <selections>
+                <selection id="9d3b-566a-a2ef-978f" name="Level 1: Breacher" entryId="1574-78a3-be3d-a133::4595-3b4b-8d85-28d4::fd1c-53b4-e856-de6a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="1574-78a3-be3d-a133::4595-3b4b-8d85-28d4::b3c3-3354-744a-fc9d::ffe1-1e6b-e52b-9cc7" name="Breacher" publicationId="a467-5f42-pubN89361" page="71" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s wound rolls against targets that are obscured.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="4f2b-872d-71ef-b9d0" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="63bc-0199-5aa6-ddfd" name="Flamer" entryId="294e-0fe4-f099-b102::4c1d-782d-c384-c3e3" entryGroupId="294e-0fe4-f099-b102::0bce-828f-eff6-a585" number="1" type="upgrade">
+              <profiles>
+                <profile id="294e-0fe4-f099-b102::e571-a472-ed20-f071" name="Flamer" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">8&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon automatically hits its target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
+          </costs>
+          <categories>
+            <category id="ea79-1208-dea5-5462" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="f07b-2c37-88c0-a615" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="cbe9-a15b-6c3d-a141" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8ab4-e615-a64a-621e" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="e863-0b60-3e84-a57d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="e94c-f678-6d2a-b0b0" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1949-a226-4949-b789" name="Traitor Guardsman Gunner" entryId="294e-0fe4-f099-b102::9050-39fd-b1e6-eaed" number="1" type="model">
+          <profiles>
+            <profile id="294e-0fe4-f099-b102::d9b6-54e5-524f-3484" name="Traitor Guardsman Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">2</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="294e-0fe4-f099-b102::a978-58d0-31f9-0443::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d917-d8ad-53a7-a141" name="Frag grenades" entryId="294e-0fe4-f099-b102::425d-9d97-8d6f-d5db::92bb-5f78-3a7e-4bb5" number="1" type="upgrade">
+              <profiles>
+                <profile id="294e-0fe4-f099-b102::425d-9d97-8d6f-d5db::8c2e-58ce-5df9-8ddc" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7296-95d4-2318-abd7" name="Veteran" entryId="1574-78a3-be3d-a133::4ec5-81c5-24c1-9c2e::c89e-5e73-276f-cc16" entryGroupId="1574-78a3-be3d-a133::7515-db92-1f83-9f6f" number="1" type="upgrade">
+              <selections>
+                <selection id="e4cf-18e7-93ff-3c1e" name="Level 1: Grizzled" entryId="1574-78a3-be3d-a133::4ec5-81c5-24c1-9c2e::2b7e-30df-e559-be77" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="1574-78a3-be3d-a133::4ec5-81c5-24c1-9c2e::804c-4282-5c97-f5f7::57a0-c58a-4425-5d9d" name="Grizzled" publicationId="a467-5f42-pubN89361" page="76" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model ignores penalties to its Leadership characteristic and Nerve tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="4e6b-a9cc-41dd-71a1" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="9614-e9df-de3e-3b3c" name="Flamer" entryId="294e-0fe4-f099-b102::4c1d-782d-c384-c3e3" entryGroupId="294e-0fe4-f099-b102::0bce-828f-eff6-a585" number="1" type="upgrade">
+              <profiles>
+                <profile id="294e-0fe4-f099-b102::e571-a472-ed20-f071" name="Flamer" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">8&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon automatically hits its target.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
+          </costs>
+          <categories>
+            <category id="4dc1-d168-0c8e-22bd" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="4c49-4973-9217-7f7f" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="edaa-cb3f-bbcf-2bd5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f73c-cd33-eea5-70ca" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="ae30-9485-a916-b30e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="456d-141d-5a9c-dff4" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="fcbc-e1c4-8297-1141" name="Negavolt Cultist" entryId="cc37-44f9-280e-524c::f05a-2a58-a13e-be95" number="1" type="model">
+          <profiles>
+            <profile id="cc37-44f9-280e-524c::16e7-e403-1da8-3ebf" name="Negavolt Cultist" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cc37-44f9-280e-524c::a58d-8961-75b9-d74a" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time this model loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cc37-44f9-280e-524c::7b7a-83ba-7008-c745" name="Voltageist Field" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">This model has a 5+ invulnerable save. After this model has charged, choose one of the target models within 1&quot; and roll a D6. On a 6 that target model suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="cc37-44f9-280e-524c::8326-b276-0695-5405::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="93d4-d6b5-1e67-24da" name="Electro-goads" entryId="cc37-44f9-280e-524c::f5e3-879f-ac5f-e2f8" number="1" type="upgrade">
+              <profiles>
+                <profile id="cc37-44f9-280e-524c::0453-c1fd-acf3-ac5f" name="Electro-goads" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ made with this weapon scores 3 hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f3bd-b776-2b85-f005" name="Combat" entryId="739a-a440-0556-4491::9406-1188-f4ee-1d92::cc58-f869-82d1-b353" entryGroupId="739a-a440-0556-4491::7515-db92-1f83-9f6f" number="1" type="upgrade">
+              <selections>
+                <selection id="dd5e-2b83-a204-17e3" name="Level 1: Expert Fighter" entryId="739a-a440-0556-4491::9406-1188-f4ee-1d92::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="739a-a440-0556-4491::9406-1188-f4ee-1d92::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="32a6-7733-77c9-1dde" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="4589-4b0f-e38d-aa89" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="3753-45f6-5056-5d69" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="c427-e0d9-7711-121a" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0741-08a5-b521-2031" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="0fa8-523a-748e-a62b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="667b-bb81-83df-87f7" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9c17-a6e6-35a4-c611" name="Rogue Psyker" entryId="8670-6b46-5b81-47ab::b37c-37e1-66ef-b2d3" number="1" type="model">
+          <profiles>
+            <profile id="8670-6b46-5b81-47ab::b6fd-7fb1-6634-4c50" name="Unrestrained Power" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll any dice rolls of 1 when taking a Psychic test for this model. However, this model suffers Perils of the Warp on any Psychic test roll of a double, not just double 1 or double 6.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8670-6b46-5b81-47ab::aaec-277c-a30a-db53" name="Rogue Psyker" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">4</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8670-6b46-5b81-47ab::b6ea-591a-57bb-141e" name="Rogue Psyker" hidden="false" typeId="201a-159a-7751-b85b" typeName="Psyker">
+              <characteristics>
+                <characteristic name="Manifest" typeId="998f-87b1-cc06-fb7e">1</characteristic>
+                <characteristic name="Deny" typeId="cb14-ded3-0978-88b8">1</characteristic>
+                <characteristic name="Powers known" typeId="67ce-9d6c-052c-d1eb">Psybolt</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="8670-6b46-5b81-47ab::382b-90e9-1976-a2b5::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c59a-d4ed-8d88-50e2" name="Laspistol" entryId="8670-6b46-5b81-47ab::cfd3-c771-4b86-044c" number="1" type="upgrade">
+              <profiles>
+                <profile id="8670-6b46-5b81-47ab::5dee-98ff-db4f-e0a0::eadd-8018-8832-cd30" name="Laspistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="9fc6-7050-9029-5426" name="Chaos stave" entryId="8670-6b46-5b81-47ab::95c4-4149-583e-f05d" number="1" type="upgrade">
+              <profiles>
+                <profile id="8670-6b46-5b81-47ab::94d6-1d67-a603-eb4d" name="Chaos stave" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4cd2-d502-8663-ba4f" name="Psybolt" entryId="8670-6b46-5b81-47ab::6481-e644-1528-c83b::bb99-4086-e731-058e" number="1" type="upgrade">
+              <profiles>
+                <profile id="8670-6b46-5b81-47ab::6481-e644-1528-c83b::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="20.0"/>
+          </costs>
+          <categories>
+            <category id="9880-a76e-e025-0372" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="3f11-1a4b-e561-ae5e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="4359-c6b3-0e45-fb9e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="3a33-1f22-7731-32e8" name="Psyker" entryId="9b50-1372-5ee7-b0d9" primary="false"/>
+            <category id="d672-c26e-4209-8733" name="Rogue Psyker" entryId="a2e5-d233-07f2-37b6" primary="false"/>
+            <category id="d5e4-c535-1ecb-e0da" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="3a8e-7d2e-9077-3942" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="1394-0f34-f93d-727c" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
+          <profiles>
+            <profile id="f700-050b-497a-c074::16e7-e403-1da8-3ebf" name="Negavolt Cultist" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::a58d-8961-75b9-d74a" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time this model loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::7b7a-83ba-7008-c745" name="Voltageist Field" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">This model has a 5+ invulnerable save. After this model has charged, choose one of the target models within 1&quot; and roll a D6. On a 6 that target model suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::8326-b276-0695-5405::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="dc9d-b1c2-1ed5-2945" name="Electro-goads" entryId="f700-050b-497a-c074::f5e3-879f-ac5f-e2f8" number="1" type="upgrade">
+              <profiles>
+                <profile id="f700-050b-497a-c074::0453-c1fd-acf3-ac5f" name="Electro-goads" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ made with this weapon scores 3 hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="8835-1ff7-cc7b-8ad3" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="863a-3385-257d-59b6" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="4978-1504-fe5b-7bfe" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="1975-b9f3-08c2-d360" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="e20d-e91b-a92e-2b1f" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="06fc-0371-69a1-f2fc" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c571-8722-8f06-387f" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
+          <profiles>
+            <profile id="f700-050b-497a-c074::16e7-e403-1da8-3ebf" name="Negavolt Cultist" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::a58d-8961-75b9-d74a" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time this model loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::7b7a-83ba-7008-c745" name="Voltageist Field" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">This model has a 5+ invulnerable save. After this model has charged, choose one of the target models within 1&quot; and roll a D6. On a 6 that target model suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::8326-b276-0695-5405::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="aefa-b10c-203b-78a1" name="Electro-goads" entryId="f700-050b-497a-c074::f5e3-879f-ac5f-e2f8" number="1" type="upgrade">
+              <profiles>
+                <profile id="f700-050b-497a-c074::0453-c1fd-acf3-ac5f" name="Electro-goads" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ made with this weapon scores 3 hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="83b7-bac9-6a0a-6fe2" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="a7d7-d357-4af6-8cda" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="89a8-f7ab-8914-5726" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="7cd5-53a3-208c-7ee2" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="b59e-d366-62c5-d72c" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="7121-a6db-9142-ad20" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c512-926b-84b2-98a4" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
+          <profiles>
+            <profile id="f700-050b-497a-c074::16e7-e403-1da8-3ebf" name="Negavolt Cultist" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::a58d-8961-75b9-d74a" name="Fanatical Devotion" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time this model loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::7b7a-83ba-7008-c745" name="Voltageist Field" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+              <characteristics>
+                <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">This model has a 5+ invulnerable save. After this model has charged, choose one of the target models within 1&quot; and roll a D6. On a 6 that target model suffers 1 mortal wound.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="f700-050b-497a-c074::8326-b276-0695-5405::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="c54d-d92f-5f6c-5de1" name="Electro-goads" entryId="f700-050b-497a-c074::f5e3-879f-ac5f-e2f8" number="1" type="upgrade">
+              <profiles>
+                <profile id="f700-050b-497a-c074::0453-c1fd-acf3-ac5f" name="Electro-goads" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">+2</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each hit roll of 6+ made with this weapon scores 3 hits.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
+          </costs>
+          <categories>
+            <category id="e3d5-c9b9-4273-10e7" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="281e-7318-1a4f-8715" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="fa98-3f4c-960b-7fdc" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="4025-d1f0-c133-dc69" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="cdba-671c-a852-7637" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5aea-074b-5b35-47d0" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a15a-3980-e3f0-5973" name="Cultist of the Abyss Gunner" entryId="96dc-1708-9d84-96a4::5023-bf56-0eb4-494d" number="1" type="model">
+          <profiles>
+            <profile id="96dc-1708-9d84-96a4::7986-5dea-97ea-6a7e" name="Cultist of the Abyss Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5103-173a-8e31-97b8" name="Frag and krak grenades" entryId="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::4aa5-0f91-bc6d-2927" number="1" type="upgrade">
+              <profiles>
+                <profile id="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::84ec-ffef-82dd-c50c" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::6308-aad1-09e2-26aa" name="Krak grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">6</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f3f7-59da-7b83-e780" name="Grenade launcher" entryId="96dc-1708-9d84-96a4::d211-e1cb-5652-b3ae" entryGroupId="96dc-1708-9d84-96a4::4030-793a-726d-c102" number="1" type="upgrade">
+              <profiles>
+                <profile id="96dc-1708-9d84-96a4::b413-8b2e-b87e-a473" name="Grenade launcher" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">-</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">-</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">-</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">-</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">When attacking with this weapon, choose one of the profiles below:</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="96dc-1708-9d84-96a4::ca1e-6828-4c50-abf4" name="Grenade launcher - Frag" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="96dc-1708-9d84-96a4::b8d2-b250-61d6-2a49" name="Grenade launcher - Krak" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">6</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="c94c-aca3-bc0b-8723" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="4b8f-df5c-3289-bf2e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="7a3f-0529-77ca-0d75" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="01b4-9a49-fa6b-e857" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="76e5-b4d1-0f69-d13a" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d928-9d09-cde0-4308" name="Cultist of the Abyss Gunner" entryId="96dc-1708-9d84-96a4::5023-bf56-0eb4-494d" number="1" type="model">
+          <profiles>
+            <profile id="96dc-1708-9d84-96a4::7986-5dea-97ea-6a7e" name="Cultist of the Abyss Gunner" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">2</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="06ea-1894-c723-8adc" name="Frag and krak grenades" entryId="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::4aa5-0f91-bc6d-2927" number="1" type="upgrade">
+              <profiles>
+                <profile id="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::84ec-ffef-82dd-c50c" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="96dc-1708-9d84-96a4::ccf5-9d26-3f53-324a::6308-aad1-09e2-26aa" name="Krak grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">6</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b229-efb6-8330-0e1e" name="Heavy stubber" entryId="96dc-1708-9d84-96a4::808b-80c8-464c-8e60" entryGroupId="96dc-1708-9d84-96a4::4030-793a-726d-c102" number="1" type="upgrade">
+              <profiles>
+                <profile id="96dc-1708-9d84-96a4::c7c6-c427-1f91-274b" name="Heavy stubber" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">36&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy 3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="2.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="a80b-da40-14e2-a9ec" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="bc69-4650-7d65-eac4" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="f43e-1ef2-25eb-103c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="51c2-ae68-6b86-663a" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="d527-f7cd-d136-0627" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c9f0-5b1a-56e3-5c35" name="Chaos Beastman" entryId="889d-87d0-529f-ce91::1f94-b089-37aa-d653" number="1" type="model">
+          <profiles>
+            <profile id="889d-87d0-529f-ce91::8286-0a89-5da0-7d69" name="Chaos Beastman" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="889d-87d0-529f-ce91::6876-6666-e73a-fe02" name="Savage Charge" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Strength and Attacks characteristics of this model in a battle round in which it charges.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="889d-87d0-529f-ce91::5eab-5860-634d-5d18::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="ed9f-866c-f850-0f2b" name="Pistol and melee weapon" entryId="889d-87d0-529f-ce91::4fee-d27b-73ab-acae" number="1" type="upgrade">
+              <profiles>
+                <profile id="889d-87d0-529f-ce91::2359-64c3-7f2f-ad6d" name="Laspistol / Autopistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="889d-87d0-529f-ce91::f66e-3b4a-653c-1c3f" name="Melee weapon" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="15d9-218d-139c-b9d3" name="Frag grenades" entryId="889d-87d0-529f-ce91::676d-49a0-8676-3910" number="1" type="upgrade">
+              <profiles>
+                <profile id="889d-87d0-529f-ce91::0a4e-1023-846f-0f5f" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+          </costs>
+          <categories>
+            <category id="e3ac-d694-1fa2-d6c9" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="83ae-3c58-48c9-9266" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="18aa-1476-de69-fcff" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="79da-4891-0425-41b7" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
+            <category id="8f30-65f8-bb7a-dfed" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="face-713e-90c9-26d9" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e865-02a6-472f-75c2" name="Chaos Beastman" entryId="889d-87d0-529f-ce91::1f94-b089-37aa-d653" number="1" type="model">
+          <profiles>
+            <profile id="889d-87d0-529f-ce91::8286-0a89-5da0-7d69" name="Chaos Beastman" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="889d-87d0-529f-ce91::6876-6666-e73a-fe02" name="Savage Charge" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Strength and Attacks characteristics of this model in a battle round in which it charges.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="889d-87d0-529f-ce91::5eab-5860-634d-5d18::7028-399b-0541-f461" name="Servants of the Abyss" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed Nerve tests for this model whilst it is within 6&quot; of a HERETIC ASTARTES model from your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5888-155e-ca5d-f4ae" name="Pistol and melee weapon" entryId="889d-87d0-529f-ce91::4fee-d27b-73ab-acae" number="1" type="upgrade">
+              <profiles>
+                <profile id="889d-87d0-529f-ce91::2359-64c3-7f2f-ad6d" name="Laspistol / Autopistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="889d-87d0-529f-ce91::f66e-3b4a-653c-1c3f" name="Melee weapon" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time the bearer fights, it can make 1 additional attack with this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="98f5-0660-2d2a-bd96" name="Frag grenades" entryId="889d-87d0-529f-ce91::676d-49a0-8676-3910" number="1" type="upgrade">
+              <profiles>
+                <profile id="889d-87d0-529f-ce91::0a4e-1023-846f-0f5f" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+          </costs>
+          <categories>
+            <category id="d362-a43d-bb35-3d0d" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="a5d1-a270-ee21-614d" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="1d0d-41be-8008-ff21" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0596-60ca-5052-6c47" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
+            <category id="51c9-9246-7a33-8072" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="2c63-343c-7662-8f4b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="5b88-a89d-0155-fd05" name="Black Legionnaire" entryId="ce6b-24b1-5b89-dbea::e008-29b6-bf59-48b1" number="1" type="model">
+          <profiles>
+            <profile id="ce6b-24b1-5b89-dbea::27c9-d2c2-1bb7-9650" name="Black Legionnaire" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">3+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ce6b-24b1-5b89-dbea::efa2-f2cb-f8dd-f6d6::3d51-2df0-4fb3-b367" name="Transhuman Physiology" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Ignore the penalty to this model’s hit rolls from one flesh wound it has suffered.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="ce6b-24b1-5b89-dbea::fb43-a372-ebb5-1e6d::9f56-5396-4bd7-c8f6" name="Death to the False Emperor" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">If a model with this ability makes an attack in the Fight phase which targets an Imperium model, each time you roll a hit roll of 6+ you may make an additional attack with the same weapon against the same target. These attacks cannot themselves generate any further attacks.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="b2ad-decc-97f1-cde2" name="Boltgun" entryId="ce6b-24b1-5b89-dbea::cf74-a61b-105e-ed13" number="1" type="upgrade">
+              <profiles>
+                <profile id="ce6b-24b1-5b89-dbea::b9b9-3bac-bca4-2293" name="Boltgun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0498-52db-74ec-22db" name="Frag and krak grenades" entryId="ce6b-24b1-5b89-dbea::4c72-5328-6744-cd66::4aa5-0f91-bc6d-2927" number="1" type="upgrade">
+              <profiles>
+                <profile id="ce6b-24b1-5b89-dbea::4c72-5328-6744-cd66::84ec-ffef-82dd-c50c" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="ce6b-24b1-5b89-dbea::4c72-5328-6744-cd66::6308-aad1-09e2-26aa" name="Krak grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">6</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5e46-afd1-4e71-b210" name="Bolt pistol" entryId="ce6b-24b1-5b89-dbea::2b83-cdc0-9833-d25f::7cf1-6d0b-2b1a-2bfb" number="1" type="upgrade">
+              <profiles>
+                <profile id="ce6b-24b1-5b89-dbea::2b83-cdc0-9833-d25f::58ee-6f7d-7698-a6bd" name="Bolt pistol" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="12.0"/>
+          </costs>
+          <categories>
+            <category id="9a73-0d95-b639-b92a" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="34d4-d946-f9ad-aa61" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="d659-77e5-f377-1eb7" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="ee40-73f3-1db4-3fd4" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="59d2-5da7-a19d-e56c" name="Black Legionnaire" entryId="d40e-c95f-2de2-92a0" primary="false"/>
+            <category id="131b-661a-b0a0-0dee" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="b125-da17-c10d-89cd" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="0255-6913-241c-61e7" name="Cultist of the Abyss" entryId="5198-abd6-608a-03e0::9370-e44d-beed-6620" number="1" type="model">
+          <profiles>
+            <profile id="5198-abd6-608a-03e0::1248-55ad-f83b-cd4c" name="Cultist of the Abyss" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">6</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="26a9-8c59-5cc6-4406" name="Autogun" entryId="5198-abd6-608a-03e0::a250-2159-b5d2-5a00::e93c-7a53-6a88-e1a2" number="1" type="upgrade">
+              <profiles>
+                <profile id="5198-abd6-608a-03e0::a250-2159-b5d2-5a00::41c0-a89b-1cc7-b313" name="Autogun" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="04e8-c2ea-7181-9452" name="Frag and krak grenades" entryId="5198-abd6-608a-03e0::3f2d-32b1-d06b-3be8::4aa5-0f91-bc6d-2927" number="1" type="upgrade">
+              <profiles>
+                <profile id="5198-abd6-608a-03e0::3f2d-32b1-d06b-3be8::84ec-ffef-82dd-c50c" name="Frag grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D6</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+                <profile id="5198-abd6-608a-03e0::3f2d-32b1-d06b-3be8::6308-aad1-09e2-26aa" name="Krak grenade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">6</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">D3</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
+          </costs>
+          <categories>
+            <category id="26cd-58a3-7e1b-c326" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="93e8-3291-673e-033e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="7fd5-7dd7-af53-57a7" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="d048-6ac6-d5c6-c600" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="123c-10ef-3443-5f37" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="95c0-5d97-a99b-733b" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="f229-a368-f917-7cdf" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="335e-2fbd-3835-450a" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="60c6-4f56-518a-3399" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="cf40-5e2b-c894-3ea9" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="d546-28ad-3495-bef8" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="a4f7-25b8-4d48-6e48" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
