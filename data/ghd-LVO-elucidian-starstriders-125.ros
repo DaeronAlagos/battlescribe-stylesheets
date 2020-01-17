@@ -1,0 +1,1286 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="bfc5-438c-cbb7-56b3" name="LVO Elucidian Starstriders 125" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="37" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="124.0"/>
+  </costs>
+  <forces>
+    <force id="9f34-f7b6-58e4-0bcd" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="fbb3-685c-8a71-89ff" catalogueRevision="2" catalogueName="Elucidian Starstriders">
+      <selections>
+        <selection id="3565-ff81-bb21-7234" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="2312-0618-9402-7e68" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="4c2b-561f-8322-749b" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+                <category id="5659-4903-8f3b-4ce8" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
+                <category id="7228-ddc5-4857-f455" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="b91d-47ab-18c4-f1b8" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="bfb5-04f3-a006-c040" name="Voidsmaster Nitsch" entryId="6991-4036-0605-3655::7d6d-820e-9e83-75e0" number="1" type="model">
+          <profiles>
+            <profile id="6991-4036-0605-3655::dead-9bac-0412-522f" name="Voidsmaster Nitsch" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="6991-4036-0605-3655::e33c-a4dc-18ec-5955::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="e4d1-9184-189d-812e" name="Artificer Shotgun" entryId="6991-4036-0605-3655::a7dc-ee5e-1613-4676" number="1" type="upgrade">
+              <profiles>
+                <profile id="6991-4036-0605-3655::c107-4863-896a-5277" name="Artificer Shotgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within half range, add 1 to this weapon&apos;s Strength characteristic.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5127-0b90-7da3-e677" name="Concussion Grenades" entryId="6991-4036-0605-3655::eb4e-76d9-5717-f693::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="6991-4036-0605-3655::eb4e-76d9-5717-f693::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5aed-08d7-e73c-4341" name="Laspistol" entryId="6991-4036-0605-3655::a602-68e9-430b-ffe1::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="6991-4036-0605-3655::a602-68e9-430b-ffe1::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="089b-9540-b8ac-72a2" name="Leader" entryId="6991-4036-0605-3655::dd78-c800-5ae4-f7ab::bc50-1ede-1d68-ddb1::2abd-70f4-e7e8-4d18" entryGroupId="6991-4036-0605-3655::dd78-c800-5ae4-f7ab::f1cc-61f3-a69b-74ce" number="1" type="upgrade">
+              <selections>
+                <selection id="cc31-7227-04cb-01ad" name="Level 1: Resourceful" entryId="6991-4036-0605-3655::dd78-c800-5ae4-f7ab::bc50-1ede-1d68-ddb1::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="6991-4036-0605-3655::dd78-c800-5ae4-f7ab::bc50-1ede-1d68-ddb1::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="e72a-dc8e-4256-309d" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="c680-c711-0ac1-e9ea" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="ee98-e28c-f22a-a47d" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="1e21-84df-9e96-0261" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0fc0-b500-49b9-5154" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="352c-f6c6-609f-c652" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="85e9-51ab-86aa-d9bc" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="3954-b752-6c6a-76e3" name="Knosso Prond" entryId="9442-d517-a80f-f9a6::a262-7c59-fd4a-b906" number="1" type="model">
+          <profiles>
+            <profile id="9442-d517-a80f-f9a6::f8fd-c6e0-85ea-fe34" name="Knosso Prond" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">4</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9442-d517-a80f-f9a6::7194-8a0f-677e-e2a2" name="Uncanny Reflexes" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9442-d517-a80f-f9a6::fa71-3cf7-bd4a-1e76" name="Zealous" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can re-roll failed hit rolls for this model in a battle round in which it charged or was charged by an enemy model.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9442-d517-a80f-f9a6::ad6d-7c15-348c-3b61::527c-0b30-5ea5-4aa8" name="Specialist Retainer" publicationId="fbb3-685c-pubN66443" page="33" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model is always a specialist, but this does not count towards the maximum number of specialists in your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="1c76-0137-67df-9959" name="Death Cult Power Blade" entryId="9442-d517-a80f-f9a6::490a-9f0e-8a55-e876" number="1" type="upgrade">
+              <profiles>
+                <profile id="9442-d517-a80f-f9a6::eebb-8fc2-a97a-8858" name="Death Cult Power Blade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-2</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="82f7-868a-f374-b60c" name="Dartmask" entryId="9442-d517-a80f-f9a6::ab31-4f60-1a8f-3a59" number="1" type="upgrade">
+              <profiles>
+                <profile id="9442-d517-a80f-f9a6::b4f6-e817-a0e1-9273" name="Dartmask" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">9&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">1</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">This weapon wounds on a 2+.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ef77-e3f7-b048-9f9d" name="Combat" entryId="9442-d517-a80f-f9a6::5dd0-7c5f-dd8b-d498::cc58-f869-82d1-b353" number="1" type="upgrade">
+              <selections>
+                <selection id="8b59-09f4-ca5d-ea2a" name="Level 1: Expert Fighter" entryId="9442-d517-a80f-f9a6::5dd0-7c5f-dd8b-d498::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="9442-d517-a80f-f9a6::5dd0-7c5f-dd8b-d498::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="9946-d275-f19b-f21b" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f4da-a1ef-67f2-7fa1" name="Concussion Grenades" entryId="9442-d517-a80f-f9a6::d96a-ed77-a378-b9f0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="9442-d517-a80f-f9a6::d96a-ed77-a378-b9f0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="25.0"/>
+          </costs>
+          <categories>
+            <category id="6a1f-76e0-265f-f2e6" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="751a-1a08-cd42-ecc1" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="7ce0-b3a5-819c-f170" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="86e3-77d5-aebe-eb18" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="98e4-e98c-5b44-198d" name="Adeptus Ministorum" entryId="5c2b-6215-2319-1585" primary="false"/>
+            <category id="cf54-189d-de69-06f5" name="Death Cult Executioner" entryId="1257-2389-d9b4-83bc" primary="false"/>
+            <category id="ebb3-e988-caf1-24de" name="Specialist Retainer" entryId="181f-e47f-6ec3-2e9b" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2ab1-8c07-6754-4d5d" name="Larsen van der Grauss" entryId="c151-944e-69c0-b46a::3345-09e9-80a9-73b4" number="1" type="model">
+          <profiles>
+            <profile id="c151-944e-69c0-b46a::6f57-8c99-5149-3c02" name="Larsen van der Grauss" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">8</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">4+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c151-944e-69c0-b46a::7139-86e6-37b0-c416" name="Voltagheist Array" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Friendly ELUCIDIAN STARSTRIDERS models that are within 6&quot; of this model have a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="c151-944e-69c0-b46a::04d5-9ef1-6fab-e0b8::527c-0b30-5ea5-4aa8" name="Specialist Retainer" publicationId="fbb3-685c-pubN66443" page="33" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model is always a specialist, but this does not count towards the maximum number of specialists in your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d41e-9f32-bbb9-0ad3" name="Voltaic Pistol" entryId="c151-944e-69c0-b46a::2e20-51c6-4bb6-d475" number="1" type="upgrade">
+              <profiles>
+                <profile id="c151-944e-69c0-b46a::3d13-d713-180e-8e41" name="Voltaic Pistol" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">5</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each unmodified hit roll of 6 made for this weapon inflicts 3 hits on the target, instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="af1c-7e8c-39ef-8e0a" name="Comms" entryId="c151-944e-69c0-b46a::1ecf-66fb-3bbc-437b::02a0-4107-4818-7c99" number="1" type="upgrade">
+              <selections>
+                <selection id="ba7e-6e4f-a93f-d2c6" name="Level 1: Scanner" entryId="c151-944e-69c0-b46a::1ecf-66fb-3bbc-437b::91b5-71e4-b90e-3b34" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="c151-944e-69c0-b46a::1ecf-66fb-3bbc-437b::fe35-3bbe-31c6-22e3::fc51-0351-b8c9-fe7e" name="Scanner" publicationId="a467-5f42-pubN89361" page="70" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Once per Shooting phase, if this model is not shaken, when you pick another model from your kill team within 6&quot; of this model to shoot, you can add 1 to hit rolls for that model in this phase.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="5e0b-885f-b706-176b" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="bbc2-4df5-8361-4baf" name="Concussion Grenades" entryId="c151-944e-69c0-b46a::5b37-f75f-742b-8ac3::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="c151-944e-69c0-b46a::5b37-f75f-742b-8ac3::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="22.0"/>
+          </costs>
+          <categories>
+            <category id="9467-47a2-f09f-60a6" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="a7b6-7eea-25f3-4cc4" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="ac5b-40df-945f-6d80" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="a670-b9a6-e63b-66d9" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="6ed0-2e2c-713b-56f9" name="Adeptus Mechanicus" entryId="51f6-1949-839e-7425" primary="false"/>
+            <category id="589f-9c06-167e-7911" name="Lectro-Maester" entryId="e119-241f-40f0-b545" primary="false"/>
+            <category id="23a6-ddc0-74cc-27fd" name="Mars" entryId="2f68-07b4-cece-a4b9" primary="false"/>
+            <category id="55d5-ad3f-6664-aab3" name="Tech-Priest" entryId="a469-348e-e8a8-23be" primary="false"/>
+            <category id="71fb-2798-e3f3-8ed1" name="Specialist Retainer" entryId="181f-e47f-6ec3-2e9b" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e63e-1ce6-ecb1-32ee" name="Sanistasia Minst" entryId="4585-e912-a7a1-0b6a::296d-fb70-6e48-50c3" number="1" type="model">
+          <profiles>
+            <profile id="4585-e912-a7a1-0b6a::d1c8-1125-e9d9-a1b1" name="Sanistasia Minst" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">2</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4585-e912-a7a1-0b6a::6ee9-0e48-c65b-2ca4" name="Healing Serum" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">At the end of the Movement phase, as long as this model is not shaken or Readied and did not Fall Back or make a charge attempt this phase, choose a friendly ELUCIDIAN STARSTRIDERS model that has any flesh wounds and is within 1&quot; of this model. Roll a D6; on a 4+ one flesh wound is removed from that model.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="4585-e912-a7a1-0b6a::db72-7c5f-2e24-9fe3::527c-0b30-5ea5-4aa8" name="Specialist Retainer" publicationId="fbb3-685c-pubN66443" page="33" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model is always a specialist, but this does not count towards the maximum number of specialists in your kill team.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="060f-de29-38fe-674c" name="Scalpel Claw" entryId="4585-e912-a7a1-0b6a::0995-4b6e-f744-1f08" number="1" type="upgrade">
+              <profiles>
+                <profile id="4585-e912-a7a1-0b6a::6fae-0f15-b317-3431" name="Scalpel Claw" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="41ad-ea30-271a-f128" name="Medic" entryId="4585-e912-a7a1-0b6a::d8ab-8140-982d-b0c8::01ab-630a-cf81-38c9" number="1" type="upgrade">
+              <selections>
+                <selection id="0ff5-f98b-150e-1390" name="Level 1: Reassuring" entryId="4585-e912-a7a1-0b6a::d8ab-8140-982d-b0c8::0708-4781-8d49-9b02" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="4585-e912-a7a1-0b6a::d8ab-8140-982d-b0c8::1ccd-5cfa-8e8c-a3b7::79c1-35fe-0ad6-b222" name="Reassuring" publicationId="a467-5f42-pubN89361" page="73" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model is never treated as being shaken when taking Nerve tests for other models in your kill team.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="5058-d61b-4618-bd71" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="afd5-9c21-3ce9-d3f1" name="Laspistol" entryId="4585-e912-a7a1-0b6a::0795-2c3f-ae1b-348d::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="4585-e912-a7a1-0b6a::0795-2c3f-ae1b-348d::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="dbb8-3117-2a67-7f01" name="Concussion Grenades" entryId="4585-e912-a7a1-0b6a::29ee-37f3-8e77-258f::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="4585-e912-a7a1-0b6a::29ee-37f3-8e77-258f::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="17.0"/>
+          </costs>
+          <categories>
+            <category id="a88c-fc76-e6af-2ba7" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="90b4-6585-f594-b20f" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="e6cc-3232-b29b-a7c0" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="e180-57d4-159d-179b" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="42da-683c-78ee-1ff7" name="Rejuvenat Adept" entryId="31b3-0d93-daeb-e1d7" primary="false"/>
+            <category id="2e3e-4ef2-306a-e498" name="Specialist Retainer" entryId="181f-e47f-6ec3-2e9b" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e87e-ad63-9493-6451" name="Aximillion" entryId="0e5e-4bf1-a182-9f21::5c99-d016-fc57-eca4" number="1" type="model">
+          <profiles>
+            <profile id="0e5e-4bf1-a182-9f21::b95d-e428-bce8-0a85" name="Aximillion" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">8&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">5</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="0e5e-4bf1-a182-9f21::d762-0cc2-8435-543d::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="61b3-bc59-81ff-ccd1" name="Vicious Bite" entryId="0e5e-4bf1-a182-9f21::0542-c376-daf8-1f83" number="1" type="upgrade">
+              <profiles>
+                <profile id="0e5e-4bf1-a182-9f21::89e0-a833-df1e-c0f0" name="Vicious Bite" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4b8f-8d74-202b-6bda" name="Veteran" entryId="0e5e-4bf1-a182-9f21::7cbb-37b8-fa95-a0b7::751c-4c29-fb89-5f07::c89e-5e73-276f-cc16" entryGroupId="0e5e-4bf1-a182-9f21::7cbb-37b8-fa95-a0b7::f1cc-61f3-a69b-74ce" number="1" type="upgrade">
+              <selections>
+                <selection id="056a-400d-9761-8f6a" name="Level 1: Grizzled" entryId="0e5e-4bf1-a182-9f21::7cbb-37b8-fa95-a0b7::751c-4c29-fb89-5f07::2b7e-30df-e559-be77" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="0e5e-4bf1-a182-9f21::7cbb-37b8-fa95-a0b7::751c-4c29-fb89-5f07::804c-4282-5c97-f5f7::57a0-c58a-4425-5d9d" name="Grizzled" publicationId="a467-5f42-pubN89361" page="76" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">This model ignores penalties to its Leadership characteristic and Nerve tests.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="37e2-649c-91bf-9b43" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="0292-a271-ec6e-8fcf" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="f823-7867-8fed-cdae" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="3759-ed0e-a0c2-9948" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="2725-bc0e-e535-e73e" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="23d4-5760-bdeb-8e23" name="Aximillion" entryId="cdc8-494b-561d-e4a7" primary="false"/>
+            <category id="ef73-ac71-121f-254c" name="Beast" entryId="5d31-bdf1-1016-290b" primary="false"/>
+            <category id="77c5-3c05-41db-9154" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="9754-7080-a561-2f9f" name="Voidsman Gunner" entryId="d341-ee5d-13c7-93b1::0902-1bcd-c021-d25a" number="1" type="model">
+          <profiles>
+            <profile id="d341-ee5d-13c7-93b1::1b0c-ce91-6fb5-1f43" name="Voidsman Gunner" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d341-ee5d-13c7-93b1::9f8e-7d49-7e68-a456::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6368-8efc-c50d-e5b5" name="Rotor Cannon" entryId="d341-ee5d-13c7-93b1::1abe-e125-899a-a432" number="1" type="upgrade">
+              <profiles>
+                <profile id="d341-ee5d-13c7-93b1::b3cc-7e23-8cac-222c" name="Rotor Cannon" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Heavy 4</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">4</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">2</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8b7a-282f-2142-c09d" name="Concussion Grenades" entryId="d341-ee5d-13c7-93b1::0f78-095b-8d91-1770::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="d341-ee5d-13c7-93b1::0f78-095b-8d91-1770::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f78e-4cc5-9114-6051" name="Laspistol" entryId="d341-ee5d-13c7-93b1::58cb-558f-9367-c390::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="d341-ee5d-13c7-93b1::58cb-558f-9367-c390::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2007-b452-347f-79fe" name="Demolitions" entryId="d341-ee5d-13c7-93b1::2635-583a-8612-44a4::328d-3366-52e4-2f4a::1933-2ec9-f5b1-5666" entryGroupId="d341-ee5d-13c7-93b1::2635-583a-8612-44a4::f1cc-61f3-a69b-74ce" number="1" type="upgrade">
+              <selections>
+                <selection id="e35f-5416-0ac9-8f2f" name="Level 1: Breacher" entryId="d341-ee5d-13c7-93b1::2635-583a-8612-44a4::328d-3366-52e4-2f4a::fd1c-53b4-e856-de6a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d341-ee5d-13c7-93b1::2635-583a-8612-44a4::328d-3366-52e4-2f4a::b3c3-3354-744a-fc9d::ffe1-1e6b-e52b-9cc7" name="Breacher" publicationId="a467-5f42-pubN89361" page="71" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s wound rolls against targets that are obscured.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="8375-d4e4-bfa8-7ea5" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="f209-ab96-2856-c330" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="6dc3-8a0f-3cda-37ee" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="74a2-8bc9-dc02-fb6c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e1b0-0cb1-92b9-04e3" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="0c9c-a20a-59af-702a" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="aa17-0161-500c-5756" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="5872-53be-7a4a-b73c" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7645-ea4d-2d0e-8718" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7347-bfe6-a239-abbb" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4847-dcc5-243a-3e42" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="3f8e-7643-0854-6540" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="d9e1-a686-8fe3-e774" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="6ba5-fb68-418e-74c5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="1307-cf13-43bd-b9f9" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="c102-8019-736c-b788" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="be2a-f1be-ecb2-86e2" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7a4a-e005-7944-c198" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="9833-370e-b88f-a06d" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="616b-65fa-427e-c0c2" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7f2b-a5fe-5b11-4f4c" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="34b9-5682-7063-7306" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="ce3b-9ca4-7a09-ebf5" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="1d25-8872-eb43-3ea2" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="b2aa-b08e-0eb3-6810" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="96a9-cafe-3e4e-3a37" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="3da9-4927-6474-0879" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7d01-9b07-7ccf-0b3f" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="4fe9-82be-6103-b6f4" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="a216-f984-c0fb-0fcf" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="ac34-94eb-f9e9-bdef" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="e723-4b18-a5c5-6060" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="8f8f-c1d0-e099-e598" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="d59e-daf9-0781-36f6" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="8b6c-d8f5-338e-08d4" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="5306-7e48-3a80-20a5" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="f441-8dfe-89c4-1980" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="6af4-1cec-43e0-f537" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="05af-565c-5bef-ebf0" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="295e-8d6d-0231-e4f3" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="2a7d-2a20-42fa-bb55" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="dff2-514c-8271-5a9d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="158c-f844-e99e-3b0b" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="d2c5-4dac-9ca1-41c2" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="c505-ffa4-5760-daee" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="00b6-7d75-4ce3-d2db" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="9ebf-91a1-bd69-c8f3" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="7a27-1325-5461-33e6" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8703-63f2-f392-dc08" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="d2af-88f4-be24-b9cb" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7bd1-f9a4-6d3d-3be4" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="5385-c377-d247-799a" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="9817-a826-6413-d8e8" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="84ec-7e27-0cc5-2a99" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="6915-3953-fa11-78cf" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="9010-f0a2-6629-7485" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="d732-f1f7-cb3d-1b13" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c2ab-65f7-50a0-f428" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="cdac-921f-2a18-6d6e" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3044-1c30-6bef-3b91" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="40e9-7cf4-233b-3b10" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="687e-8b7a-c1e3-ad26" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="9fa2-6e99-c8fd-1070" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="2d81-e558-d093-9efe" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9a95-812a-74d9-7173" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="5fda-71c2-2568-24a2" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="b414-f3d4-92dd-03db" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c226-114f-2946-53ae" name="Voidsman" entryId="e18f-cc78-6685-ce1b::f1d1-a492-e634-a2e3" number="1" type="model">
+          <profiles>
+            <profile id="e18f-cc78-6685-ce1b::93c9-178b-8489-b72c" name="Voidsman" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">5+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">3</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="e18f-cc78-6685-ce1b::9918-780d-57d9-ea0a::3188-9255-fac6-531f" name="Loyal Retainer" publicationId="fbb3-685c-pubN66443" page="32" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to the Leadership characteristic of this model whilst it is within 6&quot; of ELUCIA VHANE.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d6b8-10f5-785e-e9cc" name="Concussion Grenades" entryId="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::f5eb-bd3e-7f85-4226" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e46e-b733-9dd9-66c0::8900-4dce-d947-56a0" name="Concussion Grenade" publicationId="fbb3-685c-pubN66443" page="36" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">6&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Grenade D3</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">If the target is within 1&quot; of a terrain feature, add 1 to this weapon&apos;s Strength and Damage characteristics.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="fec3-a26a-6fdf-7723" name="Lasgun" entryId="e18f-cc78-6685-ce1b::85d9-2b6f-aeb3-0caa" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::b024-8861-4b37-2785" name="Lasgun" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">24&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Rapid Fire 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6c12-d75e-7e2c-fd78" name="Laspistol" entryId="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::4f1f-e344-d34b-4115" number="1" type="upgrade">
+              <profiles>
+                <profile id="e18f-cc78-6685-ce1b::e9b1-5cea-7a3b-c865::ecb9-9702-a975-e647" name="Laspistol" publicationId="fbb3-685c-pubN66443" page="34" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">12&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Pistol 1</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">3</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
+          </costs>
+          <categories>
+            <category id="9720-ca73-54b2-ef12" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="826d-236d-c6df-9c35" name="Faction: Elucidian Starstriders" entryId="5515-1b85-da8a-a8c2" primary="false"/>
+            <category id="d352-ae0c-3439-4cae" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9543-be90-e4c0-5875" name="Imperium" entryId="8d6d-8c4b-f475-e74a" primary="false"/>
+            <category id="ce74-ad31-0f3b-268f" name="Voidsman" entryId="49e2-3b84-5d99-b509" primary="false"/>
+            <category id="13c8-f064-c94a-347b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="fbb3-685c-pubN66443" name="Rogue Trader"/>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="8088-e12e-c272-1a1e" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="4562-9bcc-d846-8e0f" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="ff18-4320-4b0d-21f2" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="675e-8aa3-85cd-097e" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="d81b-0cf1-0a91-7840" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="1287-b5d9-7075-d7e6" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="fbd8-b0a0-0128-7c29" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
