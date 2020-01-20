@@ -1,0 +1,1177 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<roster id="fcad-d297-1470-b8b5" name="ghd-daemons" battleScribeVersion="2.03" gameSystemId="a467-5f42-d24c-6e5b" gameSystemName="Warhammer 40,000: Kill Team (2018)" gameSystemRevision="38" xmlns="http://www.battlescribe.net/schema/rosterSchema">
+  <costs>
+    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="125.0"/>
+  </costs>
+  <forces>
+    <force id="005f-e683-c5f4-7f28" name="Kill Team List" entryId="cf61-9e5a-51cd-b4d2" catalogueId="0737-c237-2604-a08c" catalogueRevision="4" catalogueName="Chaos Daemons">
+      <selections>
+        <selection id="7a13-3ed7-22f4-5389" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
+          <selections>
+            <selection id="a316-349f-bc3f-a45a" name="Matched Play: Command Roster" entryId="5c5e-a332-5578-705f::57bf-6123-c537-58ac" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+              <categories>
+                <category id="927c-895e-b946-9058" name="List: Command Roster" entryId="d6e9-5af3-c17c-77a0" primary="false"/>
+                <category id="4fd7-638b-2c35-cb63" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
+              </categories>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="7347-82ba-fbe5-f9cf" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a081-81dc-ed36-327f" name="Plagueridden" entryId="d7ef-9439-5125-868b::0078-3abc-7038-7476" number="1" type="model">
+          <profiles>
+            <profile id="d7ef-9439-5125-868b::6533-f465-0a6a-7979" name="Plagueridden" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d7ef-9439-5125-868b::a8c0-ac0a-057f-7567::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d7ef-9439-5125-868b::3c3b-89c0-964e-d1cd::455d-db5d-faec-36bf" name="Disgustingly Resilient" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="10b3-9517-7bfd-6f0d" name="Plaguesword" entryId="d7ef-9439-5125-868b::4dbb-bdd9-5710-b121::3f5a-8224-2f48-a6a2" number="1" type="upgrade">
+              <profiles>
+                <profile id="d7ef-9439-5125-868b::4dbb-bdd9-5710-b121::a032-2247-5f2b-a681" name="Plaguesword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="0d3e-c28f-2e18-aab0" name="Leader" entryId="d7ef-9439-5125-868b::946b-9447-019f-ecf5::8cb9-5f2b-9c1d-0d8c::2abd-70f4-e7e8-4d18" entryGroupId="d7ef-9439-5125-868b::946b-9447-019f-ecf5::5621-2b31-1622-c4e0" number="1" type="upgrade">
+              <selections>
+                <selection id="7464-2116-99a1-f937" name="Level 1: Resourceful" entryId="d7ef-9439-5125-868b::946b-9447-019f-ecf5::8cb9-5f2b-9c1d-0d8c::49c6-1aa8-c120-1cf1" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="d7ef-9439-5125-868b::946b-9447-019f-ecf5::8cb9-5f2b-9c1d-0d8c::0827-f431-3c0e-66c0::b8d6-5870-939e-3cdf" name="Resourceful" publicationId="a467-5f42-pubN89361" page="68" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">As long as this model is on the battlefield and not shaken, you gain an additional Command Point at the beginning of the battle round.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                    <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="d962-3fed-307b-42e0" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="0a6f-9ad6-244c-ccd0" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="1fca-b63d-9c3f-7b16" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="59f0-eb45-669f-a9ff" name="Nurgle" entryId="854f-05f0-fb32-7466" primary="false"/>
+            <category id="52f0-87fd-03dd-2fbb" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="c323-e193-d227-81c7" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="b46e-94ca-69ef-8d8b" name="Plaguebearer" entryId="7cb6-3231-ff31-1be2" primary="false"/>
+            <category id="cf3c-83f6-d05b-6b99" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="bcb2-29cd-bfc0-e759" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2349-b5fe-3519-6c72" name="Iridescent Horror" entryId="a210-ffc7-3dc0-ac4e::d9fc-bf49-5e9a-a943" number="1" type="model">
+          <rules>
+            <rule id="a210-ffc7-3dc0-ac4e::df65-b9d8-9014-9359::10cd-b870-5c8e-0019" name="Split" hidden="false">
+              <description>Do not make any Injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is instead automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action.
+
+When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors within 1/2&quot; of the slain model before it it removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment.
+
+When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horrors model. A Pair of Brimstone Horrors has no weapons or equipment.
+
+If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror that is a Specialist is taken out of action, any Blue Horrors that are set up are not Specialists.
+
+Blue Horrors and Pairs of Brimstone Horrors are never considered to have charged in the battle round in which they are set up.
+
+Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken and are not treated as friendly models for the purposes of Nerve Tests.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="a210-ffc7-3dc0-ac4e::c55b-c4b7-c4a8-4742" name="Iridescent Horror" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a210-ffc7-3dc0-ac4e::9613-978d-3442-a4df::506b-bdff-15ca-69c2" name="Blue Horror" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">2</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a210-ffc7-3dc0-ac4e::1a8d-0964-7d8e-c4ea::3e10-5811-8c26-6b73" name="Pair of Brimstone Horrors" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">1</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a210-ffc7-3dc0-ac4e::bcee-82a6-1002-562a::1c24-7721-8471-773f" name="Horror" hidden="false" typeId="201a-159a-7751-b85b" typeName="Psyker">
+              <characteristics>
+                <characteristic name="Manifest" typeId="998f-87b1-cc06-fb7e">1</characteristic>
+                <characteristic name="Deny" typeId="cb14-ded3-0978-88b8">1</characteristic>
+                <characteristic name="Powers known" typeId="67ce-9d6c-052c-d1eb">Psybolt</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a210-ffc7-3dc0-ac4e::539c-ca4a-24de-d14b::cb88-f8c8-41d4-b182" name="Ephemeral Daemons" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has an invulnerable save of 4+. Blue Horrors instead have an invulnerable save of 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="3941-63c3-8489-29da" name="Coruscating Flames" entryId="a210-ffc7-3dc0-ac4e::10bc-a5fc-dec4-5a9d::6897-8c74-0576-4b76" number="1" type="upgrade">
+              <profiles>
+                <profile id="a210-ffc7-3dc0-ac4e::10bc-a5fc-dec4-5a9d::3018-e236-9da9-3358" name="Coruscating Flames" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="4f85-8192-fc30-92a3" name="Psybolt" entryId="a210-ffc7-3dc0-ac4e::9cc9-bd02-9b16-0338::bb99-4086-e731-058e" number="1" type="upgrade">
+              <profiles>
+                <profile id="a210-ffc7-3dc0-ac4e::9cc9-bd02-9b16-0338::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="5f87-6348-74fc-f675" name="Demolitions" entryId="a210-ffc7-3dc0-ac4e::4f1a-8c00-0c92-3e35::52f2-5881-bf9c-5b17::1933-2ec9-f5b1-5666" entryGroupId="a210-ffc7-3dc0-ac4e::4f1a-8c00-0c92-3e35::5621-2b31-1622-c4e0" number="1" type="upgrade">
+              <selections>
+                <selection id="6803-ebac-9fc7-9b10" name="Level 1: Breacher" entryId="a210-ffc7-3dc0-ac4e::4f1a-8c00-0c92-3e35::52f2-5881-bf9c-5b17::fd1c-53b4-e856-de6a" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="a210-ffc7-3dc0-ac4e::4f1a-8c00-0c92-3e35::52f2-5881-bf9c-5b17::b3c3-3354-744a-fc9d::ffe1-1e6b-e52b-9cc7" name="Breacher" publicationId="a467-5f42-pubN89361" page="71" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to this model&apos;s wound rolls against targets that are obscured.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                    <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="d7e5-5803-21e2-3021" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="13.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="924a-2f18-571c-6308" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="eb97-aa70-a5ca-49c6" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="23ed-a81a-c822-9cf4" name="Tzeentch" entryId="29a4-cdb6-08ba-6f7e" primary="false"/>
+            <category id="8528-ae08-df1b-f208" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="074a-c847-c82e-8824" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="c7dc-2db7-7e46-bb89" name="Horror" entryId="cd54-08c0-8ac9-940e" primary="false"/>
+            <category id="e510-e79f-d051-aeba" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="30b3-c8e1-28c4-5004" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="785b-fc1a-7448-1b0a" name="Pink Horror Icon Bearer" entryId="305e-5e87-6c36-89d8::c861-e455-2746-56e7" number="1" type="model">
+          <rules>
+            <rule id="305e-5e87-6c36-89d8::2f0e-7784-f9ce-9824::10cd-b870-5c8e-0019" name="Split" hidden="false">
+              <description>Do not make any Injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is instead automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action.
+
+When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors within 1/2&quot; of the slain model before it it removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment.
+
+When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horrors model. A Pair of Brimstone Horrors has no weapons or equipment.
+
+If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror that is a Specialist is taken out of action, any Blue Horrors that are set up are not Specialists.
+
+Blue Horrors and Pairs of Brimstone Horrors are never considered to have charged in the battle round in which they are set up.
+
+Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken and are not treated as friendly models for the purposes of Nerve Tests.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="305e-5e87-6c36-89d8::ca24-5a0e-d19d-e649" name="Pink Horror Icon Bearer" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="305e-5e87-6c36-89d8::669a-41c3-e512-01c7::506b-bdff-15ca-69c2" name="Blue Horror" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">2</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="305e-5e87-6c36-89d8::51ec-ea28-527b-1afe::3e10-5811-8c26-6b73" name="Pair of Brimstone Horrors" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">1</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="305e-5e87-6c36-89d8::9921-6f95-84b6-08d5::1c24-7721-8471-773f" name="Horror" hidden="false" typeId="201a-159a-7751-b85b" typeName="Psyker">
+              <characteristics>
+                <characteristic name="Manifest" typeId="998f-87b1-cc06-fb7e">1</characteristic>
+                <characteristic name="Deny" typeId="cb14-ded3-0978-88b8">1</characteristic>
+                <characteristic name="Powers known" typeId="67ce-9d6c-052c-d1eb">Psybolt</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="305e-5e87-6c36-89d8::9d9a-385e-d795-0ebc::cb88-f8c8-41d4-b182" name="Ephemeral Daemons" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has an invulnerable save of 4+. Blue Horrors instead have an invulnerable save of 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="0ac1-a2a9-8363-3629" name="Icon of Tzeentch" entryId="305e-5e87-6c36-89d8::e249-5dcc-d496-d119" number="1" type="upgrade">
+              <profiles>
+                <profile id="305e-5e87-6c36-89d8::0bf2-0a31-8e4d-931a" name="Icon of Tzeentch" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">At the start of your turn in the Psychich phase, roll a D6 for each model from your kill team equipped with an Icon of Tzeentch. On a 6 inflict 1 mortal wound of the closest enemy model within 12&quot; of the model being rolled for.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="e252-8fa6-f3cf-5c46" name="Coruscating Flames" entryId="305e-5e87-6c36-89d8::108d-8316-5260-f16f::6897-8c74-0576-4b76" number="1" type="upgrade">
+              <profiles>
+                <profile id="305e-5e87-6c36-89d8::108d-8316-5260-f16f::3018-e236-9da9-3358" name="Coruscating Flames" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="7f4b-88ae-29bf-82b7" name="Psybolt" entryId="305e-5e87-6c36-89d8::47a7-5190-ccf3-8dce::bb99-4086-e731-058e" number="1" type="upgrade">
+              <profiles>
+                <profile id="305e-5e87-6c36-89d8::47a7-5190-ccf3-8dce::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="b5f7-08a9-a3a9-5d71" name="Comms" entryId="305e-5e87-6c36-89d8::f648-d266-6d19-d34f::6125-1445-9e00-95d3::02a0-4107-4818-7c99" entryGroupId="305e-5e87-6c36-89d8::f648-d266-6d19-d34f::5621-2b31-1622-c4e0" number="1" type="upgrade">
+              <selections>
+                <selection id="87ec-06d3-6db6-dba8" name="Level 1: Scanner" entryId="305e-5e87-6c36-89d8::f648-d266-6d19-d34f::6125-1445-9e00-95d3::91b5-71e4-b90e-3b34" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="305e-5e87-6c36-89d8::f648-d266-6d19-d34f::6125-1445-9e00-95d3::fe35-3bbe-31c6-22e3::fc51-0351-b8c9-fe7e" name="Scanner" publicationId="a467-5f42-pubN89361" page="70" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Once per Shooting phase, if this model is not shaken, when you pick another model from your kill team within 6&quot; of this model to shoot, you can add 1 to hit rolls for that model in this phase.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                    <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="2411-f13f-5e20-b6cf" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="13.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="d769-dfb5-7acf-1c4c" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="d2b7-deb8-c0ea-f7fd" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="cd29-7c83-7469-e2a5" name="Tzeentch" entryId="29a4-cdb6-08ba-6f7e" primary="false"/>
+            <category id="20d5-bbbf-e1eb-03bc" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="36b2-753f-8a18-d571" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="ca15-6251-dc7b-e727" name="Horror" entryId="cd54-08c0-8ac9-940e" primary="false"/>
+            <category id="443b-9344-827f-9b4f" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="7191-8579-4e1b-4d1e" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="3e78-5a8b-8096-e79d" name="Pink Horror" entryId="92ba-3ac7-8172-026f::6efa-5ec7-fe87-1c03" number="1" type="model">
+          <rules>
+            <rule id="92ba-3ac7-8172-026f::a4f9-8f81-ac50-431a::10cd-b870-5c8e-0019" name="Split" hidden="false">
+              <description>Do not make any Injury rolls for a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower, Iridescent Horror, Blue Horror or Pair of Brimstone Horrors model. This model is instead automatically taken out of action when reduced to 0 wounds. The following rules apply when one of these models is taken out of action.
+
+When a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror is taken out of action, you can set up 2 Blue Horrors within 1/2&quot; of the slain model before it it removed. If these models cannot be set up, this ability has no effect. A Blue Horror has no weapons or equipment.
+
+When a Blue Horror is taken out of action, you can replace that model with 1 Pair of Brimstone Horrors model. A Pair of Brimstone Horrors has no weapons or equipment.
+
+If a Pink Horror, Pink Horror Icon Bearer, Pink Horror Hornblower or Iridescent Horror that is a Specialist is taken out of action, any Blue Horrors that are set up are not Specialists.
+
+Blue Horrors and Pairs of Brimstone Horrors are never considered to have charged in the battle round in which they are set up.
+
+Blue Horrors and Pairs of Brimstone Horrors are not treated as part of your kill team for the purposes of determining if your kill team is broken and are not treated as friendly models for the purposes of Nerve Tests.</description>
+            </rule>
+          </rules>
+          <profiles>
+            <profile id="92ba-3ac7-8172-026f::0660-8675-a8e6-2f3d" name="Pink Horror" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92ba-3ac7-8172-026f::488c-4e15-88e3-3c9c::506b-bdff-15ca-69c2" name="Blue Horror" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">2</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92ba-3ac7-8172-026f::b3ad-81f7-1b77-8c64::3e10-5811-8c26-6b73" name="Pair of Brimstone Horrors" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">-</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">1</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92ba-3ac7-8172-026f::ba97-a14c-2bfc-d977::1c24-7721-8471-773f" name="Horror" hidden="false" typeId="201a-159a-7751-b85b" typeName="Psyker">
+              <characteristics>
+                <characteristic name="Manifest" typeId="998f-87b1-cc06-fb7e">1</characteristic>
+                <characteristic name="Deny" typeId="cb14-ded3-0978-88b8">1</characteristic>
+                <characteristic name="Powers known" typeId="67ce-9d6c-052c-d1eb">Psybolt</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="92ba-3ac7-8172-026f::d95a-e85f-08d6-46ad::cb88-f8c8-41d4-b182" name="Ephemeral Daemons" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has an invulnerable save of 4+. Blue Horrors instead have an invulnerable save of 5+. Pairs of Brimstone Horrors instead have an invulnerable save of 6+.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="2c9f-ad9c-4225-a88d" name="Coruscating Flames" entryId="92ba-3ac7-8172-026f::16ee-2d42-bd0e-ec82::6897-8c74-0576-4b76" number="1" type="upgrade">
+              <profiles>
+                <profile id="92ba-3ac7-8172-026f::16ee-2d42-bd0e-ec82::3018-e236-9da9-3358" name="Coruscating Flames" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">18&quot;</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Assault 2</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">-</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="8165-c344-f982-e947" name="Psybolt" entryId="92ba-3ac7-8172-026f::f7a4-68fb-6772-1b47::bb99-4086-e731-058e" number="1" type="upgrade">
+              <profiles>
+                <profile id="92ba-3ac7-8172-026f::f7a4-68fb-6772-1b47::2cbf-5a86-d6f9-4824::ac13-38c6-87ab-38fb" name="Psybolt" publicationId="a467-5f42-pubN89361" page="26" hidden="false" typeId="7a97-314b-42a0-d52e" typeName="Psychic Power">
+                  <characteristics>
+                    <characteristic name="Psychic Power" typeId="0722-c3c3-3039-c061">Psybolt has a warp charge value of 5. If manifested, the closest enemy model within 18&quot; of and visible to the psyker suffers 1 mortal wound (pg 33). If the result of the Psychic test was 11+, the target suffers D3 mortal wounds instead.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="12.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="7a79-819e-51ac-c114" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="1cc8-25af-0015-9943" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="47f2-dbda-bcda-9236" name="Tzeentch" entryId="29a4-cdb6-08ba-6f7e" primary="false"/>
+            <category id="2c1f-df5a-76b2-8942" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9260-7708-b358-17b0" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="92ba-630c-7c3e-e906" name="Horror" entryId="cd54-08c0-8ac9-940e" primary="false"/>
+            <category id="e8e1-8c38-78cc-c4d4" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="cbef-bfea-fecd-977b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="31ea-79ce-3629-1686" name="Bloodreaper" entryId="eb98-c573-6bdd-169f::57e9-6e4d-9463-83de" number="1" type="model">
+          <profiles>
+            <profile id="eb98-c573-6bdd-169f::3173-8ad4-e170-27f2" name="Bloodreaper" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">2</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="eb98-c573-6bdd-169f::da4b-e07f-79a6-de13::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="eb98-c573-6bdd-169f::475f-a05c-60b8-5048::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="6af0-1673-a94d-e38d" name="Hellblade" entryId="eb98-c573-6bdd-169f::d1c3-2733-bc84-f13c::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="eb98-c573-6bdd-169f::d1c3-2733-bc84-f13c::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="f92d-8e12-b54e-95c7" name="Combat" entryId="eb98-c573-6bdd-169f::986a-456c-2019-c9e2::3d48-19d4-27d3-2169::cc58-f869-82d1-b353" entryGroupId="eb98-c573-6bdd-169f::986a-456c-2019-c9e2::5621-2b31-1622-c4e0" number="1" type="upgrade">
+              <selections>
+                <selection id="7f5f-feaa-1877-1255" name="Level 1: Expert Fighter" entryId="eb98-c573-6bdd-169f::986a-456c-2019-c9e2::3d48-19d4-27d3-2169::16da-492c-b6a7-fb5c" number="1" type="upgrade">
+                  <profiles>
+                    <profile id="eb98-c573-6bdd-169f::986a-456c-2019-c9e2::3d48-19d4-27d3-2169::61e0-eab1-2c31-17ec::c0fe-c084-3f73-2cbf" name="Expert Fighter" publicationId="a467-5f42-pubN89361" page="69" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+                      <characteristics>
+                        <characteristic name="Description" typeId="b373-019d-503a-1124">Add 1 to this model&apos;s Attacks characteristic.</characteristic>
+                      </characteristics>
+                    </profile>
+                  </profiles>
+                  <costs>
+                    <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                    <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+                  </costs>
+                  <categories>
+                    <category id="dfac-a7da-a1ec-8fd4" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                  </categories>
+                </selection>
+              </selections>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="2503-5fc8-3c63-07cf" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="be04-20ba-caed-6bbb" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="c9c7-3d4a-dfbc-29ea" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="5307-5c75-08a7-e4cd" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="5d2c-23e8-7f90-a9be" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="11d3-436e-e381-f051" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="4df7-4b7d-c766-7fe5" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="6ab1-e25b-7169-7ec7" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="e7fe-5d33-ad8f-db92" name="Plaguebearer Icon Bearer" entryId="d89e-d7d2-386d-3c8a::f894-4ee0-0fe8-c2e1" number="1" type="model">
+          <profiles>
+            <profile id="d89e-d7d2-386d-3c8a::d93b-8eea-06f0-c07d" name="Plaguebearer Icon Bearer" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">5&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">4+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">4+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">4</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d89e-d7d2-386d-3c8a::f977-acd5-c62e-2126::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="d89e-d7d2-386d-3c8a::ba3a-4310-a3de-1917::455d-db5d-faec-36bf" name="Disgustingly Resilient" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">Each time a model with this ability loses a wound, roll a D6; on a 5+ the model does not lose that wound.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="801b-a0e0-9b61-6147" name="Icon of Nurgle" entryId="d89e-d7d2-386d-3c8a::70fa-c85f-adbd-065c" number="1" type="upgrade">
+              <profiles>
+                <profile id="d89e-d7d2-386d-3c8a::65e4-2cca-c352-389f" name="Icon of Nurgle" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">Subtract 1 from the Leadership characteristic of enemy models within 6&quot; of any models equipped with an Icon of Nurgle.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="aec4-ba12-f404-8769" name="Plaguesword" entryId="d89e-d7d2-386d-3c8a::ebbc-59a0-c730-edb9::3f5a-8224-2f48-a6a2" number="1" type="upgrade">
+              <profiles>
+                <profile id="d89e-d7d2-386d-3c8a::ebbc-59a0-c730-edb9::a032-2247-5f2b-a681" name="Plaguesword" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">0</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">You can re-roll wound rolls of 1 for this weapon.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="b4a2-bed6-38db-8ce8" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="bc1b-0cd5-bfaf-0e43" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="63cd-a3c8-564a-c569" name="Nurgle" entryId="854f-05f0-fb32-7466" primary="false"/>
+            <category id="4d80-6124-e879-cebf" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="4984-6e11-0fdf-8fd3" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="9f2b-9f63-3664-8565" name="Plaguebearer" entryId="7cb6-3231-ff31-1be2" primary="false"/>
+            <category id="1836-2637-e955-2d04" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="77a1-9e53-a72e-de71" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="5740-48bc-c47f-e715" name="Bloodletter" entryId="a940-981a-0a01-6e84::c058-5ee5-febb-85ea" number="1" type="model">
+          <profiles>
+            <profile id="a940-981a-0a01-6e84::7326-1a50-743c-caab" name="Bloodletter" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::cb71-113b-fbac-d84f::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::d85b-d0f7-b21b-6432::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7a66-85cc-cb42-7f72" name="Hellblade" entryId="a940-981a-0a01-6e84::af65-66f7-9a71-168c::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="a940-981a-0a01-6e84::af65-66f7-9a71-168c::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="8b40-21d5-0dfb-f3c4" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="0809-606d-919a-6f99" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="6050-0702-efb8-9cfe" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="5a8b-cc04-ce00-4709" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="4c1b-b8d3-1d24-dd03" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="fea9-518a-8420-8569" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="c619-d71b-b1fb-0c57" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="90fe-5b4a-ac32-2b86" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="d1ba-d239-dee7-cd33" name="Bloodletter" entryId="a940-981a-0a01-6e84::c058-5ee5-febb-85ea" number="1" type="model">
+          <profiles>
+            <profile id="a940-981a-0a01-6e84::7326-1a50-743c-caab" name="Bloodletter" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::cb71-113b-fbac-d84f::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::d85b-d0f7-b21b-6432::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="d1a0-8ce0-4f83-1671" name="Hellblade" entryId="a940-981a-0a01-6e84::af65-66f7-9a71-168c::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="a940-981a-0a01-6e84::af65-66f7-9a71-168c::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="844b-cfe5-2471-b0c8" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="4cf5-ba2c-645a-f67c" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="e539-1d50-393c-4ddc" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="5051-634f-76e2-df8c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="53ab-2ecc-9752-01c4" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="99a9-ba8c-d0ef-96fa" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="e4d6-a8e1-cba7-1a6d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="141f-563e-3495-1b94" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="3de9-75e5-80d5-9f6c" name="Bloodletter" entryId="a940-981a-0a01-6e84::c058-5ee5-febb-85ea" number="1" type="model">
+          <profiles>
+            <profile id="a940-981a-0a01-6e84::7326-1a50-743c-caab" name="Bloodletter" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::cb71-113b-fbac-d84f::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::d85b-d0f7-b21b-6432::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="64a1-7f6e-58f1-00af" name="Hellblade" entryId="a940-981a-0a01-6e84::af65-66f7-9a71-168c::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="a940-981a-0a01-6e84::af65-66f7-9a71-168c::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="0ef7-1af0-8c82-fc59" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="3406-a0ce-2471-62cc" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="5b89-06a8-b31d-6b5e" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="c13b-fcea-e23b-df7e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="65ab-191f-b1af-836c" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="6d55-196d-5cf6-97c6" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="4a58-c1b9-4318-75ff" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="bd06-f242-16a0-648e" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="aef1-dda4-2a8f-3afe" name="Bloodletter Icon Bearer" entryId="9b6c-bafd-4133-e6f5::baa6-401e-57e8-3207" number="1" type="model">
+          <profiles>
+            <profile id="9b6c-bafd-4133-e6f5::4fe8-fd59-c97d-7d2d" name="Bloodletter Icon Bearer" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9b6c-bafd-4133-e6f5::37df-aa04-624d-7d01::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="9b6c-bafd-4133-e6f5::ed0b-41a9-feea-649f::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="7da9-a5a4-6131-6867" name="Icon of Khorne" entryId="9b6c-bafd-4133-e6f5::7eb5-e230-45d0-f67b" number="1" type="upgrade">
+              <profiles>
+                <profile id="9b6c-bafd-4133-e6f5::579d-6c67-d33d-a9de" name="Icon of Khorne" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">You can re-roll charge rolls for BLOODLETTERS within 6&quot; of any friendly models equipped with an Icon of Khorne.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="3.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="3ae7-d7ca-ea1f-63f1" name="Hellblade" entryId="9b6c-bafd-4133-e6f5::0b5e-1f59-2074-f631::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="9b6c-bafd-4133-e6f5::0b5e-1f59-2074-f631::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="ed6e-e75b-b0cd-6edf" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="9d42-93f0-5ca2-e7af" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="1bd2-5890-52b8-d94a" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="b60d-177d-a950-bfc8" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="a00d-b7a0-dc27-9cb3" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="2e04-74da-a830-8333" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="d437-0fbb-a00c-ceb1" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="1b00-ba14-21f7-15af" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="c92d-378d-d98c-2fa1" name="Bloodletter Hornblower" entryId="52c3-3239-82be-cc28::aa55-f453-08c3-6a0e" number="1" type="model">
+          <profiles>
+            <profile id="52c3-3239-82be-cc28::cce2-583b-c504-d06b" name="Bloodletter Hornblower" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="52c3-3239-82be-cc28::a775-05a0-22a6-a801::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="52c3-3239-82be-cc28::ff47-50a2-243d-d1e0::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="058e-e916-3ce9-e581" name="Instrument of Khorne" entryId="52c3-3239-82be-cc28::11ce-b52c-2c33-46fb" number="1" type="upgrade">
+              <profiles>
+                <profile id="52c3-3239-82be-cc28::9310-cef2-ac99-2a6c" name="Instrument of Khorne" hidden="false" typeId="0883-432d-b2ca-f11a" typeName="Wargear">
+                  <characteristics>
+                    <characteristic name="Ability" typeId="8b56-49a8-40e5-242a">Add 1 to Advance and charge rolls made for BLOODLETTERS within 6&quot; of any models equipped with an Instrument of Khorne.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="2.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+            <selection id="6d60-37a8-48ec-e39a" name="Hellblade" entryId="52c3-3239-82be-cc28::ae4e-c557-4728-0ce4::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="52c3-3239-82be-cc28::ae4e-c557-4728-0ce4::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="1914-f4b8-361b-c5c6" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="4d64-ede6-085c-feb2" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="dfb3-0b0e-d18c-6f14" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="7cff-647d-f52e-806c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9ff3-1a0a-2991-4739" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="1f8d-9581-b358-51fc" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="2bb5-5659-0ac7-5cd6" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5a39-92aa-d3bf-0958" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="a2fb-5460-4159-eb93" name="Alluress" entryId="66ca-b552-3a4d-6d99::f7c9-5497-4c6b-89cd" number="1" type="model">
+          <profiles>
+            <profile id="66ca-b552-3a4d-6d99::7aee-47d2-c55a-76b8" name="Alluress" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">7&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">3</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">3</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">1</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="66ca-b552-3a4d-6d99::84e7-1686-2eb6-2eef::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="66ca-b552-3a4d-6d99::044e-2e98-67da-79ea::f462-093e-8e1e-6611" name="Quicksilver Swiftness" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">A model with this ability can be chosen to fight in the Hammer of Wrath section of the Fight phase even if they have not charged in that battle round.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="8aaa-5b92-55cc-a159" name="Piercing Claws" entryId="66ca-b552-3a4d-6d99::fe31-598b-8775-7b02::e971-c9b9-8f03-35f6" number="1" type="upgrade">
+              <profiles>
+                <profile id="66ca-b552-3a4d-6d99::fe31-598b-8775-7b02::0b6a-45f2-d7bc-c3e9" name="Piercing Claws" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-1</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Each time you make a wound roll of 6+ for this weapon, that hit is resolved with an AP of -4 instead of -1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="8.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="4bba-6776-8825-517f" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="90b8-168b-e321-73e8" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="7851-c69d-4945-641d" name="Slaanesh" entryId="dc22-107b-4bae-8a8c" primary="false"/>
+            <category id="0ddb-c347-915c-56e5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="cd6a-7a2f-a2fc-2e04" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="22a7-915d-fdd3-52d7" name="Daemonette" entryId="58b7-6f78-20d5-b2e7" primary="false"/>
+            <category id="0eb9-dcd0-fe9d-e230" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="e25b-9ec8-67ca-eff3" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+        <selection id="2a21-3602-2abd-57e5" name="Bloodletter" entryId="a940-981a-0a01-6e84::c058-5ee5-febb-85ea" number="1" type="model">
+          <profiles>
+            <profile id="a940-981a-0a01-6e84::7326-1a50-743c-caab" name="Bloodletter" hidden="false" typeId="bb0a-aba1-abd0-beb3" typeName="Model">
+              <characteristics>
+                <characteristic name="M" typeId="0a65-6cb0-f00d-e414">6&quot;</characteristic>
+                <characteristic name="WS" typeId="99d4-2590-8bac-3ad3">3+</characteristic>
+                <characteristic name="BS" typeId="27ff-d5c5-5422-1614">3+</characteristic>
+                <characteristic name="S" typeId="d474-89b0-047c-4f3a">4</characteristic>
+                <characteristic name="T" typeId="803c-5453-20c4-4b94">3</characteristic>
+                <characteristic name="W" typeId="0c48-aed0-609b-9818">1</characteristic>
+                <characteristic name="A" typeId="d63d-20cc-db25-5dd5">1</characteristic>
+                <characteristic name="Ld" typeId="411b-5228-afed-8334">7</characteristic>
+                <characteristic name="Sv" typeId="c319-1a2d-3648-2294">6+</characteristic>
+                <characteristic name="Max" typeId="44ec-172b-6381-4908">-</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::cb71-113b-fbac-d84f::8d61-a524-7fb2-487a" name="Daemonic" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">This model has a 5+ invulnerable save.</characteristic>
+              </characteristics>
+            </profile>
+            <profile id="a940-981a-0a01-6e84::d85b-d0f7-b21b-6432::6a7e-9275-b723-053d" name="Unstoppable Ferocity" hidden="false" typeId="1015-f0b1-9137-0060" typeName="Ability">
+              <characteristics>
+                <characteristic name="Description" typeId="b373-019d-503a-1124">You can add 1 to the Attacks and Strength characteristics of a model with this ability in a battle round in which they charged.</characteristic>
+              </characteristics>
+            </profile>
+          </profiles>
+          <selections>
+            <selection id="5b99-c520-a564-9544" name="Hellblade" entryId="a940-981a-0a01-6e84::af65-66f7-9a71-168c::8896-97af-e407-f645" number="1" type="upgrade">
+              <profiles>
+                <profile id="a940-981a-0a01-6e84::af65-66f7-9a71-168c::1eba-fef5-7599-f4f5" name="Hellblade" hidden="false" typeId="c067-7929-f4dc-7825" typeName="Weapon">
+                  <characteristics>
+                    <characteristic name="Range" typeId="5410-0b42-87cc-bbc6">Melee</characteristic>
+                    <characteristic name="Type" typeId="38ea-c4e0-d3bb-d1e9">Melee</characteristic>
+                    <characteristic name="S" typeId="fcc6-35ea-38b6-f4ca">User</characteristic>
+                    <characteristic name="AP" typeId="fc0e-2874-184d-9f64">-3</characteristic>
+                    <characteristic name="D" typeId="cc1f-e463-c014-2251">1</characteristic>
+                    <characteristic name="Abilities" typeId="72cf-5b8f-5b71-79b2">Any attacks with a wound roll of 6+ for this weapon have a Damage characteristic of 2 instead of 1.</characteristic>
+                  </characteristics>
+                </profile>
+              </profiles>
+              <costs>
+                <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
+                <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+              </costs>
+            </selection>
+          </selections>
+          <costs>
+            <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
+            <cost name="cp" typeId="1b28-ec06-982d-f5dc" value="0.0"/>
+          </costs>
+          <categories>
+            <category id="adda-1398-935f-8c85" name="Faction: Chaos Daemons" entryId="1ac8-a49e-16ce-e047" primary="false"/>
+            <category id="52f5-8712-b4f1-2b13" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="49ce-131a-9cc3-04fa" name="Khorne" entryId="c5bf-46ca-5e7d-713d" primary="false"/>
+            <category id="8312-2d2b-9b82-3586" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="0c2a-972c-07f6-0903" name="Daemon" entryId="ffde-f2b6-eefb-c7e6" primary="false"/>
+            <category id="773f-680f-c09a-7c17" name="Bloodletter" entryId="5e26-53b8-6faf-3c4e" primary="false"/>
+            <category id="9dc2-3d9e-0980-33b3" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="4a27-538f-c6c0-73da" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+          </categories>
+        </selection>
+      </selections>
+      <publications>
+        <publication id="a467-5f42-pubN89361" name="Core Manual"/>
+        <publication id="a467-5f42-pubN90767" name="Rogue Trader"/>
+        <publication id="69e0-b697-c118-d32d" name="Kill Team Annual 2019"/>
+        <publication id="701a-4a21-90a2-7618" name="Elites"/>
+        <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
+      </publications>
+      <categories>
+        <category id="4179-1a2b-8bf2-6214" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="a46f-d438-b456-d764" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="606c-aeaa-da04-663c" name="Commanders" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="75b0-3505-2c5d-de5b" name="Leaders" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="cb88-f753-6258-a4ca" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="633e-09cc-ed1a-f3ae" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="0ff2-4934-91d9-3b2a" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+      </categories>
+    </force>
+  </forces>
+</roster>
