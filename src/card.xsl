@@ -32,23 +32,29 @@
 	                 Points
 	            </div>
 	        </div>
-			<div>
+			<!-- UNIT PROFILES -->
+			<div> 
+				<xsl:variable name="profiles" select="bs:profiles/bs:profile[@typeName='Model']"/>
 				<table class="unit" cellspacing="0">
-		            <tr>
-		                <th>
-		                    Name
-		                </th>
-		                <xsl:apply-templates select="bs:profiles/bs:profile[@typeName='Model']" mode="header"/>
-		            </tr>
-		            <tr>
-		                <td>
-		                    <xsl:value-of select="@name"/>
-		                </td>
-		                <xsl:apply-templates select="bs:profiles/bs:profile[@typeName='Model']" mode="body"/>
-		            </tr>
+					<tr>
+						<th>
+							Name
+						</th>
+						<xsl:apply-templates select="$profiles[1]" mode="header"/>
+					</tr>
+					<xsl:for-each select="$profiles">
+						<tr>
+							<td>
+								<xsl:value-of select="@name"/>
+							</td>
+							<xsl:apply-templates mode="body"/>
+						</tr>
+					</xsl:for-each>
 		        </table>
 			</div>
-			<div> <!-- WEAPONS -->
+			<!-- /UNIT PROFILES -->
+			<!-- WEAPONS -->
+			<div>
 	            <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
 	            <table class="weapons" cellspacing="0">
 	                <tr>
@@ -69,7 +75,8 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div> <!-- WARGEAR -->
+			<!-- WARGEAR -->
+	        <div> 
 	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
 	            <table class="weapons" cellspacing="0">
 	                <xsl:for-each select="$wargear">
@@ -82,12 +89,15 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        <div> <!-- ABILITIES -->
-					<div>
-						<h2>Abilities</h2>				
-					</div>
+			<!-- /WARGEAR -->
+			<!-- ABILITIES -->
+	        <div class="abilities">
 	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
 	            <table cellspacing="0">
+					<tr>
+						<td>Abilities:</td>
+						<td></td>
+					</tr>
 	                <xsl:for-each select="$abilities">
 	                    <tr>
 	                        <td>
@@ -98,33 +108,60 @@
 	                </xsl:for-each>
 	            </table>
 	        </div>
-	        
-	            <xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
-	            <xsl:if test="$specialism">
-				<div class="specialism">
-					<div>
-						<h2>Specialism:</h2>				
-					</div>
-					<div>
-						<h2><xsl:value-of select="$specialism/@name"/></h2>
-					</div>
-	                <table cellspacing="0">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
-	                        </td>
-	                            <xsl:apply-templates select="$specialism" mode="body"/>
-	                            <!-- <xsl:value-of select="$specialism"/>                         -->
-	                    </tr>
-	                </table>
-	        </div>
+			<!-- /ABILITIES -->
 
-	            </xsl:if>
+			<!-- PSYCHIC POWERS -->
+			<xsl:variable name="psyker" select="bs:profiles/bs:profile[@typeName='Psyker']"/>
+			<xsl:variable name="psy-powers" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Psychic Power']"/>
+			<xsl:if test="$psy-powers">
+				<div class="psyker">
+					<table cellspacing="0">
+						<tr>
+							<td>Psyker:</td>
+							<td>
+								Manifest <xsl:value-of select="$psyker/bs:characteristics/bs:characteristic[@name='Manifest']"/> | Deny <xsl:value-of select="$psyker/bs:characteristics/bs:characteristic[@name='Deny']"/>
+							</td>
+						</tr>
+						<xsl:for-each select="$psy-powers">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>
+							</tr>
+						</xsl:for-each>
+					</table>
+				</div>
+			</xsl:if>
+			<!-- /PSYCHIC POWERS -->
+
+			<!-- SPECIALISM -->
+			<xsl:variable name="specialism" select="bs:selections/bs:selection[contains($specialisms, @name)]"/>
+			<xsl:if test="$specialism">
+				<div class="specialism">
+					<table cellspacing="0">
+						<tr>
+							<td>Specialism:	</td>
+							<td><xsl:value-of select="$specialism/@name"/></td>
+						</tr>
+						<tr>
+							<td>
+								<xsl:value-of select="$specialism/bs:selections/bs:selection/bs:profiles/bs:profile/@name"/>
+							</td>
+								<xsl:apply-templates select="$specialism" mode="body"/>
+						</tr>
+					</table>
+				</div>
+			</xsl:if>
+			<!-- /SPECIALISM -->
+
+			<!-- EXP TRACK -->
 			<div class="exp">
 				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
 				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
 				<div>Convalescence: &#9744;</div>
 				<div>New Recruit: &#9744;</div>
 			</div>
+			<!-- /EXP TRACK -->
 		</div>
 	</xsl:template>

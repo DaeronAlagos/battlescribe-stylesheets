@@ -21,6 +21,7 @@ h1 {
 }
 
 h2 {
+  // Refactor to mixin
   font-size: 0.8em;
   font-family: $header-font;
   margin: 0;
@@ -199,8 +200,18 @@ table.roster {
   }
 }
 
-.specialism > div {
-  float: left;
+.specialism, .psyker, .abilities {
+  & > div {
+    float: left;
+  }
+  & tr:first-child > td {
+    background-color: $card-background-color;
+    font-family: $header-font;
+    font-size: 1.1em;
+  }
+  & tr:first-child > td:last-child {
+    text-align: left;
+  }
 }
 
 .exp {
