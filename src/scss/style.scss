@@ -7,13 +7,13 @@ body {
 
 th {
   background-color: $th-background-color;
-  padding: 2px;
+  padding: 1pt;
   font-family: $header-font;
 }
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 42pt;
   text-transform: uppercase;
   font-family: $header-font;
   font-weight: bold;
@@ -22,7 +22,7 @@ h1 {
 
 h2 {
   // Refactor to mixin
-  font-size: 0.8em;
+  font-size: 24pt;
   font-family: $header-font;
   margin: 0;
   padding-left: 0.1cm;
@@ -68,7 +68,7 @@ table.campaign {
   margin-bottom: 0.5cm;
   & th, td {
     width: (100% / 4);
-    padding: 0.2cm;
+    padding: 2pt;
   }
   & th {
     text-transform: uppercase;
@@ -76,7 +76,7 @@ table.campaign {
   & td {
     border: 1px solid #666666;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 18pt;
     text-align: center;
   }
 }
@@ -86,14 +86,14 @@ table.roster {
   background-color: $card-background-color;
   & th {
     width: (100% / 7);
-    font-size: 0.9em;
+    font-size: 12pt;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
   }
   & td {
     background-color: $td-background-color;
     text-align: center;
-    font-size: 0.7em;
+    font-size: 10pt;
   }
 }
 
@@ -101,10 +101,10 @@ table.roster {
   width: $card-width - $card-padding;
   min-height: $card-height - $card-padding;
   background-color: $card-background-color;
-  border-radius: 0.4em;
+  border-radius: 8px;
   padding: $card-padding;
-  font-size: 0.8em;
-  border: 0.02cm solid $card-border-color;
+  font-size: 10pt;
+  border: 1px solid $card-border-color;
   display: table;
   & .header {
     display: flex;
@@ -127,7 +127,7 @@ table.roster {
   }
   & table {
     width: 100%;
-    font-size: 0.7em;
+    font-size: 8pt;
     text-align: center;
     text-transform: uppercase;
   }
@@ -179,7 +179,7 @@ table.roster {
     }
   }
   & td {
-    font-size: 1.2em;
+    font-size: 10pt;
   }
 }
 
@@ -207,7 +207,7 @@ table.roster {
   & tr:first-child > td {
     background-color: $card-background-color;
     font-family: $header-font;
-    font-size: 1.1em;
+    font-size: 10pt;
   }
   & tr:first-child > td:last-child {
     text-align: left;
@@ -215,7 +215,7 @@ table.roster {
 }
 
 .exp {
-  font-size: 0.8em;
+  font-size: 7pt;
   display: table-footer-group;
   margin-left: 6px;
   & > div {
@@ -245,7 +245,7 @@ table.roster {
   #roster {
     page-break-after: always;
   }
-  .card:nth-child(3n) {
-    page-break-after: left;
+  .card {
+    page-break-inside: avoid;
   }
 }
