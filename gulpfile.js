@@ -6,6 +6,7 @@ const rename = require('gulp-rename')
 const sass = require('gulp-sass')
 const gulpInject = require('gulp-inject')
 const autoprefixer = require('gulp-autoprefixer')
+const html2pdf = require('gulp-html2pdf');  // Requires wkhtmltopdf 0.12.5 (with patched qt)
 
 const fileName = args.bsfile
 
@@ -49,15 +50,18 @@ function inject () {
         .pipe(dest('build/'))
 }
 
-function xsltransform () {
-    return src(`data/${fileName}.ros`)
+function transform () {
+    return src('data/*.ros')
         .pipe(xslt('build/base.xsl', {}))
         .pipe(dest('build/'))
 }
 
 function htmlRename () {
-    return src(`build/${fileName}.ros`)
-        .pipe(rename(`build/${fileName}.html`))
+    return src('build/*.ros')
+        .pipe(rename((path) => {
+            path.dirname += '/build'
+            path.extname = '.html'
+        }))
         .pipe(dest('./'))
 }
 
@@ -65,6 +69,16 @@ function copyResult () {
     return src('build/base.xsl')
         .pipe(rename('stylesheet.xsl'))
         .pipe(dest('dist'))
+}
+
+function pdf () {
+    const options = {
+        printMediaType: true,
+        disableSmartShrinking: true
+    }
+    return src('build/*.html')
+    .pipe(html2pdf(options))
+    .pipe(dest('demo'))
 }
 
 exports.default = () => {
@@ -75,9 +89,12 @@ exports.default = () => {
         },
         reloadDelay: 2000
     })
-    watch(['src/scss/*.scss', 'src/*.xsl'], series(scss, inject, xsltransform, htmlRename, copyResult))
+    watch(['src/scss/*.scss', 'src/*.xsl'], series(scss, inject, transform, htmlRename, copyResult))
     watch('build/*.html').on('change', browserSync.reload)
 }
 exports.scss = scss
 exports.inject = inject
-exports.build = series(scss, inject, xsltransform, htmlRename, copyResult)
+exports.transform = transform
+exports.rename = htmlRename
+exports.pdf = pdf
+exports.build = series(scss, inject, transform, htmlRename, copyResult)

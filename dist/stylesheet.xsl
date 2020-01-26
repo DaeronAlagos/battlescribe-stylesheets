@@ -19,19 +19,19 @@ body {
 
 th {
   background-color: #E1501E;
-  padding: 2px;
+  padding: 1pt;
   font-family: "Oswald", sans-serif; }
 
 h1 {
   text-align: center;
-  font-size: 3em;
+  font-size: 42pt;
   text-transform: uppercase;
   font-family: "Oswald", sans-serif;
   font-weight: bold;
   margin: 0; }
 
 h2 {
-  font-size: 0.8em;
+  font-size: 24pt;
   font-family: "Oswald", sans-serif;
   margin: 0;
   padding-left: 0.1cm; }
@@ -66,14 +66,13 @@ table.campaign {
   width: 100%;
   margin-bottom: 0.5cm; }
   #roster-header > table th, #roster-header > table td {
-    width: 25%;
-    padding: 0.2cm; }
+    width: 25%; }
   #roster-header > table th {
     text-transform: uppercase; }
   #roster-header > table td {
     border: 1px solid #666666;
     font-weight: 600;
-    font-size: 1.1em;
+    font-size: 14pt;
     text-align: center; }
 
 table.roster {
@@ -81,44 +80,36 @@ table.roster {
   background-color: #FFFFFF; }
   table.roster th {
     width: 14.28571%;
-    font-size: 0.9em;
+    font-size: 12pt;
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase; }
   table.roster td {
     background-color: #dfdfdf;
     text-align: center;
-    font-size: 0.7em; }
+    font-size: 10pt; }
 
 .card {
   width: 11.3cm;
-  min-height: 7.3cm;
+  height: 7.3cm;
   background-color: #FFFFFF;
-  border-radius: 0.4em;
+  border-radius: 8px;
   padding: 0.2cm;
-  font-size: 0.8em;
-  border: 0.02cm solid #bbbbbb;
+  font-size: 10pt;
+  border: 1px solid #bbbbbb;
   display: table; }
   .card .header {
-    display: -webkit-box;
-    display: flex;
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-            flex-direction: row;
-    padding-bottom: 1px; }
+    display: table; }
     .card .header > div {
-      flex-basis: 33%;
-      text-align: center; }
-      .card .header > div:first-child {
-        text-align: left;
-        text-transform: uppercase;
-        font-weight: bold; }
-      .card .header > div:last-child {
+      display: table-cell;
+      width: 3.76667cm; }
+      .card .header > div:nth-child(2) {
+        text-align: center; }
+      .card .header > div:nth-child(3) {
         text-align: right;
-        text-transform: uppercase;
         font-weight: bold; }
   .card table {
     width: 100%;
-    font-size: 0.7em;
+    font-size: 8pt;
     text-align: center;
     text-transform: uppercase; }
   .card th {
@@ -158,7 +149,7 @@ table.roster {
     width: 0.91cm; }
 
 .unit td {
-  font-size: 1.2em; }
+  font-size: 10pt; }
 
 .weapons th:not(:first-child):not(:last-child), .weapons td:not(:first-child):not(:last-child) {
   width: 1.22cm; }
@@ -175,26 +166,25 @@ table.roster {
 .specialism tr:first-child > td, .psyker tr:first-child > td, .abilities tr:first-child > td {
   background-color: #FFFFFF;
   font-family: "Oswald", sans-serif;
-  font-size: 1.1em; }
+  font-size: 10pt; }
 
 .specialism tr:first-child > td:last-child, .psyker tr:first-child > td:last-child, .abilities tr:first-child > td:last-child {
   text-align: left; }
 
+.card-footer {
+  display: table-footer-group; }
+
 .exp {
   font-size: 0.8em;
-  display: table-footer-group;
-  margin-left: 6px; }
+  display: table;
+  width: 11.3cm; }
   .exp > div {
-    float: left;
-    margin: 0 2px; }
-    .exp > div > span {
-      margin: 1px; }
+    display: table-cell; }
     .exp > div > span:nth-child(3), .exp > div span:nth-child(7), .exp > div span:nth-child(12) {
       color: #E1501E; }
 
 @media screen {
   #cards {
-    display: -webkit-box;
     display: flex;
     flex-wrap: wrap; }
     #cards .card {
@@ -203,8 +193,8 @@ table.roster {
 @media print {
   #roster {
     page-break-after: always; }
-  .card:nth-child(3n) {
-    page-break-after: left; } }
+  .card {
+    page-break-inside: avoid; } }
 
 					<!-- endinject -->
 			</style>
@@ -496,59 +486,62 @@ table.roster {
 			<!-- /UNIT PROFILES -->
 			<!-- WEAPONS -->
 			<div>
-	            <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-	            <table class="weapons" cellspacing="0">
-	                <tr>
-	                    <xsl:for-each select="$weapons[1]">
-	                        <th>
-	                            <xsl:value-of select="@typeName"/>
-	                        </th>
-	                        <xsl:apply-templates mode="header"/>                    
-	                    </xsl:for-each>
-	                </tr>
-	                <xsl:for-each select="$weapons">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>                    
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
-			<!-- WARGEAR -->
-	        <div> 
-	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-	            <table class="weapons" cellspacing="0">
-	                <xsl:for-each select="$wargear">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
-			<!-- /WARGEAR -->
-			<!-- ABILITIES -->
-	        <div class="abilities">
-	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
-	            <table cellspacing="0">
-					<tr>
-						<td>Abilities:</td>
-						<td></td>
-					</tr>
-	                <xsl:for-each select="$abilities">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
+				<xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
+					<table class="weapons" cellspacing="0">
+						<tr>
+							<xsl:for-each select="$weapons[1]">
+								<th>
+									<xsl:value-of select="@typeName"/>
+								</th>
+								<xsl:apply-templates mode="header"/>                    
+							</xsl:for-each>
+						</tr>
+						<xsl:for-each select="$weapons">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>                    
+							</tr>
+						</xsl:for-each>
+					</table>
+				</div>
+				<!-- /WEAPONS -->
+				<!-- WARGEAR -->
+				<div> 
+					<xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
+					<table class="weapons" cellspacing="0">
+						<xsl:for-each select="$wargear">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>
+							</tr>
+						</xsl:for-each>
+					</table>
+				</div>
+				<!-- /WARGEAR -->
+				<!-- ABILITIES -->
+				<xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
+				<xsl:if test="$abilities">
+					<div class="abilities">
+							<table cellspacing="0">
+								<tr>
+									<td>Abilities:</td>
+									<td></td>
+								</tr>
+								<xsl:for-each select="$abilities">
+										<tr>
+												<td>
+														<xsl:value-of select="@name"/>
+												</td>
+												<xsl:apply-templates mode="body"/>
+										</tr>
+								</xsl:for-each>
+							</table>
+					</div>
+				</xsl:if>
 			<!-- /ABILITIES -->
 
 			<!-- PSYCHIC POWERS -->
@@ -597,11 +590,13 @@ table.roster {
 			<!-- /SPECIALISM -->
 
 			<!-- EXP TRACK -->
-			<div class="exp">
-				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
-				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
-				<div>Convalescence: &#9744;</div>
-				<div>New Recruit: &#9744;</div>
+			<div class="card-footer">
+				<div class="exp">
+					<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
+					<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
+					<div>Convalescence: &#9744;</div>
+					<div>New Recruit: &#9744;</div>
+				</div>
 			</div>
 			<!-- /EXP TRACK -->
 		</div>

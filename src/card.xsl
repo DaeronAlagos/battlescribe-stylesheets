@@ -55,59 +55,62 @@
 			<!-- /UNIT PROFILES -->
 			<!-- WEAPONS -->
 			<div>
-	            <xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-	            <table class="weapons" cellspacing="0">
-	                <tr>
-	                    <xsl:for-each select="$weapons[1]">
-	                        <th>
-	                            <xsl:value-of select="@typeName"/>
-	                        </th>
-	                        <xsl:apply-templates mode="header"/>                    
-	                    </xsl:for-each>
-	                </tr>
-	                <xsl:for-each select="$weapons">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>                    
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
-			<!-- WARGEAR -->
-	        <div> 
-	            <xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-	            <table class="weapons" cellspacing="0">
-	                <xsl:for-each select="$wargear">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
-			<!-- /WARGEAR -->
-			<!-- ABILITIES -->
-	        <div class="abilities">
-	            <xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
-	            <table cellspacing="0">
-					<tr>
-						<td>Abilities:</td>
-						<td></td>
-					</tr>
-	                <xsl:for-each select="$abilities">
-	                    <tr>
-	                        <td>
-	                            <xsl:value-of select="@name"/>
-	                        </td>
-	                        <xsl:apply-templates mode="body"/>
-	                    </tr>
-	                </xsl:for-each>
-	            </table>
-	        </div>
+				<xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
+					<table class="weapons" cellspacing="0">
+						<tr>
+							<xsl:for-each select="$weapons[1]">
+								<th>
+									<xsl:value-of select="@typeName"/>
+								</th>
+								<xsl:apply-templates mode="header"/>                    
+							</xsl:for-each>
+						</tr>
+						<xsl:for-each select="$weapons">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>                    
+							</tr>
+						</xsl:for-each>
+					</table>
+				</div>
+				<!-- /WEAPONS -->
+				<!-- WARGEAR -->
+				<div> 
+					<xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
+					<table class="weapons" cellspacing="0">
+						<xsl:for-each select="$wargear">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>
+							</tr>
+						</xsl:for-each>
+					</table>
+				</div>
+				<!-- /WARGEAR -->
+				<!-- ABILITIES -->
+				<xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
+				<xsl:if test="$abilities">
+					<div class="abilities">
+							<table cellspacing="0">
+								<tr>
+									<td>Abilities:</td>
+									<td></td>
+								</tr>
+								<xsl:for-each select="$abilities">
+										<tr>
+												<td>
+														<xsl:value-of select="@name"/>
+												</td>
+												<xsl:apply-templates mode="body"/>
+										</tr>
+								</xsl:for-each>
+							</table>
+					</div>
+				</xsl:if>
 			<!-- /ABILITIES -->
 
 			<!-- PSYCHIC POWERS -->
@@ -156,11 +159,13 @@
 			<!-- /SPECIALISM -->
 
 			<!-- EXP TRACK -->
-			<div class="exp">
-				<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
-				<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
-				<div>Convalescence: &#9744;</div>
-				<div>New Recruit: &#9744;</div>
+			<div class="card-footer">
+				<div class="exp">
+					<div>Experience: <span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span><span>&#9744;</span></div>
+					<div>Flesh Wounds: &#9744; &#9744; &#9744;</div>
+					<div>Convalescence: &#9744;</div>
+					<div>New Recruit: &#9744;</div>
+				</div>
 			</div>
 			<!-- /EXP TRACK -->
 		</div>
