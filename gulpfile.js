@@ -6,7 +6,7 @@ const rename = require('gulp-rename')
 const sass = require('gulp-sass')
 const gulpInject = require('gulp-inject')
 const autoprefixer = require('gulp-autoprefixer')
-const html2pdf = require('gulp-html2pdf');  // Requires wkhtmltopdf 0.12.3.2
+const html2pdf = require('gulp-html2pdf');  // Requires wkhtmltopdf 0.12.5 (with patched qt)
 
 const fileName = args.bsfile
 
@@ -73,12 +73,11 @@ function copyResult () {
 
 function pdf () {
     const options = {
-        height: '297mm',
-        width: '210mm',
-        border: '5mm'
+        printMediaType: true,
+        disableSmartShrinking: true
     }
     return src('build/*.html')
-    .pipe(html2pdf())
+    .pipe(html2pdf(options))
     .pipe(dest('demo'))
 }
 
