@@ -26,8 +26,12 @@ By using this stylesheet to export your roster from Battlescribe, you will be ab
 
 ### Instructions for Developers
 
-0. The build process requires Nodejs. Please follow the instructions to install Node LTS on the official website
+#### Requirements
 
+1. [Node LTS](https://nodejs.org)
+2. [wkhtmltopdf version 0.12.5 (with patched qt)](https://wkhtmltopdf.org/)
+
+#### Development Process
 1. Clone the repository
   `git clone https://github.com/DaeronAlagos/battlescribe-stylesheets.git`
 
@@ -37,7 +41,7 @@ By using this stylesheet to export your roster from Battlescribe, you will be ab
 
 4. Create a roster in Battlescribe and save it as a .ros file (not .rosz), to the battlescribe-stylesheets/data folder
 
-5. Build your first distribution file `gulp build --bsfile YOUR_FILE` (don't need to put .ros)
+5. Build your first distribution file `gulp build` (don't need to put .ros)
 
 6. Run gulp with browser-sync `gulp --bsfile YOUR_FILE` (don't need to put .ros)
 
