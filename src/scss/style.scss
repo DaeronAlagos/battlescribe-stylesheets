@@ -68,7 +68,6 @@ table.campaign {
   margin-bottom: 0.5cm;
   & th, td {
     width: (100% / 4);
-    padding: 2pt;
   }
   & th {
     text-transform: uppercase;
@@ -76,7 +75,7 @@ table.campaign {
   & td {
     border: 1px solid #666666;
     font-weight: 600;
-    font-size: 18pt;
+    font-size: 14pt;
     text-align: center;
   }
 }
@@ -99,7 +98,7 @@ table.roster {
 
 .card {
   width: $card-width - $card-padding;
-  min-height: $card-height - $card-padding;
+  height: $card-height - $card-padding;
   background-color: $card-background-color;
   border-radius: 8px;
   padding: $card-padding;
@@ -107,21 +106,16 @@ table.roster {
   border: 1px solid $card-border-color;
   display: table;
   & .header {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 1px;
+    display: table;
     & > div {
-      flex-basis: 33%;
-      text-align: center;
-      &:first-child {
-        text-align: left;
-	text-transform: uppercase;
-	font-weight: bold;
+      display: table-cell;
+      width: (($card-width - $card-padding) / 3);
+      &:nth-child(2) {
+        text-align: center;
       }
-      &:last-child {
+      &:nth-child(3) {
         text-align: right;
-	text-transform: uppercase;
-	font-weight: bold;
+        font-weight: bold;
       }
     }
   }
@@ -214,16 +208,16 @@ table.roster {
   }
 }
 
-.exp {
-  font-size: 7pt;
+.card-footer {
   display: table-footer-group;
-  margin-left: 6px;
+}
+
+.exp {
+  font-size: 0.8em;
+  display: table;
+  width: $card-width - $card-padding;
   & > div {
-    float: left;
-    margin: 0 2px;
-    & > span {
-      margin: 1px;
-    }
+    display: table-cell;
     & > span:nth-child(3), span:nth-child(7), span:nth-child(12) {
       color: $th-background-color;
     }
