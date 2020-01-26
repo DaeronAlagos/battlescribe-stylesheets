@@ -8,14 +8,13 @@
       <selections>
         <selection id="34ae-bb00-4edd-8e4b" name="List Configuration" entryId="5c5e-a332-5578-705f::24de-9906-6401-a20e" number="1" type="upgrade">
           <selections>
-            <selection id="3986-10de-d63b-ee79" name="Matched Play: Kill Team" entryId="5c5e-a332-5578-705f::46a8-9e97-401a-03f7" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
+            <selection id="7f53-584d-2b38-b5a7" name="Matched Play: Command Roster" entryId="5c5e-a332-5578-705f::57bf-6123-c537-58ac" entryGroupId="5c5e-a332-5578-705f::a763-c901-e2be-22eb" number="1" type="upgrade">
               <costs>
                 <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
               </costs>
               <categories>
-                <category id="469e-1809-8d23-952e" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
-                <category id="c727-2d6e-5613-428c" name="List: Kill Team" entryId="beaf-798d-961f-353d" primary="false"/>
-                <category id="1852-2a01-7b9b-2266" name="List: Battle-Forged Kill Team" entryId="c0f7-c442-b695-bf07" primary="false"/>
+                <category id="658c-3457-7b95-7a80" name="List: Command Roster" entryId="d6e9-5af3-c17c-77a0" primary="false"/>
+                <category id="f9bb-38ab-7bb4-8034" name="Style: Matched" entryId="c502-39de-965b-6780" primary="false"/>
               </categories>
             </selection>
           </selections>
@@ -23,7 +22,7 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
           </costs>
           <categories>
-            <category id="3ed5-38d8-507e-88bd" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
+            <category id="7c22-92b4-d404-06ea" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="true"/>
           </categories>
         </selection>
         <selection id="d910-0234-0888-3fe8" name="Traitor Sergeant" entryId="fcbb-3901-da56-5ca7::8f81-eab4-f812-a8d4" number="1" type="model">
@@ -114,7 +113,7 @@
                     <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
                   </costs>
                   <categories>
-                    <category id="e1fe-b1c0-2539-3032" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                    <category id="670d-d4fd-b354-1b17" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
                   </categories>
                 </selection>
               </selections>
@@ -127,12 +126,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
           </costs>
           <categories>
-            <category id="fe5b-5bad-6ec7-ef71" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="e385-2a1f-9469-0dba" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="ec9b-f1df-a5e5-8930" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="a0ea-2198-5bee-9742" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
-            <category id="a85a-59fa-41fe-873b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="a0a4-8d5d-1ab0-8bd9" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
+            <category id="40be-0237-8d53-b7a6" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="b3ed-90c6-3fe0-52dc" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="df43-8da5-c966-4185" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="d729-5e3f-be56-9466" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="e9c7-3fba-adac-8688" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="67e7-44cb-7a3d-803e" name="Leader" entryId="ade4-0710-e40e-be3f" primary="true"/>
           </categories>
         </selection>
         <selection id="8e4a-4845-c660-441c" name="Traitor Guardsman Gunner" entryId="294e-0fe4-f099-b102::9050-39fd-b1e6-eaed" number="1" type="model">
@@ -189,7 +188,7 @@
                     <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
                   </costs>
                   <categories>
-                    <category id="4f2b-872d-71ef-b9d0" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                    <category id="ba59-f7d3-d762-eb4c" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
                   </categories>
                 </selection>
               </selections>
@@ -219,12 +218,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
           </costs>
           <categories>
-            <category id="ea79-1208-dea5-5462" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="f07b-2c37-88c0-a615" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="cbe9-a15b-6c3d-a141" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="8ab4-e615-a64a-621e" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
-            <category id="e863-0b60-3e84-a57d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="e94c-f678-6d2a-b0b0" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+            <category id="d848-5976-21b6-cb33" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="fd88-35b4-0b81-07ff" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="ea5e-a38f-af8e-926e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="d667-5e35-8526-42c3" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="673c-794e-76d0-954d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="da3c-096c-37f3-7fc5" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
           </categories>
         </selection>
         <selection id="1949-a226-4949-b789" name="Traitor Guardsman Gunner" entryId="294e-0fe4-f099-b102::9050-39fd-b1e6-eaed" number="1" type="model">
@@ -281,7 +280,7 @@
                     <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
                   </costs>
                   <categories>
-                    <category id="4e6b-a9cc-41dd-71a1" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                    <category id="739e-0183-d905-ab38" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
                   </categories>
                 </selection>
               </selections>
@@ -311,12 +310,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
           </costs>
           <categories>
-            <category id="4dc1-d168-0c8e-22bd" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="4c49-4973-9217-7f7f" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="edaa-cb3f-bbcf-2bd5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="f73c-cd33-eea5-70ca" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
-            <category id="ae30-9485-a916-b30e" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="456d-141d-5a9c-dff4" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+            <category id="9bbd-3b5c-95c3-ba4e" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="d457-276b-6550-31f4" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="c50e-2aa7-d652-c15e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="2b54-122f-6c3f-4356" name="Traitor Guardsmen" entryId="da06-53d5-c2fd-0607" primary="false"/>
+            <category id="96d0-c6c7-86f9-06fb" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="a046-b881-78c3-a049" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
           </categories>
         </selection>
         <selection id="fcbc-e1c4-8297-1141" name="Negavolt Cultist" entryId="cc37-44f9-280e-524c::f05a-2a58-a13e-be95" number="1" type="model">
@@ -383,7 +382,7 @@
                     <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="0.0"/>
                   </costs>
                   <categories>
-                    <category id="32a6-7733-77c9-1dde" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
+                    <category id="75e4-003d-f85b-d66a" name="Level 1" entryId="6e29-5d9a-98f5-ad2a" primary="false"/>
                   </categories>
                 </selection>
               </selections>
@@ -396,12 +395,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
           </costs>
           <categories>
-            <category id="4589-4b0f-e38d-aa89" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="3753-45f6-5056-5d69" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="c427-e0d9-7711-121a" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="0741-08a5-b521-2031" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
-            <category id="0fa8-523a-748e-a62b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="667b-bb81-83df-87f7" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
+            <category id="53b4-0e9d-8a25-d64d" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="2b7f-8e1f-c42e-f408" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="7ff3-6cf8-d087-3f20" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e17c-7f9c-0321-a10d" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="0d2b-ae8c-a557-49fc" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="e685-afd9-b434-f91a" name="Specialist" entryId="29e7-d60f-5acd-4d99" primary="true"/>
           </categories>
         </selection>
         <selection id="9c17-a6e6-35a4-c611" name="Rogue Psyker" entryId="8670-6b46-5b81-47ab::b37c-37e1-66ef-b2d3" number="1" type="model">
@@ -490,13 +489,13 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="20.0"/>
           </costs>
           <categories>
-            <category id="9880-a76e-e025-0372" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="3f11-1a4b-e561-ae5e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="4359-c6b3-0e45-fb9e" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="3a33-1f22-7731-32e8" name="Psyker" entryId="9b50-1372-5ee7-b0d9" primary="false"/>
-            <category id="d672-c26e-4209-8733" name="Rogue Psyker" entryId="a2e5-d233-07f2-37b6" primary="false"/>
-            <category id="d5e4-c535-1ecb-e0da" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="3a8e-7d2e-9077-3942" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="7f74-198d-6d9d-b1d4" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="dc1b-f410-a096-9a1f" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="f3c1-a29f-bddd-0009" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="df44-dac9-0616-9e3b" name="Psyker" entryId="9b50-1372-5ee7-b0d9" primary="false"/>
+            <category id="1fdb-460c-f3d7-04ba" name="Rogue Psyker" entryId="a2e5-d233-07f2-37b6" primary="false"/>
+            <category id="233c-8932-906b-fe82" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5c95-bf59-d431-2a97" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="1394-0f34-f93d-727c" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
@@ -554,12 +553,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
           </costs>
           <categories>
-            <category id="8835-1ff7-cc7b-8ad3" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="863a-3385-257d-59b6" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="4978-1504-fe5b-7bfe" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="1975-b9f3-08c2-d360" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
-            <category id="e20d-e91b-a92e-2b1f" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="06fc-0371-69a1-f2fc" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="7034-e1b7-7da9-2164" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="8af2-34bc-062f-12b9" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="5213-35d8-0838-0ec0" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="2d6b-ef07-a9de-3a31" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="8f6b-3c85-76bc-2d0b" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="5e95-e1fd-af54-284c" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="c571-8722-8f06-387f" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
@@ -617,12 +616,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
           </costs>
           <categories>
-            <category id="83b7-bac9-6a0a-6fe2" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="a7d7-d357-4af6-8cda" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="89a8-f7ab-8914-5726" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="7cd5-53a3-208c-7ee2" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
-            <category id="b59e-d366-62c5-d72c" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="7121-a6db-9142-ad20" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="9515-2596-00c3-bc24" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="66ba-9c38-07e6-c9c3" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="df25-6a1f-0d27-7ba1" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="9245-310c-446f-2a5a" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="0c26-68a8-2d7b-0bc7" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="92ff-d213-b618-b39d" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="c512-926b-84b2-98a4" name="Negavolt Cultist" entryId="f700-050b-497a-c074::f05a-2a58-a13e-be95" number="1" type="model">
@@ -680,12 +679,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="9.0"/>
           </costs>
           <categories>
-            <category id="e3d5-c9b9-4273-10e7" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="281e-7318-1a4f-8715" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="fa98-3f4c-960b-7fdc" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="4025-d1f0-c133-dc69" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
-            <category id="cdba-671c-a852-7637" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="5aea-074b-5b35-47d0" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="33d4-f3a3-9ff5-a16b" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="2680-1941-b13a-74b3" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="4ec6-b792-0f9c-9670" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="f459-77b7-243b-bc97" name="Negavolt Cultists" entryId="3a74-f96e-a9fa-a329" primary="false"/>
+            <category id="f8b1-c5bd-c0be-39ab" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="96d6-d8bb-4e8e-7d11" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="a15a-3980-e3f0-5973" name="Cultist of the Abyss Gunner" entryId="96dc-1708-9d84-96a4::5023-bf56-0eb4-494d" number="1" type="model">
@@ -775,11 +774,11 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
           </costs>
           <categories>
-            <category id="c94c-aca3-bc0b-8723" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="4b8f-df5c-3289-bf2e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="7a3f-0529-77ca-0d75" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="01b4-9a49-fa6b-e857" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
-            <category id="76e5-b4d1-0f69-d13a" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="56da-a711-f152-66cc" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="bdea-fbe4-19e1-8983" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="049b-5cc3-4250-8944" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="a433-9cbe-2587-da40" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="e129-4b21-6383-277a" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="d928-9d09-cde0-4308" name="Cultist of the Abyss Gunner" entryId="96dc-1708-9d84-96a4::5023-bf56-0eb4-494d" number="1" type="model">
@@ -849,11 +848,11 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="6.0"/>
           </costs>
           <categories>
-            <category id="a80b-da40-14e2-a9ec" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="bc69-4650-7d65-eac4" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="f43e-1ef2-25eb-103c" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="51c2-ae68-6b86-663a" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
-            <category id="d527-f7cd-d136-0627" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="2fef-90a1-511d-48f8" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="c045-f50f-bd77-8fcf" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="b163-0a76-4a11-a417" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="e375-24ce-5d8a-c735" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="f5a1-e364-84b3-c618" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="c9f0-5b1a-56e3-5c35" name="Chaos Beastman" entryId="889d-87d0-529f-ce91::1f94-b089-37aa-d653" number="1" type="model">
@@ -933,12 +932,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
           </costs>
           <categories>
-            <category id="e3ac-d694-1fa2-d6c9" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="83ae-3c58-48c9-9266" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="18aa-1476-de69-fcff" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="79da-4891-0425-41b7" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
-            <category id="8f30-65f8-bb7a-dfed" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="face-713e-90c9-26d9" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="9b48-9f75-55f2-024a" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="8960-4b7a-062d-8242" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="1bd2-d532-e01b-f422" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="47cf-7186-a445-87b5" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
+            <category id="7a06-ac18-fa46-936d" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="424d-8330-63d7-992a" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="e865-02a6-472f-75c2" name="Chaos Beastman" entryId="889d-87d0-529f-ce91::1f94-b089-37aa-d653" number="1" type="model">
@@ -1018,12 +1017,12 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="7.0"/>
           </costs>
           <categories>
-            <category id="d362-a43d-bb35-3d0d" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="a5d1-a270-ee21-614d" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="1d0d-41be-8008-ff21" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="0596-60ca-5052-6c47" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
-            <category id="51c9-9246-7a33-8072" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="2c63-343c-7662-8f4b" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="6ac1-43a5-4845-3fe1" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="6988-f634-b78d-fa9b" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="dd9f-64a2-cd6b-3037" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="ff57-3655-de11-0834" name="Chaos Beastmen" entryId="fe8d-496a-755e-de4d" primary="false"/>
+            <category id="889c-798b-36d1-9070" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="081a-6ae2-c694-1c38" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="5b88-a89d-0155-fd05" name="Black Legionnaire" entryId="ce6b-24b1-5b89-dbea::e008-29b6-bf59-48b1" number="1" type="model">
@@ -1120,13 +1119,13 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="12.0"/>
           </costs>
           <categories>
-            <category id="9a73-0d95-b639-b92a" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="34d4-d946-f9ad-aa61" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="d659-77e5-f377-1eb7" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
-            <category id="ee40-73f3-1db4-3fd4" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="59d2-5da7-a19d-e56c" name="Black Legionnaire" entryId="d40e-c95f-2de2-92a0" primary="false"/>
-            <category id="131b-661a-b0a0-0dee" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
-            <category id="b125-da17-c10d-89cd" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="0935-300d-62f1-7684" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="3163-f736-2962-8e09" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="e6b7-ea57-269a-7a47" name="Heretic Astartes" entryId="a2ee-c1c7-735f-f678" primary="false"/>
+            <category id="42ca-3fbd-92a1-4ad5" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="c5b2-7649-8d79-beaa" name="Black Legionnaire" entryId="d40e-c95f-2de2-92a0" primary="false"/>
+            <category id="35ea-4008-ffaa-5d9a" name="Model" entryId="50dd-a755-e02d-1c30" primary="false"/>
+            <category id="68bf-77d7-9ac3-23a1" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
         <selection id="0255-6913-241c-61e7" name="Cultist of the Abyss" entryId="5198-abd6-608a-03e0::9370-e44d-beed-6620" number="1" type="model">
@@ -1196,11 +1195,11 @@
             <cost name="pts" typeId="5291-dc2c-cfa5-a77f" value="5.0"/>
           </costs>
           <categories>
-            <category id="26cd-58a3-7e1b-c326" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
-            <category id="93e8-3291-673e-033e" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
-            <category id="7fd5-7dd7-af53-57a7" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
-            <category id="d048-6ac6-d5c6-c600" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
-            <category id="123c-10ef-3443-5f37" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
+            <category id="b230-c11e-949b-4d18" name="Faction: Servants of the Abyss" entryId="1b9f-9b22-cbdc-f0f5" primary="false"/>
+            <category id="6a67-73ca-2457-3760" name="Chaos" entryId="5c8a-0750-e7af-2761" primary="false"/>
+            <category id="034a-7992-cd50-1534" name="Infantry" entryId="96c1-32dc-d9dc-4678" primary="false"/>
+            <category id="39c3-a89d-5f88-0495" name="Cultists of the Abyss" entryId="929e-8d94-76df-b0e3" primary="false"/>
+            <category id="a8ae-c417-a54a-074e" name="Non-specialist" entryId="79c6-76fc-47ee-c005" primary="true"/>
           </categories>
         </selection>
       </selections>
@@ -1212,13 +1211,13 @@
         <publication id="27d3-34b5-e6cf-69e3" name="Commanders"/>
       </publications>
       <categories>
-        <category id="95c0-5d97-a99b-733b" name="Uncategorised" entryId="(No Category)" primary="false"/>
-        <category id="f229-a368-f917-7cdf" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
-        <category id="335e-2fbd-3835-450a" name="Commander" entryId="6c25-5825-9054-44a7" primary="false"/>
-        <category id="60c6-4f56-518a-3399" name="Leader" entryId="ade4-0710-e40e-be3f" primary="false"/>
-        <category id="cf40-5e2b-c894-3ea9" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
-        <category id="d546-28ad-3495-bef8" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
-        <category id="a4f7-25b8-4d48-6e48" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
+        <category id="325e-8c5c-d9d4-d4aa" name="Uncategorised" entryId="(No Category)" primary="false"/>
+        <category id="76bc-0328-3eda-481b" name="Configuration" entryId="f868-bdfd-567c-3eac" primary="false"/>
+        <category id="0c86-08a2-0391-695d" name="Commanders" entryId="6c25-5825-9054-44a7" primary="false"/>
+        <category id="0540-917c-6944-2780" name="Leaders" entryId="ade4-0710-e40e-be3f" primary="false"/>
+        <category id="6907-3b8c-e4b7-caa8" name="Specialists" entryId="29e7-d60f-5acd-4d99" primary="false"/>
+        <category id="6cdc-73e7-f8a4-cff5" name="Specialist Retainers" entryId="181f-e47f-6ec3-2e9b" primary="false"/>
+        <category id="b141-8e1c-aa37-ed5e" name="Non-specialists" entryId="79c6-76fc-47ee-c005" primary="false"/>
       </categories>
     </force>
   </forces>
