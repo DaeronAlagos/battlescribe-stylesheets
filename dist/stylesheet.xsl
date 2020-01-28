@@ -87,6 +87,9 @@ table.roster {
     background-color: #dfdfdf;
     text-align: center;
     font-size: 10pt; }
+    table.roster td > div {
+      font-size: 6pt;
+      font-style: italic; }
 
 .card {
   width: 11.3cm;
@@ -373,10 +376,11 @@ table.roster {
 	    </xsl:variable>
 	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
 	    <tr>
-	        <td>
-				<!-- Custom Name (BS Pro Only) -->
-				<xsl:value-of select="@customName"/>
-			</td>
+				<td>
+					<!-- Custom Name (BS Pro Only) -->
+					<xsl:value-of select="@customName"/>
+					<div><xsl:value-of select="bs:customNotes/."></xsl:value-of></div>
+				</td>
 				<!-- /Custom Name (BS Pro Only) -->
 	        <td>
 				<!-- Unit Name -->
