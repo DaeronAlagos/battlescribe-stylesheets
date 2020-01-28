@@ -93,6 +93,10 @@ table.roster {
     background-color: $td-background-color;
     text-align: center;
     font-size: 10pt;
+    & > div {
+      font-size: 6pt;
+      font-style: italic;
+    }
   }
 }
 

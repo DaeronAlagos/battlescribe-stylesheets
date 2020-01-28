@@ -21,10 +21,11 @@
 	    </xsl:variable>
 	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
 	    <tr>
-	        <td>
-				<!-- Custom Name (BS Pro Only) -->
-				<xsl:value-of select="@customName"/>
-			</td>
+				<td>
+					<!-- Custom Name (BS Pro Only) -->
+					<xsl:value-of select="@customName"/>
+					<div><xsl:value-of select="bs:customNotes/."></xsl:value-of></div>
+				</td>
 				<!-- /Custom Name (BS Pro Only) -->
 	        <td>
 				<!-- Unit Name -->
