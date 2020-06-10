@@ -1,37 +1,37 @@
 	<!-- Renders the unit cards -->
 	<xsl:template match="bs:selection[@type='model']" mode="card">
 		<xsl:variable name="nodePoints">
-	        <xsl:for-each select="bs:selections/bs:selection">
-	            <xsl:choose>
-	                <xsl:when test="contains($specialisms, @name)">
-	                    <xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
-	                        <ItemCost>
-	                            <xsl:value-of select="@value"/>
-	                        </ItemCost>
-	                    </xsl:for-each>
-	                </xsl:when>
-	                <xsl:otherwise>
-	                    <ItemCost>
-	                        <xsl:value-of select="bs:costs/bs:cost/@value"/>
-	                    </ItemCost>
-	                </xsl:otherwise>
-	            </xsl:choose>
-	        </xsl:for-each>
-	    </xsl:variable>
-	    <xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
+			<xsl:for-each select="bs:selections/bs:selection">
+					<xsl:choose>
+							<xsl:when test="contains($specialisms, @name)">
+									<xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
+											<ItemCost>
+													<xsl:value-of select="@value"/>
+											</ItemCost>
+									</xsl:for-each>
+							</xsl:when>
+							<xsl:otherwise>
+									<ItemCost>
+											<xsl:value-of select="bs:costs/bs:cost/@value"/>
+									</ItemCost>
+							</xsl:otherwise>
+					</xsl:choose>
+			</xsl:for-each>
+		</xsl:variable>
+		<xsl:variable name="subTotal" select="exslt:node-set($nodePoints)"/>
 		<div class="card">
 			<div class="header"> <!-- NAME -->
-	            <div> <!-- CUSTOM NAME -->
-	                <xsl:value-of select="@customName"/>
-	            </div>
-							<div>  <!-- SUBFACTION -->
-								<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>
-							</div>
-	            <div> <!-- POINTS -->
-	                <xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
-	                 Points
-	            </div>
-	        </div>
+				<div> <!-- CUSTOM NAME -->
+						<xsl:value-of select="@customName"/>
+				</div>
+				<div>  <!-- SUBFACTION -->
+					<xsl:value-of select="bs:selections/bs:selection/bs:categories/bs:category/@name"/>
+				</div>
+				<div> <!-- POINTS -->
+						<xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
+							Points
+				</div>
+			</div>
 			<!-- UNIT PROFILES -->
 			<div> 
 				<xsl:variable name="profiles" select="bs:profiles/bs:profile[@typeName='Model']"/>
@@ -53,64 +53,57 @@
 		        </table>
 			</div>
 			<!-- /UNIT PROFILES -->
-			<!-- WEAPONS -->
+			<!-- WARGEAR AND WEAPONS -->
+			<xsl:variable name="upgrades" select="bs:selections/bs:selection[@type='upgrade']"/>
 			<div>
-				<xsl:variable name="weapons" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Weapon']"/>
-					<table class="weapons" cellspacing="0">
-						<tr>
-							<xsl:for-each select="$weapons[1]">
-								<th>
-									<xsl:value-of select="@typeName"/>
-								</th>
-								<xsl:apply-templates mode="header"/>                    
-							</xsl:for-each>
-						</tr>
-						<xsl:for-each select="$weapons">
-							<tr>
-								<td>
-									<xsl:value-of select="@name"/>
-								</td>
-								<xsl:apply-templates mode="body"/>                    
-							</tr>
+				<table class="weapons" cellspacing="0">
+					<tr>
+						<xsl:for-each select="$upgrades[1]/bs:profiles/bs:profile[@typeName='Weapon'][1]">
+							<th>
+								<xsl:value-of select="@typeName"/>
+							</th>
+							<xsl:apply-templates mode="header"/>
 						</xsl:for-each>
-					</table>
-				</div>
-				<!-- /WEAPONS -->
-				<!-- WARGEAR -->
-				<div> 
-					<xsl:variable name="wargear" select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']"/>
-					<table class="weapons" cellspacing="0">
-						<xsl:for-each select="$wargear">
-							<tr>
-								<td>
-									<xsl:value-of select="@name"/>
-								</td>
-								<xsl:apply-templates mode="body"/>
-							</tr>
-						</xsl:for-each>
-					</table>
-				</div>
-				<!-- /WARGEAR -->
-				<!-- ABILITIES -->
-				<xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
-				<xsl:if test="$abilities">
-					<div class="abilities">
-							<table cellspacing="0">
+					</tr>
+				</table>
+					<xsl:for-each select="$upgrades">
+						<xsl:if test="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
+							<hr class="weapon-divider"/>
+						</xsl:if>
+						<xsl:for-each select="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
+							<xsl:sort select="@typeName"/>
+							<table class="weapons" cellspacing="0">
 								<tr>
-									<td>Abilities:</td>
-									<td></td>
+									<td>
+										<xsl:value-of select="@name"/>
+									</td>
+									<xsl:apply-templates mode="body"/>
 								</tr>
-								<xsl:for-each select="$abilities">
-										<tr>
-												<td>
-														<xsl:value-of select="@name"/>
-												</td>
-												<xsl:apply-templates mode="body"/>
-										</tr>
-								</xsl:for-each>
 							</table>
-					</div>
-				</xsl:if>
+						</xsl:for-each>
+					</xsl:for-each>
+			</div>
+			<!-- /WARGEAR & WEAPONS -->
+			<!-- ABILITIES -->
+			<xsl:variable name="abilities" select="bs:profiles/bs:profile[@typeName='Ability']"/>
+			<xsl:if test="$abilities">
+				<div class="abilities">
+						<table cellspacing="0">
+							<tr>
+								<td>Abilities:</td>
+								<td></td>
+							</tr>
+							<xsl:for-each select="$abilities">
+									<tr>
+											<td>
+													<xsl:value-of select="@name"/>
+											</td>
+											<xsl:apply-templates mode="body"/>
+									</tr>
+							</xsl:for-each>
+						</table>
+				</div>
+			</xsl:if>
 			<!-- /ABILITIES -->
 
 			<!-- PSYCHIC POWERS -->
