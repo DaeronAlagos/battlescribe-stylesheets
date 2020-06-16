@@ -28,7 +28,7 @@ By using this stylesheet to export your roster from Battlescribe, you will be ab
 
 #### Requirements
 
-1. [Node LTS](https://nodejs.org)
+1. [Node 10](https://nodejs.org) Note: The npm dev-dependencies require Node v10
 2. [wkhtmltopdf version 0.12.5 (with patched qt)](https://wkhtmltopdf.org/)
 
 #### Development Process
