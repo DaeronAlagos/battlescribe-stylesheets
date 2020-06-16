@@ -504,22 +504,33 @@ table.roster {
 						</xsl:for-each>
 					</tr>
 				</table>
-					<xsl:for-each select="$upgrades">
-						<xsl:if test="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
-							<hr class="weapon-divider"/>
-						</xsl:if>
-						<xsl:for-each select="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
-							<xsl:sort select="@typeName"/>
-							<table class="weapons" cellspacing="0">
-								<tr>
-									<td>
-										<xsl:value-of select="@name"/>
-									</td>
-									<xsl:apply-templates mode="body"/>
-								</tr>
-							</table>
-						</xsl:for-each>
+				<xsl:for-each select="$upgrades">
+					<xsl:if test="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
+						<hr class="weapon-divider"/>
+					</xsl:if>
+					<xsl:for-each select="bs:profiles/bs:profile[@typeName='Wargear' or @typeName='Weapon']">
+						<xsl:sort select="@typeName"/>
+						<table class="weapons" cellspacing="0">
+							<tr>
+								<td>
+									<xsl:value-of select="@name"/>
+								</td>
+								<xsl:apply-templates mode="body"/>
+							</tr>
+						</table>
 					</xsl:for-each>
+				</xsl:for-each>
+				<xsl:for-each select="bs:profiles/bs:profile[@typeName='Wargear']">
+					<hr class="weapon-divider"/>
+					<table class="weapons" cellspacing="0">
+						<tr>
+							<td>
+								<xsl:value-of select="@name"/>
+								<xsl:apply-templates mode="body"/>
+							</td>
+						</tr>
+					</table>
+				</xsl:for-each>
 			</div>
 			<!-- /WARGEAR & WEAPONS -->
 			<!-- ABILITIES -->
