@@ -26,8 +26,7 @@
     "gulp-inject": "^5.0.5",
     "gulp-rename": "^1.4.0",
     "gulp-sass": "^4.1.0",
-    "gulp-xslt": "^5.0.0",
-    "node-sass": "^4.14.1",
+    "gulp-xslt": "git+https://github.com/DaeronAlagos/gulp-xslt.git",
     "yargs": "^14.2.3"
   }
 }
