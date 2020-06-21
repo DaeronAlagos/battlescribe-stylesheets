@@ -96,6 +96,11 @@
         <td>
             <xsl:value-of select="."/>    
         </td>
-    </xsl:template>
+		</xsl:template>
+		<xsl:template match="bs:cost[@name='pts']" mode="points">
+			<points>
+				<xsl:value-of select="@value"/>
+			</points>
+		</xsl:template>
 
 </xsl:stylesheet>

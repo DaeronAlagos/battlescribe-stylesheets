@@ -1,25 +1,10 @@
 	
 	<!-- Renders the rows of the units in the roster table -->
 	<xsl:template match="bs:selection[@type='model']" mode="roster">
-		<xsl:variable name="rosterPoints">
-	        <xsl:for-each select="bs:selections/bs:selection">
-	            <xsl:choose>
-	                <xsl:when test="contains($specialisms, @name)">
-	                    <xsl:for-each select="bs:selections/bs:selection/bs:costs/bs:cost">
-	                        <ItemCost>
-	                            <xsl:value-of select="@value"/>
-	                        </ItemCost>
-	                    </xsl:for-each>
-	                </xsl:when>
-	                <xsl:otherwise>
-	                    <ItemCost>
-	                        <xsl:value-of select="bs:costs/bs:cost/@value"/>
-	                    </ItemCost>
-	                </xsl:otherwise>
-	            </xsl:choose>
-	        </xsl:for-each>
-	    </xsl:variable>
-	    <xsl:variable name="subTotal" select="exslt:node-set($rosterPoints)"/>
+		<xsl:variable name="nodePoints">
+			<xsl:apply-templates mode="points"/>
+		</xsl:variable>
+		<xsl:variable name="PointsSet" select="exslt:node-set($nodePoints)"/>
 	    <tr>
 				<td>
 					<!-- Custom Name (BS Pro Only) -->
@@ -42,7 +27,10 @@
 				<!-- Wargear -->
 	            <xsl:for-each select="bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']">
 	                <xsl:value-of select="@name"/>, 
-	            </xsl:for-each>
+							</xsl:for-each>
+							<xsl:for-each select="bs:selections/bs:selection/bs:selections/bs:selection/bs:profiles/bs:profile[@typeName='Wargear']">
+									<xsl:value-of select="@name"/>, 
+							</xsl:for-each>
 				<!-- /Wargear -->
 	        </td>
 	        <td></td>
@@ -70,7 +58,8 @@
 	        <td></td>
 	        <td>
 				<!-- Unit cost including weapons/wargear -->
-	            <xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/>
+					<xsl:value-of select="sum($PointsSet/points)"/>
+	            <!-- <xsl:value-of select="sum($subTotal/ItemCost) + bs:costs/bs:cost/@value"/> -->
 				<!-- /Unit cost including weapons/wargear -->
 	        </td>
 	    </tr>
