@@ -43,7 +43,7 @@
 			<div>
 				<table class="weapons" cellspacing="0">
 					<tr>
-						<xsl:for-each select="bs:selections/bs:selection[@type='upgrade'][1]/bs:profiles/bs:profile[@typeName='Weapon']">
+						<xsl:for-each select="bs:selections/bs:selection[@type='upgrade'][1]/bs:profiles/bs:profile[@typeName='Weapon'][1]">
 							<th>
 								<xsl:value-of select="@typeName"/>
 							</th>
@@ -51,7 +51,7 @@
 						</xsl:for-each>
 					</tr>
 				</table>
-				<xsl:apply-templates select="bs:selections/bs:selection[@type='upgrade']" mode="weapon"/>
+				<xsl:apply-templates select="bs:selections/bs:selection[@type='upgrade']" mode="card-weapon"/>
 			</div>
 			<!-- /WARGEAR & WEAPONS -->
 			<!-- ABILITIES -->

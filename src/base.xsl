@@ -87,35 +87,38 @@
     <!-- contents of html partials will be injected here -->
     <!-- endinject -->
 	
-    <xsl:template match="bs:characteristics/bs:characteristic" mode="header">
-        <th>
-            <xsl:value-of select="@name"/>
-        </th>
-    </xsl:template>
-    <xsl:template match="bs:characteristics/bs:characteristic" mode="body">
-        <td>
-            <xsl:value-of select="."/>    
-        </td>
-		</xsl:template>
-		<xsl:template match="bs:cost[@name='pts']" mode="points">
-			<points>
-				<xsl:value-of select="@value"/>
-			</points>
-		</xsl:template>
-		<xsl:template match="bs:profiles" mode="weapon">
-			<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
-				<xsl:sort select="@typeName"/>
-				<table class="weapons" cellspacing="0">
-					<tr>
-						<td>
-							<xsl:value-of select="@name"/>
-						</td>
-						<xsl:apply-templates mode="body"/>
-					</tr>			
+	<xsl:template match="bs:characteristics/bs:characteristic" mode="header">
+			<th>
+					<xsl:value-of select="@name"/>
+			</th>
+	</xsl:template>
+	<xsl:template match="bs:characteristics/bs:characteristic" mode="body">
+			<td>
+					<xsl:value-of select="."/>    
+			</td>
+	</xsl:template>
+	<xsl:template match="bs:cost[@name='pts']" mode="points">
+		<points>
+			<xsl:value-of select="@value"/>
+		</points>
+	</xsl:template>
+	<xsl:template match="bs:profiles" mode="card-weapon">
+		<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
+			<xsl:sort select="@typeName"/>
+			<table class="weapons" cellspacing="0">
+				<tr>
+					<td>
+						<xsl:value-of select="@name"/>
+					</td>
+					<xsl:apply-templates mode="body"/>
+				</tr>			
 			</table>
-	
-			</xsl:for-each>
-
+		</xsl:for-each>
+	</xsl:template>
+	<xsl:template match="bs:profiles" mode="roster-wargear">
+		<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
+			<xsl:value-of select="@name"/>,
+		</xsl:for-each>
 	</xsl:template>
 
 </xsl:stylesheet>
