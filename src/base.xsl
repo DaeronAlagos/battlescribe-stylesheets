@@ -102,5 +102,20 @@
 				<xsl:value-of select="@value"/>
 			</points>
 		</xsl:template>
+		<xsl:template match="bs:profiles" mode="weapon">
+			<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
+				<xsl:sort select="@typeName"/>
+				<table class="weapons" cellspacing="0">
+					<tr>
+						<td>
+							<xsl:value-of select="@name"/>
+						</td>
+						<xsl:apply-templates mode="body"/>
+					</tr>			
+			</table>
+	
+			</xsl:for-each>
+
+	</xsl:template>
 
 </xsl:stylesheet>
