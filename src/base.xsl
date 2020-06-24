@@ -108,6 +108,9 @@
 			<table class="weapons" cellspacing="0">
 				<tr>
 					<td>
+						<xsl:if test="../../@number > 1">
+							<xsl:value-of select="../../@number"/>x
+						</xsl:if>
 						<xsl:value-of select="@name"/>
 					</td>
 					<xsl:apply-templates mode="body"/>
