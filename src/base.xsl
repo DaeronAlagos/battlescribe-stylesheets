@@ -103,7 +103,8 @@
 		</points>
 	</xsl:template>
 	<xsl:template match="bs:profiles" mode="card-weapon">
-		<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
+		<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear' or @typeName='Special Issue Ammunition']">
+			<xsl:sort select="not(@typeName='Weapon' or @typeName='Wargear')"/>
 			<xsl:sort select="@typeName"/>
 			<table class="weapons" cellspacing="0">
 				<tr>
