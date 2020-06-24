@@ -120,6 +120,9 @@
 	</xsl:template>
 	<xsl:template match="bs:profiles" mode="roster-wargear">
 		<xsl:for-each select="bs:profile[@typeName='Weapon' or @typeName='Wargear']">
+			<xsl:if test="../../@number > 1">
+				<xsl:value-of select="../../@number"/>x
+			</xsl:if>
 			<xsl:value-of select="@name"/>,
 		</xsl:for-each>
 	</xsl:template>
